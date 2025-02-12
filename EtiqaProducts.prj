@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>Motorcar</name>
+   <name>EtiqaProducts</name>
    <tag></tag>
    <UUID>70109db7-9817-437d-bcfc-840cc5fa4334</UUID>
    <freeLicense>false</freeLicense>
@@ -9,7 +9,7 @@
    <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>9.7.3</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\80012455\Documents\KatalonAutomation\Motorcar\MotorcarMy\Motorcar.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\80012455\Documents\KatalonAutomation\EtiqaProducts\EtiqaProducts\EtiqaProducts.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
