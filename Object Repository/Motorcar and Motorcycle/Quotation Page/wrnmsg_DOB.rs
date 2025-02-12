@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>wrnmsg_DOB</name>
+   <tag></tag>
+   <elementGuidId>43b9ad79-485d-4b1e-b826-fc3f13520600</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[contains(text(), 'Date Of Birth')]//following-sibling::p[@class='text-danger']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>ce66a014-3aef-4860-84c9-e8e1a3d14f0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1734939545438</value>
+      <webElementGuid>e8b3c2f1-911f-449d-8e0c-4f46846f00f6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

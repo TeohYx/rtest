@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Alphabet and symbol not allowed</description>
+   <name>TC068_IV_PP_Account Number - Verify Valid Data Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8296b485-08bf-4b03-89be-ae379653bbe0</testCaseGuid>
+</TestCaseEntity>

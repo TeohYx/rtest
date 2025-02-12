@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "2D7C6372DA61543C0B6363D89D1385FE",
+  "keywordClasses": [
+    {
+      "name": "inputValidation.PlateNumber",
+      "keywordMethods": [
+        {
+          "name": "verifyALlowedPlateNumber",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC112_IE_Verify Passport - Symbol</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0571018a-6664-44d5-9ada-623a5d81391a</testCaseGuid>
+</TestCaseEntity>

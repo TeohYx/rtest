@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC125_IE_Verify Mobile Number - Alphabet</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>685a248c-8f8b-4a9f-9c51-6ef120dbee01</testCaseGuid>
+</TestCaseEntity>

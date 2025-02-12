@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC025_IV_QP_Passport - Verify Placeholder Visible</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>594309cd-ba7f-459f-b5d9-5665b28219bf</testCaseGuid>
+</TestCaseEntity>

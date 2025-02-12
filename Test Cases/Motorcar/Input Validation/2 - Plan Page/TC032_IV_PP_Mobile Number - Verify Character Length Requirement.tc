@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>8,9</description>
+   <name>TC032_IV_PP_Mobile Number - Verify Character Length Requirement</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6d3a7f7c-4c1e-411b-bbdb-ad9bd149c464</testCaseGuid>
+</TestCaseEntity>

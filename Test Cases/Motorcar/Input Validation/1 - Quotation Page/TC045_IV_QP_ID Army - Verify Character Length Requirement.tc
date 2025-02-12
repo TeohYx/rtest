@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Number section: 6</description>
+   <name>TC045_IV_QP_ID Army - Verify Character Length Requirement</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3921b056-8377-40e7-9819-1cae0651bfcd</testCaseGuid>
+</TestCaseEntity>

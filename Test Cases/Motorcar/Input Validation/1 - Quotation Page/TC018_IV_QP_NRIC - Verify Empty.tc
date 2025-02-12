@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC018_IV_QP_NRIC - Verify Empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9977ee93-238b-4ac5-a8b5-adcac60fa35b</testCaseGuid>
+</TestCaseEntity>

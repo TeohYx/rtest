@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>20</description>
+   <name>TC066_IV_PP_Account Number - Verify Max Length</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0766725b-2503-4f52-a207-632d681ccdb3</testCaseGuid>
+</TestCaseEntity>

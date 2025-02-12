@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "F31925240494AC3AA8F05F3F32954C90",
+  "keywordClasses": [
+    {
+      "name": "utils.TemplateHandler",
+      "keywordMethods": [
+        {
+          "name": "getXPath",
+          "parameters": [
+            {
+              "name": "objectName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "binding",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

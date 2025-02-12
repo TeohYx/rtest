@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Symbol not allowed (except /)</description>
+   <name>TC052_IV_QP_ID Police - Verify Allowed Data Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a3d422d2-431f-43a6-980d-70ae7bfd02b2</testCaseGuid>
+</TestCaseEntity>

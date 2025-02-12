@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC023_IV_PP_Email - Verify Empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8195930b-a348-4df0-b24b-1df12b5dc3ed</testCaseGuid>
+</TestCaseEntity>

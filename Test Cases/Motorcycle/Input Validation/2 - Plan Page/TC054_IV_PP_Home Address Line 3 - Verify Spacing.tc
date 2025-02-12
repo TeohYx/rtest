@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Space allowed</description>
+   <name>TC054_IV_PP_Home Address Line 3 - Verify Spacing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b22ded58-11b6-4164-8a85-ee7547aa8dbf</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC087_IE_EndToEnd_Single_W2_Family</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a5f7b718-a2cc-4898-a496-72b147d34ae6</testCaseGuid>
+</TestCaseEntity>

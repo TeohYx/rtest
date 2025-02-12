@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC130_IE_Verify Postcode - Less than 5 characters</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4dc7b610-5e76-4bc3-bbfe-5c47bed93a84</testCaseGuid>
+</TestCaseEntity>

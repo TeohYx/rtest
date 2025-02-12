@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_FindOutMore</name>
+   <tag></tag>
+   <elementGuidId>79fa76c6-72bb-40b5-b541-3b184a855cad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.a-link-none-line</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@href=&quot;#findOutMore&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Find out more >&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>053b6dc4-814f-44d9-90fc-004103cec6bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-link-none-line</value>
+      <webElementGuid>399b6613-0de0-4336-9675-8560f8617a3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#findOutMore</value>
+      <webElementGuid>6db0e9cc-32ef-44b4-abdb-49b9eba781c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Find out more ></value>
+      <webElementGuid>0f0517e5-70ed-471d-8f95-8725ad31b44c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;mt-3 container&quot;]/div[@class=&quot;mb-5 row&quot;]/div[@class=&quot;col-sm-6 col-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;CovidAddonOption__Styles-sc-jthubz-0 kBDQR&quot;]/div[@class=&quot;border rounded-3 d-flex justify-content-between card-body&quot;]/div[1]/p[@class=&quot;mb-0&quot;]/a[@class=&quot;a-link-none-line&quot;]</value>
+      <webElementGuid>fa26d4fe-e176-4339-b738-959a8584da67</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div[3]/div/div[3]/div/div[4]/div/div/div/p/a</value>
+      <webElementGuid>41417aad-6eb6-4e34-917f-c1b9fc2ffa96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM 30.75'])[1]/following::a[1]</value>
+      <webElementGuid>c9ad511f-cf2b-42cf-9746-eac9fcdf57d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add'])[1]/preceding::a[1]</value>
+      <webElementGuid>5592a9ff-9979-492f-9a20-74740cc41d63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose Your Travel Plan'])[1]/preceding::a[1]</value>
+      <webElementGuid>04c9956f-be6c-4ff8-b53a-0fa53bbdf776</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Find out more']/parent::*</value>
+      <webElementGuid>f8000547-5152-4b2a-8178-b6c652efcce0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#findOutMore')]</value>
+      <webElementGuid>378a28a2-800d-4237-878d-1626c6238831</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/p/a</value>
+      <webElementGuid>b0a34346-047a-450e-8b87-f519b7b80b6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#findOutMore' and (text() = 'Find out more >' or . = 'Find out more >')]</value>
+      <webElementGuid>5a30124b-6f34-446a-a77f-66f936c295ba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

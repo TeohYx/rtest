@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004_IV_QP_Plate Number - Verify Empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9fbb4fcf-ef3f-4844-a68d-9330244b7c2f</testCaseGuid>
+</TestCaseEntity>

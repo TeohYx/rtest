@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lbl_Discount</name>
+   <tag></tag>
+   <elementGuidId>a9f14896-cd86-4261-8014-9612a756b4a2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='gatsby-focus-wrapper']/div[3]/div/div[2]/div[2]/div/div/div/div[2]/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>413158e7-f8bf-4af9-8104-1bce2c57a323</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-2 d-flex justify-content-between</value>
+      <webElementGuid>51c51305-98ea-46ab-8dd8-fc6cffe8edd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Discount 25%- RM10.25</value>
+      <webElementGuid>7c3fa15e-058f-4522-a692-c6dbaf4bf46b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;mt-3 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-5 col-12&quot;]/div[@class=&quot;PlanSummary__Wrapper-sc-shogl8-0 iYtQIk&quot;]/div[@class=&quot;PlanSummary__Styles-sc-shogl8-2 jdqkeg&quot;]/div[@class=&quot;rounded accordion&quot;]/div[@class=&quot;accordion-item&quot;]/div[@class=&quot;accordion-collapse collapse show&quot;]/div[@class=&quot;accordion-body&quot;]/div[@class=&quot;mb-2 d-flex justify-content-between&quot;]</value>
+      <webElementGuid>61278a71-94ed-4611-bc31-4993012ccb72</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div[2]/div[2]/div/div/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>3acf204f-e593-4d05-83c3-d0f32fc97209</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM41.00'])[1]/following::div[1]</value>
+      <webElementGuid>ce0eaa96-1cd4-4399-8407-b6382a41a132</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gross Premium'])[1]/following::div[1]</value>
+      <webElementGuid>bc89b678-4c1a-4501-b47c-faa45f22c6da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>7c811521-52c8-4354-a0da-f550bad2d63f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Discount 25%- RM10.25' or . = 'Discount 25%- RM10.25')]</value>
+      <webElementGuid>30eb5f58-b105-42c6-b95d-f9bd5caaf489</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

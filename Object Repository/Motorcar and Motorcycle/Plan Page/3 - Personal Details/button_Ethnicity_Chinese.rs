@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Ethnicity_Chinese</name>
+   <tag></tag>
+   <elementGuidId>f0e1186a-32e0-4035-8b6f-17d12f6681f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@name='ethnicity']/parent::*//descendant::a[text()='Chinese']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>c4a4c62f-9821-44d4-80f3-d0d148d14e97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1735782689669</value>
+      <webElementGuid>77ca8032-e8e8-4d66-bcc7-3503d1b924b3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_IV_PP_Motorcycle Variant - Verify Empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>11ed00f3-1535-4234-b643-7dfb857885cf</testCaseGuid>
+</TestCaseEntity>

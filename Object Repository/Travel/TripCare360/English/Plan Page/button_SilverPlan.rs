@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_SilverPlan</name>
+   <tag></tag>
+   <elementGuidId>c1e0c9d7-452e-492d-a565-ae1df66f55d2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.h2.mt-5</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='priceDetails1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2333d320-744b-40fe-87f9-7f1b7e664d28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>h2 mt-5</value>
+      <webElementGuid>b5b6d115-78ba-45aa-b6f7-036f8de496f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;mt-3 container&quot;]/div[@class=&quot;g-0 row&quot;]/div[@class=&quot;text-center border border-secondary rounded-top  pb-3 d-lg-block d-md-block col-lg-2 col-md-2 col-3&quot;]/div[@class=&quot;h2 mt-5&quot;]</value>
+      <webElementGuid>d3a8c41a-db92-4433-a821-f0164ed55a95</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div[3]/div/div[5]/div[2]/div/input</value>
+      <webElementGuid>52dcdcd3-4730-4992-b266-d4c54550979b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose Your Travel Plan'])[1]/following::div[2]</value>
+      <webElementGuid>c2af8969-3775-4ea7-99ee-94e428ecf11b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View More plans'])[1]/following::div[7]</value>
+      <webElementGuid>f29721bf-4e51-44c9-99ae-1b2ee2ffab6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM220.00'])[1]/preceding::div[2]</value>
+      <webElementGuid>50fb2954-67ee-456d-b835-7f8851e6c74f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>c70b5122-161f-478d-a0f6-cad98a9c78c0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

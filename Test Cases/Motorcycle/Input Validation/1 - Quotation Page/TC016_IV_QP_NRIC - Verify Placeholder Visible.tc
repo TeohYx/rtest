@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC016_IV_QP_NRIC - Verify Placeholder Visible</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cbd3c4bf-0cbb-4bd8-94bd-748790e600cb</testCaseGuid>
+</TestCaseEntity>

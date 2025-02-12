@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC055_IV_PP_Postcode - Verify Input Field Present</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>915e79c8-5e91-464f-920b-eed82719f52c</testCaseGuid>
+</TestCaseEntity>

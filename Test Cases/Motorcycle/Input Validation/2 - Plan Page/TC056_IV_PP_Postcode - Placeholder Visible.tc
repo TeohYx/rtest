@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC056_IV_PP_Postcode - Placeholder Visible</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8c19d601-98c0-4bc0-ac0f-67f7eeb72f91</testCaseGuid>
+</TestCaseEntity>

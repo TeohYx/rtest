@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_hotline number</name>
+   <tag></tag>
+   <elementGuidId>b073e963-adb1-491f-bff0-f1267fc30488</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.product-content > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(@href, 'tel:1-300-139-139 ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;1-300-139-139&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e9ca2a66-4684-4506-b8bc-ed9567cfe20d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>tel:1-300-139-139 </value>
+      <webElementGuid>a138b44b-3434-42de-9ce3-56d3ae115027</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1-300-139-139 </value>
+      <webElementGuid>b1002b2b-32fc-4837-9f25-f6aada2729ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;layout__Styles-sc-e2kyg0-0 isYLvo&quot;]/div[@class=&quot;quotation__Styles-sc-krg66a-0 fhjdBV&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row-layout row&quot;]/div[@class=&quot;col-sm-5 col-12&quot;]/div[@class=&quot;quote-form-component&quot;]/div[@class=&quot;QuotationForm__Styles-sc-mqi10z-0 fvagRm&quot;]/div[@class=&quot;quote-form&quot;]/div[@class=&quot;container&quot;]/form[1]/span[@class=&quot;product-content&quot;]/a[1]</value>
+      <webElementGuid>103441d7-6e4e-4316-8c82-ccf9f71e4b4e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div/div/div/div/div[2]/div/div/div[2]/div/form/span/a</value>
+      <webElementGuid>0d7a1edc-709f-4907-bbdc-8851dc8b9844</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'1-300-139-139')]</value>
+      <webElementGuid>5a9d15c8-612b-4c54-9d2d-179e5e11f3d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Quote Now'])[1]/following::a[1]</value>
+      <webElementGuid>d5037813-e819-4eea-9567-944168d911c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Average Customer Rating:'])[1]/preceding::a[1]</value>
+      <webElementGuid>62eb2a77-507f-4fc4-84d4-e628c7234bcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1-300-139-139']/parent::*</value>
+      <webElementGuid>2893d1a2-8004-4f86-89ee-2c794818e8ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'tel:1-300-139-139 ')]</value>
+      <webElementGuid>f5909786-6405-4038-ab77-bf6354544c34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/a</value>
+      <webElementGuid>6b8a31b3-cbf4-4fb2-92c7-cd20049ab929</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'tel:1-300-139-139 ' and (text() = '1-300-139-139 ' or . = '1-300-139-139 ')]</value>
+      <webElementGuid>f7511710-343c-4722-a66b-58c364bc844e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

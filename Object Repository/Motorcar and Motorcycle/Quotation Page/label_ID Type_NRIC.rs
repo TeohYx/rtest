@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_ID Type_NRIC</name>
+   <tag></tag>
+   <elementGuidId>91efafa7-7959-430d-a852-4dbdceee9c06</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.RadioButton__StylesButton-sc-wxcdv-0.imLIhO.btn.btn-outline-dark.w-100.d-flex.align-items-center.justify-content-center</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'NRIC' or . = 'NRIC')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@id=&quot;quotation-form-input-idtype-nric&quot;])//following-sibling::label[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;NRIC&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>c56f332c-37ef-4abe-b95c-2a63b756f1fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>RadioButton__StylesButton-sc-wxcdv-0 imLIhO btn btn-outline-dark w-100 d-flex align-items-center justify-content-center</value>
+      <webElementGuid>fd47a453-66a4-4f9c-b022-17be83938c63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>quotation-form-input-idtype-nric</value>
+      <webElementGuid>e7f7784c-b791-4408-9cd1-9c8f217fc526</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>NRIC</value>
+      <webElementGuid>1d26e76d-eccf-4485-b002-43e1eb6d7fec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;layout__Styles-sc-e2kyg0-0 isYLvo&quot;]/div[@class=&quot;quotation__Styles-sc-krg66a-0 fhjdBV&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row-layout row&quot;]/div[@class=&quot;col-sm-5 col-12&quot;]/div[@class=&quot;quote-form-component&quot;]/div[@class=&quot;QuotationForm__Styles-sc-mqi10z-0 fvagRm&quot;]/div[@class=&quot;quote-form&quot;]/div[@class=&quot;container&quot;]/form[1]/div[@class=&quot;mb-3&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-3 col-md-3 col-3&quot;]/label[@class=&quot;RadioButton__StylesButton-sc-wxcdv-0 imLIhO btn btn-outline-dark w-100 d-flex align-items-center justify-content-center&quot;]</value>
+      <webElementGuid>c086f225-cea1-48c7-805b-d3f0d6cf50ec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div/div/div/div/div[2]/div/div/div[2]/div/form/div[3]/div/div/label</value>
+      <webElementGuid>04786a21-fd0a-46d4-a041-2bd10c908d4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ID Type'])[1]/following::label[1]</value>
+      <webElementGuid>51da052f-6e9a-4ef9-a0a2-db8b13720c4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Postcode (Motorcycle Location)'])[1]/following::label[2]</value>
+      <webElementGuid>c40ed13a-ebd9-478a-b04e-1345bf681ad4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Passport'])[1]/preceding::label[1]</value>
+      <webElementGuid>3e3547f6-60c6-4f1c-a0c7-6fae3a49202e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Army'])[1]/preceding::label[2]</value>
+      <webElementGuid>7f5388fa-c0e1-4c93-b245-7737a21903f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='NRIC']/parent::*</value>
+      <webElementGuid>efe261f0-cda5-4df2-9e8a-432c9ca28c59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/label</value>
+      <webElementGuid>045a6538-148a-4b7c-8dcf-2e97f2c333c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'NRIC' or . = 'NRIC')]</value>
+      <webElementGuid>18615745-808f-44c5-a798-459dc805b665</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC020_IV_PP_Marital Status - Verify Empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1a51f893-4132-4ffd-b9a0-5d540f7f3989</testCaseGuid>
+</TestCaseEntity>

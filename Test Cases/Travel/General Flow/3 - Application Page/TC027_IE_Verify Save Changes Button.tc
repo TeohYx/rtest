@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC027_IE_Verify Save Changes Button</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>87758cbe-e148-4b14-bbc8-e3ffb9b703fc</testCaseGuid>
+</TestCaseEntity>

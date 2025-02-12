@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC014_IE_Verify New NRIC length validation - Alphabet or Symbols value</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6c93ade6-2001-4547-84c3-e46dd21bea08</testCaseGuid>
+</TestCaseEntity>

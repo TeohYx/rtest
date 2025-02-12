@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>motorcycle-en</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www-gold.etiqa.com/edp/motor-sit/my/motorcycle/insurance/quotation'</initValue>
+      <name>InsuranceSitUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www-gold.etiqa.com/edp/motor-uat/my/motorcycle/insurance/quotation'</initValue>
+      <name>InsuranceUatUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www-gold.etiqa.com/edp/motor/my/motorcycle/insurance/quotation'</initValue>
+      <name>InsurancePreProdUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>false</initValue>
+      <name>IsInsuranceSit</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>false</initValue>
+      <name>IsInsuranceUat</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>true</initValue>
+      <name>IsInsurancePreProd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'991231146067'</initValue>
+      <name>InsuredNRIC</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'BQR5529'</initValue>
+      <name>VehicleNo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'51200'</initValue>
+      <name>Postcode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter your motorcycle registration number</description>
+      <initValue>'Please enter your motorcycle registration number'</initValue>
+      <name>errorMessage_plateNumberEmpty</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter postcode</description>
+      <initValue>'Please enter postcode'</initValue>
+      <name>errorMessage_postcodeEmpty</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter your passport number, e.g., A12345678.</description>
+      <initValue>'Please enter your passport number, e.g., A12345678.'</initValue>
+      <name>errorMessage_passportEmpty</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter your Date of birth</description>
+      <initValue>'Please enter your Date of birth'</initValue>
+      <name>errorMessage_DOBEmpty</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Day must between 1-31</description>
+      <initValue>'Day must between 1-31'</initValue>
+      <name>errorMessage_DOBDay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Invalid day and month format</description>
+      <initValue>'Invalid day and month format'</initValue>
+      <name>errorMessage_DOBDayMonth</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Invalid date, the year is incorrect</description>
+      <initValue>'Invalid date, the year is incorrect'</initValue>
+      <name>errorMessage_DOBDate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>The year must start with 1 or 2</description>
+      <initValue>'The year must start with 1 or 2'</initValue>
+      <name>errorMessage_DOBYear1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>The year must start with 19 or 20</description>
+      <initValue>'The year must start with 19 or 20'</initValue>
+      <name>errorMessage_DOBYear2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter your military identification number, e.g., RF/123456.</description>
+      <initValue>'Please enter your military identification number, e.g., RF/123456.'</initValue>
+      <name>errorMessage_IDArmyEmpty</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter valid military identification number</description>
+      <initValue>'Please enter valid military identification number'</initValue>
+      <name>errorMessage_IDArmyInvalid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter your police identification number, e.g., N/123456.</description>
+      <initValue>'Please enter your police identification number, e.g., N/123456.'</initValue>
+      <name>errorMessage_IDPoliceEmpty</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter valid police identification number</description>
+      <initValue>'Please enter valid police identification number'</initValue>
+      <name>errorMessage_IDPoliceInvalid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter your 12-digit NRIC number, e.g., 771111101233</description>
+      <initValue>'Please enter your 12-digit NRIC number, e.g., 771111101233'</initValue>
+      <name>errorMessage_NRICEmpty</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please choose the options above</description>
+      <initValue>'Please choose the options above'</initValue>
+      <name>errorMessage_MotorcycleVariant</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter your engine number</description>
+      <initValue>'Please enter your engine number'</initValue>
+      <name>errorMessage_EngineNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter your name as per NRIC</description>
+      <initValue>'Please enter your name as per NRIC'</initValue>
+      <name>errorMessage_PersonalDetailName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please choose an ethnicity</description>
+      <initValue>'Please choose an ethnicity'</initValue>
+      <name>errorMessage_PersonalDetailEthnicity</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please choose your marital status</description>
+      <initValue>'Please choose your marital status'</initValue>
+      <name>errorMessage_PersonalDetailMaritalStatus</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter your email address</description>
+      <initValue>'Please enter your email address'</initValue>
+      <name>errorMessage_PersonalDetailEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter your mobile number</description>
+      <initValue>'Please enter your mobile number'</initValue>
+      <name>errorMessage_PersonalDetailMobileNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter your address (Address Line 1)</description>
+      <initValue>'Please enter your address (Address Line 1)'</initValue>
+      <name>errorMessage_PersonalDetailHomeAddress1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter your address (Address Line 2)</description>
+      <initValue>'Please enter your address (Address Line 2)'</initValue>
+      <name>errorMessage_PersonalDetailHomeAddress2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter your postcode</description>
+      <initValue>'Please enter your postcode'</initValue>
+      <name>errorMessage_PersonalDetailPostcode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter your state</description>
+      <initValue>'Please enter your state'</initValue>
+      <name>errorMessage_PersonalDetailState</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter your name as per NRIC</description>
+      <initValue>'Please enter your name as per NRIC'</initValue>
+      <name>errorMessage_PolicyHolderName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please select your preferred bank</description>
+      <initValue>'Please select your preferred bank'</initValue>
+      <name>errorMessage_BankName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter your account number</description>
+      <initValue>'Please enter your account number'</initValue>
+      <name>errorMessage_AccountNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>EG : ABC1234</description>
+      <initValue>'EG : ABC1234'</initValue>
+      <name>placeholder_PlateNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>EG : 51200</description>
+      <initValue>'EG : 51200'</initValue>
+      <name>placeholder_Postcode1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>EG : 900719082777</description>
+      <initValue>'EG : 900719082777'</initValue>
+      <name>placeholder_NRIC</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>EG : A12345678</description>
+      <initValue>'EG : A12345678'</initValue>
+      <name>placeholder_Passport</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>e.g. 21/03/1978</description>
+      <initValue>'e.g. 21/03/1978'</initValue>
+      <name>placeholder_DOB</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>EG : RF/123456</description>
+      <initValue>'EG : RF/123456'</initValue>
+      <name>placeholder_IDArmy</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>EG : N/123456</description>
+      <initValue>'EG : N/123456'</initValue>
+      <name>placeholder_IDPolice</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>E.G. ABC123456QWE</description>
+      <initValue>'E.G. ABC123456QWE'</initValue>
+      <name>placeholder_EngineNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>e.g. ADAM BIN BAKRI</description>
+      <initValue>'e.g. ADAM BIN BAKRI'</initValue>
+      <name>placeholder_Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>E.G. ADAM@GMAIL.COM</description>
+      <initValue>'E.G. ADAM@GMAIL.COM'</initValue>
+      <name>placeholder_Email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>123221221</description>
+      <initValue>'123221221'</initValue>
+      <name>placeholder_MobileNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>e.g. ADDRESS LINE 1</description>
+      <initValue>'e.g. ADDRESS LINE 1'</initValue>
+      <name>placeholder_HomeAddress1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>e.g. ADDRESS LINE 2</description>
+      <initValue>'e.g. ADDRESS LINE 2'</initValue>
+      <name>placeholder_HomeAddress2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>e.g. ADDRESS LINE 3</description>
+      <initValue>'e.g. ADDRESS LINE 3'</initValue>
+      <name>placeholder_HomeAddress3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>e.g. 68100</description>
+      <initValue>'e.g. 68100'</initValue>
+      <name>placeholder_Postcode2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>EG : 123777</description>
+      <initValue>'EG : 123777'</initValue>
+      <name>placeholder_AccountNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>https://www.etiqa.com.my/v2/PDFiles/1466372179463</description>
+      <initValue>'https://www.etiqa.com.my/v2/PDFiles/1466372179463'</initValue>
+      <name>link_PolicyContractLink</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>1466372179463</description>
+      <initValue>'1466372179463'</initValue>
+      <name>link_PolicyContractTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>IMPORTANTNOTICE_EN_INS.pdf</description>
+      <initValue>'IMPORTANTNOTICE_EN_INS.pdf'</initValue>
+      <name>link_ImportantNotice</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>PRI_EGIB_EN.pdf</description>
+      <initValue>'PRI_EGIB_EN.pdf'</initValue>
+      <name>link_PrivacyNotice</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>PDPA_Declaration_EGIB_EN_June2024-7187fca73230f86a504a3ab0e46e6b88.pdf</description>
+      <initValue>'PDPA_Declaration_EGIB_EN_June2024-7187fca73230f86a504a3ab0e46e6b88.pdf'</initValue>
+      <name>link_Declaration</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>https://www.pidm.gov.my/en/how-we-protect-you/tips/information-materials/brochures</description>
+      <initValue>'https://www.pidm.gov.my/en/how-we-protect-you/tips/information-materials/brochures'</initValue>
+      <name>link_PIDMBrochuresLink</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>https://www.pidm.gov.my/en</description>
+      <initValue>'https://www.pidm.gov.my/en'</initValue>
+      <name>link_PIDMgovLink</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>https://eti.qa/go/motorcycle-ins-pds-en</description>
+      <initValue>'https://eti.qa/go/motorcycle-ins-pds-en'</initValue>
+      <name>link_ProductDisclosureSheetLink</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>//div[@class='show dropdown']//descendant::a[@role='button']</description>
+      <initValue>'//div[@class=\'show dropdown\']//descendant::a[@role=\'button\']'</initValue>
+      <name>locator_MotorcycleSelection</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[('default') : 'AA1000A']</initValue>
+      <name>rules_carPlate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Motorcycle Insurance</description>
+      <initValue>'Motorcycle Insurance'</initValue>
+      <name>obj_product</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>VOA</description>
+      <initValue>'VOA'</initValue>
+      <name>obj_policyNumberPrefix</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

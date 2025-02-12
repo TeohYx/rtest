@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC041_IV_QP_ID Army - Verify Placeholder Visible</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>10dc4899-1ae3-424f-95ab-c72012d1267d</testCaseGuid>
+</TestCaseEntity>

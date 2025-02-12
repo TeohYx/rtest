@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_IE_Verify Additonal Coverage - Opt in COVID-19</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a74a816c-2190-4078-8618-16ee381b1f99</testCaseGuid>
+</TestCaseEntity>

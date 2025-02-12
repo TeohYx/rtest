@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Postcode</name>
+   <tag></tag>
+   <elementGuidId>65d3a803-6938-40f6-b816-f0a4f91a48a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'form-label' and (text() = 'Postcode (Motorcycle Location)' or . = 'Postcode (Motorcycle Location)')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id=&quot;vehicle-postcode&quot;]//preceding-sibling::label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Postcode (Motorcycle Location)&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>ac52deb2-1ab3-4292-bb35-6b44b9c2b182</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-label</value>
+      <webElementGuid>6b2b6231-b9d3-4a9d-a480-dd5985e2bfad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Postcode (Motorcycle Location)</value>
+      <webElementGuid>d5334efd-e4ed-4a43-a607-299afedab104</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;layout__Styles-sc-e2kyg0-0 isYLvo&quot;]/div[@class=&quot;quotation__Styles-sc-krg66a-0 fhjdBV&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row-layout row&quot;]/div[@class=&quot;col-sm-5 col-12&quot;]/div[@class=&quot;quote-form-component&quot;]/div[@class=&quot;QuotationForm__Styles-sc-mqi10z-0 fvagRm&quot;]/div[@class=&quot;quote-form&quot;]/div[@class=&quot;container&quot;]/form[1]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;form-label&quot;]</value>
+      <webElementGuid>d6d1b565-e50c-4829-8078-40158ddcfa3b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div/div/div/div/div[2]/div/div/div[2]/div/form/div[2]/label</value>
+      <webElementGuid>6828ecf5-5e0f-4a9c-8aa2-2ccf254b9f67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Motorcycle Registration Number (Plate Number)'])[1]/following::label[1]</value>
+      <webElementGuid>a53209e7-6526-496c-a01f-c4f7bbdada4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Let’s get a quote for your motorcycle'])[1]/following::label[2]</value>
+      <webElementGuid>7743a8f4-6851-4cb6-a66d-24b5a8d32725</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ID Type'])[1]/preceding::label[1]</value>
+      <webElementGuid>79e84df7-c61d-49b1-bd23-4feed25bd696</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NRIC'])[1]/preceding::label[2]</value>
+      <webElementGuid>2ccaf9db-99c5-48db-8b5e-dc08a3e8b484</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Postcode (Motorcycle Location)']/parent::*</value>
+      <webElementGuid>0c91617d-6fde-4ecd-a92b-71dbd360dcb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/label</value>
+      <webElementGuid>44a08bd6-9f92-4413-afbb-9b1da88922db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Postcode (Motorcycle Location)' or . = 'Postcode (Motorcycle Location)')]</value>
+      <webElementGuid>3992fff2-ab4a-48e0-88db-9bdc00afa7f3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC037_IE_Verify Bank Account Details - Leave as Empty with filling in flight details</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2d1d1a6a-566f-4575-bb18-96cc35b5d8e1</testCaseGuid>
+</TestCaseEntity>

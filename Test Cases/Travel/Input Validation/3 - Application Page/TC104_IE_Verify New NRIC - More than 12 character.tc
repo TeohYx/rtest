@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC104_IE_Verify New NRIC - More than 12 character</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4c062475-eccc-48b3-a454-9590f2b56708</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Date Of Birth</name>
+   <tag></tag>
+   <elementGuidId>ea38772e-9604-4995-b88d-840c45789f45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Date Of Birth' or . = 'Date Of Birth')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id=&quot;form-input-dob&quot;]//preceding-sibling::label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Date Of Birth&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>d49a85dd-a315-4f39-9e10-3cb749e13d63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-label</value>
+      <webElementGuid>efbb3468-1595-4aa2-9f42-580060d6e48d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>form-input-dob</value>
+      <webElementGuid>5555a40f-5eef-4355-a2d3-dded820b2b85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Date Of Birth</value>
+      <webElementGuid>28ee45d7-0f5e-4697-8ca2-1c44017980b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;layout__Styles-sc-e2kyg0-0 isYLvo&quot;]/div[@class=&quot;quotation__Styles-sc-krg66a-0 fhjdBV&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row-layout row&quot;]/div[@class=&quot;col-sm-5 col-12&quot;]/div[@class=&quot;quote-form-component&quot;]/div[@class=&quot;QuotationForm__Styles-sc-mqi10z-0 fvagRm&quot;]/div[@class=&quot;quote-form&quot;]/div[@class=&quot;container&quot;]/form[1]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;form-label&quot;]</value>
+      <webElementGuid>f5168c1a-7f77-424b-9955-1cd67be6cb7f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div/div/div/div/div[2]/div/div/div[2]/div/form/div[6]/label</value>
+      <webElementGuid>de4804c5-59ed-4d2b-b563-5461ef88405a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AFGHAN'])[1]/following::label[1]</value>
+      <webElementGuid>6fc8be19-45e6-4f75-b595-e851711257d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nationality'])[1]/following::label[1]</value>
+      <webElementGuid>5c81487f-c549-4a4a-8d8b-4f2cd11e4b24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Quote Now'])[1]/preceding::label[1]</value>
+      <webElementGuid>2a3f8d6a-5931-4c6e-9637-8364b50200db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Date Of Birth']/parent::*</value>
+      <webElementGuid>f075dc36-2853-4c81-85e9-bbbf9d7516e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/label</value>
+      <webElementGuid>b3971091-b72a-41f7-bba9-81628bf38d6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Date Of Birth' or . = 'Date Of Birth')]</value>
+      <webElementGuid>ddb98ae6-75c7-44c8-96e4-0b5485469fcd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

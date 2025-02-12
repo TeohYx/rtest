@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_GF_DP_Verify Product Disclosure Sheet Link</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c399da3d-4972-412e-8d4f-4cb9fc1003b9</testCaseGuid>
+</TestCaseEntity>

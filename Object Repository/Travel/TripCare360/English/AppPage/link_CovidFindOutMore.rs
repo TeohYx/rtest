@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_CovidFindOutMore</name>
+   <tag></tag>
+   <elementGuidId>3408135e-7d4e-4665-9cac-6af8bf36b59d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div[2]/div/div[4]/div/div/div/div[2]/p/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.add-on-coverage-covid-19 > p.card-text > a.a-link-none-line</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7e0b84bb-737b-4acd-9519-0f2386c08806</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-link-none-line</value>
+      <webElementGuid>d9015ce8-0433-49cc-9761-49f1b39e7310</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#covidModal</value>
+      <webElementGuid>0773b77a-27c8-48d7-aa69-08f90c3f48a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Find out more ></value>
+      <webElementGuid>3ad11bea-e905-487c-b751-c54f1185dc08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;mt-3 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-7 col-12&quot;]/div[@class=&quot;add-on-coverage&quot;]/div[@class=&quot;add-on-coverage-card card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;AddonCoverage__Styles-sc-1naam3f-0 fhErAT&quot;]/div[@class=&quot;add-on-coverage-covid-19&quot;]/p[@class=&quot;card-text&quot;]/a[@class=&quot;a-link-none-line&quot;]</value>
+      <webElementGuid>a766a2bc-1647-49f7-9b05-7a86787da556</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div[2]/div/div[6]/div/div/div/div[2]/p/a</value>
+      <webElementGuid>80fe2bcf-8a6c-4607-8d28-c6679a8a9861</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM46.50'])[1]/following::a[1]</value>
+      <webElementGuid>92dc88c7-3091-46e0-91e3-0bd81778d4c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adventurous Activities'])[1]/following::a[1]</value>
+      <webElementGuid>5bbddb95-6aaa-42bf-8ed8-a04e1a2faba7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='COVID-19'])[1]/preceding::a[1]</value>
+      <webElementGuid>6f38e3b0-df6a-4532-ac7e-39bef488ccdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM140.00'])[1]/preceding::a[1]</value>
+      <webElementGuid>5093f119-35da-4a14-8d85-b752f86dba54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#covidModal')]</value>
+      <webElementGuid>4c40b125-ed58-48e6-9f7d-f099c36bde86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/p/a</value>
+      <webElementGuid>f64e1353-cc5a-4801-82c0-26b57e8d937f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#covidModal' and (text() = 'Find out more >' or . = 'Find out more >')]</value>
+      <webElementGuid>a48987e4-2178-4fa0-93da-a0985cfdef08</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

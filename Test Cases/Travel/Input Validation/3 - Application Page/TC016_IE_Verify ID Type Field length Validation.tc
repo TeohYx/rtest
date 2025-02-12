@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC016_IE_Verify ID Type Field length Validation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3ce62e4d-5aa0-4781-87e8-99ffb544a08a</testCaseGuid>
+</TestCaseEntity>

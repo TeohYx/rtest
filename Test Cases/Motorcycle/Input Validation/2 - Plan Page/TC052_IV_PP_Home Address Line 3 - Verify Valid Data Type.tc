@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Symbol not allowed (except @-\'/.,)</description>
+   <name>TC052_IV_PP_Home Address Line 3 - Verify Valid Data Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>012d2c64-a348-473f-b21e-302c4d83c9ef</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005_RM_PF_Direct to Plan Page Specific</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b84416cc-1425-4342-a588-69acdcd94320</testCaseGuid>
+</TestCaseEntity>

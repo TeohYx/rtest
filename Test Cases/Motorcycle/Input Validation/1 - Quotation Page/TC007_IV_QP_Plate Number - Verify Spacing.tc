@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC007_IV_QP_Plate Number - Verify Spacing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>97ff406b-f106-44d5-b0aa-fe0d8827293f</testCaseGuid>
+</TestCaseEntity>

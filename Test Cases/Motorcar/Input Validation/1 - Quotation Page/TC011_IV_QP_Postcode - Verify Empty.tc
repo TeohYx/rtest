@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC011_IV_QP_Postcode - Verify Empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6c5cdae6-7f15-46f9-a85d-2bea0b70982a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC019_IV_QP_NRIC - Verify DOB Section</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1fa7702e-3999-4963-94ce-812ee04eaf0c</testCaseGuid>
+</TestCaseEntity>

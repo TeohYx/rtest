@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_AdventurousActivitiesFindOutMore</name>
+   <tag></tag>
+   <elementGuidId>cb07ba72-37b0-48bc-93dd-e683c6f317cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div[2]/div/div[4]/div/div/div/div[1]/p/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.card-text > a.a-link-none-line</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>89054502-c27a-4caa-84ae-8bd04e1124e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-link-none-line</value>
+      <webElementGuid>e34f6ee6-fe9e-4cfd-85f1-6d711e9edcda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#activitiesModal</value>
+      <webElementGuid>e1aa2567-d435-4256-af65-fe589f73731a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Find out more ></value>
+      <webElementGuid>c9eb0fd8-309d-4695-af7c-ec599bbd8eba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;mt-3 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-7 col-12&quot;]/div[@class=&quot;add-on-coverage&quot;]/div[@class=&quot;add-on-coverage-card card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;AddonCoverage__Styles-sc-1naam3f-0 fhErAT&quot;]/div[@class=&quot;add-on-coverage-adventurous-activities&quot;]/p[@class=&quot;card-text&quot;]/a[@class=&quot;a-link-none-line&quot;]</value>
+      <webElementGuid>2ed18377-f362-4113-a3a5-5e069da41bf9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div[2]/div/div[6]/div/div/div/div/p/a</value>
+      <webElementGuid>e02b14e7-a067-4132-a66a-d4e4ad0064a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bank Account No.'])[1]/following::a[1]</value>
+      <webElementGuid>66bb0a81-951e-4e6a-a991-5bcdc6234303</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Bank'])[1]/following::a[1]</value>
+      <webElementGuid>87165f83-1cfd-4216-b351-c5bdd9478a91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adventurous Activities'])[1]/preceding::a[1]</value>
+      <webElementGuid>021e1d01-f497-46f4-bb80-a2f5ffa71cbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM46.50'])[1]/preceding::a[1]</value>
+      <webElementGuid>ae69b421-944a-4f14-b213-692b62c895f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Find out more']/parent::*</value>
+      <webElementGuid>2a1d5bb9-a94c-406f-86b6-4730cd27039f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#activitiesModal')]</value>
+      <webElementGuid>e0b17d5e-9b0b-44f9-b311-4d98bdc169f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/a</value>
+      <webElementGuid>a9ec3105-a899-4f4d-856d-6f82330e65bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#activitiesModal' and (text() = 'Find out more >' or . = 'Find out more >')]</value>
+      <webElementGuid>a7b1a079-6551-48eb-a45f-2bd59753cac5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

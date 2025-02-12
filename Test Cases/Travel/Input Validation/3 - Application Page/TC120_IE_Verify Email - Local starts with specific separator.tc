@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC120_IE_Verify Email - Local starts with specific separator</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>47c929b5-984f-4b27-bc22-9ee9fbb7bdfa</testCaseGuid>
+</TestCaseEntity>

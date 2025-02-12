@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC040_IE_Verify Bank Account Details - valid account number</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2f8e1b43-d191-4f5d-998e-1a454b1e06dd</testCaseGuid>
+</TestCaseEntity>

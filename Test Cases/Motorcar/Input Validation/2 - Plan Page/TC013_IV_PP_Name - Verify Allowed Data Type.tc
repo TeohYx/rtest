@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Symbol not allowed&#xd;
+except @-,./</description>
+   <name>TC013_IV_PP_Name - Verify Allowed Data Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3abae9de-937d-4f4f-a8b0-665c1ffb70fc</testCaseGuid>
+</TestCaseEntity>

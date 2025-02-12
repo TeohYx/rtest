@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Alphabet and symbol not allowed</description>
+   <name>TC031_IV_PP_Mobile Number - Verify Allowed Data Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dc57793b-6815-4388-b504-9f8455035844</testCaseGuid>
+</TestCaseEntity>

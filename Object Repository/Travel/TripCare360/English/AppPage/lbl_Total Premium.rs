@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lbl_Total Premium</name>
+   <tag></tag>
+   <elementGuidId>7b253de9-07d2-4b91-9b7d-eb049a3f0404</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.PlanSummary__FinalPremium-sc-shogl8-1.kLJKid.d-flex.justify-content-between</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='gatsby-focus-wrapper']/div[3]/div/div[2]/div[2]/div/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2d9ef321-4897-44d6-93c6-d4c3eea90a40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>PlanSummary__FinalPremium-sc-shogl8-1 kLJKid d-flex justify-content-between</value>
+      <webElementGuid>ecaaad14-6849-4e7e-847a-b9a9040de52f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Total PremiumRM32.59</value>
+      <webElementGuid>705a95d8-70ff-4680-b134-6628c98c38b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;mt-3 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-5 col-12&quot;]/div[@class=&quot;PlanSummary__Wrapper-sc-shogl8-0 iYtQIk&quot;]/div[@class=&quot;PlanSummary__Styles-sc-shogl8-2 jdqkeg&quot;]/div[@class=&quot;PlanSummary__StylesBody-sc-shogl8-4 jPemMp&quot;]/div[@class=&quot;PlanSummary__FinalPremium-sc-shogl8-1 kLJKid d-flex justify-content-between&quot;]</value>
+      <webElementGuid>e4fd14d6-432b-41af-866c-2f891a53c40c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div[2]/div[2]/div/div/div[2]/div</value>
+      <webElementGuid>3b6df54f-6237-4532-85a8-5f8c013b52d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM0.00'])[1]/following::div[2]</value>
+      <webElementGuid>95199de2-fa06-42ca-855e-00a0181cb0cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stamp Duty'])[1]/following::div[2]</value>
+      <webElementGuid>007e9108-9e91-4453-a9cf-e6a8045ec500</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div[2]/div</value>
+      <webElementGuid>b676f7c9-9282-4028-95cd-0ed0b0b80532</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Total PremiumRM32.59' or . = 'Total PremiumRM32.59')]</value>
+      <webElementGuid>2a4d46c4-9e9c-4b9b-a09b-ac7dd41e824a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

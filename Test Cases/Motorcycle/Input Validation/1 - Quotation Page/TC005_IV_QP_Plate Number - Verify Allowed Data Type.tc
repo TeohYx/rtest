@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Symbol not allowed</description>
+   <name>TC005_IV_QP_Plate Number - Verify Allowed Data Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b97a23ac-ef52-4025-b2bc-492df938692b</testCaseGuid>
+</TestCaseEntity>

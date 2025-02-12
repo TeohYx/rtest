@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC130_IE_Verify Postcode - Alphabet</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>26d40868-f768-4b7b-814b-c0cd49cd3e84</testCaseGuid>
+</TestCaseEntity>

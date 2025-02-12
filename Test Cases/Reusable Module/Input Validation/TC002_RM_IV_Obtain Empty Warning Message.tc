@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_RM_IV_Obtain Empty Warning Message</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2d31df7c-04ed-47d0-bd4a-d5b612d2cc5c</testCaseGuid>
+</TestCaseEntity>

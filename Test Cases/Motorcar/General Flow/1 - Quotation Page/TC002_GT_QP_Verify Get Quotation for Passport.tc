@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_GT_QP_Verify Get Quotation for Passport</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9b5c9d1e-bdbe-4ab9-8cda-1e5e06d5df3d</testCaseGuid>
+</TestCaseEntity>

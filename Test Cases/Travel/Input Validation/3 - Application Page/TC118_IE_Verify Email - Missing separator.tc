@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC118_IE_Verify Email - Missing separator</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0b875637-3add-4f14-ab21-c5dab6dc1b00</testCaseGuid>
+</TestCaseEntity>

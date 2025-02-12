@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_IE_Verify Single Trip Domestic</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3ce0ba8d-b089-47b1-93f8-e62c9233677d</testCaseGuid>
+</TestCaseEntity>

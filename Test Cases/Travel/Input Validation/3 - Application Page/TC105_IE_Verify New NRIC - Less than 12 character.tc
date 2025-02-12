@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC105_IE_Verify New NRIC - Less than 12 character</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7a8b15b1-d7a5-432b-aa60-72786674a60b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ddl_BankName</name>
+   <tag></tag>
+   <elementGuidId>ca093826-9824-4d14-8b35-ba7c5219f213</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'BankAccountDetail__BankDropdownToggle-sc-14z4pi0-2 hhBERE w-100 dropdown-toggle btn btn-primary']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div[2]/div/form/div[2]/div/div/div/div[2]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>efeb03cf-4633-471d-a714-e88a51f83f1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>BankAccountDetail__BankDropdownToggle-sc-14z4pi0-2 hhBERE w-100 dropdown-toggle btn btn-primary</value>
+      <webElementGuid>c7ea240c-e800-4b14-9788-b2b0bcde3e89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bank NameSelect Bank Malayan Banking BerhadAffin Bank BerhadAffin Islamic Bank BerhadAl Rajhi Banking &amp; InvestmentAlliance Bank BerhadAlliance Islamic Bank BerhadAmbank BerhadAmIslamic Bank BerhadBank Islam MalaysiaBank Muamalat (Malaysia)Bank Of AmericaBank Of Tokyo Mitsubishi (M) BBank Pertanian MalaysiaBank Pertanian Malaysia BerhadBank Rakyat MalaysiaBank Simpanan NasionalBNP Paribas MalaysiaCIMB Bank BerhadCIMB Islamic Bank BerhadCitibank BerhadDeutsche Bank (M) BhdHong Leong BankHong Leong Islamic Bank BerhadHSBC (M) BerhadHSBC Amanah Malaysia BerhadIND &amp; COM Bank of ChinaJ.P. Morgan ChaseKuwait Finance HouseMizuho Corporate Bank (MalaysiOCBC Al-Amin Bank BerhadOCBC Bank (M'sia) BHDPublic BankPublic Islamic Bank BerhadRHB BankRHB Islamic Bank BerhadRoyal Bank Of ScotlandStandard CharteredSumitomo Mitsui BankUnited Overseas Bank</value>
+      <webElementGuid>82639fcd-37d4-42b1-964a-c36222b6326e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;mt-3 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-7 col-12&quot;]/form[1]/div[2]/div[@class=&quot;mt-5&quot;]/div[@class=&quot;shadow mb-3 card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;BankAccountDetail__Styles-sc-14z4pi0-3 NFtGR&quot;]/div[@class=&quot;mb-3&quot;]</value>
+      <webElementGuid>e3d8ad0f-7d8e-427a-9a99-cafa8728e906</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div[2]/div/form/div[2]/div/div/div/div[2]/div[2]</value>
+      <webElementGuid>6fe38f47-a4f2-4000-acb0-2eca226641f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Policy Holder Name'])[1]/following::div[1]</value>
+      <webElementGuid>694e3a5c-3121-41f8-a6d0-e396c7b4034b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Flight Date'])[2]/following::div[8]</value>
+      <webElementGuid>b360777a-3284-4f69-ac79-9609cef54481</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[2]/div/div/div/div[2]/div[2]</value>
+      <webElementGuid>d9d6cdb3-d566-4a36-932a-bf6e742176c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;Bank NameSelect Bank Malayan Banking BerhadAffin Bank BerhadAffin Islamic Bank BerhadAl Rajhi Banking &amp; InvestmentAlliance Bank BerhadAlliance Islamic Bank BerhadAmbank BerhadAmIslamic Bank BerhadBank Islam MalaysiaBank Muamalat (Malaysia)Bank Of AmericaBank Of Tokyo Mitsubishi (M) BBank Pertanian MalaysiaBank Pertanian Malaysia BerhadBank Rakyat MalaysiaBank Simpanan NasionalBNP Paribas MalaysiaCIMB Bank BerhadCIMB Islamic Bank BerhadCitibank BerhadDeutsche Bank (M) BhdHong Leong BankHong Leong Islamic Bank BerhadHSBC (M) BerhadHSBC Amanah Malaysia BerhadIND &amp; COM Bank of ChinaJ.P. Morgan ChaseKuwait Finance HouseMizuho Corporate Bank (MalaysiOCBC Al-Amin Bank BerhadOCBC Bank (M&quot; , &quot;'&quot; , &quot;sia) BHDPublic BankPublic Islamic Bank BerhadRHB BankRHB Islamic Bank BerhadRoyal Bank Of ScotlandStandard CharteredSumitomo Mitsui BankUnited Overseas Bank&quot;) or . = concat(&quot;Bank NameSelect Bank Malayan Banking BerhadAffin Bank BerhadAffin Islamic Bank BerhadAl Rajhi Banking &amp; InvestmentAlliance Bank BerhadAlliance Islamic Bank BerhadAmbank BerhadAmIslamic Bank BerhadBank Islam MalaysiaBank Muamalat (Malaysia)Bank Of AmericaBank Of Tokyo Mitsubishi (M) BBank Pertanian MalaysiaBank Pertanian Malaysia BerhadBank Rakyat MalaysiaBank Simpanan NasionalBNP Paribas MalaysiaCIMB Bank BerhadCIMB Islamic Bank BerhadCitibank BerhadDeutsche Bank (M) BhdHong Leong BankHong Leong Islamic Bank BerhadHSBC (M) BerhadHSBC Amanah Malaysia BerhadIND &amp; COM Bank of ChinaJ.P. Morgan ChaseKuwait Finance HouseMizuho Corporate Bank (MalaysiOCBC Al-Amin Bank BerhadOCBC Bank (M&quot; , &quot;'&quot; , &quot;sia) BHDPublic BankPublic Islamic Bank BerhadRHB BankRHB Islamic Bank BerhadRoyal Bank Of ScotlandStandard CharteredSumitomo Mitsui BankUnited Overseas Bank&quot;))]</value>
+      <webElementGuid>321f894e-06b5-47bc-86d2-0059802170cd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

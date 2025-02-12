@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC006_GF_QP_Verify Contact Link</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d03bdc88-44cc-40ab-bcc6-8cb5e497d164</testCaseGuid>
+</TestCaseEntity>

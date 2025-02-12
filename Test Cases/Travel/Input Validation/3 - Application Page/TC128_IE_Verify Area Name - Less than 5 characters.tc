@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC128_IE_Verify Area Name - Less than 5 characters</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cd8bb2d4-ccf6-43b7-8f75-f73203191768</testCaseGuid>
+</TestCaseEntity>

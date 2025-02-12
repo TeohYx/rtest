@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_IV_QP_Plate Number - Verify Input Field Present</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7cdae3cb-f475-49a6-9718-e43e23e8c271</testCaseGuid>
+</TestCaseEntity>

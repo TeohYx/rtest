@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC106_IE_Verify New NRIC - Alphabet</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>420e2a64-e329-4a07-bb1b-f6e293d018bf</testCaseGuid>
+</TestCaseEntity>

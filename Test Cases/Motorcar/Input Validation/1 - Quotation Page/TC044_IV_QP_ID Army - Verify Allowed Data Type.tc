@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Symbol not allowed (except /)</description>
+   <name>TC044_IV_QP_ID Army - Verify Allowed Data Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>59ab5f47-cd91-43c2-9649-2fdf99c4e5aa</testCaseGuid>
+</TestCaseEntity>

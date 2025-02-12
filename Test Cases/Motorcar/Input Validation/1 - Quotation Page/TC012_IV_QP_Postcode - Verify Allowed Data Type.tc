@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Symbol and alphabet not allowed</description>
+   <name>TC012_IV_QP_Postcode - Verify Allowed Data Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>83dc441a-4425-495b-b3ab-e01124d80d78</testCaseGuid>
+</TestCaseEntity>

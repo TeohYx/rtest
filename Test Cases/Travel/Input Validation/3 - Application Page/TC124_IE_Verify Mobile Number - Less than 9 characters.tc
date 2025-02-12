@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC124_IE_Verify Mobile Number - Less than 9 characters</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>40968f04-e4dc-4b4d-88df-f475384f79ec</testCaseGuid>
+</TestCaseEntity>

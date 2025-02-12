@@ -1,0 +1,210 @@
+{
+  "keywordFileContentHash": "0064548DB8F1914E1FA9296DCF979F95",
+  "keywordClasses": [
+    {
+      "name": "inputValidation.validation",
+      "keywordMethods": [
+        {
+          "name": "inputNRICandProceed",
+          "parameters": [
+            {
+              "name": "scenario",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * @param scenario def The calendar date in type Calendar object \r\n\t * @return The 12-digit NRIC string \r\n\t */"
+        },
+        {
+          "name": "verifyCharacterLength",
+          "parameters": [
+            {
+              "name": "textObject",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "warningMessageLocator",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "submitLocator",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "validScenario",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "invalidScenario",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get input string and verify if it meet the correct character length, by testing both correct and wrong scenario\r\n\t * @param textObject TestObject input field locator\r\n\t * @param warningMessageLocator TestObject warning message for the input field of \u0027textObject\u0027\r\n\t * @param submitLocator TestObject submit locator to validate the input \r\n\t * @param validScenario String 1 valid scenario\r\n\t * @param invalidScenario String 1 invalid scenario\r\n\t * @return a boolean to indicate whether the PB section of given input field are valid, never false as it is always run into failure instead of return false\r\n\t *\r\n\t */"
+        },
+        {
+          "name": "verifyValidData",
+          "parameters": [
+            {
+              "name": "invalidType",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "textObject",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "params",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.util.Map",
+                "unresolvedClassName": "Map",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get string input and verify if the data type is valid\r\n\t * @param invalidType String Expression for valid data type representing with a letter\r\n\t * \t\te.g: \"S,UL,LL\"\r\n\t * \t\te.g: S - symbol; UL - uppercase letter; LL - lowercase letter; N - number\r\n\t *  \te.g: S - `~!@#$%^\u0026*()_+-\u003d{}|[]\\\\;\u0027:\\\"\u003c\u003e?,./\r\n\t *      e.g: UL - ABCDEFGHIJKLMNOPQRSTUVWXYZ\r\n\t *      e.g: LL - abcdefghijklmnopqrstuvwxyz\r\n\t *      e.g: N - 0123456789\r\n\t * @param textObject TestObject input field locator that contain input\r\n\t * @param params Map Mapping of \u0027testString\u0027 - test text and \u0027allowedSymbol\u0027 - allowed symbol/character\r\n\t * @return a boolean to indicate whether the data type of given input is valid\r\n\t *\r\n\t */"
+        },
+        {
+          "name": "verifyLeadingInput",
+          "parameters": [
+            {
+              "name": "input",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "leadingInput",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "verifyValidData",
+          "parameters": [
+            {
+              "name": "invalidType",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "textObject",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

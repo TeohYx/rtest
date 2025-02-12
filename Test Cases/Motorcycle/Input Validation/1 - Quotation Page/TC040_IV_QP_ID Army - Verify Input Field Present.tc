@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC040_IV_QP_ID Army - Verify Input Field Present</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e1f6ef80-800c-4859-9158-0fc77f2b7560</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>5</description>
+   <name>TC057_IV_PP_Postcode - Verify Max Length</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7c10dd99-6302-44f9-af8d-5581cf9633b2</testCaseGuid>
+</TestCaseEntity>

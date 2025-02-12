@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC030_IV_PP_Mobile Number - Verify Empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>027f6591-29ca-4e41-bf26-c5bd9c0e2273</testCaseGuid>
+</TestCaseEntity>

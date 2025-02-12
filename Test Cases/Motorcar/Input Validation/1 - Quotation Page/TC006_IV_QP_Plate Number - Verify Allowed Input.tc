@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check for allowed plate number&#xd;
+Allowed plate number: AA1000A</description>
+   <name>TC006_IV_QP_Plate Number - Verify Allowed Input</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>178c5e97-4223-4e3d-b145-140604623769</testCaseGuid>
+</TestCaseEntity>

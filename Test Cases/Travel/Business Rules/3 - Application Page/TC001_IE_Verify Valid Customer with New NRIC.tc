@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_IE_Verify Valid Customer with New NRIC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0faaeba6-11a2-44f7-a214-578fbcfa6938</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC084_IE_EndToEnd_Single_Domestic_JustMyself</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e39927af-d3cf-43b6-81ab-cab674ccb4bc</testCaseGuid>
+</TestCaseEntity>

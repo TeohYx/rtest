@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Symbol and alphabet not allowed</description>
+   <name>TC021_IV_QP_NRIC - Verify Allowed Data Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0097361e-d33e-4ce6-bbc3-81d8b91d4432</testCaseGuid>
+</TestCaseEntity>

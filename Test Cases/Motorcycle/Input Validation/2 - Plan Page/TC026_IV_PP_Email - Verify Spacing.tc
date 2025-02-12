@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Spacing not allowed</description>
+   <name>TC026_IV_PP_Email - Verify Spacing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cc8b3b3b-4bb6-476c-92c2-a9d740d15abf</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC014_IV_QP_Postcode - Verify Spacing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>363d6637-a8c3-4a16-870a-bf96724f31d9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC017_IV_PP_Ethnicity - Verify Input Field Present</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>adbd4c35-8a06-4c05-bcb9-0f53b44788e3</testCaseGuid>
+</TestCaseEntity>

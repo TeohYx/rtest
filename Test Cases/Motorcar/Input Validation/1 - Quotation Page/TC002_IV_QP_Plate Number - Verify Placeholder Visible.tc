@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_IV_QP_Plate Number - Verify Placeholder Visible</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1ed5e2a3-4fb0-4eb4-874c-2032a2830d02</testCaseGuid>
+</TestCaseEntity>

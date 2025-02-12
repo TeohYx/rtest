@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC027_IV_QP_Passport - Verify Empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a3b21bbe-e549-4ac9-ba56-e0ea186fff30</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC117_IE_Verify Email - Leave blank</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6ae20f79-ec0a-4c28-9051-d2bfc517bd66</testCaseGuid>
+</TestCaseEntity>

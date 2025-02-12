@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_No refund of premium will be allowed on_4b577d</name>
+   <tag></tag>
+   <elementGuidId>742684e3-db8a-464e-ae0c-65e0e74eb22b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div/div[2]/div[4]/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(4) > .col > .FAQ__OverrideAccordion-sc-coilo0-0 > .accordion-item > .accordion-collapse > .accordion-body</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7bd70368-ff0f-4c0f-8946-0246dbd46275</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>accordion-body</value>
+      <webElementGuid>831dfb3c-8376-4b48-bc10-4a270ec69955</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No refund of premium will be allowed once the TripCare 360 Insurance Policy Contract is issued.</value>
+      <webElementGuid>7112d22a-6db0-4794-b343-6c4b1dd4249a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;ml-0 p-0 m-0 container-fluid&quot;]/div[@class=&quot;quotation__Styles-sc-1lv5yzf-1 SsZUK&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;FAQ__OverrideAccordion-sc-coilo0-0 dwySfr mb-3 accordion&quot;]/div[@class=&quot;accordion-item&quot;]/div[@class=&quot;accordion-collapse collapse show&quot;]/div[@class=&quot;accordion-body&quot;]</value>
+      <webElementGuid>883d466f-6466-4b0f-b10e-fd9cedf2d10b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div/div[2]/div[4]/div/div/div/div/div</value>
+      <webElementGuid>00cb58a0-baa3-47ec-870c-66cdd92d8148</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='How do I cancel my Policy and get a refund of the premium paid?'])[1]/following::div[2]</value>
+      <webElementGuid>ee5b2106-05f2-40a5-9e30-7a3f325d7e59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The expiry of the period of Insurance specified in the policy.'])[1]/following::div[6]</value>
+      <webElementGuid>edbd4dcd-10d9-4e0e-9cfb-2c39e4ecf687</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Can I do nomination for TripCare 360 plan?'])[1]/preceding::div[7]</value>
+      <webElementGuid>c5da7dd8-c5d4-42cf-bd44-297eb6f75f3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Click here for more information'])[1]/preceding::div[13]</value>
+      <webElementGuid>db28c9ce-da7e-4c97-ad9e-51a7feb11642</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div</value>
+      <webElementGuid>88191c55-636c-41ca-b1c8-e09c072da0ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'No refund of premium will be allowed once the TripCare 360 Insurance Policy Contract is issued.' or . = 'No refund of premium will be allowed once the TripCare 360 Insurance Policy Contract is issued.')]</value>
+      <webElementGuid>acf80b0c-1043-4d85-9d15-36832193658e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

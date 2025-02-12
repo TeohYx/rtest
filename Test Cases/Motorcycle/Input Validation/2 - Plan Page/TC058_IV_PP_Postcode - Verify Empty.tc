@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC058_IV_PP_Postcode - Verify Empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b4cef2ad-1206-4b8c-ae33-36c56bc48770</testCaseGuid>
+</TestCaseEntity>

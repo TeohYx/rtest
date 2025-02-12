@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_BR_PP_Verify Protection Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>221eba16-183e-4512-ba67-6a3f04a95bef</testCaseGuid>
+</TestCaseEntity>

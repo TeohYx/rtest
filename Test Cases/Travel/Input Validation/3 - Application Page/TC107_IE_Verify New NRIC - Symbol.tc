@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC107_IE_Verify New NRIC - Symbol</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e7bce084-447e-4a56-a7e8-19bd4d08d2de</testCaseGuid>
+</TestCaseEntity>

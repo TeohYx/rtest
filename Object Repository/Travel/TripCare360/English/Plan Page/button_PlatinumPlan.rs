@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_PlatinumPlan</name>
+   <tag></tag>
+   <elementGuidId>bac72c5d-82d6-48c8-99b8-f188b656e2c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-center.border.border-secondary.rounded-top.pb-3.d-lg-block.d-md-block.d-none.col-lg-2.col-md-2.col-3 > div.h2.mt-5</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='priceDetails3']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ffe44f23-12dd-4b50-b677-938e5b6e33a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>h2 mt-5</value>
+      <webElementGuid>dcad4aa7-9984-498f-8de9-fb05975a438d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;mt-3 container&quot;]/div[@class=&quot;g-0 row&quot;]/div[@class=&quot;text-center border border-secondary rounded-top  pb-3 d-lg-block d-md-block d-none col-lg-2 col-md-2 col-3&quot;]/div[@class=&quot;h2 mt-5&quot;]</value>
+      <webElementGuid>9cc9b2f4-c499-472b-9dad-f975dd981dd8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div[3]/div/div[5]/div[4]/div/input</value>
+      <webElementGuid>1e8fdd7b-6ae8-4860-b2ee-b1182912a39a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM358.50'])[1]/following::div[2]</value>
+      <webElementGuid>d3fac4fc-7fa4-4fd8-9d22-a401752dfa86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM474.50'])[1]/preceding::div[2]</value>
+      <webElementGuid>fb2a3fc6-056e-4bd6-83bf-7530625806ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Plan Highlights'])[1]/preceding::div[4]</value>
+      <webElementGuid>12d10797-506a-40a5-bf50-74d1d5208c5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/input</value>
+      <webElementGuid>3b45eab2-392b-4437-a6aa-7fee68d41647</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

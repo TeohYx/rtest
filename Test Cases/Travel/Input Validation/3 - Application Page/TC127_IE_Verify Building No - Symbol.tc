@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC127_IE_Verify Building No - Symbol</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fe6c5555-222d-4782-a65a-497df242c259</testCaseGuid>
+</TestCaseEntity>

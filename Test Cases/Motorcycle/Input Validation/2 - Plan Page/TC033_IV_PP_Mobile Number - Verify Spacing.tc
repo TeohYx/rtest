@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Space allowed</description>
+   <name>TC033_IV_PP_Mobile Number - Verify Spacing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2a65071f-84da-4ab2-b673-c7b45662e933</testCaseGuid>
+</TestCaseEntity>

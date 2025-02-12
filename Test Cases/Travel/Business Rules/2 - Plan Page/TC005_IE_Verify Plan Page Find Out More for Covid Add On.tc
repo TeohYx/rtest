@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005_IE_Verify Plan Page Find Out More for Covid Add On</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a2e84bf4-9ae4-48d1-9beb-a80c0f04f33a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC052_IE_Verify Declaration section - Important Notice e-document</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cfd41e3a-f4e7-44bf-b6de-a1659da0547e</testCaseGuid>
+</TestCaseEntity>

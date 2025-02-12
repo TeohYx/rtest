@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC039_IE_Verify Bank Account Details - account number Symbols value</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>750d5c96-9a12-4d1c-8ab7-77977559c35a</testCaseGuid>
+</TestCaseEntity>

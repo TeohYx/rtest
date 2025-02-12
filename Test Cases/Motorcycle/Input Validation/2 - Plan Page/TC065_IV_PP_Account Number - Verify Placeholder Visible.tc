@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC065_IV_PP_Account Number - Verify Placeholder Visible</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>de8a75e5-934e-4716-8fdf-0c14a0d5413e</testCaseGuid>
+</TestCaseEntity>

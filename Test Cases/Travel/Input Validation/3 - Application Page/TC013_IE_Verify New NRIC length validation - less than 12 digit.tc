@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC013_IE_Verify New NRIC length validation - less than 12 digit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a9812a6d-d619-4574-80d7-3b1380873950</testCaseGuid>
+</TestCaseEntity>

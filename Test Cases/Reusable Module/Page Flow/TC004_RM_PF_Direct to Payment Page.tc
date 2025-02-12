@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004_RM_PF_Direct to Payment Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c3e28d18-93d1-4dc4-a5ec-87ac39eacdf6</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC038_IE_Verify Bank Account Details - account number less than 10 digit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2d0ef75b-9a4a-4a4d-8e8f-2ee92af85980</testCaseGuid>
+</TestCaseEntity>

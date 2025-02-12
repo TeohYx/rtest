@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_BR_PyP_Verify Flow NRIC EndToEnd</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>71ee0cb6-54c5-4323-bcab-671a5f30cfc7</testCaseGuid>
+</TestCaseEntity>

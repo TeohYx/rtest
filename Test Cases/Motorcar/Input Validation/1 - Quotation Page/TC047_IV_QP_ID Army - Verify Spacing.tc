@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC047_IV_QP_ID Army - Verify Spacing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>87b205aa-a536-4d62-a89d-6f6940cc611f</testCaseGuid>
+</TestCaseEntity>

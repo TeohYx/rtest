@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC018_IV_PP_Ethnicity - Verify Empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6225effb-b6a6-4542-b9d6-3b950c2f3710</testCaseGuid>
+</TestCaseEntity>

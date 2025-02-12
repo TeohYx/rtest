@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC030_IV_QP_Passport - Verify Spacing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>243924e1-11f8-4f89-8db2-4cafcc81d5aa</testCaseGuid>
+</TestCaseEntity>

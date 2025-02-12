@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>travel-en</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Link: https://www-gold.etiqa.com/edp/tripcare360/my/insurance/quotation</description>
+      <initValue>'https://www-gold.etiqa.com/edp/tripcare360/my/insurance/quotation'</initValue>
+      <name>trip360_insurance</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>26 smallcase letter</description>
+      <initValue>'abcdefghijklmnopqrstuvwxyz'</initValue>
+      <name>alphabet_Smallcase</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>26 uppercase letter</description>
+      <initValue>'ABCDEFGHIJKLMNOPQRSTUVWXYZ'</initValue>
+      <name>alphabet_Uppercase</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Keyboard symbols: !@#$%^&amp;*()_+{}|:&quot;&lt;>?-=[]\;',./`~</description>
+      <initValue>'!@#$%^&amp;*()_+{}|:&quot;&lt;>?-=[]\\;\',./`~'</initValue>
+      <name>symbol</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Keyboard number 1-0</description>
+      <initValue>'1234567890'</initValue>
+      <name>number</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter valid email</description>
+      <initValue>'Please enter valid email'</initValue>
+      <name>errorMessage_Email1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter valid mobile number</description>
+      <initValue>'Please enter valid mobile number'</initValue>
+      <name>errorMessage_MobileNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Must be at least 5 characters</description>
+      <initValue>'Must be at least 5 characters'</initValue>
+      <name>errorMessage_MailingAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>This field is required</description>
+      <initValue>'This field is required'</initValue>
+      <name>errorMessage_Empty</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Testing123'</initValue>
+      <name>TestingComponent1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Testing123'</initValue>
+      <name>TestingGetComponent</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'etiqa-my\\80011443'</initValue>
+      <name>AdminUser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Tcm.743905tcm'</initValue>
+      <name>AdminPwd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123456789012'</initValue>
+      <name>bankAccount</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>https://www-gold.etiqa.com/edp/unity-product-svc/api/v1/my/ProductPremiumRate/GetTravelPlanPriceBreakdown</description>
+      <initValue>'https://www-gold.etiqa.com/edp/unity-product-svc/api/v1/my/ProductPremiumRate/GetTravelPlanPriceBreakdown'</initValue>
+      <name>api_GetTravelPlanPriceBreakdown</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Choose Plan</description>
+      <initValue>'Choose Plan'</initValue>
+      <name>page_Plan_Verification</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Domestic (Malaysia)</description>
+      <initValue>'Domestic (Malaysia)'</initValue>
+      <name>page_Quotation_TravelArea1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Personal Details</description>
+      <initValue>'Personal Details'</initValue>
+      <name>page_Application_Verification</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>TripCare 360 Travel Insurance | Etiqa Malaysia</description>
+      <initValue>'TripCare 360 Travel Insurance | Etiqa Malaysia'</initValue>
+      <name>page_Quotation_ClickHere</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter valid NRIC</description>
+      <initValue>'Please enter valid NRIC'</initValue>
+      <name>errorMessage_NRIC1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>rgba(255, 191, 0, 1)</description>
+      <initValue>'rgba(255, 191, 0, 1)'</initValue>
+      <name>gender_button_color</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter valid passport</description>
+      <initValue>'Please enter valid passport'</initValue>
+      <name>errorMessage_passport1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Must be at least 5 characters</description>
+      <initValue>'Must be at least 5 characters'</initValue>
+      <name>errorMessage_Fullname1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[(4) : 'Worldwide 2', (3) : 'Worldwide 1', (2) : 'Asia', (1) : 'Domestic']</initValue>
+      <name>dyobj_area</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[(5) : 'Group', (4) : 'family', (3) : 'spouse', (2) : 'Senior Citizen', (1) : 'Just myself']</initValue>
+      <name>dyobj_plan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[('payment') : 'Payment', ('application') : 'Personal Details', ('plan') : 'Choose Plan']</initValue>
+      <name>dyobj_currentSite</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>1: Country; 2: Date; 3: Plan</description>
+      <initValue>[(1) : 'Please select an option', (2) : 'Please select Start Date and End Date', (3) : 'Please select an option']</initValue>
+      <name>errorMessage_quotationSingleInfo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>1: Country; 2: Date; 3: Plan</description>
+      <initValue>[(1) : 'Please select an option', (2) : 'Please select Start Date', (3) : 'Please select an option']</initValue>
+      <name>errorMessage_quotationAnnualInfo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>1: Adventurous Activities; 2: COVID-19 Cover</description>
+      <initValue>[(1) : 'Adventurous Activities', (2) : 'COVID-19 Cover']</initValue>
+      <name>dyobj_item</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

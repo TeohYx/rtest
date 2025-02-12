@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC113_IE_Verify Full Name - Less than 5 characters</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7fbf3f89-3c4b-4e20-bc5f-ffb2b48a64c4</testCaseGuid>
+</TestCaseEntity>

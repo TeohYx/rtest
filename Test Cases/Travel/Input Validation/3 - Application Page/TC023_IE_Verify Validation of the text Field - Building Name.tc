@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC023_IE_Verify Validation of the text Field - Building Name</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aca8477c-be1a-4362-94fc-087c70d77291</testCaseGuid>
+</TestCaseEntity>

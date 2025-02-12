@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC055_IE_Verify Declaration section - opt in declaration checkbox</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ac96bf99-99b1-4469-b1c9-bedf98567fec</testCaseGuid>
+</TestCaseEntity>

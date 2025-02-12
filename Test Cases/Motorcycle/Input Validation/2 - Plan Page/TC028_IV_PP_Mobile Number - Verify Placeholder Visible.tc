@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC028_IV_PP_Mobile Number - Verify Placeholder Visible</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2a2a292c-a587-43f0-98fb-2a577b0cdace</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Symbol not allowed</description>
+   <name>TC028_IV_QP_Passport - Verify Allowed Data Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b9f8ed32-907c-44d2-a223-ed2e8d8cd05d</testCaseGuid>
+</TestCaseEntity>

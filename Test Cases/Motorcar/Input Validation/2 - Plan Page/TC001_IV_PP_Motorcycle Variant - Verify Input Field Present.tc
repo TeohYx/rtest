@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_IV_PP_Motorcycle Variant - Verify Input Field Present</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aec2ef2d-e2e9-4cd1-b0cd-02e475951846</testCaseGuid>
+</TestCaseEntity>

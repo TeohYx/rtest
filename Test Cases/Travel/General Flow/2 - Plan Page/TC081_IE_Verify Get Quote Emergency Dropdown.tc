@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC081_IE_Verify Get Quote Emergency Dropdown</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>15875f7f-81a0-495b-8b68-0111efe2fe6a</testCaseGuid>
+</TestCaseEntity>

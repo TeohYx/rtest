@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC080_IE_Verify Get Quote Liability Dropdown</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6ee9a498-774e-4788-a132-a63aabdb5728</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC063_IV_PP_Bank Name - Verify Empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>25ee6892-1b42-4591-b1f9-d4222217f815</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>12</description>
+   <name>TC022_IV_QP_NRIC - Verify Character Length Requirement</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b419a1d5-726a-49ba-9855-e08197c75f73</testCaseGuid>
+</TestCaseEntity>

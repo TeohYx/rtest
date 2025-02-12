@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>wrnmsg_Plate Number</name>
+   <tag></tag>
+   <elementGuidId>d0f12b3b-f020-4280-96b3-2690ad1044be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.bi.bi-globe</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[contains(text(), 'Plate Number')]//following-sibling::p[@class='text-danger']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>i >> internal:has-text=&quot;EN&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>54c291bf-d142-4f9d-91a2-8be1149f5637</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bi bi-globe</value>
+      <webElementGuid>c1ecff84-da4d-40d4-ac39-6d0271d9b2ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>button-tooltip</value>
+      <webElementGuid>6009ce87-cb89-461b-803d-17bf52baaea2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>EN</value>
+      <webElementGuid>e5d8e08d-4171-46da-9e2d-f94a55acfa60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/nav[@class=&quot;bg-body-tertiary navbar navbar-expand navbar-light&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;Header__Styleslanguage-sc-1uzwd1g-2 bIwiRY&quot;]/div[@class=&quot;justify-content-end navbar-collapse collapse&quot;]/div[@class=&quot;LanguageSwitcher__Wrapper-sc-xtv30s-0 wPuGG&quot;]/i[@class=&quot;bi bi-globe&quot;]</value>
+      <webElementGuid>ea68adca-a038-44ca-8c70-fa829fe56ada</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/nav/div/div/div/div/i</value>
+      <webElementGuid>cf760ce7-49ff-4491-b226-91d1c22510b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Motorcycle Insurance'])[1]/following::i[1]</value>
+      <webElementGuid>dfbd2c5c-6c72-4b47-9c83-a91462c37f26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fast &amp; Easy Motorcycle Insurance'])[1]/preceding::i[1]</value>
+      <webElementGuid>7ad9f710-a08c-4fb9-a691-d95d44c3ff02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>f8189042-1788-43ca-8fbb-64091665141b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//i[(text() = 'EN' or . = 'EN')]</value>
+      <webElementGuid>ed31b5d8-3ad7-42c8-b534-ffb79037f5fc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

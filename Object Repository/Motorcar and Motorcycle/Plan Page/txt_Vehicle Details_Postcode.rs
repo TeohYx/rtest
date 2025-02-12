@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Vehicle Details_Postcode</name>
+   <tag></tag>
+   <elementGuidId>a403967a-4b3d-4b22-a2cd-8bfe03a59472</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[contains(text(),'${vehicle_detail}')]//ancestor::div[@class='card-body']//descendant::div[contains(text(),'${vehicle_postcode}')]/following-sibling::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>511d5aa5-b3d2-44cd-b6d1-863a805974b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1735789130201</value>
+      <webElementGuid>c6b9f575-28f2-404f-a512-a4307718e656</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

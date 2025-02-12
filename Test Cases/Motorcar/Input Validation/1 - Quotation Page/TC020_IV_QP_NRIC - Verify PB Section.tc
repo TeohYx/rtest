@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC020_IV_QP_NRIC - Verify PB Section</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>331545ee-c2cf-4868-ba17-37e7ab48fbff</testCaseGuid>
+</TestCaseEntity>

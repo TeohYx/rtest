@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Only available for 18-70 yo holder under 5/7 seater</description>
+   <name>TC007_BR_PP_Verify Car Accident Add On</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0b0b387c-d905-45f4-8237-e9a44cf444a7</testCaseGuid>
+</TestCaseEntity>

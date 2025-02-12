@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC131_IE_Verify Postcode - Verify data shown in State after filled in</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>724812e1-6d3f-4f4c-b84e-c7093e826348</testCaseGuid>
+</TestCaseEntity>

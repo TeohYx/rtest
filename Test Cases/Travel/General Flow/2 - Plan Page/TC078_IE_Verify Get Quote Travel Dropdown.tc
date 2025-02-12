@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC078_IE_Verify Get Quote Travel Dropdown</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2f11380b-22a0-4663-a1e1-e02fa534bea1</testCaseGuid>
+</TestCaseEntity>

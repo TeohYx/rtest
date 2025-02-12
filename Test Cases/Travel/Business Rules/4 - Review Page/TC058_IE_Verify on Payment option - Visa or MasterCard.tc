@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC058_IE_Verify on Payment option - Visa or MasterCard</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>25599971-088c-4d51-a2c9-36f9e0c9f76f</testCaseGuid>
+</TestCaseEntity>

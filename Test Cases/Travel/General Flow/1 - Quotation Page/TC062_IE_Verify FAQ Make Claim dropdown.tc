@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC062_IE_Verify FAQ Make Claim dropdown</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>74c28d34-cdab-465d-ba86-72dd2de67c5d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_TravellingCountry</name>
+   <tag></tag>
+   <elementGuidId>5585583a-e5ef-4752-bb7d-82db88f9f75f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Select Country' or . = 'Select Country') and @type = 'button' and @name = 'areaId']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.QuoteForm__FormGroup-sc-8eq6jo-2.kEyEqe</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@name='areaId']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d63c56f6-846d-42b7-8ab9-56628b3792a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>QuoteForm__FormGroup-sc-8eq6jo-2 kEyEqe</value>
+      <webElementGuid>37e8d744-9126-419e-91ec-a58b2c775f0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select Country</value>
+      <webElementGuid>353bede6-54d1-4e53-ade5-47590d73ba88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;quotation__Styles-sc-1ea5jab-0 pofmb&quot;]/div[@class=&quot;main-page&quot;]/div[@class=&quot;quote-form-component&quot;]/div[@class=&quot;QuoteForm__Styles-sc-8eq6jo-6 cuPXsd&quot;]/div[@class=&quot;quote-form&quot;]/form[1]/div[@class=&quot;QuoteForm__FormGroupWrapper-sc-8eq6jo-1 klvkIb&quot;]/div[@class=&quot;QuoteForm__FormGroup-sc-8eq6jo-2 kEyEqe&quot;]</value>
+      <webElementGuid>f5e6b048-76b5-4c29-afc0-ae784adf7ac4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>11a9feb7-fedf-4ffd-86f3-c1f907d3e650</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>areaId</value>
+      <webElementGuid>b692f393-0e8f-4872-834a-307c98e034d3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div/div[2]/div[2]/div/form/div[2]/div</value>
+      <webElementGuid>1ce31f46-4205-4a94-8580-4d5249b3b822</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Annual Trip'])[1]/following::div[2]</value>
+      <webElementGuid>b0dad12b-0543-4d15-959b-838e78537660</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Single Trip'])[1]/following::div[3]</value>
+      <webElementGuid>964a5f2a-2942-4f9a-8792-769e02e65d11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[2]/div</value>
+      <webElementGuid>cefc2e18-9ba7-4775-b8ef-16cb7a6088e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Where are you travelling to? Select CountryPlease Select Trip Type' or . = 'Where are you travelling to? Select CountryPlease Select Trip Type')]</value>
+      <webElementGuid>59aac5c1-028a-411b-bb67-4e67a9f07c08</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

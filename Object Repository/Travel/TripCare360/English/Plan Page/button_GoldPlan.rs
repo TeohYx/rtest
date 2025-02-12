@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_GoldPlan</name>
+   <tag></tag>
+   <elementGuidId>11d1dd93-bbf3-4eac-88c7-239ba321c8d2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;mt-3 container&quot;]/div[@class=&quot;g-0 row&quot;]/div[@class=&quot;text-center border border-secondary rounded-top bg-lightyellow pb-3 d-lg-block d-md-block col-lg-2 col-md-2 col-3&quot;]/div[@class=&quot;h2 mt-5&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-center.border.border-secondary.rounded-top.bg-lightyellow.pb-3.d-lg-block.d-md-block.col-lg-2.col-md-2.col-3 > div.h2.mt-5</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='priceDetails2']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c9d186ce-5279-4b00-9696-cdb36351f213</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>h2 mt-5</value>
+      <webElementGuid>86c5641f-32bf-42bb-b7e0-45e5462b1456</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;mt-3 container&quot;]/div[@class=&quot;g-0 row&quot;]/div[@class=&quot;text-center border border-secondary rounded-top bg-lightyellow pb-3 d-lg-block d-md-block col-lg-2 col-md-2 col-3&quot;]/div[@class=&quot;h2 mt-5&quot;]</value>
+      <webElementGuid>e9e58d25-61ed-4fea-b38a-eb115f95772d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div[3]/div/div[5]/div[3]/div[2]/input</value>
+      <webElementGuid>6fa7829c-2587-494c-88cd-75253ac589ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM220.00'])[1]/following::div[4]</value>
+      <webElementGuid>2ea0610f-60f1-4cad-9077-31058a9e25b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM358.50'])[1]/preceding::div[2]</value>
+      <webElementGuid>b233e295-8b11-481d-bf7e-287f209c084e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM474.50'])[1]/preceding::div[6]</value>
+      <webElementGuid>019fce8f-7428-4759-86b6-6d8483e20719</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/input</value>
+      <webElementGuid>cad6d1ad-df52-4c07-b0fa-55e0519bcd41</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

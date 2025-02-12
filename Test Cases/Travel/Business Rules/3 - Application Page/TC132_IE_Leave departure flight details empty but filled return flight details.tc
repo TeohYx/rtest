@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC132_IE_Leave departure flight details empty but filled return flight details</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e20d53e4-2c37-4c3c-a15e-e8f02291a378</testCaseGuid>
+</TestCaseEntity>

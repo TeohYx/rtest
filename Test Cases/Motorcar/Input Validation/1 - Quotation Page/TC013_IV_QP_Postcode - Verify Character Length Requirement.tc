@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>5</description>
+   <name>TC013_IV_QP_Postcode - Verify Character Length Requirement</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cf8a6035-c05f-4756-a949-eebafd29d7eb</testCaseGuid>
+</TestCaseEntity>

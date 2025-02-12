@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lbl_Stamp Duty</name>
+   <tag></tag>
+   <elementGuidId>6d3a0c7f-35ee-42d1-ae0a-84171c7fa911</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='gatsby-focus-wrapper']/div[3]/div/div[2]/div[2]/div/div/div/div[2]/div/div/div[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>abdb6bd1-fd9d-43e3-a6e9-e2830f51a3bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-2 d-flex justify-content-between</value>
+      <webElementGuid>c4ad6c8f-b405-4c6a-b65d-d9c1f6224e14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Stamp DutyRM0.00</value>
+      <webElementGuid>56d4ac2d-dcdc-471c-8fba-b6813226ddab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;mt-3 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-5 col-12&quot;]/div[@class=&quot;PlanSummary__Wrapper-sc-shogl8-0 iYtQIk&quot;]/div[@class=&quot;PlanSummary__Styles-sc-shogl8-2 jdqkeg&quot;]/div[@class=&quot;rounded accordion&quot;]/div[@class=&quot;accordion-item&quot;]/div[@class=&quot;accordion-collapse collapse show&quot;]/div[@class=&quot;accordion-body&quot;]/div[@class=&quot;mb-2 d-flex justify-content-between&quot;]</value>
+      <webElementGuid>18e3fd32-7de4-47eb-b397-9b06c416e39c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div[2]/div[2]/div/div/div/div[2]/div/div/div[5]</value>
+      <webElementGuid>44b7b35b-f0ec-45eb-afdf-b2e73282f4d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM1.84'])[1]/following::div[1]</value>
+      <webElementGuid>e51c29d6-4e2f-49d0-89fd-13be850daf86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SST(6%)'])[1]/following::div[1]</value>
+      <webElementGuid>62377649-8a21-4608-a375-15a084a094f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[5]</value>
+      <webElementGuid>56d437d6-ec0c-4303-94a5-558553babf2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Stamp DutyRM0.00' or . = 'Stamp DutyRM0.00')]</value>
+      <webElementGuid>cdbac2e1-6bb8-4b46-b76c-bfd5c5996878</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC055_IV_QP_ID Police - Verify Spacing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>308a1f99-40f8-4599-8558-d4549676cd08</testCaseGuid>
+</TestCaseEntity>

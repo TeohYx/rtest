@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_RM_GF_Plan Page Fill In Bank Account Details</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>76f9f52e-e083-46fd-bebf-67ae8bd430f4</testCaseGuid>
+</TestCaseEntity>

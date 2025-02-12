@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC108_IE_Verify New NRIC - Verify date of birth based on new NRIC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d5dcb658-f913-430d-8281-a3f0a4f4ebc0</testCaseGuid>
+</TestCaseEntity>

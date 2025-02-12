@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_General Exclusions</name>
+   <tag></tag>
+   <elementGuidId>755ace0b-a518-4a0f-a73e-b3a1db954d39</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='gatsby-focus-wrapper']/div[3]/div/div[2]/div/div[2]/p/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.a-link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;General Exclusions&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d742cf47-fe3b-465e-93b6-12d17ee8abc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-link</value>
+      <webElementGuid>8f3cec72-5df9-4adc-8e5e-eb28554cf9eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#generalExclusion</value>
+      <webElementGuid>2cb80a90-1fe8-426a-a444-0fd3862f6fe8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>General Exclusions</value>
+      <webElementGuid>055a9f35-d24d-42d7-821a-9be408a0b8f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;mt-3 container&quot;]/div[@class=&quot;bg-light border-0 mb-5 card&quot;]/div[@class=&quot;py-3 px-5 card-body&quot;]/div[@class=&quot;ImportantNote__StylesP-sc-1ku378v-0 gvwKrB&quot;]/p[1]/a[@class=&quot;a-link&quot;]</value>
+      <webElementGuid>7f5a3626-98b2-495c-8296-834fcb3a29e3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div[3]/div/div[2]/div/div[2]/p/a</value>
+      <webElementGuid>b31b15f6-592e-411c-a04f-ee887682b311</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'General Exclusions')]</value>
+      <webElementGuid>916c55af-7158-4a7b-980c-7dcc5ac713c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment'])[1]/following::a[1]</value>
+      <webElementGuid>b9d013e3-9c55-49c5-a497-63b961c55de0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gold'])[1]/preceding::a[1]</value>
+      <webElementGuid>e308716a-d665-48de-9214-75ca5434efdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Premium'])[1]/preceding::a[1]</value>
+      <webElementGuid>394d699e-4645-4b7b-a9f5-8fc7c7abcb2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='General Exclusions']/parent::*</value>
+      <webElementGuid>de176b1b-19e6-4a27-ae27-0525f8f2cb0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#generalExclusion')]</value>
+      <webElementGuid>78780c37-9475-44d3-9db6-d74d774ac4ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/a</value>
+      <webElementGuid>3ce86693-6434-4304-8622-a8998b8baa66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#generalExclusion' and (text() = 'General Exclusions' or . = 'General Exclusions')]</value>
+      <webElementGuid>5b010b06-c902-4495-9a5b-05e3e8a0a863</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

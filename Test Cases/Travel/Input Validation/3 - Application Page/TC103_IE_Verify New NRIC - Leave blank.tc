@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC103_IE_Verify New NRIC - Leave blank</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>136ec1f2-8414-4844-aa40-b242ce3b9aed</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC017_IE_Verify Passport Number field length Validation - Symbols value</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0d894f3b-6266-444e-86ed-54ac08b8de90</testCaseGuid>
+</TestCaseEntity>

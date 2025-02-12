@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_GF_QP_Verify Get Quotation for NRIC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8e2c082b-52b4-4298-be48-8f27f3f9ec0c</testCaseGuid>
+</TestCaseEntity>

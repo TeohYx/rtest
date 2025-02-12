@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC024_IV_QP_Passport - Verify Input FIeld Present</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1ad6943b-640b-40d2-a809-c7ac3bb97cc7</testCaseGuid>
+</TestCaseEntity>

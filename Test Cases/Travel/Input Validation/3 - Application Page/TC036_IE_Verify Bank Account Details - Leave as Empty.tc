@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC036_IE_Verify Bank Account Details - Leave as Empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bd21ab23-d95b-44ff-9c08-69b7f01ea232</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC033_IE_Verify Blacklisted Customer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>035d33d0-e8cb-419e-b013-f7dd23ccf1ad</testCaseGuid>
+</TestCaseEntity>

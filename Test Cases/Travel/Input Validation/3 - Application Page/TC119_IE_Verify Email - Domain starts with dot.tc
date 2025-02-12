@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC119_IE_Verify Email - Domain starts with dot</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6435bbe5-52e7-4327-86e5-929c082129ca</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>20</description>
+   <name>TC003_IV_QP_Plate Number - Verify Max Length</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>43a235b5-7031-47b7-8f3c-e923321c424e</testCaseGuid>
+</TestCaseEntity>

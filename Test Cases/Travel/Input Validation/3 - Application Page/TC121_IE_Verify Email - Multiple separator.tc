@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC121_IE_Verify Email - Multiple separator</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f132e429-f3dc-4759-9700-176a8e5e5a82</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC109_IE_Verify New NRIC - Verify gender based on new NRIC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f03f03a5-6604-4297-9b64-47114d900c17</testCaseGuid>
+</TestCaseEntity>

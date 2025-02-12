@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Spacing not allowed</description>
+   <name>TC069_IV_PP_Account Number - Verify Spacing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bfe71488-b689-4029-9b61-fb9dd69f275f</testCaseGuid>
+</TestCaseEntity>

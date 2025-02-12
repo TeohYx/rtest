@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Alphabet and symbol not allowed</description>
+   <name>TC059_IV_PP_Postcode - Verify Valid Data Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>37dfc16d-e116-4626-a6d7-2c1c56cdde2c</testCaseGuid>
+</TestCaseEntity>

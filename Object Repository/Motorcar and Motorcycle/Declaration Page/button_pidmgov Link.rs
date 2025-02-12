@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_pidmgov Link</name>
+   <tag></tag>
+   <elementGuidId>958e1a6f-ff09-406f-8ee0-4fc9dd443fbc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[text()='Declaration']//following::div[@class='col-12'])[1]//descendant::a[contains(text(),'www.pidm.gov.my')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>6e1918b4-8684-4165-8c9e-d194ae501871</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1736414191898</value>
+      <webElementGuid>29be48d9-c295-47f8-b403-0e3100b0442a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

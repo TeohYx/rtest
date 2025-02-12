@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC056_IE_Verify Marketing Consent -Checkbox selection</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a87fe681-0f38-4b3e-a892-591f7f0d558b</testCaseGuid>
+</TestCaseEntity>

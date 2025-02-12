@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Missing '@'&#xd;
+2. Invalid domain (user@.com)&#xd;
+3. Trailing dot in local part&#xd;
+4. Multiple '@'</description>
+   <name>TC024_IV_PP_Email - Verify Format</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>01a952d4-8fb1-43c0-afbe-9d914fb96a2c</testCaseGuid>
+</TestCaseEntity>

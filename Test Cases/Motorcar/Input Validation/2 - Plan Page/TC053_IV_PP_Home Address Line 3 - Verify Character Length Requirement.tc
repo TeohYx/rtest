@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>>=5</description>
+   <name>TC053_IV_PP_Home Address Line 3 - Verify Character Length Requirement</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>64949058-c404-40b4-8d69-562c38402afe</testCaseGuid>
+</TestCaseEntity>

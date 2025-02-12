@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC032_IE_Verify Personal Details Section - Existing Customer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ebbc5bdc-8e5f-4f2a-9152-624a7b0d004c</testCaseGuid>
+</TestCaseEntity>

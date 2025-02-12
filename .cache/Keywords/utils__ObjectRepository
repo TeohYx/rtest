@@ -1,0 +1,42 @@
+{
+  "keywordFileContentHash": "2BA7840DC50A58C8C05430084D24252A",
+  "keywordClasses": [
+    {
+      "name": "utils.ObjectRepository",
+      "keywordMethods": [
+        {
+          "name": "getXPath",
+          "parameters": [
+            {
+              "name": "objectName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "binding",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

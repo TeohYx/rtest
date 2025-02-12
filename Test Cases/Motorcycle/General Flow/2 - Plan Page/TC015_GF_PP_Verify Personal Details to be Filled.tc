@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>The personal details information must be filled before proceed to payment page</description>
+   <name>TC015_GF_PP_Verify Personal Details to be Filled</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f93f98b3-ec59-47d1-bd65-a827378ebb05</testCaseGuid>
+</TestCaseEntity>

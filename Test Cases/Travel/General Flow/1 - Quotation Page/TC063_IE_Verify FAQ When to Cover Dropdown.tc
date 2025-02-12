@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC063_IE_Verify FAQ When to Cover Dropdown</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aed8823a-b833-4432-b608-36def9afc83a</testCaseGuid>
+</TestCaseEntity>

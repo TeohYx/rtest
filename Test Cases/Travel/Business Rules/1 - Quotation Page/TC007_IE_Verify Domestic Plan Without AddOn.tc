@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC007_IE_Verify Domestic Plan Without AddOn</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7ec85346-c15c-417c-973f-b10d1484b7f2</testCaseGuid>
+</TestCaseEntity>

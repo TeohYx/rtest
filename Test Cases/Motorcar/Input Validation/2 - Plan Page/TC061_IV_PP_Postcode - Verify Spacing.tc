@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Spacing not allowed</description>
+   <name>TC061_IV_PP_Postcode - Verify Spacing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>51e1ca9d-d89d-4d62-b074-69042706335e</testCaseGuid>
+</TestCaseEntity>

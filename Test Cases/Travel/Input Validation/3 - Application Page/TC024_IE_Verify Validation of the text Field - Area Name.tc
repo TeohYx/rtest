@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC024_IE_Verify Validation of the text Field - Area Name</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d93f263b-7ffe-4234-a60b-dd34eb325cc4</testCaseGuid>
+</TestCaseEntity>

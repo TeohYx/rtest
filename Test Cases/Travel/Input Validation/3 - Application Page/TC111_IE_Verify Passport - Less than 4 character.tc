@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC111_IE_Verify Passport - Less than 4 character</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>caca8f90-78a5-43e9-beb8-f2f665fbc6b3</testCaseGuid>
+</TestCaseEntity>

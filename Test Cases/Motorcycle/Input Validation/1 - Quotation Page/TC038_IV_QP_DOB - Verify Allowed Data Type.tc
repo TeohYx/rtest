@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Symbol not allowed</description>
+   <name>TC038_IV_QP_DOB - Verify Allowed Data Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>801fc3d9-c933-44ca-a4b4-7bfaa9b687e5</testCaseGuid>
+</TestCaseEntity>

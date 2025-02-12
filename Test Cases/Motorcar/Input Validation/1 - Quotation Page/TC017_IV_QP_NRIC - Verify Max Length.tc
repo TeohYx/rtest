@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC017_IV_QP_NRIC - Verify Max Length</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>479da8e1-acf1-44f0-826f-4eb7de9d0eff</testCaseGuid>
+</TestCaseEntity>

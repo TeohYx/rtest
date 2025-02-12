@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC023_IV_QP_NRIC - Verify Spacing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>04c2c212-6838-48d7-b57b-fca4a6bb4ad8</testCaseGuid>
+</TestCaseEntity>

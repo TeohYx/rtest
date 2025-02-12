@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_GT_PyP_Verify Success Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6961c140-2caf-431a-9670-b746d4ad0560</testCaseGuid>
+</TestCaseEntity>

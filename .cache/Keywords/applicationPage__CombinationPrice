@@ -1,0 +1,165 @@
+{
+  "keywordFileContentHash": "F49BA6CDF4D07A6EB491ED3B54DC4488",
+  "keywordClasses": [
+    {
+      "name": "applicationPage.CombinationPrice",
+      "keywordMethods": [
+        {
+          "name": "initiateCombinationPrice",
+          "parameters": [
+            {
+              "name": "planType",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Act as a constructor for this class\r\n\t * @param planType The type of plan of Travel product\r\n\t * @return The object of this class\r\n\t */"
+        },
+        {
+          "name": "countTestCase",
+          "parameters": [
+            {
+              "name": "CPObj",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "applicationPage.CombinationPrice",
+                "unresolvedClassName": "CombinationPrice",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Calculate the total number of test case before perform API testing\r\n\t * @param CPObj An object of CombinationPrice that have its own set of primitives\r\n\t * @return None\r\n\t */"
+        },
+        {
+          "name": "planPriceChecker",
+          "parameters": [
+            {
+              "name": "CPObj",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "applicationPage.CombinationPrice",
+                "unresolvedClassName": "CombinationPrice",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * \r\n\t * Mainly called from main test case to start the API testing process\r\n\t * @param CPObj An object of CombinationPrice that have its own set of primitives\r\n\t * @return None\r\n\t */"
+        },
+        {
+          "name": "singlePlanPriceChecker",
+          "parameters": [
+            {
+              "name": "planType",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "tripType",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "area",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "planClass",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "datePeriod",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "haveAdventurousActivities",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "boolean",
+                "unresolvedClassName": "boolean",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "haveCovid",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "boolean",
+                "unresolvedClassName": "boolean",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

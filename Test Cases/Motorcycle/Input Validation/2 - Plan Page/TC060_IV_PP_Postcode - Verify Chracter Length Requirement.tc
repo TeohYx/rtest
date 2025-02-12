@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC060_IV_PP_Postcode - Verify Chracter Length Requirement</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ed5bb03d-c9a0-4cd6-a986-fc4d8cbe6dc0</testCaseGuid>
+</TestCaseEntity>

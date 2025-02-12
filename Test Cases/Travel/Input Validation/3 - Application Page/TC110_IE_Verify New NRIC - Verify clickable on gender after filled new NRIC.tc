@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC110_IE_Verify New NRIC - Verify clickable on gender after filled new NRIC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cafeec97-1b20-42e8-a04d-4ccb20c995f0</testCaseGuid>
+</TestCaseEntity>

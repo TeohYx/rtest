@@ -1,0 +1,127 @@
+{
+  "keywordFileContentHash": "EB25AD941716EC1DD0932A17C7016C75",
+  "keywordClasses": [
+    {
+      "name": "inputValidation.NRIC",
+      "keywordMethods": [
+        {
+          "name": "verifyStatusCode",
+          "parameters": [
+            {
+              "name": "request",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "expectedStatusCode",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Send request and verify status code\n\t * @param request request object, must be an instance of RequestObject\n\t * @param expectedStatusCode\n\t * @return a boolean to indicate whether the response status code equals the expected one\n\t */"
+        },
+        {
+          "name": "verifyDOBSection",
+          "parameters": [
+            {
+              "name": "NRIC",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "ageRange",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "",
+                "unresolvedClassName": "",
+                "isArray": true,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "componentType": {
+                  "fullClassName": "int",
+                  "unresolvedClassName": "int",
+                  "isArray": false,
+                  "isGnericsPlaceHolder": false,
+                  "hasImmutableClassName": true,
+                  "genericsTypes": [],
+                  "errorOnParsing": false
+                },
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Get NRIC string and verify if the DOB section (first 6 characters) are valid\n\t * @param NRIC String 12-digit NRIC\n\t * @param ageRange int[] minimum and maximum age to be valid\n\t * @return a boolean to indicate whether the DOB section of given NRIC are valid\n\t * \n\t * If age range is specified, check it in year\n\t */"
+        },
+        {
+          "name": "verifyDOBSection",
+          "parameters": [
+            {
+              "name": "NRIC",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Get NRIC string and verify if the DOB section (first 6 characters) are valid\n\t * @param NRIC String 12-digit NRIC\n\t * @param ageRange int[] minimum and maximum age to be valid\n\t * @return a boolean to indicate whether the DOB section of given NRIC are valid\n\t */"
+        },
+        {
+          "name": "verifyPBSection",
+          "parameters": [
+            {
+              "name": "NRIC",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Get NRIC string and verify if the PB section (7th and 8th character) are valid\n\t * @param NRIC String 12-digit NRIC\n\t * @return a boolean to indicate whether the PB section of given NRIC are valid\n\t *\n\t */"
+        },
+        {
+          "name": "verifyGenderFromNRIC",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

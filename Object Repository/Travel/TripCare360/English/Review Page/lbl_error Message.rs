@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lbl_error Message</name>
+   <tag></tag>
+   <elementGuidId>f64e97a2-0d76-4b89-8065-5217b3010f4e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div/div[2]/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.custom-text-info.text-center</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>db5abbd6-286c-4672-94ac-5576f4e640bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-text-info text-center</value>
+      <webElementGuid>3787e281-e966-43a7-a2a3-60f3e73442fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Thank you for your interest in TripCare 360 Insurance. Based on the information provided, we are not able to proceed with your application online. If you are interested to proceed with your application with Etiqa, kindly go to the nearest branch or reach us at www.etiqa.com.my/v2/contact-us.</value>
+      <webElementGuid>d11ae8db-0bef-41c7-a28c-2ad62a6b8662</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;amla__Styles-sc-1e8lq61-0 gvSioT&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/p[@class=&quot;custom-text-info text-center&quot;]</value>
+      <webElementGuid>17045ace-a1da-4ba0-9167-50c30242d10d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div/div[2]/div/p</value>
+      <webElementGuid>8218d5c9-3843-46f5-961a-5ac3f02d7b8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Navigated to Personal Detail(s)'])[1]/preceding::p[1]</value>
+      <webElementGuid>d02511ae-5f36-4ff3-946d-b7f4995812a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::p[1]</value>
+      <webElementGuid>8cfa9335-16a8-43c0-87fb-7317e164a1ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Thank you for your interest in TripCare 360 Insurance. Based on the information provided, we are not able to proceed with your application online. If you are interested to proceed with your application with Etiqa, kindly go to the nearest branch or reach us at www.etiqa.com.my/v2/contact-us.']/parent::*</value>
+      <webElementGuid>fbbf346f-3555-49c8-a3ee-922c72815164</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>df696290-4fbc-46b2-bbe6-5d26f8093880</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Thank you for your interest in TripCare 360 Insurance. Based on the information provided, we are not able to proceed with your application online. If you are interested to proceed with your application with Etiqa, kindly go to the nearest branch or reach us at www.etiqa.com.my/v2/contact-us.' or . = 'Thank you for your interest in TripCare 360 Insurance. Based on the information provided, we are not able to proceed with your application online. If you are interested to proceed with your application with Etiqa, kindly go to the nearest branch or reach us at www.etiqa.com.my/v2/contact-us.')]</value>
+      <webElementGuid>2d02a617-9400-4f0a-9513-a580a5463466</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

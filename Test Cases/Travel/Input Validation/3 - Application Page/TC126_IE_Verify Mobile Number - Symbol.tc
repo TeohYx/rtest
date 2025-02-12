@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC126_IE_Verify Mobile Number - Symbol</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>33b7c7aa-6f8e-4638-b775-8f728b660077</testCaseGuid>
+</TestCaseEntity>
