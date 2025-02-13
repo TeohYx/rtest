@@ -31,7 +31,7 @@ import org.openqa.selenium.Keys as Keys
  * WebUI.navigateToUrl('')
  * 
  * After button is click
- * WebUI.waitForElementPresent() - instead of delay()
+ * WebUI.waitForElementPresent() or waitForElementVisible() - instead of delay()
  * 
  * Use Test Data for Reusability
  * findTestData('').getValue()
@@ -54,6 +54,12 @@ import org.openqa.selenium.Keys as Keys
  * 
  * Cleanup
  * WebUI.closeBrowser()
+ * 
+ * ** If change of page causing error (stale element etc)
+ * try:
+ * 1. Any wait function
+ * 2. delay(1)
+ * 
  * 
  * SETTING FOR PROJECT WEBUI
  * Delay between action : 0ms

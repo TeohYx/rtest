@@ -24,6 +24,9 @@ TestObject itemObject = findTestObject('Travel/TripCare360/English/AppPage/dytex
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Page'),
 	[('TCarea') : 2, ('TCplan') : 1, ('TCtrip'): 1, ('TCpackage'): 1],
 	FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementClickable(findTestObject('Travel/TripCare360/English/AppPage/button_AddonCovid19'), 10)
+//
+WebUI.delay(2)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_AddonCovid19'))
 

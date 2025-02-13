@@ -23,5 +23,6 @@ WebUI.navigateToUrl(GlobalVariable.trip360_insurance)
 
 WebUI.maximizeWindow()
 
+WebUI.waitForElementClickable(findTestObject('Travel/TripCare360/English/Quotation Page/button_SingleTrip'), 10)
+//
 WebUI.delay(2)
-

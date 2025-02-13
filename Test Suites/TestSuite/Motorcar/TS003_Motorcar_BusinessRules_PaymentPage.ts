@@ -5,11 +5,11 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>2</numberOfRerun>
    <pageLoadTimeout>10</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>true</rerunImmediately>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>20031a59-9d8f-4087-8975-f5c31a295a9a</testSuiteGuid>
    <testCaseLink>
       <guid>4842c2a3-2b45-4599-b507-1eda9fdb59be</guid>

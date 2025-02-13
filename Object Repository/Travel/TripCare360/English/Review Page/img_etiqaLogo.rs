@@ -6,6 +6,10 @@
    <elementGuidId>be020585-e1b3-44e2-8585-cf0a6d8a2870</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@alt = 'etiqa' and @src = '/tripcare360/static/Etiqa_logos_Full Colour-d94497bbf6244e4ea4ce9562c78d8663.png']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div/div/div/img</value>
       </entry>
@@ -15,6 +19,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>2949e5af-ac3a-49c0-ad74-81689fc42f0a</webElementGuid>
+      <webElementGuid>b3af91b2-2f99-4b24-a91f-54e515d692a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +35,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>etiqa</value>
-      <webElementGuid>6a197973-7402-400c-a80a-998edba6caa7</webElementGuid>
+      <webElementGuid>9c4d845f-dbaf-4838-a950-4c063634f653</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +43,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/tripcare360/static/Etiqa_logos_Full Colour-d94497bbf6244e4ea4ce9562c78d8663.png</value>
-      <webElementGuid>1eb1c98b-361b-44d7-99ed-04e71ccc6826</webElementGuid>
+      <webElementGuid>9107612c-7756-4440-bdbd-9063fb0e877d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +51,7 @@
       <name>class</name>
       <type>Main</type>
       <value>etiqa-logo</value>
-      <webElementGuid>7ddc82e8-87e6-4e8d-93c0-3345edb1f553</webElementGuid>
+      <webElementGuid>6eba3906-09b9-46e6-8a15-caf69605814c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;amla__Styles-sc-1e8lq61-0 gvSioT&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/img[@class=&quot;etiqa-logo&quot;]</value>
-      <webElementGuid>8a3ac56b-4083-43a2-95e0-aab312792804</webElementGuid>
+      <webElementGuid>3a5c17e8-b117-45e2-81f5-e9c91cd90df7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +67,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div/div/div/img</value>
-      <webElementGuid>af02b7cc-d34c-4229-a99a-2233e9087a8d</webElementGuid>
+      <webElementGuid>330b472a-73cb-4725-a192-f1c95bbed9f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +75,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='etiqa']</value>
-      <webElementGuid>bc107eda-34e6-4f19-a81f-fb9719726818</webElementGuid>
+      <webElementGuid>a3bf217d-4d4e-461c-aa9e-c37313a79399</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/img</value>
-      <webElementGuid>5f81f79e-0fbb-4262-9b1c-d40f86903680</webElementGuid>
+      <webElementGuid>ba687e3d-cda4-4d0b-9044-4d49baa8d14f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +91,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@alt = 'etiqa' and @src = '/tripcare360/static/Etiqa_logos_Full Colour-d94497bbf6244e4ea4ce9562c78d8663.png']</value>
-      <webElementGuid>326dfe49-0822-42d5-b861-134d30bf6ff4</webElementGuid>
+      <webElementGuid>90a45a9f-1314-4e17-8eb0-f338f72db6a3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

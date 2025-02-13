@@ -38,7 +38,8 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dr
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dybutton_SelectPlanType_plan', [('plan') : 'Just myself']))
 
-WebUI.enhancedClick(findTestObject('Object Repository/TripCare360/English/Quoation Page/btnGet Quote Now'))
+WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/submit_GetQuoteNow'))
+
 WebUI.delay(1)
 
 //Plan

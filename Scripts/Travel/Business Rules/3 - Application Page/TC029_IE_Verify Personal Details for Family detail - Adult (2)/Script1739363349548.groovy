@@ -26,7 +26,7 @@ String buildingName = 'qweqww'
 String areaName = 'qweqeqw'
 String postcode = '81800'
 
-String ic2 = '981224016421'
+String ic2 = '981224016422'
 String fullName2 = 'Ong Wei Hong'
 String ethnicity2 = 'Chinese'
 String email2 = 'yeexian_tyx@hotmail.com'
@@ -53,13 +53,12 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/CALANDER DATES/dy
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dropdown_TravellingPerson'))
 
-WebUI.enhancedClick(findTestObject('TripCare360/English/Quoation Page/btn_With my family'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dybutton_SelectPlanType_plan', [('plan') : 'family']))
 
-WebUI.enhancedClick(findTestObject('TripCare360/English/Quoation Page/button_AddAdult'))
+WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/dybutton_FamilyButton_category,button', 
+	[('category'): 'Adults', ('button'): '+']))
 
-WebUI.enhancedClick(findTestObject('TripCare360/English/Quoation Page/btnGet Quote Now'))
-
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/button_SilverPlan'))
+WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/submit_GetQuoteNow'))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/submit_Buy'))
 

@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "0064548DB8F1914E1FA9296DCF979F95",
+  "keywordFileContentHash": "4DA382343C037DA40544891B416C0EF1",
   "keywordClasses": [
     {
       "name": "inputValidation.validation",
@@ -170,6 +170,25 @@
             }
           ],
           "javadoc": ""
+        },
+        {
+          "name": "assignPlanTypeBasedOnIC",
+          "parameters": [
+            {
+              "name": "ic",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t *  Function to calculate the age based on IC number and return planType number\r\n\t * @param icNumber\r\n\t * @return planType : 0 is it doesnt match any type\r\n\t */"
         },
         {
           "name": "verifyValidData",

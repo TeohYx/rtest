@@ -38,7 +38,7 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dr
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dybutton_SelectPlanType_plan', [('plan') : 'spouse']))
 
-WebUI.enhancedClick(findTestObject('Object Repository/TripCare360/English/Quoation Page/btnGet Quote Now'))
+WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/submit_GetQuoteNow'))
 
 //Plan
 WebUI.scrollToElement(findTestObject('Travel/TripCare360/English/Plan Page/button_SilverPlan'), 0)

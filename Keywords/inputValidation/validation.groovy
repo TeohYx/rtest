@@ -19,6 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
+import com.kms.katalon.core.util.KeywordUtil
 
 class validation {
 
@@ -187,6 +188,56 @@ class validation {
 			]
 		}
 		return [true, ""]
+	}
+	
+	/**
+	 *  Function to calculate the age based on IC number and return planType number
+	 * @param icNumber
+	 * @return planType : 0 is it doesnt match any type
+	 */
+	@Keyword
+	def assignPlanTypeBasedOnIC(String ic) {
+		// Validate IC length
+		if (ic.length() != 12) {
+			throw new IllegalArgumentException("IC must be 12 digits")
+		}
+		
+		// Extract year, month, day from IC
+		def year = ic.substring(0, 2)
+		def month = ic.substring(2, 4)
+		def day = ic.substring(4, 6)
+		
+		// Convert 2-digit year to 4-digit year
+		def fullYear
+		if (year.toInteger() >= 00 && year.toInteger() <= 24) {  // Adjust the range based on current year
+			fullYear = "20" + year
+		} else {
+			fullYear = "19" + year
+		}
+		
+		// Create date objects
+		def birthDate = Date.parse("yyyy-MM-dd", "${fullYear}-${month}-${day}")
+		def today = new Date()
+		
+		// Calculate age
+		def age = today[Calendar.YEAR] - birthDate[Calendar.YEAR]
+		
+		// Adjust age if birthday hasn't occurred this year
+		if (today[Calendar.MONTH] < birthDate[Calendar.MONTH] ||
+			(today[Calendar.MONTH] == birthDate[Calendar.MONTH] &&
+			 today[Calendar.DATE] < birthDate[Calendar.DATE])) {
+			age--
+		}
+		KeywordUtil.logInfo("Age: ${age}")
+		
+		// Return category based on age
+		if (age >= 18 && age <= 70) {
+			return 1
+		} else if (age >= 71 && age <= 80) {
+			return 2
+		} else {
+			return 0
+		}
 	}
 }
 

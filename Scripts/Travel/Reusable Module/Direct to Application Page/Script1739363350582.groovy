@@ -17,10 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 int packages = TCpackage
 
-WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Plan Page'), [('TCarea') : TCarea, ('TCplan') : TCplan, ('TCtrip'): TCtrip], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Plan Page'), [('TCarea') : TCarea, ('TCplan') : TCplan
+        , ('TCtrip') : TCtrip], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementClickable(findTestObject('Travel/TripCare360/English/Plan Page/button_SilverPlan'), 10)
+WebUI.delay(2)
 
 if (packages == 1) {
     WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/button_SilverPlan'))
@@ -32,5 +35,5 @@ if (packages == 1) {
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/submit_Buy'))
 
-WebUI.delay(1)
+WebUI.delay(1.5)
 

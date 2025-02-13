@@ -40,6 +40,6 @@ String policy_holder_name = WebUI.getAttribute(findTestObject('Travel/TripCare36
 
 WebUI.closeBrowser()
 
-assert policy_holder_name == fullName
+assert policy_holder_name == fullName.toUpperCase()
 
 

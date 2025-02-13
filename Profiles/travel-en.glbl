@@ -149,4 +149,64 @@
       <initValue>[(1) : 'Adventurous Activities', (2) : 'COVID-19 Cover']</initValue>
       <name>dyobj_item</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Based on email MDM Blacklist Test Data on 31/01/2025</description>
+      <initValue>[('Satra Husin Aman') : '810405655086', ('TAN HENG CHEW') : '460531105141', ('AFIQ AMANI BIN ANNUAR') : '910604145431', ('ANNUAR BIN MUSA') : '560518035335', ('Aisyah binti Mohamad Seleh') : '870529045284', ('Misnah binti Ajijun') : '801231655486', ('Jamsail bin Haili') : '500908125067']</initValue>
+      <name>rules_blacklistedCustomer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>https://www-gold.etiqa.com/edp/tripcare360/my/insurance/amla</description>
+      <initValue>'https://www-gold.etiqa.com/edp/tripcare360/my/insurance/amla'</initValue>
+      <name>rules_blacklistSiteRedirection</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>ukranian</description>
+      <initValue>['UKRANIAN']</initValue>
+      <name>rules_blacklistedCountry</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>000928070605</description>
+      <initValue>'000928070605'</initValue>
+      <name>dummy_IC</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Teoh Yee Xian'</initValue>
+      <name>dummy_fullName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Chinese'</initValue>
+      <name>dummy_ethnicity</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'yeexian_tyx@hotmail.com'</initValue>
+      <name>dummy_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'01139519168'</initValue>
+      <name>dummy_mobile</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'qwerrtt'</initValue>
+      <name>dummy_buildingName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'qweqewqew'</initValue>
+      <name>dummy_areaName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'11500'</initValue>
+      <name>dummy_postcode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'MALAYSIAN'</initValue>
+      <name>dummy_nationality</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

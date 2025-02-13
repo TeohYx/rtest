@@ -15,16 +15,6 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/TestSuite/Motorcycle/TS001_Motorcycle_BusinessRules_QuotationPage</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
-            <profileName>motorcycle-en</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/TestSuite/Motorcycle/TS002_Motorcycle_BusinessRules_PlanPage</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>

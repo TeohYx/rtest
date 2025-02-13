@@ -26,7 +26,7 @@ String buildingName = 'qweqww'
 String areaName = 'qweqeqw'
 String postcode = '81800'
 
-String ic2 = '981224016421'
+String ic2 = '981224016422'
 String fullName2 = 'Ong Wei Hong'
 String ethnicity2 = 'Chinese'
 String email2 = 'yeexian_tyx@hotmail.com'

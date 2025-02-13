@@ -47,9 +47,9 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/CALANDER DATES/dy
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dropdown_TravellingPerson'))
 
-WebUI.enhancedClick(findTestObject('TripCare360/English/Quoation Page/btn_With my family'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dybutton_SelectPlanType_plan', [('plan') : 'family']))
 
-WebUI.enhancedClick(findTestObject('TripCare360/English/Quoation Page/btnGet Quote Now'))
+WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/submit_GetQuoteNow'))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/submit_Buy'))
 
@@ -68,9 +68,9 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Fill Personal Details In
 	('TCPostcode') : postcode
 	], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dytext_TravellerInfo_name', [('name') : fullName]), 3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dytext_TravellerInfo_name', [('name') : fullName.toUpperCase()]), 3)
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dytext_TravellerInfo_name', [('name') : ic]), 3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dytext_TravellerInfo_name', [('name') : ic.toUpperCase()]), 3)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_SecondEdit'))
 
