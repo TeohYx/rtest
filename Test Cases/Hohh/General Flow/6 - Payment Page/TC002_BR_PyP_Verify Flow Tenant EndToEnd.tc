@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_BR_PyP_Verify Flow Tenant EndToEnd</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0798d4bb-7317-47c2-9473-ffdebac21093</testCaseGuid>
+</TestCaseEntity>

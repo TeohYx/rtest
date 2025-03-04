@@ -25,27 +25,28 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_Co
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/rdoFPXPayment'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/chkDeclaration'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/button_Declaration'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/btnProceed Payment'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_name', [('name') : GlobalVariable.dyobj_ProceedPayment]))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_PayNetOption'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/btn_PayNet Option'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_ContinueMPay'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_Continue MPay'))
+WebUI.setText(findTestObject('Travel/TripCare360/English/Payment Page/input_UserId'), GlobalVariable.dummy_userId)
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/Payment Page/txt_UserId'), '1111')
+WebUI.setText(findTestObject('Travel/TripCare360/English/Payment Page/input_Password'), GlobalVariable.dummy_userPassword)
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/Payment Page/txt_Password'), '1111')
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_SignIn'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/btn_Sign in'))
-
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/btnn_Confirm'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_Confirm'))
 
 WebUI.delay(5)
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/lbl_Your Payment is Successful'), 10)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/validation_YourPaymentIsSuccessful'), 10)
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/lbl_Policy Number'), 3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/dyvalidation_PolicyNumber_text,code', 
+	[('text') : GlobalVariable.dyobj_PolicyNumber, 
+		('code') : GlobalVariable.dyobj_ProductCode]), 3)
 
 WebUI.delay(3)
 

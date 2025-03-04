@@ -102,5 +102,5 @@ ageLists.each { key, ageList ->
 		WebUI.closeBrowser()
 	}
 }
-
-assert errorLog.isEmpty() : KeywordUtil.markError(errorLog.join('\n'))
+println(errorLog.join('\n'))
+assert errorLog.isEmpty() : errorLog.join('\n')

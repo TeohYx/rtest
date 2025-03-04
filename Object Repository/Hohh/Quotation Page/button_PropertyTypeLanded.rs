@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_PropertyTypeLanded</name>
+   <tag></tag>
+   <elementGuidId>4e2eb700-c1a2-45d9-a134-043fad705265</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-body</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='building-type-landed']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^LandedBungalow, terrace, semi-detached house$/ >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>17808e92-53b2-4ab1-8fd4-ac92b969f142</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>d607be9d-3802-45c4-bd45-0d67ed26525b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LandedBungalow, terrace, semi-detached house</value>
+      <webElementGuid>b692401d-c01a-4a75-9b63-3af70c24c587</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;layout__Styles-sc-wetbic-0 ehlvJr&quot;]/div[@class=&quot;quotation__Styles-sc-ucwthg-0 joHbWJ bg-white&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;first-form row&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;QuotationForm__Styles-sc-1hggy6g-0 ekdXkh shadow p-3 mb-5 bg-body-tertiary rounded&quot;]/form[1]/div[@class=&quot;justify-content-md-center gap-3 mb-4 row&quot;]/div[@class=&quot;col-md-8 col-12&quot;]/div[@class=&quot;p-4 card&quot;]/div[@class=&quot;d-grid gap-3&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;BuildingTypeButton__Style-sc-1e3zuk7-0 jKOSgv&quot;]/div[@class=&quot;gap row&quot;]/div[@class=&quot;col-md-6 col-12&quot;]/div[@class=&quot;LeftIconCard__Styles-sc-afaz75-0 hVmBSj&quot;]/label[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>96cb2e54-0baa-4500-be32-9f1c7af73369</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div/div/div[2]/div/div/div/form/div[3]/div[2]/div/div/div/div/div/div/div/label/div</value>
+      <webElementGuid>5ea81390-468a-4a55-8c2f-d35a38ae308f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Property Type'])[2]/following::div[5]</value>
+      <webElementGuid>07f4586b-5518-4df9-b192-271f4ebc74b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select property type'])[1]/following::div[9]</value>
+      <webElementGuid>faf86301-dd99-4c65-a5c8-35cea25e331b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non-Landed'])[1]/preceding::div[8]</value>
+      <webElementGuid>867df895-ad36-4b5b-8b53-5afd1fce6abe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/div</value>
+      <webElementGuid>8838864c-e2f9-43a5-8990-279a222c3235</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'LandedBungalow, terrace, semi-detached house' or . = 'LandedBungalow, terrace, semi-detached house')]</value>
+      <webElementGuid>d8829240-75e9-481d-9f0c-84cd45a3b688</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

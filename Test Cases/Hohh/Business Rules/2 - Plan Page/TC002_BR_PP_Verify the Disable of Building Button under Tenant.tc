@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_BR_PP_Verify the Disable of Building Button under Tenant</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7663cd63-a4d9-41cf-b552-2774edd08679</testCaseGuid>
+</TestCaseEntity>

@@ -32,7 +32,7 @@ WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC002_RM_PF_Direct to
 		, ('inputScenario') : inputScenario, ('plateNumber') : plateNumber], FailureHandling.STOP_ON_FAILURE)
 
 // Plan Page
-WebUI.enhancedClick(findTestObject('Motorcar and Motorcycle/Plan Page/button_Motorcycle Details View', [('detail_text') : 'Vehicle Details']))
+WebUI.enhancedClick(findTestObject('Motorcar and Motorcycle/Plan Page/button_Motorcycle Details View', [('detail_text') : GlobalVariable.text_MotorDetails]))
 
 WebUI.verifyElementPresent(findTestObject('Motorcar and Motorcycle/Plan Page/2 - Motorcycle Details/input_Engine Number'), 0)
 

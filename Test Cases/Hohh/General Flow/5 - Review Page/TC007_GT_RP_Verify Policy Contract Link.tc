@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC007_GT_RP_Verify Policy Contract Link</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d054f079-cd21-434f-a6df-fb20cfd84532</testCaseGuid>
+</TestCaseEntity>

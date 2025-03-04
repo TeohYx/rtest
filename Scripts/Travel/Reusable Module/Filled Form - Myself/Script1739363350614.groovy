@@ -29,9 +29,9 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dr
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/button_NextMonth'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/CALANDER DATES/dybutton_Date_date', [('date') : '1']))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/General/dybutton_Date_date', [('date') : '1']))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/CALANDER DATES/dybutton_Date_date', [('date') : '28']))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/General/dybutton_Date_date', [('date') : '28']))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dropdown_TravellingPerson'))
 
@@ -43,25 +43,25 @@ WebUI.scrollToElement(findTestObject('Travel/TripCare360/English/Plan Page/butto
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/button_SilverPlan'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/submit_Buy'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/dysubmit_Buy_title', [('title') : GlobalVariable.dyobj_Buy]))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), '980421045116')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), '980421045116')
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_FullName'), 'TestingName')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoFullName'), 'TestingName')
 
-WebUI.selectOptionByLabel(findTestObject('Travel/TripCare360/English/AppPage/dropdown_Ethnicity'), 'Indian', false)
+WebUI.selectOptionByLabel(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEthnicity'), 'Indian', false)
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_Email'), 'krisnavenii.rrajan@etiqa.com.my')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEmail'), 'krisnavenii.rrajan@etiqa.com.my')
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_MobileNumber'), '137447138')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_MobileNumber'), '137447138')
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_BuildingName'), 'Testing')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoBuildingName'), 'Testing')
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_AreaName'), 'Testing')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoAreaName'), 'Testing')
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_Postcode'), '81300')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_Postcode'), '81300')
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))
 

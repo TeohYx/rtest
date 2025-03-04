@@ -24,9 +24,9 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Pa
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), '980421045116')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), '980421045116')
 
-boolean isPresent = WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/text_DateOfBirth'), 3)
+boolean isPresent = WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoDateOfBirth'), 3)
 
 WebUI.takeFullPageScreenshot()
 WebUI.closeBrowser()

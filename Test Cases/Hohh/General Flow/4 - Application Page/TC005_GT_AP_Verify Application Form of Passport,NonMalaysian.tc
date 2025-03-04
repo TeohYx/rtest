@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005_GT_AP_Verify Application Form of Passport,NonMalaysian</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>40580971-368f-43dc-8f10-1f8ca0b651f6</testCaseGuid>
+</TestCaseEntity>

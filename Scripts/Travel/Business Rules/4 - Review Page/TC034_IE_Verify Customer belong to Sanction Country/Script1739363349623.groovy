@@ -37,9 +37,13 @@ for (String n in nation) {
 	
 	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
 	
-	WebUI.callTestCase(findTestCase('Travel/Reusable Module/Fill Personal Details Information Overload'), [('TCIC') : ic, ('TCFullName') : fullName
-		, ('TCEthnicity') : ethnicity, ('TCEmail') : email, ('TCMobileNumber') : mobile, ('TCBuildingName') : buildingName
-		, ('TCAreaName') : areaName, ('TCPostcode') : postcode, ('TCNation') : n.toUpperCase()], FailureHandling.STOP_ON_FAILURE)
+	TCparams = [('TCIC') : ic, ('TCFullName') : fullName
+			, ('TCEthnicity') : ethnicity, ('TCEmail') : email, ('TCMobileNumber') : mobile, ('TCBuildingName') : buildingName
+			, ('TCAreaName') : areaName, ('TCPostcode') : postcode, ('TCNation') : n.toUpperCase()
+		]
+	
+	
+	WebUI.callTestCase(findTestCase('Travel/Reusable Module/Fill Personal Details Information Overload'), [('TCparams') : TCparams], FailureHandling.STOP_ON_FAILURE)
 	
 	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_BankName'))
 	
@@ -52,9 +56,9 @@ for (String n in nation) {
 	
 	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/rdoFPXPayment'))
 	
-	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/chkDeclaration'))
+	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/button_Declaration'))
 	
-	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/btnProceed Payment'))
+	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_name', [('name') : GlobalVariable.dyobj_ProceedPayment]))
 	
 	TestObject objVerification = findTestObject('Object Repository/Travel/TripCare360/English/Review Page/validation_BlacklistSite')
 	

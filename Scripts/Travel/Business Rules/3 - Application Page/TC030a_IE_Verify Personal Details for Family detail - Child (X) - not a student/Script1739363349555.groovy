@@ -41,9 +41,9 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dr
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/button_NextMonth'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/CALANDER DATES/dybutton_Date_date', [('date') : '1']))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/General/dybutton_Date_date', [('date') : '1']))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/CALANDER DATES/dybutton_Date_date', [('date') : '28']))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/General/dybutton_Date_date', [('date') : '28']))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dropdown_TravellingPerson'))
 
@@ -51,7 +51,7 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dy
 
 WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/submit_GetQuoteNow'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/submit_Buy'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/dysubmit_Buy_title', [('title') : GlobalVariable.dyobj_Buy]))
 
 WebUI.delay(3)
 
@@ -74,15 +74,15 @@ WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dy
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_SecondEdit'))
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), ic2)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), ic2)
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_FullName'), fullName2.toUpperCase())
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoFullName'), fullName2.toUpperCase())
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/btnUniversityStudentNo'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/dybutton_UniversityStudentNo_text', [('text') : GlobalVariable.dyobj_UniversityStudent]))
 
-WebUI.selectOptionByLabel(findTestObject('Travel/TripCare360/English/AppPage/dropdown_Ethnicity'), 'Indian', false)
+WebUI.selectOptionByLabel(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEthnicity'), 'Indian', false)
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/chkIsSameMailingAddress'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_chkIsSameMailingAddress'))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))
 

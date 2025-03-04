@@ -225,8 +225,8 @@
       <name>placeholder_IDPolice</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>E.G. ABC123456QWE</description>
-      <initValue>'E.G. ABC123456QWE'</initValue>
+      <description>e.g. ABC123456QWE</description>
+      <initValue>'e.g. ABC123456QWE'</initValue>
       <name>placeholder_EngineNumber</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -235,8 +235,8 @@
       <name>placeholder_Name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>E.G. ADAM@GMAIL.COM</description>
-      <initValue>'E.G. ADAM@GMAIL.COM'</initValue>
+      <description>e.g. ADAM@GMAIL.COM</description>
+      <initValue>'e.g. ADAM@GMAIL.COM'</initValue>
       <name>placeholder_Email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -328,5 +328,15 @@
       <description>VOA</description>
       <initValue>'VOA'</initValue>
       <name>obj_policyNumberPrefix</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>https://www-gold.etiqa.com/edp/motor/my/motorcycle/insurance/quotation</description>
+      <initValue>'https://www-gold.etiqa.com/edp/motor/my/motorcycle/insurance/quotation'</initValue>
+      <name>LINK</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Motorcycle Details</description>
+      <initValue>'Motorcycle Details'</initValue>
+      <name>text_MotorDetails</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

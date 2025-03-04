@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dywrnmsg_BankAccountNo_wrnmsg</name>
+   <tag></tag>
+   <elementGuidId>62118a4b-3bc5-480f-9222-2b337584b556</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'This field is required' or . = 'This field is required')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@for='bank-account-number-input']//following-sibling::p[contains(@class, 'text-danger') and contains(text(), '${wrnmsg}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>030a6916-c1ae-4432-9e98-18929451436f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-danger</value>
+      <webElementGuid>82f75987-c1a2-4399-b64d-decd94f7692d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>This field is required</value>
+      <webElementGuid>ef8ce193-c441-4d22-a8f8-78b129aed96b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;mt-3 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-7 col-12&quot;]/form[1]/div[2]/div[@class=&quot;mt-5&quot;]/div[@class=&quot;shadow mb-3 card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;BankAccountDetail__Styles-sc-14z4pi0-3 NFtGR&quot;]/div[@class=&quot;mb-3&quot;]/p[@class=&quot;text-danger&quot;]</value>
+      <webElementGuid>0de3bde9-765c-4c06-82e6-fb5257ee0cf2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div[2]/div/form/div[2]/div/div/div/div[2]/div[3]/p</value>
+      <webElementGuid>ce5f5d57-c682-4471-9541-22c858b4592a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bank Account No.'])[1]/following::p[1]</value>
+      <webElementGuid>21db2c1a-8b20-4f15-8d49-bc8877e6ddea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Bank'])[1]/following::p[2]</value>
+      <webElementGuid>6a65d787-5231-4b50-85e9-cb164ebfe214</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adventurous Activities'])[1]/preceding::p[3]</value>
+      <webElementGuid>2ba6034c-7f75-4098-ac8c-103145599ef3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/p</value>
+      <webElementGuid>e420e996-09a8-4cb7-a4e7-6376b0f2787f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'This field is required' or . = 'This field is required')]</value>
+      <webElementGuid>890e7a4d-b962-44d8-94fe-cf8ef7cd18bb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

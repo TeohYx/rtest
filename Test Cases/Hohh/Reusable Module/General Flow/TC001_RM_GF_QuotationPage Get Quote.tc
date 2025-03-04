@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_RM_GF_QuotationPage Get Quote</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d23e71eb-c4a8-4eaf-8d68-8af72eb2da2b</testCaseGuid>
+</TestCaseEntity>

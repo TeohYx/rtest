@@ -19,10 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/button_How do I make a travel claim'))
+WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/dydropdown_FAQ_faq', [('faq') : GlobalVariable.dyobj_Quotation_FAQDropdown['makeTravelClaim']]))
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Quotation Page/text_Your travel claim must be submitted as _8575a6'), 
-    3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Quotation Page/dyvalidation_FAQ_faq', [('faq') : GlobalVariable.dyobj_Quotation_FAQValidation['makeTravelClaim']]),
+	3)
 
 WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
 

@@ -26,33 +26,33 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_Se
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_NationalityNorthKorean'))
 
-WebUI.selectOptionByValue(findTestObject('Travel/TripCare360/English/AppPage/text_IDType'), '2', true)
+WebUI.selectOptionByValue(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoIDType'), '2', true)
 
 passport = 'AR123412345'
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), passport)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), passport)
 
 textName = "TEOH YEE XIAN"
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_FullName'), textName)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoFullName'), textName)
 
-textVerify = WebUI.getText(findTestObject('Travel/TripCare360/English/AppPage/text_FullName'))
+textVerify = WebUI.getText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoFullName'))
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_DateOfBirth'), '28092000')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoDateOfBirth'), '28092000')
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_Male'))
 
-WebUI.selectOptionByValue(findTestObject('Travel/TripCare360/English/AppPage/dropdown_Ethnicity'), '2', true)
+WebUI.selectOptionByValue(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEthnicity'), '2', true)
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_Email'), 'yeexian_tyx@hotmail.com')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEmail'), 'yeexian_tyx@hotmail.com')
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_MobileNumber'), '1139519168')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_MobileNumber'), '1139519168')
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_BuildingName'), '602-D, Jalan Air Itam, 11500')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoBuildingName'), '602-D, Jalan Air Itam, 11500')
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_AreaName'), 'Ayer Itam, Pulau Pinang')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoAreaName'), 'Ayer Itam, Pulau Pinang')
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_Postcode'), '11500')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_Postcode'), '11500')
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))
 

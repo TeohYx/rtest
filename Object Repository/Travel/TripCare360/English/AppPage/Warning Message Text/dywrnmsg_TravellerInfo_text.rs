@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dywrnmsg_TravellerInfo_text</name>
+   <tag></tag>
+   <elementGuidId>535a2669-1596-4911-9312-6cd32f666744</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//label[contains(text(),'${text}')])[1]/following-sibling::p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>13689d99-ecb4-44b9-98bd-7493a12f4af3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1733282995137</value>
+      <webElementGuid>e34e3d56-0d6f-4111-95db-5222136c4108</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

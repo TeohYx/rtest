@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.trip360_insurance)
+WebUI.navigateToUrl(GlobalVariable.LINK)
 
 WebUI.maximizeWindow()
 

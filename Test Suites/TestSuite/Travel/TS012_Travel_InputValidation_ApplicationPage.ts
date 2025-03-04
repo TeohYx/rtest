@@ -40,59 +40,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>19db047a-8540-4589-90ad-c3d4b6c04794</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Travel/Input Validation/3 - Application Page/TC019_IE_Verify Validation of the text Field - Full name</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>8908177c-f85f-416f-ad62-2d4b18e6d4c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Travel/Input Validation/3 - Application Page/TC020_IE_Verify Validation of the text Field - Ethnicity</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>75829dea-b0c2-4a3d-9eec-a2c96738c150</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Travel/Input Validation/3 - Application Page/TC021_IE_Verify Validation of the text Field - Email</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>396ca709-7e29-4bfe-9a30-2bf915fb2255</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Travel/Input Validation/3 - Application Page/TC022_IE_Verify Validation of the text Field - Mobile Number</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>24688a23-0143-445b-b596-b13a91ed5e1e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Travel/Input Validation/3 - Application Page/TC023_IE_Verify Validation of the text Field - Building Name</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>adecc443-7e14-4102-8901-79b49f99d465</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Travel/Input Validation/3 - Application Page/TC024_IE_Verify Validation of the text Field - Area Name</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ae714505-a8f7-4d4d-8612-af1782f8a17a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Travel/Input Validation/3 - Application Page/TC025_IE_Verify Validation of the text Field - Post Code</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6306a3db-d490-4fb3-8f01-1fbbeafb85d3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Travel/Input Validation/3 - Application Page/TC026_IE_Verify Validation of the text Field - State</testCaseId>
+      <testCaseId>Test Cases/Travel/Input Validation/3 - Application Page/TC020_IE_Verify Ethnicity - Leave blank</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

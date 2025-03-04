@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004_BR_PP_Verify Correct Display of Min and Max of Home Building</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>395deb48-3c4e-4f75-a8a7-ac85baf882f2</testCaseGuid>
+</TestCaseEntity>

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC006_RM_PF_Direct to Declaration Page Specific'), [:], FailureHandling.STOP_ON_FAILURE)
 
-String itemLink = WebUI.getAttribute(findTestObject('Object Repository/Motorcar and Motorcycle/Declaration Page/button_Product Disclosure Sheet'), "href")
+String itemLink = WebUI.getAttribute(findTestObject('Object Repository/Hohh/Review Page/link_ProductDisclosureSheet'), "href")
 
 WebUI.closeBrowser()
 

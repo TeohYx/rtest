@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC008_GT_RP_Verify Privacy Notice Link</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>be44fa13-00fe-47e1-adc2-f9bb83a9bba0</testCaseGuid>
+</TestCaseEntity>

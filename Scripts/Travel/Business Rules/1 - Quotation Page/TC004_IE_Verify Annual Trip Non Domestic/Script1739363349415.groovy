@@ -21,7 +21,7 @@ String site = GlobalVariable.dyobj_currentSite['plan']
 
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Plan Page'), [('TCarea') : 2, ('TCplan') : 1, ('TCtrip'): 1], FailureHandling.STOP_ON_FAILURE)
 
-String classValue = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/Quotation Page/dytext_ProveOfCurrentPage_currentSite', [('currentSite') : site]), 'class')
+String classValue = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/General/dytext_ProveOfCurrentPage_currentSite', [('currentSite') : site]), 'class')
 
 WebUI.takeScreenshot()
 WebUI.closeBrowser()

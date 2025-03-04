@@ -17,11 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC004_RM_PF_Direct to Payment Page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC006_RM_PF_Direct to Declaration Page Specific'), [:], FailureHandling.STOP_ON_FAILURE)
 
-boolean isSuccess = WebUI.verifyElementPresent(findTestObject('Object Repository/Motorcar and Motorcycle/Payment Page/txt_Payment Success'), 3, FailureHandling.OPTIONAL)
+WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Declaration Page/button_Declaration'))
+WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Declaration Page/button_FPX'))
+WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Declaration Page/button_Pay Now'))
+
+// Handle Payment steps
+WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Payment Page/button_PayNet'))
+WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Payment Page/button_Continue'))
+
+WebUI.setText(findTestObject('Object Repository/Motorcar and Motorcycle/Payment Page/input_User ID'), '1111')
+WebUI.setText(findTestObject('Object Repository/Motorcar and Motorcycle/Payment Page/input_Password'), '1111')
+
+WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Payment Page/button_Sign In'))
+WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Payment Page/button_Confirm'))
+WebUI.delay(10) // To wait the auto redirection to Transaction page
+
+WebUI.delay(3)
+
+boolean isSuccess = WebUI.verifyElementPresent(findTestObject('Object Repository/Motorcar and Motorcycle/Payment Page/txt_Payment Success'), 
+    3, FailureHandling.OPTIONAL)
 
 WebUI.takeScreenshot()
+
 WebUI.closeBrowser()
 
-assert isSuccess : "The 'your payment is success' text does not present"
+assert isSuccess : 'The \'your payment is success\' text does not present'
+

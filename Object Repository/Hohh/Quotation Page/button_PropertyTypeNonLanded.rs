@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_PropertyTypeNonLanded</name>
+   <tag></tag>
+   <elementGuidId>69f5f783-2133-45b9-bb97-3286ae2d6c0e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='building-type-nonLanded']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Non-LandedApartments, flats and condos$/ >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>08f2a591-e768-49d9-a790-9b6e2e52b8b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>95a28452-efac-4087-be30-ef4b47a7e94a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Non-LandedApartments, flats and condos</value>
+      <webElementGuid>32fa9f41-324e-4eb1-80f8-0b91cd32e0aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;layout__Styles-sc-wetbic-0 ehlvJr&quot;]/div[@class=&quot;quotation__Styles-sc-ucwthg-0 joHbWJ bg-white&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;first-form row&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;QuotationForm__Styles-sc-1hggy6g-0 ekdXkh shadow p-3 mb-5 bg-body-tertiary rounded&quot;]/form[1]/div[@class=&quot;justify-content-md-center gap-3 mb-4 row&quot;]/div[@class=&quot;col-md-8 col-12&quot;]/div[@class=&quot;p-4 card&quot;]/div[@class=&quot;d-grid gap-3&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;BuildingTypeButton__Style-sc-1e3zuk7-0 jKOSgv&quot;]/div[@class=&quot;gap row&quot;]/div[@class=&quot;col-md-6 col-12&quot;]/div[@class=&quot;LeftIconCard__Styles-sc-afaz75-0 hVmBSj&quot;]/label[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>a115103f-013a-4ac0-91ad-ea80d6b6dd2c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div/div/div[2]/div/div/div/form/div[3]/div[2]/div/div/div/div/div/div[2]/div/label/div</value>
+      <webElementGuid>67d31c53-3755-4145-8e2f-bf7d4f09a8de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Landed'])[1]/following::div[5]</value>
+      <webElementGuid>1c704994-0ae8-4b3d-9abf-d3bf17850040</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Property Type'])[2]/following::div[14]</value>
+      <webElementGuid>e0bad009-676d-4051-8aca-3847b45a3214</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Construction type'])[1]/preceding::div[7]</value>
+      <webElementGuid>acdcfe75-83a3-4972-8f7e-55d6bfc0f8be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/label/div</value>
+      <webElementGuid>35b4b59c-451d-447c-aea1-c7ae5d57e6bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Non-LandedApartments, flats and condos' or . = 'Non-LandedApartments, flats and condos')]</value>
+      <webElementGuid>ed21fa37-5591-4d87-bc79-be9599b4a38c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

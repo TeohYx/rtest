@@ -22,7 +22,7 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Pa
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), '-@symbols*&')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), '-@symbols*&')
 
 WebUI.takeFullPageScreenshot()
 

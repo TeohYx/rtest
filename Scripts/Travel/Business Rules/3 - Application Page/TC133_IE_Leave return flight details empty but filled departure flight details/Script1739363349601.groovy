@@ -24,7 +24,7 @@ WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_Departure
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/input_DepartureFlightDate'))
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/button_NextMonth'))
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/CALANDER DATES/dybutton_Date_date', [('date') : '27']))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/General/dybutton_Date_date', [('date') : '27']))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_ConfirmDetails'))
 
@@ -33,7 +33,7 @@ String second_warning_message = WebUI.getText(findTestObject('Travel/TripCare360
 	
 WebUI.closeBrowser()
 
-assert first_warning_message == GlobalVariable.errorMessage_Empty && second_warning_message == GlobalVariable.errorMessage_Empty
+assert first_warning_message == GlobalVariable.errorMessage_empty && second_warning_message == GlobalVariable.errorMessage_empty
 
 
 

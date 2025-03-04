@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dybutton_TryAgain_text</name>
+   <tag></tag>
+   <elementGuidId>b918a1e6-d3cf-4717-922a-d31feb254b50</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-warning</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button' and contains(text(), '${text}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a15f9ebe-8cdd-46f3-a1a9-4360fa1e5c4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5ad5dc94-ffd2-4467-9ef7-9544bbe5a5ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-warning</value>
+      <webElementGuid>16e372e2-3f07-4136-a636-70dc1cee5be6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Try Again</value>
+      <webElementGuid>dd70c03a-5e84-4974-bfbe-8f127fc4f2c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;status__Wrapper-sc-17j7umb-0 cYcjWt&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;mt-4 container&quot;]/div[@class=&quot;justify-content-center row&quot;]/div[@class=&quot;d-grid gap-2 col-md-4 col-12&quot;]/button[@class=&quot;btn btn-warning&quot;]</value>
+      <webElementGuid>89fa9a41-5ff6-44a2-bc75-6c56100414fe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>1865b469-b1c5-4cd2-a114-c343dd6b1555</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div/div[2]/div/div/button</value>
+      <webElementGuid>b69f82b6-702f-4ff7-a7e0-309ee8ec76eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[1]/following::button[1]</value>
+      <webElementGuid>c991c349-6287-4c36-b8c5-3594a02dbee9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back to Homepage'])[1]/preceding::button[1]</value>
+      <webElementGuid>7d49f8c4-b8a6-4d2c-979d-1c2b91c22bd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[2]</value>
+      <webElementGuid>73da8109-1353-4a73-b0df-857b490ab892</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Try Again']/parent::*</value>
+      <webElementGuid>b3cb18ae-31f2-4fa8-86c7-9fa11093a00a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/button</value>
+      <webElementGuid>d0c902dd-f4e9-457c-b08f-3514d5071575</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Try Again' or . = 'Try Again')]</value>
+      <webElementGuid>be987d97-001a-4747-83d8-b9ae628b5ee9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

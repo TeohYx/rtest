@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_RM_PF_Direct to Plan Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9ae99ddf-de6d-4f83-a2d5-166b32edffaf</testCaseGuid>
+</TestCaseEntity>

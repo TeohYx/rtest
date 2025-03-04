@@ -1,0 +1,49 @@
+{
+  "keywordFileContentHash": "19EC048CFB6EFF7EA9D249E7B807E02F",
+  "keywordClasses": [
+    {
+      "name": "verifcation.verification",
+      "keywordMethods": [
+        {
+          "name": "normalVerificationOnElementPresent",
+          "parameters": [
+            {
+              "name": "obj",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Similar to verifyElementPresent()\r\n\t * @param obj object to verify\r\n\t * @return true or false\r\n\t */"
+        },
+        {
+          "name": "verifyCurrentPage",
+          "parameters": [
+            {
+              "name": "obj",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

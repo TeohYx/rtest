@@ -20,29 +20,29 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Page'), [('TCarea') : 3, ('TCplan') : 1, ('TCtrip') : 1
 	, ('TCpackage') : 1], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/txtDepartureFlightNumber'), 'MH370')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoDepartureFlightNumber'), 'MH370')
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_DepartureFlightDate'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/btn_nextMonth Flight'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_NextMonthFlight'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/CALANDER DATES/dybutton_Date_date', [('date') : '1']))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/General/dybutton_Date_date', [('date') : '1']))
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_ReturnFlightNumber'), 'MH17')
+WebUI.setText(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/input_ReturnFlightNumber'), 'MH17')
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_ReturnFlightDate'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/btn_nextMonth Flight'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_NextMonthFlight'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/CALANDER DATES/dybutton_Date_date', [('date') : '28']))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/General/dybutton_Date_date', [('date') : '28']))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/ddl_BankName'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/dropdown_BankName'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/btn_CIMB'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_CIMB'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/txtBankAccountNumber'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoBankAccountNumber'))
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/txtBankAccountNumber'), '@#$%^&*')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoBankAccountNumber'), '@#$%^&*')
 
 WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
 

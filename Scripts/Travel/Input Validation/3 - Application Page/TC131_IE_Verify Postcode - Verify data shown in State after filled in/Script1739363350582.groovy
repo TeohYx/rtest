@@ -22,11 +22,11 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Pa
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_Postcode'), "11500")
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_Postcode'), "11500")
 
-String postcode_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/text_Postcode'), "value") ?: ""
+String postcode_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/input_Postcode'), "value") ?: ""
 
-String state_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/txtState'), "value") ?: ""
+String state_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInformationState'), "value") ?: ""
 
 WebUI.closeBrowser()
 

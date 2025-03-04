@@ -1,0 +1,107 @@
+{
+  "keywordFileContentHash": "4EC993F7489B4C75E6982FD7943A8926",
+  "keywordClasses": [
+    {
+      "name": "inputValidation.inputValidation",
+      "keywordMethods": [
+        {
+          "name": "performValidation",
+          "parameters": [
+            {
+              "name": "objectLocator",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "testingMethod",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "methodParams",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.util.Map",
+                "unresolvedClassName": "Map",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * \r\n\t * @param testingMethod [\r\n\t 1: \u0027inputFieldPresent\u0027, (objectLocator) \r\n\t 2: \u0027placeholderVisible\u0027, (objectLocator, [placeholderText (r)]) \r\n\t 3: \u0027maxLength\u0027, (objectLocator, [loadWhenClick, allowedType (r)]) \r\n\t 4: \u0027emptyInput\u0027, (objectLocator, [warningMessageTrigger (r), warningMessageLocator (r), expectedWarningText (r)])\r\n\t 5: \u0027allowedDataType\u0027, (objectLocator, [invalidType (r), testString, allowedSymbol])\r\n\t 6: \u0027spacing\u0027, (objectLocator, [haveSpace (r)])\r\n\t 7: \u0027characterLength\u0027, (objectLocator, [warningMessageLocator (r), warningMessageTrigger (r), validScenario (r), invalidScenario (r)])\r\n\t 8: \u0027ICFormat\u0027, (objectLocator, [NRIC (r)])\r\n\t ]\r\n\t * @param methodParams [\r\n\t func1 : [:],\r\n\t func2 : [:]\r\n\t ]\r\n\t * @return [\r\n\t isPassed,\r\n\t log\r\n\t ]\r\n\t */"
+        },
+        {
+          "name": "performValidation",
+          "parameters": [
+            {
+              "name": "objectLocator",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "testingMethod",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "performValidation",
+          "parameters": [
+            {
+              "name": "objectLocator",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

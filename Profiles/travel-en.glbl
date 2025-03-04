@@ -7,117 +7,47 @@
    <GlobalVariableEntity>
       <description>Link: https://www-gold.etiqa.com/edp/tripcare360/my/insurance/quotation</description>
       <initValue>'https://www-gold.etiqa.com/edp/tripcare360/my/insurance/quotation'</initValue>
-      <name>trip360_insurance</name>
+      <name>LINK</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Based on email MDM Blacklist Test Data on 31/01/2025</description>
+      <initValue>[('Satra Husin Aman') : '810405655086', ('TAN HENG CHEW') : '460531105141', ('AFIQ AMANI BIN ANNUAR') : '910604145431', ('ANNUAR BIN MUSA') : '560518035335', ('Aisyah binti Mohamad Seleh') : '870529045284', ('Misnah binti Ajijun') : '801231655486', ('Jamsail bin Haili') : '500908125067']</initValue>
+      <name>rules_blacklistedCustomer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>ukranian</description>
+      <initValue>['UKRANIAN']</initValue>
+      <name>rules_blacklistedCountry</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>https://www-gold.etiqa.com/edp/tripcare360/my/insurance/amla</description>
+      <initValue>'https://www-gold.etiqa.com/edp/tripcare360/my/insurance/amla'</initValue>
+      <name>rules_blacklistSiteRedirection</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>26 smallcase letter</description>
       <initValue>'abcdefghijklmnopqrstuvwxyz'</initValue>
-      <name>alphabet_Smallcase</name>
+      <name>validation_smallcase</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>26 uppercase letter</description>
       <initValue>'ABCDEFGHIJKLMNOPQRSTUVWXYZ'</initValue>
-      <name>alphabet_Uppercase</name>
+      <name>validation_uppercase</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Keyboard symbols: !@#$%^&amp;*()_+{}|:&quot;&lt;>?-=[]\;',./`~</description>
       <initValue>'!@#$%^&amp;*()_+{}|:&quot;&lt;>?-=[]\\;\',./`~'</initValue>
-      <name>symbol</name>
+      <name>validation_symbol</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Keyboard number 1-0</description>
       <initValue>'1234567890'</initValue>
-      <name>number</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Please enter valid email</description>
-      <initValue>'Please enter valid email'</initValue>
-      <name>errorMessage_Email1</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Please enter valid mobile number</description>
-      <initValue>'Please enter valid mobile number'</initValue>
-      <name>errorMessage_MobileNumber</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Must be at least 5 characters</description>
-      <initValue>'Must be at least 5 characters'</initValue>
-      <name>errorMessage_MailingAddress</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>This field is required</description>
-      <initValue>'This field is required'</initValue>
-      <name>errorMessage_Empty</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Testing123'</initValue>
-      <name>TestingComponent1</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Testing123'</initValue>
-      <name>TestingGetComponent</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'etiqa-my\\80011443'</initValue>
-      <name>AdminUser</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Tcm.743905tcm'</initValue>
-      <name>AdminPwd</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'123456789012'</initValue>
-      <name>bankAccount</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>https://www-gold.etiqa.com/edp/unity-product-svc/api/v1/my/ProductPremiumRate/GetTravelPlanPriceBreakdown</description>
-      <initValue>'https://www-gold.etiqa.com/edp/unity-product-svc/api/v1/my/ProductPremiumRate/GetTravelPlanPriceBreakdown'</initValue>
-      <name>api_GetTravelPlanPriceBreakdown</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Choose Plan</description>
-      <initValue>'Choose Plan'</initValue>
-      <name>page_Plan_Verification</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Domestic (Malaysia)</description>
-      <initValue>'Domestic (Malaysia)'</initValue>
-      <name>page_Quotation_TravelArea1</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Personal Details</description>
-      <initValue>'Personal Details'</initValue>
-      <name>page_Application_Verification</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>TripCare 360 Travel Insurance | Etiqa Malaysia</description>
-      <initValue>'TripCare 360 Travel Insurance | Etiqa Malaysia'</initValue>
-      <name>page_Quotation_ClickHere</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Please enter valid NRIC</description>
-      <initValue>'Please enter valid NRIC'</initValue>
-      <name>errorMessage_NRIC1</name>
+      <name>validation_number</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>rgba(255, 191, 0, 1)</description>
       <initValue>'rgba(255, 191, 0, 1)'</initValue>
-      <name>gender_button_color</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Please enter valid passport</description>
-      <initValue>'Please enter valid passport'</initValue>
-      <name>errorMessage_passport1</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Must be at least 5 characters</description>
-      <initValue>'Must be at least 5 characters'</initValue>
-      <name>errorMessage_Fullname1</name>
+      <name>validation_button_color</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -130,9 +60,154 @@
       <name>dyobj_plan</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>Map: payment, application, plan</description>
       <initValue>[('payment') : 'Payment', ('application') : 'Personal Details', ('plan') : 'Choose Plan']</initValue>
       <name>dyobj_currentSite</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>1: Adventurous Activities; 2: COVID-19 Cover</description>
+      <initValue>[(1) : 'Adventurous Activities', (2) : 'COVID-19 Cover']</initValue>
+      <name>dyobj_item</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please read and tick</description>
+      <initValue>'Please read and tick'</initValue>
+      <name>dyobj_Declaration</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please select your mode of payment</description>
+      <initValue>'Please select your mode of payment'</initValue>
+      <name>dyobj_ModeOfPayment</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Proceed Payment</description>
+      <initValue>'Proceed Payment'</initValue>
+      <name>dyobj_ProceedPayment</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please check through before you proceed</description>
+      <initValue>'Please check through before you proceed'</initValue>
+      <name>dyobj_PlanEdit</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>map: makeTravelClaim, coverCommence, cancelPolicy, emergencyContact, nomination</description>
+      <initValue>[('nomination') : 'Yes. You may nominate an individual to receive benefits payable upon the death of the Insured Person purchase the Policy.', ('emergencyContact') : 'Please call our 24-Hour, 7 days Travel Assistance Helpline at ', ('cancelPolicy') : 'No refund of premium will be allowed once the TripCare 360 Insurance Policy Contract is issued.', ('coverCommence') : 'Coverage shall be extended at our sole discretion for up to 30 days from the expiry of the period of insurance', ('makeTravelClaim') : 'Your travel claim must be submitted as soon as possible.']</initValue>
+      <name>dyobj_Quotation_FAQValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>map: makeTravelClaim, coverCommence, cancelPolicy, emergencyContact, nomination</description>
+      <initValue>[('nomination') : 'nomination for TripCare 360 plan?', ('emergencyContact') : 'contact for an emergency assistance', ('cancelPolicy') : 'cancel my Policy and get a refund', ('coverCommence') : 'cover commence and end for each trip?', ('makeTravelClaim') : 'make a travel claim?']</initValue>
+      <name>dyobj_Quotation_FAQDropdown</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>map: emergencyServices, liabilityBenefit, travelInconveniences, medicalExpenses, deathOrPermanentDisability, loss</description>
+      <initValue>[('loss') : 'Losses or Damages to Baggage and/or Personal Effects (combined limit, up to)', ('emergencyServices') : 'Emergency medical evacuation and repatriation', ('liabilityBenefit') : 'Personal liability (Up to)', ('travelInconveniences') : 'Trip cancellation or curtailment (Up to)', ('medicalExpenses') : 'Medical related expenses (Up to)', ('deathOrPermanentDisability') : 'Accidental death or permanent disability']</initValue>
+      <name>dyobj_Plan_BenefitsValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>map: emergencyServices, liabilityBenefit, travelInconveniences, medicalExpenses, deathOrPermanentDisability, loss</description>
+      <initValue>[('emergencyServices') : 'Emergency services (Due to accident or Illness)', ('liabilityBenefit') : 'Liability Benefit', ('loss') : 'Loss or damage to baggage, personal belongings, personal money and/or travel documents', ('travelInconveniences') : 'Travel Inconveniences', ('medicalExpenses') : 'Medical expenses (Due to accident or illness)', ('deathOrPermanentDisability') : 'Death or permanent disability']</initValue>
+      <name>dyobj_Plan_BenefitsDropdown</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>General Exclusions</description>
+      <initValue>'General Exclusions'</initValue>
+      <name>dyobj_GeneralExclusions</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Note: The COVID-19</description>
+      <initValue>'Note: The COVID-19'</initValue>
+      <name>dyobj_CovidTab</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Buy</description>
+      <initValue>'Buy'</initValue>
+      <name>dyobj_Buy</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Retrieve Your Proposal</description>
+      <initValue>'Retrieve Your Proposal'</initValue>
+      <name>dyobj_RetrieveYourProposal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Policy Number</description>
+      <initValue>'Policy Number'</initValue>
+      <name>dyobj_PolicyNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>PU</description>
+      <initValue>'PU'</initValue>
+      <name>dyobj_ProductCode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Map: nationality, newNRIC, fullName, dateOfBirth, gender, ethnicity, email, mobileNumber, buildingName, areaName, cityName, postcode, state, passport</description>
+      <initValue>[('state') : 'State', ('postcode') : 'Postcode', ('cityName') : 'City Name', ('areaName') : 'Area', ('buildingName') : 'Building Name', ('mobileNumber') : 'Mobile Number', ('email') : 'Email', ('ethnicity') : 'Ethnicity', ('gender') : 'Gender', ('dateOfBirth') : 'Date of Birth', ('fullName') : 'Full Name', ('newNRIC') : 'New NRIC', ('nationality') : 'Nationality', ('passport') : 'Passport']</initValue>
+      <name>dyobj_travellerInfo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Cancel</description>
+      <initValue>'Cancel'</initValue>
+      <name>dyobj_CancelButton</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Cost Breakdown</description>
+      <initValue>'Cost Breakdown'</initValue>
+      <name>dyobj_CostBreakdown</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Back to Homepage</description>
+      <initValue>'Back to Homepage'</initValue>
+      <name>dyobj_BackToHomepageButton</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Try Again</description>
+      <initValue>'Try Again'</initValue>
+      <name>dyobj_TryAgainButton</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Is University/College Student</description>
+      <initValue>'Is University/College Student'</initValue>
+      <name>dyobj_UniversityStudent</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>https://www-gold.etiqa.com/edp/unity-product-svc/api/v1/my/ProductPremiumRate/GetTravelPlanPriceBreakdown</description>
+      <initValue>'https://www-gold.etiqa.com/edp/unity-product-svc/api/v1/my/ProductPremiumRate/GetTravelPlanPriceBreakdown'</initValue>
+      <name>api_GetTravelPlanPriceBreakdown</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter valid email</description>
+      <initValue>'Please enter valid email'</initValue>
+      <name>errorMessage_email1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter valid mobile number</description>
+      <initValue>'Please enter valid mobile number'</initValue>
+      <name>errorMessage_mobileNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Must be at least 5 characters</description>
+      <initValue>'Must be at least 5 characters'</initValue>
+      <name>errorMessage_mailingAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>This field is required</description>
+      <initValue>'This field is required'</initValue>
+      <name>errorMessage_empty</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter valid NRIC</description>
+      <initValue>'Please enter valid NRIC'</initValue>
+      <name>errorMessage_NRIC1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Please enter valid passport</description>
+      <initValue>'Please enter valid passport'</initValue>
+      <name>errorMessage_passport1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Must be at least 5 characters</description>
+      <initValue>'Must be at least 5 characters'</initValue>
+      <name>errorMessage_fullname1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>1: Country; 2: Date; 3: Plan</description>
@@ -145,24 +220,9 @@
       <name>errorMessage_quotationAnnualInfo</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>1: Adventurous Activities; 2: COVID-19 Cover</description>
-      <initValue>[(1) : 'Adventurous Activities', (2) : 'COVID-19 Cover']</initValue>
-      <name>dyobj_item</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Based on email MDM Blacklist Test Data on 31/01/2025</description>
-      <initValue>[('Satra Husin Aman') : '810405655086', ('TAN HENG CHEW') : '460531105141', ('AFIQ AMANI BIN ANNUAR') : '910604145431', ('ANNUAR BIN MUSA') : '560518035335', ('Aisyah binti Mohamad Seleh') : '870529045284', ('Misnah binti Ajijun') : '801231655486', ('Jamsail bin Haili') : '500908125067']</initValue>
-      <name>rules_blacklistedCustomer</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>https://www-gold.etiqa.com/edp/tripcare360/my/insurance/amla</description>
-      <initValue>'https://www-gold.etiqa.com/edp/tripcare360/my/insurance/amla'</initValue>
-      <name>rules_blacklistSiteRedirection</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>ukranian</description>
-      <initValue>['UKRANIAN']</initValue>
-      <name>rules_blacklistedCountry</name>
+      <description>TripCare 360 Travel Insurance | Etiqa Malaysia</description>
+      <initValue>'TripCare 360 Travel Insurance | Etiqa Malaysia'</initValue>
+      <name>title_quotation_ClickHere</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>000928070605</description>
@@ -208,5 +268,15 @@
       <description></description>
       <initValue>'MALAYSIAN'</initValue>
       <name>dummy_nationality</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>1111</description>
+      <initValue>'1111'</initValue>
+      <name>dummy_userId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>1111</description>
+      <initValue>'1111'</initValue>
+      <name>dummy_userPassword</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

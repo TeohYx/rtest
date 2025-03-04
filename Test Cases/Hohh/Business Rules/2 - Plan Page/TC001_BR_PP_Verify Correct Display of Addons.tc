@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>If Building+Contents, its estimate cost tab should present, and both riot and theft cover addons is present.&#xd;
+If Building only, only Building tab is present, with only riot addons.&#xd;
+If Content only, only Content tab is present, with riot and theft cover addons.</description>
+   <name>TC001_BR_PP_Verify Correct Display of Addons</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>14c557a6-63b3-4630-94d7-e0a107343382</testCaseGuid>
+</TestCaseEntity>

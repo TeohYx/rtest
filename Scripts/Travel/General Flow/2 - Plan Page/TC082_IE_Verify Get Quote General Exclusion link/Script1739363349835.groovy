@@ -22,9 +22,9 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Plan Page'), [
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/link_General Exclusions'))
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Plan Page/validation_General Exclusions'), 3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Plan Page/dyvalidation_General Exclusions_text', [('text') : GlobalVariable.dyobj_GeneralExclusions]), 3)
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/button_General Exclusions_btn-close'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/button_CloseGeneralExclusions'))
 
 WebUI.closeBrowser()
 

@@ -22,13 +22,13 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Pa
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/btn_nationality'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_Nationality'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/btn_AFGHAN'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_AFGHAN'))
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), GlobalVariable.symbol)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), GlobalVariable.validation_symbol)
 
-String passport_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), "value") ?: ""
+String passport_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), "value") ?: ""
 
 WebUI.closeBrowser()
 

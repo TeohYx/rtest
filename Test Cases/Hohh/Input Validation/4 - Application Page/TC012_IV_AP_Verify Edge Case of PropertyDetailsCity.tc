@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC012_IV_AP_Verify Edge Case of PropertyDetailsCity</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a491fb67-2d5f-4949-833b-70bc484ae56e</testCaseGuid>
+</TestCaseEntity>

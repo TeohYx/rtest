@@ -22,10 +22,10 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Pa
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), GlobalVariable.alphabet_Smallcase)
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), GlobalVariable.alphabet_Uppercase)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), GlobalVariable.validation_smallcase)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), GlobalVariable.validation_uppercase)
 
-String nric_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/text_Postcode'), "value") ?: ""
+String nric_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/input_Postcode'), "value") ?: ""
 
 WebUI.closeBrowser()
 

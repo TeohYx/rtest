@@ -22,15 +22,15 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Pa
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/btn_Male'))
+WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/button_Male'))
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), '000928070605')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), '000928070605')
 
-String NRIC = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), 'value')
+String NRIC = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), 'value')
 
-maleButtonColor = WebUI.getCSSValue(findTestObject('Travel/TripCare360/English/AppPage/btn_Male'), 'background-color')
+maleButtonColor = WebUI.getCSSValue(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/button_Male'), 'background-color')
 
-femaleButtonColor = WebUI.getCSSValue(findTestObject('Travel/TripCare360/English/AppPage/btn_Female'), 
+femaleButtonColor = WebUI.getCSSValue(findTestObject('Travel/TripCare360/English/AppPage/button_Female'), 
     'background-color')
 
 int NRICGender = CustomKeywords.'applicationPage.verification.verifyNRICwithGender'(NRIC)
@@ -41,7 +41,7 @@ println(maleButtonColor)
 println(femaleButtonColor)
 switch(NRICGender) {
 	case 0:
-    	assert femaleButtonColor == GlobalVariable.gender_button_color
+    	assert femaleButtonColor == GlobalVariable.validation_button_color
 	case 1:
-    	assert maleButtonColor == GlobalVariable.gender_button_color
+    	assert maleButtonColor == GlobalVariable.validation_button_color
 }

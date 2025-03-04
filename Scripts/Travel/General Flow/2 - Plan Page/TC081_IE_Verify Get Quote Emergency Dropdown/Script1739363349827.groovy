@@ -20,9 +20,9 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Plan Page'), [('TCarea') : 2, ('TCplan') : 1, ('TCtrip') : 1],
 	FailureHandling.STOP_ON_FAILURE)
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/button_Emergency services (Due to accident _67d992'))
+WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Plan Page/dydropdown_PlanBenefits_name', [('name') : GlobalVariable.dyobj_Plan_BenefitsDropdown['emergencyServices']]))
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Plan Page/validation_Emergency medical evacuation and repatriation'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Travel/TripCare360/English/Plan Page/dyvalidation_PlanBenefits_name', [('name') : GlobalVariable.dyobj_Plan_BenefitsValidation['emergencyServices']]), 
     3)
 
 WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)

@@ -23,10 +23,9 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_Co
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/rdoAMEX'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/chkDeclaration'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/button_Declaration'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/btnProceed Payment'))
-
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_name', [('name') : GlobalVariable.dyobj_ProceedPayment]))
 WebUI.delay(5)
 
 WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_RM_IV_Verify Spacing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>de3e2437-9e42-4abe-afd8-a286aafee410</testCaseGuid>
+</TestCaseEntity>

@@ -15,10 +15,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div[2]/div/div[2]/div/div/div/a</value>
+         <value>(//a[@href='#editAdult'])[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>ed2a9dbf-ba5c-4592-a2ce-3c4fb3c01a5d</webElementGuid>
+      <webElementGuid>68fecd2f-1712-4757-92d4-0af71a3da246</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>PersonalDetailCard__StyledAnchor-sc-mpxnje-0 jcCzkJ a-link-none-line</value>
-      <webElementGuid>06d72736-6bde-496d-b9ec-b7fc9c16e10c</webElementGuid>
+      <webElementGuid>642895ff-767d-44d1-a695-b06c946d83ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +43,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#editAdult</value>
-      <webElementGuid>ab6e413a-cb84-4595-92c9-6a7604ac2d9d</webElementGuid>
+      <webElementGuid>40b05060-f5eb-4dfc-b38e-70417bdf7cda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>EDIT</value>
-      <webElementGuid>571d672f-8162-4f4d-be90-512b8bef479a</webElementGuid>
+      <webElementGuid>8571848e-027a-4af5-b924-6ba7fed32a48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;mt-3 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-7 col-12&quot;]/div[@class=&quot;mb-3 shadow  card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;PersonalDetailCard__Styles-sc-mpxnje-2 vjxiN&quot;]/div[@class=&quot;card-title h5&quot;]/a[@class=&quot;PersonalDetailCard__StyledAnchor-sc-mpxnje-0 jcCzkJ a-link-none-line&quot;]</value>
-      <webElementGuid>d50137d1-9e46-4cc7-b55e-eb6215d5a038</webElementGuid>
+      <webElementGuid>d05d18f5-b24c-4880-9c78-7f93926c4e70</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div[2]/div/div[2]/div/div/div/a</value>
-      <webElementGuid>94a17649-5c84-4ca2-89c0-f8bf197962a0</webElementGuid>
+      <webElementGuid>ae06ea4e-bfed-4cd3-8b9f-61675bbe39e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'EDIT')]</value>
-      <webElementGuid>3c043c5d-f43c-40f7-9a7f-11ad05d71f30</webElementGuid>
+      <webElementGuid>c023be78-7eba-4d85-a11c-80881a569319</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment'])[1]/following::a[1]</value>
-      <webElementGuid>2f49ee71-c263-4476-a58c-567f6907169b</webElementGuid>
+      <webElementGuid>70bd785e-3100-4962-a833-a5b0e1c11ab6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Personal Details'])[1]/following::a[1]</value>
-      <webElementGuid>4a580dda-461e-4e26-9274-0b76076c5892</webElementGuid>
+      <webElementGuid>f6f87432-dea3-4f16-bfbc-45d76fb46392</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/preceding::a[1]</value>
-      <webElementGuid>2ed75413-09dd-47c6-af80-69d4a63587c4</webElementGuid>
+      <webElementGuid>d457b2bf-e883-4550-a285-fc8cdac760d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NRIC'])[1]/preceding::a[1]</value>
-      <webElementGuid>7b652499-e95d-486b-beb2-0636a53d70e0</webElementGuid>
+      <webElementGuid>59be6f71-7325-4689-bd16-5602551142e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='EDIT']/parent::*</value>
-      <webElementGuid>991044c0-ba86-4afd-9ca2-d38ba4e65773</webElementGuid>
+      <webElementGuid>f08c518d-8f43-44ac-b521-ef6747e4d96a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#editAdult')]</value>
-      <webElementGuid>e149deea-e2de-4285-befb-00bebfc5b8cb</webElementGuid>
+      <webElementGuid>0e75d9b6-90b2-4b57-8aa0-8ff78ef43a11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,7 +131,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/a</value>
-      <webElementGuid>cfe487bf-5fe5-451e-a982-28a5700a8455</webElementGuid>
+      <webElementGuid>b0d2b588-84a7-4b01-aa7c-83a88b115412</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -139,6 +139,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#editAdult' and (text() = 'EDIT' or . = 'EDIT')]</value>
-      <webElementGuid>3b4f201a-4c37-46ac-8655-6af863f83359</webElementGuid>
+      <webElementGuid>46360993-1085-42de-a7bf-4e8481c2437c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

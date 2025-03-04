@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dysubmit_Buy_title</name>
+   <tag></tag>
+   <elementGuidId>2b8cefa3-eaf5-4ebc-91f1-af802d041d85</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Buy' or . = 'Buy')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.ButtonStepper__ButtonDiv-sc-1p030oz-0.hxyfdW.px-5.py-2.float-end.btn.btn-warning.btn-sm</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[contains(text(), '${title}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>073f8173-b2b5-4f06-b521-fb641f379e70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>76c43db5-3be2-4967-8e0c-ba2bb5846cca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ButtonStepper__ButtonDiv-sc-1p030oz-0 hxyfdW px-5 py-2 float-end btn btn-warning btn-sm</value>
+      <webElementGuid>d2e8b320-2331-498c-834f-efb255c6e07c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Buy</value>
+      <webElementGuid>c53593cf-ea4a-4dcb-b26a-5abaaaa6b6c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;ButtonStepper__Wrapper-sc-1p030oz-1 hZrHDM&quot;]/div[@class=&quot;ButtonStepper__TransparentWrapper-sc-1p030oz-2 eUFNlx&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;my-3 row&quot;]/div[@class=&quot;p-0&quot;]/button[@class=&quot;ButtonStepper__ButtonDiv-sc-1p030oz-0 hxyfdW px-5 py-2 float-end btn btn-warning btn-sm&quot;]</value>
+      <webElementGuid>274d7b69-1768-4a70-9a16-3ae254012e88</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[12]</value>
+      <webElementGuid>23f3c39e-ad1c-46cd-93bc-892bd979a345</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div[2]/div[2]/div/div/div/div/button[2]</value>
+      <webElementGuid>c584df8e-e444-42e9-b7cd-a98316f6381e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]</value>
+      <webElementGuid>cf3053ae-8f10-4dce-a915-2a731af2370a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM1,500,000'])[2]/following::button[2]</value>
+      <webElementGuid>158e739b-2d04-41cd-aac5-0e5a270edfd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Navigated to Plan Selection'])[1]/preceding::button[1]</value>
+      <webElementGuid>156f1ed9-b886-4401-a036-30ffa42e8d62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+      <webElementGuid>a22fe3e7-bf76-4840-a71b-b74bb40d8f7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Buy']/parent::*</value>
+      <webElementGuid>c55c36c3-dfcb-4d0b-8823-c959f62ef346</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>9ee054d6-c42a-4dee-acda-4db2f0654c1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Buy' or . = 'Buy')]</value>
+      <webElementGuid>1cf70235-42d6-4114-a8b4-e57e9d224522</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

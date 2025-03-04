@@ -19,10 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/button_Can I do nomination for TripCare 360 plan'))
+WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/dydropdown_FAQ_faq', [('faq') : GlobalVariable.dyobj_Quotation_FAQDropdown['nomination']]))
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Quotation Page/text_Yes. You may nominate an individual to _fc3cf6'), 
-    3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Quotation Page/dyvalidation_FAQ_faq', [('faq') : GlobalVariable.dyobj_Quotation_FAQValidation['nomination']]),
+	3)
 
 WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
 

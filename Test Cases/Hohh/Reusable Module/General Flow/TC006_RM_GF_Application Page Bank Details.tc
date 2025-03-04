@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC006_RM_GF_Application Page Bank Details</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b3a61b85-504c-497e-8d65-50594120905e</testCaseGuid>
+</TestCaseEntity>

@@ -18,20 +18,20 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), TCIC)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), TCIC)
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_FullName'), TCFullName)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoFullName'), TCFullName)
 
-WebUI.selectOptionByLabel(findTestObject('Travel/TripCare360/English/AppPage/dropdown_Ethnicity'), TCEthnicity, false)
+WebUI.selectOptionByLabel(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEthnicity'), TCEthnicity, false)
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_Email'), TCEmail)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEmail'), TCEmail)
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_MobileNumber'), TCMobileNumber)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_MobileNumber'), TCMobileNumber)
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_BuildingName'), TCBuildingName)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoBuildingName'), TCBuildingName)
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_AreaName'), TCAreaName)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoAreaName'), TCAreaName)
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_Postcode'), TCPostcode)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_Postcode'), TCPostcode)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))

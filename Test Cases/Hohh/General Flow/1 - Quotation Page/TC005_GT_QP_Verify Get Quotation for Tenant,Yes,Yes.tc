@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005_GT_QP_Verify Get Quotation for Tenant,Yes,Yes</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4dbf773a-821c-4d16-af86-61d7e3300550</testCaseGuid>
+</TestCaseEntity>

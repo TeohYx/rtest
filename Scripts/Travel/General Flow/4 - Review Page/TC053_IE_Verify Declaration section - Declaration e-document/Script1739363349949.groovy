@@ -25,9 +25,7 @@ WebUI.delay(1)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_ConfirmDetails'))
 
-WebUI.scrollToElement(findTestObject('Travel/TripCare360/English/Review Page/lb_declaration and marketing consent section'), 0)
-
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/lnkDeclaration'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/link_Declaration'))
 
 WebUI.switchToWindowIndex(1)
 

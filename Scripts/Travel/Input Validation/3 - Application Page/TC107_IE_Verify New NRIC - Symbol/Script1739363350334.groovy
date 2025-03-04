@@ -22,9 +22,9 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Pa
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), GlobalVariable.symbol)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), GlobalVariable.validation_symbol)
 
-String nric_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), "value") ?: ""
+String nric_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), "value") ?: ""
 
 WebUI.closeBrowser()
 

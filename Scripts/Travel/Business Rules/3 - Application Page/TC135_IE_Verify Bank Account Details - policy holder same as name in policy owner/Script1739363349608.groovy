@@ -36,7 +36,7 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Fill Personal Details In
 	, ('TCEthnicity') : ethnicity, ('TCEmail') : email, ('TCMobileNumber') : mobile, ('TCBuildingName') : buildingName
 	, ('TCAreaName') : areaName, ('TCPostcode') : postcode], FailureHandling.STOP_ON_FAILURE)
 
-String policy_holder_name = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/text_BankAccountPolicyHolderName'), "value") ?: ""
+String policy_holder_name = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/input_BankAccountPolicyHolderName'), "value") ?: ""
 
 WebUI.closeBrowser()
 

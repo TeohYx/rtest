@@ -22,9 +22,11 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Plan Page'), [
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/link_FindOutMore'))
 
-boolean isPresent = WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Plan Page/validation_CovidTab'), 3, FailureHandling.OPTIONAL)
+element = findTestObject('Travel/TripCare360/English/Plan Page/dyvalidation_CovidTab_covid', [('covid') : GlobalVariable.dyobj_CovidTab])
+boolean isPresent = WebUI.verifyElementVisible(element, FailureHandling.OPTIONAL)
 
 WebUI.takeFullPageScreenshot()
 WebUI.closeBrowser()
 
-assert isPresent : KeywordUtil.markFailed("The Covid Tab does not expanded.")
+println(element)
+assert isPresent : KeywordUtil.markFailed("The Covid Tab does not expanded. ${element}")

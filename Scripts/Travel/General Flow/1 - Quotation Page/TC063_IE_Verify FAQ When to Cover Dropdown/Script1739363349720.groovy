@@ -19,9 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/button_When does the cover commence and end_bc7cbb'))
+WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/dydropdown_FAQ_faq', [('faq') : GlobalVariable.dyobj_Quotation_FAQDropdown['coverCommence']]))
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Quotation Page/text_Domestic (Malaysia)Coverage commences f_d9cf0d'), 3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Quotation Page/dyvalidation_FAQ_faq', [('faq') : GlobalVariable.dyobj_Quotation_FAQValidation['coverCommence']]),
+	3)
 
 WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
 

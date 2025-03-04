@@ -17,7 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Quotation Page/button_Get Quote Now'))
+String classAttribute = ""
+
+try {
+	classAttribute = WebUI.getAttribute(findTestObject('Motorcar and Motorcycle/General/text_PageTitle', [('section') : 'Details & Add Ons']), 'class')
+} catch (Exception e) {
+	classAttribute = 'quotation'
+}
+
+String currentTab = WebUI.getText(findTestObject('Object Repository/Motorcar and Motorcycle/Plan Page/validation_CurrentTab'), FailureHandling.OPTIONAL)
+
+def hasClass = ['fw-bold'].any({ def className ->
+		classAttribute.contains(className)
+	})
+
+if (!hasClass) {
+	WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Quotation Page/button_Get Quote Now'))
+} else {
+	if (currentTab.contains("Bank Account Details")) {
+		WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Plan Page/4 - Bank Accounts Details/button_Save Bank Details'))
+	} else if (currentTab.contains("personal details")) {
+		WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Plan Page/3 - Personal Details/button_Save Personal Details'))
+	} else if (currentTab.contains("Share your car details") || currentTab.contains("Share your motorcycle details")) {
+		WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Plan Page/2 - Motorcycle Details/button_Save Motorcycle Details'))
+	}
+}
 
 try{
 	WebUI.verifyElementPresent(objectLocator, 3, FailureHandling.OPTIONAL)

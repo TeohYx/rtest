@@ -47,13 +47,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2f0a3d01-98b0-4c21-9bb9-cd5cb7ca1d6c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Motorcar/Input Validation/1 - Quotation Page/TC006_IV_QP_Plate Number - Verify Allowed Input</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>dac8ea20-cf2c-4c2a-bf46-e564333717c7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

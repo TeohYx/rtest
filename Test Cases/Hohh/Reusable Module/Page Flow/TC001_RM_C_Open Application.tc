@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_RM_C_Open Application</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>909f26a8-b1ef-4e65-9acf-53b99ab551e8</testCaseGuid>
+</TestCaseEntity>

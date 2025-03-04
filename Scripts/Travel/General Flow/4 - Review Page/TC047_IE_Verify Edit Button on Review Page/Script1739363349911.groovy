@@ -23,7 +23,7 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_Co
 
 WebUI.delay(2)
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/btnEditPlan_Review'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dybutton_PlanEdit_title', [('title') : GlobalVariable.dyobj_PlanEdit]))
 
 WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
 WebUI.closeBrowser()

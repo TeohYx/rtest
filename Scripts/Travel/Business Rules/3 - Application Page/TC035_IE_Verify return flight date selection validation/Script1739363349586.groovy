@@ -45,7 +45,7 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/input_Dep
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/button_NextMonth'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/CALANDER DATES/dybutton_Date_date', [('date') : '1']))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/General/dybutton_Date_date', [('date') : '1']))
 
 WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_ReturnFlightNumber'), 'MH17')
 
@@ -53,7 +53,7 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/input_Ret
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/button_NextMonth'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/CALANDER DATES/dybutton_Date_date', [('date') : '28']))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/General/dybutton_Date_date', [('date') : '28']))
 
 WebUI.takeFullPageScreenshot()
 

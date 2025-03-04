@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC012_GT_QP_Verify FAQ Others</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4d83ed2f-2b94-4c58-9b5f-6d96ec4096d3</testCaseGuid>
+</TestCaseEntity>

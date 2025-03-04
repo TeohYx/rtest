@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_MinusStorey</name>
+   <tag></tag>
+   <elementGuidId>0d2170e5-ca6b-410a-896d-02a1cb5e9606</elementGuidId>
+   <imagePath>img/Add.png</imagePath>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value>img/Add.png</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[contains(@class,'dashCircle_svg__bi')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+</WebElementEntity>

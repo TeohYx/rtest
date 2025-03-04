@@ -78,8 +78,6 @@ Map paymentInputScenario = [
 	]
 
 TestObject paymentMethod = findTestObject('Object Repository/Motorcar and Motorcycle/Declaration Page/button_FPX')
-	
-WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC001_RM_C_Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC004_RM_PF_Direct to Payment Page'),
 	[

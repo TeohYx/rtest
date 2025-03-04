@@ -22,12 +22,12 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Pa
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
 
-//WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), GlobalVariable.alphabet_Smallcase)
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), '000928070605')
+//WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), GlobalVariable.alphabet_Smallcase)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), '000928070605')
 
-String nric_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), "value") ?: ""
+String nric_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), "value") ?: ""
 
-String dob_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/text_DateOfBirth'), "value") ?: ""
+String dob_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoDateOfBirth'), "value") ?: ""
 
 (date1, date2) = CustomKeywords.'applicationPage.verification.verifyNRICwithDOB'(nric_text, dob_text)
 

@@ -19,9 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/button_How do I cancel my Policy and get a _c5707a'))
+WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/dydropdown_FAQ_faq', [('faq') : GlobalVariable.dyobj_Quotation_FAQDropdown['cancelPolicy']]))
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Quotation Page/text_No refund of premium will be allowed on_4b577d'), 3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Quotation Page/dyvalidation_FAQ_faq', [('faq') : GlobalVariable.dyobj_Quotation_FAQValidation['cancelPolicy']]),
+	3)
 
 WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
 

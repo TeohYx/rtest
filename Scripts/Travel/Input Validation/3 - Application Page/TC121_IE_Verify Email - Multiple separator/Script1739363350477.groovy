@@ -27,17 +27,17 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Pa
 for (int i=0; i<sample_email.length; i++) {
 	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
 	
-	WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_Email'), sample_email[i])
+	WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEmail'), sample_email[i])
 	
-	String email_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/text_Email'), "value") ?: ""
+	String email_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEmail'), "value") ?: ""
 	
 	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))
 
-	if (email_text != sample_email[i] && WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/wrnmsg_Email'), 3)) {
+	if (email_text != sample_email[i] && WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_text', [('text') : GlobalVariable.dyobj_travellerInfo['email']]), 3)) {
 		WebUI.closeBrowser()
 	}
 	
-	assert email_text == sample_email[i] && WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/wrnmsg_Email'), 3)
+	assert email_text == sample_email[i] && WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_text', [('text') : GlobalVariable.dyobj_travellerInfo['email']]), 3)
 }
 
 

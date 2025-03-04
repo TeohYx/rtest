@@ -31,7 +31,7 @@ WebUI.delay(2)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_AddonCovid19'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_CostBreakdown'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/dybutton_CostBreakdown_text'))
 
 Boolean isItemPresent = WebUI.verifyElementPresent(itemObject, 3, FailureHandling.OPTIONAL)
 

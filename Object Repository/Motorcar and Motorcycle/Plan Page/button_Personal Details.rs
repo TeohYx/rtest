@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(text(),'Personal Details')]//ancestor::div[@class='card-body']//descendant::a</value>
+         <value>//div[contains(text(), &quot;Personal Details&quot;)]//following::div[contains(text(), &quot;Add Details&quot;)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -19,7 +19,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>67c8e416-0b80-491b-b0c6-590eb1965adf</webElementGuid>
+      <webElementGuid>6facffc3-f1dc-4fd9-a15c-5b8bf62c5777</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,6 +27,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1735550116281</value>
-      <webElementGuid>87dee2e1-7053-455d-b6f9-16a2b0151b5c</webElementGuid>
+      <webElementGuid>26deffe6-0fa4-487f-9652-630358cf1593</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

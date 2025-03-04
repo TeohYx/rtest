@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC026_IE_Verify Validation of the text Field - State</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>af40c781-2f27-48e6-b7c9-e3588155c299</testCaseGuid>
-</TestCaseEntity>

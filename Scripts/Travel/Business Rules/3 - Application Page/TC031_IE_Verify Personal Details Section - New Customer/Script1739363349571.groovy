@@ -24,9 +24,9 @@ WebUI.delay(3)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), '980421045116')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), '980421045116')
 
-WebUI.verifyElementText(findTestObject('Travel/TripCare360/English/AppPage/text_FullName'), '')
+WebUI.verifyElementText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoFullName'), '')
 
 WebUI.takeFullPageScreenshot()
 

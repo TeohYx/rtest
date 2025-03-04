@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Page'), [('TCarea') : 2, ('TCplan') : 1, ('TCtrip') : 1
 	, ('TCpackage') : 1], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_ReturnFlightNumber'), "ABC1234")
+WebUI.setText(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/input_ReturnFlightNumber'), "ABC1234")
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_ReturnFlightDate'))
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_depart_flight_date'))
@@ -34,5 +34,5 @@ String second_warning_message = WebUI.getText(findTestObject('Travel/TripCare360
 
 WebUI.closeBrowser()
 
-assert first_warning_message == GlobalVariable.errorMessage_Empty && second_warning_message == GlobalVariable.errorMessage_Empty
+assert first_warning_message == GlobalVariable.errorMessage_empty && second_warning_message == GlobalVariable.errorMessage_empty
 

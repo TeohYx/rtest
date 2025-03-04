@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Accessing TripCare 360 in English and Malay</description>
-   <name>TC001_IE_Verify Language EN and MY</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>5ad0fd51-4b40-4f23-838b-59cbc66904e9</testCaseGuid>
-</TestCaseEntity>

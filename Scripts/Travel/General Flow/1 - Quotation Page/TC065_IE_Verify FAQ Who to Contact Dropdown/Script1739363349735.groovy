@@ -19,10 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/button_Who do I contact for an emergency as_10eecd'))
+WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/dydropdown_FAQ_faq', [('faq') : GlobalVariable.dyobj_Quotation_FAQDropdown['emergencyContact']]))
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Quotation Page/text_Please call our 24-Hour, 7 days Travel _810c11'), 
-    3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Quotation Page/dyvalidation_FAQ_faq', [('faq') : GlobalVariable.dyobj_Quotation_FAQValidation['emergencyContact']]),
+	3)
 
 WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
 

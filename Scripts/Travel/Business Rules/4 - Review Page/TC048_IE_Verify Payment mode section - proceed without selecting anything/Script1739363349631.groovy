@@ -21,13 +21,11 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Filled Form - Myself'), 
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_ConfirmDetails'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/chkDeclaration'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/button_Declaration'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/btnProceed Payment'))
-
-WebUI.scrollToElement(findTestObject('Travel/TripCare360/English/Review Page/lbl_payment section'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Review Page/lbl_Please select your mode of payment'), 0)
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_name', [('name') : GlobalVariable.dyobj_ProceedPayment]))
+	
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Review Page/dywarning_ModeOfPayment_warning', [('warning') : GlobalVariable.dyobj_ModeOfPayment]), 0)
 
 WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
 

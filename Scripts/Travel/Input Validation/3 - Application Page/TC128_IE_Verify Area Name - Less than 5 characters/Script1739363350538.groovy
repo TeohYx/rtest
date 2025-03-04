@@ -22,13 +22,13 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Pa
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_AreaName'), 'abcd')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoAreaName'), 'abcd')
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))
 
-String mobile_text = WebUI.getText(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/wrnmsg_Area,Sub-Area Name'))
+String mobile_text = WebUI.getText(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_text', [('text') : GlobalVariable.dyobj_travellerInfo['areaName']]))
 
 WebUI.closeBrowser()
 
-assert mobile_text == GlobalVariable.errorMessage_MailingAddress : "The warning message is not ${GlobalVariable.errorMessage_MailingAddress}"
+assert mobile_text == GlobalVariable.errorMessage_mailingAddress : "The warning message is not ${GlobalVariable.errorMessage_mailingAddress}"
 

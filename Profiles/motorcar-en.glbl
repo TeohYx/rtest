@@ -369,4 +369,9 @@
       <initValue>'rgba(255, 239, 191, 1)'</initValue>
       <name>attribute_colorSelected</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>https://www-gold.etiqa.com/edp/motor/my/motorcar/insurance/quotation</description>
+      <initValue>'https://www-gold.etiqa.com/edp/motor/my/motorcar/insurance/quotation'</initValue>
+      <name>LINK</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

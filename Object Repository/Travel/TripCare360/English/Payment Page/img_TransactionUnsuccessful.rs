@@ -4,17 +4,23 @@
    <name>img_TransactionUnsuccessful</name>
    <tag></tag>
    <elementGuidId>8411d9f7-2290-4c04-b017-dbfa190f3d04</elementGuidId>
+   <imagePath>img/FailedTransaction.png</imagePath>
    <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value>img/FailedTransaction.png</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>img.PaymentStatusHeader__Logo-sc-q2uo8o-4.kcVfxL</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='gatsby-focus-wrapper']/div[3]/div/div/div/div/img</value>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>IMAGE</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>fef96dac-015d-46bd-b03e-b9cc618c18bb</webElementGuid>
+      <webElementGuid>d4d23ace-1966-4958-816a-5af4ca74f980</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +36,7 @@
       <name>src</name>
       <type>Main</type>
       <value>data:image/png;base64,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</value>
-      <webElementGuid>52a58e07-c7bf-4736-a9bf-15d97513bb08</webElementGuid>
+      <webElementGuid>87c9a05c-a8b3-4640-a531-cf05c0b249c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +44,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>payment-result</value>
-      <webElementGuid>7ab89788-fd80-498f-9a55-675ed65969fc</webElementGuid>
+      <webElementGuid>dad84318-b951-4184-b72e-3473e537d2c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +52,7 @@
       <name>class</name>
       <type>Main</type>
       <value>PaymentStatusHeader__Logo-sc-q2uo8o-4 kcVfxL</value>
-      <webElementGuid>6d6c526e-8e54-40a9-8d22-de8f666229a9</webElementGuid>
+      <webElementGuid>1b42f2df-4e4f-4f49-9855-d94d3ea502a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +60,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;status__Wrapper-sc-17j7umb-0 cYcjWt&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;text-center col&quot;]/img[@class=&quot;PaymentStatusHeader__Logo-sc-q2uo8o-4 kcVfxL&quot;]</value>
-      <webElementGuid>70acf3a8-7cd3-4b8a-9b9c-c07cdd3ad740</webElementGuid>
+      <webElementGuid>ba57f6e6-899a-4aa2-ae63-b47dc2120eff</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +68,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='gatsby-focus-wrapper']/div[3]/div/div/div/div/img</value>
-      <webElementGuid>17ec1448-8570-4e4c-bf45-11a8eca961e0</webElementGuid>
+      <webElementGuid>cf279e29-c62f-4e51-b509-8b62db2a4014</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +76,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='payment-result']</value>
-      <webElementGuid>072ec6cd-3949-4cd2-9476-e6e2babdfbd3</webElementGuid>
+      <webElementGuid>5a55b2b7-531c-4644-ba4e-fc21502b34ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +84,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/img</value>
-      <webElementGuid>3e75ab21-c40c-4fd4-8bf0-0d45af6296f7</webElementGuid>
+      <webElementGuid>05f6fb2a-abf5-4b45-a5d7-da2ddf9bf9d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +92,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'data:image/png;base64,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' and @alt = 'payment-result']</value>
-      <webElementGuid>d5199e5b-2b3d-4133-8d10-b2dc8b077566</webElementGuid>
+      <webElementGuid>1f43d9fb-fc7c-4b0a-94ca-7e8bdadbb3e4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

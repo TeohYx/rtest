@@ -22,9 +22,9 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Plan Page'), [
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/button_CovidAddOn'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/submit_Buy'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/dysubmit_Buy_title', [('title') : GlobalVariable.dyobj_Buy]))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_CostBreakdown'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/dybutton_CostBreakdown_text'))
 
 WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dytext_CostBreakdown_item', [('item') : 'COVID-19']), 
     3)

@@ -23,15 +23,15 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Pa
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/btn_nationality'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_Nationality'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/btn_AFGHAN'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_AFGHAN'))
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), 'A11')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), 'A11')
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))
 
-warning_message = WebUI.getText(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/wrnmsg_Passport'))
+warning_message = WebUI.getText(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_text', [('text') : GlobalVariable.dyobj_travellerInfo['passport']]))
 
 WebUI.closeBrowser()
 

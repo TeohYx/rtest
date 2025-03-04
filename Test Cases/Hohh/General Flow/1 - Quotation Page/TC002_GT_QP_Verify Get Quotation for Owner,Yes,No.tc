@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_GT_QP_Verify Get Quotation for Owner,Yes,No</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ca785c4e-7c04-4093-9d64-931d193add3b</testCaseGuid>
+</TestCaseEntity>

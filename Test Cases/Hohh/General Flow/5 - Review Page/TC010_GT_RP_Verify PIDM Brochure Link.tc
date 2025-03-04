@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC010_GT_RP_Verify PIDM Brochure Link</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bd48e5bc-a308-49c0-a790-69e0fa0a0028</testCaseGuid>
+</TestCaseEntity>

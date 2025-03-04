@@ -24,13 +24,13 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_Ed
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_Select Nationality'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/btn_AFGHAN'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_AFGHAN'))
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), '012')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), '012')
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/lbl_Please enter valid passport'), 3)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_text', [('text') : GlobalVariable.dyobj_travellerInfo['passport']]), 3)
 
 WebUI.takeFullPageScreenshot()
 

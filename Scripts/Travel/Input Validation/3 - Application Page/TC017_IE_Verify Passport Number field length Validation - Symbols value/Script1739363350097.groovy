@@ -24,9 +24,9 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_Ed
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_Select Nationality'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/btn_AFGHAN'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_AFGHAN'))
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), '@#!_@#')
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), '@#!_@#')
 
 WebUI.takeFullPageScreenshot()
 

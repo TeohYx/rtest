@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='FPX']</value>
+         <value>//input[@value='FPX']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -19,7 +19,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>93ab8301-bc98-473c-b61b-b6283c493276</webElementGuid>
+      <webElementGuid>11fff352-1080-42c7-ad1f-19a63ffdb204</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,6 +27,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1736414839539</value>
-      <webElementGuid>63a01a9e-1983-4bc0-a6b6-a37f6b8ad815</webElementGuid>
+      <webElementGuid>7af30c4d-c2dd-4bbb-9e21-c9f864e9f178</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

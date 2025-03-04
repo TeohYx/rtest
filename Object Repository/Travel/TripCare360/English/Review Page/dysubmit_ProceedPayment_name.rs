@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dysubmit_ProceedPayment_name</name>
+   <tag></tag>
+   <elementGuidId>b76f0e9f-0792-423a-b343-78dc683b7ed7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[contains(text(), '${name}')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.px-4.py-2.float-end.btn.btn-warning.btn-sm</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2371581f-089b-4644-89e6-edd81eed97f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e1b87ebf-abe9-4221-9568-50c9e43f9b9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-4 py-2 float-end btn btn-warning btn-sm</value>
+      <webElementGuid>c86755c7-108c-4378-9df2-d5f8d743fdd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Proceed Payment</value>
+      <webElementGuid>19af250c-0dd6-41d3-b605-1884f3dbe03a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;review__Styles-sc-1y5xbh0-1 jrSuyi&quot;]/div[@class=&quot;mt-3 container&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-7 col-12&quot;]/div[1]/div[@class=&quot;container&quot;]/div[@class=&quot;mt-4 row&quot;]/div[@class=&quot;p-0&quot;]/button[@class=&quot;px-4 py-2 float-end btn btn-warning btn-sm&quot;]</value>
+      <webElementGuid>5a808d51-1a49-461e-894b-2e31aaf3decb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[7]</value>
+      <webElementGuid>49ca70ad-eeba-4604-b93f-dd08dba3d743</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div/form/div[2]/div/div/div/div/div/button[2]</value>
+      <webElementGuid>6620c2ce-ab9d-4861-a009-2dd4fcd574de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]</value>
+      <webElementGuid>4a031dfd-0297-4b4a-9003-ef68c06d889b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM222.99'])[1]/following::button[2]</value>
+      <webElementGuid>40a88e16-c31e-425f-9b77-8878f1cc0b4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Navigated to Quotation | TripCare 360'])[1]/preceding::button[1]</value>
+      <webElementGuid>6804a2e2-a65e-4850-a175-4aab85405d58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+      <webElementGuid>453e8801-0816-48be-91ea-10d09437f082</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Proceed Payment']/parent::*</value>
+      <webElementGuid>e4cc752c-24bb-43a6-8272-eb48625fec99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>3011944e-5d92-46e3-81cf-92749eeba8cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Proceed Payment' or . = 'Proceed Payment')]</value>
+      <webElementGuid>52bc4181-0d57-4b11-b2d2-009fcd967d08</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

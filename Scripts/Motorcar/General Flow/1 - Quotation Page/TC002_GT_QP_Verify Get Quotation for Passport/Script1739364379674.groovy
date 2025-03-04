@@ -32,7 +32,7 @@ WebUI.enhancedClick(findTestObject('Motorcar and Motorcycle/Quotation Page/label
 WebUI.setText(findTestObject('Motorcar and Motorcycle/Quotation Page/input_Passport'), 'A12345678')
 
 WebUI.enhancedClick(findTestObject('Motorcar and Motorcycle/Quotation Page/button_Select Nationality'))
-WebUI.enhancedClick(findTestObject('Motorcar and Motorcycle/Quotation Page/option_Select Country'))
+WebUI.enhancedClick(findTestObject('Motorcar and Motorcycle/Quotation Page/dyoption_Select Country_country', [('country') : 'AFGHAN']))
 
 WebUI.setText(findTestObject('Motorcar and Motorcycle/Quotation Page/input_Date Of Birth'), '19/07/1990')
 WebUI.enhancedClick(findTestObject('Motorcar and Motorcycle/Quotation Page/button_Get Quote Now'))

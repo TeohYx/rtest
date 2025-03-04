@@ -26,7 +26,7 @@ WebUI.enhancedClick(findTestObject('Motorcar and Motorcycle/Quotation Page/label
 WebUI.setText(findTestObject('Motorcar and Motorcycle/Quotation Page/input_Passport'), 'A12345678')
 
 WebUI.enhancedClick(findTestObject('Motorcar and Motorcycle/Quotation Page/button_Select Nationality'))
-WebUI.enhancedClick(findTestObject('Quotation Page/option_AFGHAN'))
+WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Quotation Page/button_AFGHAN'))
 
 WebUI.setText(findTestObject('Motorcar and Motorcycle/Quotation Page/input_Date Of Birth'), '19/07/1990')
 WebUI.enhancedClick(findTestObject('Motorcar and Motorcycle/Quotation Page/button_Get Quote Now'))

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC007_RM_GF_Make Payment Using FPX</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9da673b8-067b-46f5-98b6-1ebefc46b697</testCaseGuid>
+</TestCaseEntity>

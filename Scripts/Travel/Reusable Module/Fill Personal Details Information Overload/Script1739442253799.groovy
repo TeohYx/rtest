@@ -44,25 +44,25 @@ WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English
 WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/dybutton_ChooseNationality_nation', [('nation') : finalParams.TCNation]))
 println(finalParams.TCIC)
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_PassportOrIdentityNumber'), finalParams.TCIC)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), finalParams.TCIC)
 
 if (WebUI.verifyElementPresent(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/dylabel_TravellerInformation_text', [('text') : 'Passport']), 3, FailureHandling.OPTIONAL)) {
-	WebUI.setText(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/text_DateOfBirth'), '28092000') //HARDCODE	
+	WebUI.setText(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/input_TravellerInfoDateOfBirth'), '28092000') //HARDCODE	
 	WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/button_Male'))
 }
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_FullName'), finalParams.TCFullName)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoFullName'), finalParams.TCFullName)
 
-WebUI.selectOptionByLabel(findTestObject('Travel/TripCare360/English/AppPage/dropdown_Ethnicity'), finalParams.TCEthnicity, false)
+WebUI.selectOptionByLabel(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEthnicity'), finalParams.TCEthnicity, false)
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_Email'), finalParams.TCEmail)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEmail'), finalParams.TCEmail)
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_MobileNumber'), finalParams.TCMobileNumber)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_MobileNumber'), finalParams.TCMobileNumber)
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_BuildingName'), finalParams.TCBuildingName)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoBuildingName'), finalParams.TCBuildingName)
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_AreaName'), finalParams.TCAreaName)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoAreaName'), finalParams.TCAreaName)
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_Postcode'), finalParams.TCPostcode)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_Postcode'), finalParams.TCPostcode)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))

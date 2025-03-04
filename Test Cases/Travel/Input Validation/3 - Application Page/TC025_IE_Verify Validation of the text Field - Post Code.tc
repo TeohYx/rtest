@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC025_IE_Verify Validation of the text Field - Post Code</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>b4663bf4-efcd-4b0c-8218-5f98f5d21266</testCaseGuid>
-</TestCaseEntity>

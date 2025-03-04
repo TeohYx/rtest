@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dybutton_UniversityStudentYes_text</name>
+   <tag></tag>
+   <elementGuidId>82eb4ce0-0ddd-4252-9af7-32a51bfe7490</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='${text}'])[1]/following::label[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>233cfc49-efad-47a8-8ad6-fc46e50b51ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-outline-dark w-100</value>
+      <webElementGuid>c4844c72-9a66-4e13-ac3d-feee589c1043</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>personal-detail-form-input-is-student</value>
+      <webElementGuid>1cec12c1-f117-4ebe-b6b2-ddf6c69e0714</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Yes</value>
+      <webElementGuid>a96e6a2c-8b7f-4c29-b325-cd454bee6259</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;fade modal show&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;PersonalDetailForm__Styles-sc-1tye5zo-0 iJgkOQ&quot;]/div[@class=&quot;modal-body&quot;]/form[@class=&quot;personal-detail-form&quot;]/div[@class=&quot;mb-3&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/label[@class=&quot;btn btn-outline-dark w-100&quot;]</value>
+      <webElementGuid>e5e12027-fa09-4527-b169-c9f7da5f03dd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Is University/College Student'])[1]/following::label[1]</value>
+      <webElementGuid>06cbb3e2-b2d2-4110-a595-1304ea3ac393</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date of Birth'])[1]/following::label[2]</value>
+      <webElementGuid>3a0f431f-6b02-4f94-af93-35542850faa7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::label[1]</value>
+      <webElementGuid>575ea0e3-c2dd-423a-bb45-6c0deb08baf2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gender'])[1]/preceding::label[2]</value>
+      <webElementGuid>eda6dfa9-38d9-4e83-adaf-f7145eab2eca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Yes']/parent::*</value>
+      <webElementGuid>e7956f17-3a60-4c7b-abd2-276f9b6c3006</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/label</value>
+      <webElementGuid>f56f6ed6-c0c2-410a-937c-0bfb8565fe64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Yes' or . = 'Yes')]</value>
+      <webElementGuid>21424e2a-d886-44b5-9ac4-ea87832d312b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

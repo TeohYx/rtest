@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_GT_RP_Verify Flow of Without Marketing Consent</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b4106247-1824-460e-8816-8f6a1194aea2</testCaseGuid>
+</TestCaseEntity>

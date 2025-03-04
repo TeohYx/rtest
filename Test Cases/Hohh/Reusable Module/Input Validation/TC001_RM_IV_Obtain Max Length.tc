@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_RM_IV_Obtain Max Length</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0c3f7fad-c1d4-49bf-a20b-d53b1214d58d</testCaseGuid>
+</TestCaseEntity>

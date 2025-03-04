@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC008_IV_DP_Input Validation for Jewellery Value Amount</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>30e3baf5-4e53-40ff-b59e-69f665ea3e54</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Each content are rounded off in hundred digit, and the sum is calculated to make sure it falls within the range</description>
+   <name>TC006_GT_PP_Verify Success Flow of the Sum of Contents Calculator</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1a38d9a1-89bb-4bf4-bdf7-c4eff08d0800</testCaseGuid>
+</TestCaseEntity>

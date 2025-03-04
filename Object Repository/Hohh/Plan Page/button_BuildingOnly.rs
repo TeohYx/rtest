@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_BuildingOnly</name>
+   <tag></tag>
+   <elementGuidId>6e47efc5-3c2a-429d-a5bb-97b28be08113</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='protection-type-building']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.TopIconCard__Styles-sc-1l6nl48-0.gmshsq > label.card > div.card-body</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b0678254-294a-4cf3-b1b9-3b63334c28ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>c47fbc44-c48a-42a3-b650-314cf23cb117</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Building onlyCovers home's structure.</value>
+      <webElementGuid>b18e9a76-4b03-4231-99b1-e177ea8fb080</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;layout__Styles-sc-wetbic-0 ehlvJr&quot;]/div[@class=&quot;plan__Styles-sc-1bba8d0-0 dlSxDC bg-white&quot;]/form[1]/div[@class=&quot;container-padding-hide container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;d-grid gap-3 my-4&quot;]/div[@class=&quot;ProtectionTypeButton__StyledRow-sc-pqhixx-0 jJuxaz flex-nowrap justify-content-md-center g-3 row&quot;]/div[@class=&quot;order-2 col-md-4 col-10&quot;]/div[@class=&quot;TopIconCard__Styles-sc-1l6nl48-0 gmshsq&quot;]/label[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>cee11a57-c0da-4ec7-940d-679ffbc1bbf6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div/div/form/div/div[2]/div/div[2]/div[2]/div/label/div</value>
+      <webElementGuid>776832f4-967b-4454-a9c6-7d57a93b49e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Building + Contents'])[1]/following::div[5]</value>
+      <webElementGuid>aa9343cb-b515-4d8f-a797-de7262d6f3d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product and coverage comparison'])[1]/following::div[13]</value>
+      <webElementGuid>f4063200-94de-4354-bc8a-1821d0d75bfa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Content only'])[1]/preceding::div[8]</value>
+      <webElementGuid>e269cc82-307a-4afb-8126-cc82edc9310e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/label/div</value>
+      <webElementGuid>b8b51b50-bb6f-4d4a-bc7f-0d9968b5d0f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;Building onlyCovers home&quot; , &quot;'&quot; , &quot;s structure.&quot;) or . = concat(&quot;Building onlyCovers home&quot; , &quot;'&quot; , &quot;s structure.&quot;))]</value>
+      <webElementGuid>c5697fbb-9e46-4171-9cfd-8ecfa5ef4509</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

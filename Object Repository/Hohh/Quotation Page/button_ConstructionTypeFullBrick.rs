@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_ConstructionTypeFullBrick</name>
+   <tag></tag>
+   <elementGuidId>510222cd-cc7b-4dfa-a006-e8c0605d2e0b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='construction-type-fullBrick']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ConstructionTypeButton__Style-sc-5bp3n3-0.iraGvx > div.gap.row > div.col-md-6.col-12 > div.LeftIconCard__Styles-sc-afaz75-0.hVmBSj > label.card > div.card-body</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Full BrickMy house is built with sturdy brick walls and concrete floors$/ >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1ab917c7-ab0c-4728-81c6-109af83c146f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>db4f517e-7bf0-435a-ae87-2cb9822ffb99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Full BrickMy house is built with sturdy brick walls and concrete floors</value>
+      <webElementGuid>327b73fc-ed5d-4050-93de-75ee04ee2f7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;layout__Styles-sc-wetbic-0 ehlvJr&quot;]/div[@class=&quot;quotation__Styles-sc-ucwthg-0 joHbWJ bg-white&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;first-form row&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;QuotationForm__Styles-sc-1hggy6g-0 ekdXkh shadow p-3 mb-5 bg-body-tertiary rounded&quot;]/form[1]/div[@class=&quot;justify-content-md-center gap-3 mb-4 row&quot;]/div[@class=&quot;col-md-8 col-12&quot;]/div[@class=&quot;p-4 card&quot;]/div[@class=&quot;d-grid gap-3&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;ConstructionTypeButton__Style-sc-5bp3n3-0 iraGvx&quot;]/div[@class=&quot;gap row&quot;]/div[@class=&quot;col-md-6 col-12&quot;]/div[@class=&quot;LeftIconCard__Styles-sc-afaz75-0 hVmBSj&quot;]/label[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>51b84cbd-da72-4a9c-b930-793ccc7999fd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div/div/div[2]/div/div/div/form/div[3]/div[2]/div/div/div[2]/div/div/div/div/label/div</value>
+      <webElementGuid>c88918fe-3384-45c7-88ab-cec6a87eaec0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Construction type'])[1]/following::div[5]</value>
+      <webElementGuid>1b767672-db14-4adc-a7ee-a0b5c039c5cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non-Landed'])[1]/following::div[8]</value>
+      <webElementGuid>520bbffe-3e33-4c8b-b397-b8b3b77a689b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Partial Brick'])[1]/preceding::div[8]</value>
+      <webElementGuid>3cbecd2d-5b65-46d3-945a-cbc8bfec33ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/label/div</value>
+      <webElementGuid>4321eeeb-4c37-4661-9cae-3aa382111142</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Full BrickMy house is built with sturdy brick walls and concrete floors' or . = 'Full BrickMy house is built with sturdy brick walls and concrete floors')]</value>
+      <webElementGuid>c1ea81d3-dcd1-4487-b8f4-22febd68067f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

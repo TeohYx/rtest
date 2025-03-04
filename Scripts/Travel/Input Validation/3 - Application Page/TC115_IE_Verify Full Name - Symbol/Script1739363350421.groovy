@@ -17,18 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String invalid_character = GlobalVariable.symbol.replaceAll("[@,./'-]", "")
+String invalid_character = GlobalVariable.validation_symbol.replaceAll("[@,./'-]", "")
 
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Page'), [('TCarea') : 3, ('TCplan') : 1, ('TCtrip') : 1
 	, ('TCpackage') : 1], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_FullName'), invalid_character)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoFullName'), invalid_character)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))
 
-String name_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/wrnmsg_Full Name'), "value") ?: ""
+String name_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_text', [('text') : GlobalVariable.dyobj_travellerInfo['fullName']]), "value") ?: ""
 
 WebUI.closeBrowser()
 

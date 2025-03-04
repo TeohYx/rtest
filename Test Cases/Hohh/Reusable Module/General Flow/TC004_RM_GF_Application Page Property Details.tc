@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004_RM_GF_Application Page Property Details</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e07775b-ef65-47c7-89b1-6af73891c9b8</testCaseGuid>
+</TestCaseEntity>

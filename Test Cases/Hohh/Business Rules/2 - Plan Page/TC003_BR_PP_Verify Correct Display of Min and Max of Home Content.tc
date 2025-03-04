@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_BR_PP_Verify Correct Display of Min and Max of Home Content</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>063bcba8-c626-42ac-b62e-0e25ccbebba0</testCaseGuid>
+</TestCaseEntity>

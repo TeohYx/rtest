@@ -33,6 +33,7 @@ String marketValue = WebUI.getText(findTestObject('Motorcar and Motorcycle/Plan 
 
 // Get agreed value amount
 WebUI.enhancedClick(findTestObject('Motorcar and Motorcycle/Plan Page/button_Single Rider Or Agreed Value'))
+WebUI.delay(3) // hardcode
 String agreedValue = WebUI.getText(findTestObject('Motorcar and Motorcycle/Plan Page/1 - Quotation Details/txt_Total Payable'))
 
 WebUI.takeScreenshot()

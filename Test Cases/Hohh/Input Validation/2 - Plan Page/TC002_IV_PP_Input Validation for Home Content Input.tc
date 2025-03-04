@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Try Min-1, the fill should autocorrect to Min; Max+1, the fill should autocorrect to Max.</description>
+   <name>TC002_IV_PP_Input Validation for Home Content Input</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>38be3a64-421f-4745-ba06-ad291ce506b5</testCaseGuid>
+</TestCaseEntity>

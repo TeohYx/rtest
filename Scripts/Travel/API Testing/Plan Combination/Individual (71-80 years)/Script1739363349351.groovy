@@ -36,7 +36,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.trip360_insurance)
+WebUI.navigateToUrl(GlobalVariable.LINK)
 
 int planType = 2
 

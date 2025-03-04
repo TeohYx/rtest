@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC006_IV_AP_Verify Edge Case of Gender</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6e655f22-3f20-4893-a204-c9a0acacab2c</testCaseGuid>
+</TestCaseEntity>

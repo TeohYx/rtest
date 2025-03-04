@@ -36,7 +36,7 @@ for (def country : blacklistCountry) {
 		('buttonField') : [
 			[
 				('buttonClick') : findTestObject('Object Repository/Motorcar and Motorcycle/Quotation Page/button_Select Nationality')
-                , ('buttonSelection') : findTestObject('Motorcar and Motorcycle/Quotation Page/option_Select Country', [('country') : countryText])
+                , ('buttonSelection') : findTestObject('Motorcar and Motorcycle/Quotation Page/dyoption_Select Country_country', [('country') : countryText])
 			]
 		]
 	]
@@ -68,4 +68,4 @@ for (def country : blacklistCountry) {
     WebUI.closeBrowser()
 }
 
-assert failedCountry.isEmpty() : KeywordUtil.markError("The blacklisted country still able to access to plan page. Failed case: $failedCountry")
+assert failedCountry.isEmpty() : "The blacklisted country still able to access to plan page. Failed case: ${failedCountry}"

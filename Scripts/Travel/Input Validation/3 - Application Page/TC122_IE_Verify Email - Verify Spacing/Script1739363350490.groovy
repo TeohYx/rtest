@@ -25,9 +25,9 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Pa
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_Email'), "yeexian_tyx @hotmail.com")
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEmail'), "yeexian_tyx @hotmail.com")
 
-String email_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/text_Email'), "value") ?: ""
+String email_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEmail'), "value") ?: ""
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))
 

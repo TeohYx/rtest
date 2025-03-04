@@ -22,11 +22,11 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Pa
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
 
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/text_MobileNumber'), GlobalVariable.symbol)
+WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_MobileNumber'), GlobalVariable.validation_symbol)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))
 
-String mobile_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/wrnmsg_Mobile Number'), "value") ?: ""
+String mobile_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_text', [('text') : GlobalVariable.dyobj_travellerInfo['mobileNumber']]), "value") ?: ""
 
 WebUI.closeBrowser()
 

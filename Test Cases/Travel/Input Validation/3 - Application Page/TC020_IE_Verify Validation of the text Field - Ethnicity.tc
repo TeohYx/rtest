@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC020_IE_Verify Validation of the text Field - Ethnicity</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>0f9cb705-680e-4421-b5e6-1d06545efa0f</testCaseGuid>
-</TestCaseEntity>

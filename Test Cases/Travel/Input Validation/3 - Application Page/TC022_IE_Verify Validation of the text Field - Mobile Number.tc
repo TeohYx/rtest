@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC022_IE_Verify Validation of the text Field - Mobile Number</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>8e8c4e59-580e-48df-be05-049d83ff4fb7</testCaseGuid>
-</TestCaseEntity>

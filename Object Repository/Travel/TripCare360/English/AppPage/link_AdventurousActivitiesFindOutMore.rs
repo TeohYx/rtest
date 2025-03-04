@@ -6,12 +6,12 @@
    <elementGuidId>cb07ba72-37b0-48bc-93dd-e683c6f317cc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div[2]/div/div[4]/div/div/div/div[1]/p/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>p.card-text > a.a-link-none-line</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@href='#activitiesModal']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>89054502-c27a-4caa-84ae-8bd04e1124e5</webElementGuid>
+      <webElementGuid>3a0d5de6-fffe-403b-8249-3ed4fcfad9c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-link-none-line</value>
-      <webElementGuid>e34f6ee6-fe9e-4cfd-85f1-6d711e9edcda</webElementGuid>
+      <webElementGuid>7958c783-6bb8-4bb5-836f-5bfe5d0d0d57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#activitiesModal</value>
-      <webElementGuid>e1aa2567-d435-4256-af65-fe589f73731a</webElementGuid>
+      <webElementGuid>25963887-7eb9-41bc-9483-1a99d07213a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Find out more ></value>
-      <webElementGuid>c9eb0fd8-309d-4695-af7c-ec599bbd8eba</webElementGuid>
+      <webElementGuid>b9d7ee51-78bd-41e2-b9e6-e96d02abfa15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;mt-3 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-7 col-12&quot;]/div[@class=&quot;add-on-coverage&quot;]/div[@class=&quot;add-on-coverage-card card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;AddonCoverage__Styles-sc-1naam3f-0 fhErAT&quot;]/div[@class=&quot;add-on-coverage-adventurous-activities&quot;]/p[@class=&quot;card-text&quot;]/a[@class=&quot;a-link-none-line&quot;]</value>
-      <webElementGuid>2ed18377-f362-4113-a3a5-5e069da41bf9</webElementGuid>
+      <webElementGuid>eb49a671-972b-4dbe-9062-39e2925d4e9d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div[2]/div/div[6]/div/div/div/div/p/a</value>
-      <webElementGuid>e02b14e7-a067-4132-a66a-d4e4ad0064a4</webElementGuid>
+      <webElementGuid>aa74ef31-8b02-487d-a7ea-496e9e90c84b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bank Account No.'])[1]/following::a[1]</value>
-      <webElementGuid>66bb0a81-951e-4e6a-a991-5bcdc6234303</webElementGuid>
+      <webElementGuid>bf4ce356-8981-4802-b1bb-ad70ddc327df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Bank'])[1]/following::a[1]</value>
-      <webElementGuid>87165f83-1cfd-4216-b351-c5bdd9478a91</webElementGuid>
+      <webElementGuid>d6014822-b8e2-4c88-8d6c-542b951405c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Adventurous Activities'])[1]/preceding::a[1]</value>
-      <webElementGuid>021e1d01-f497-46f4-bb80-a2f5ffa71cbf</webElementGuid>
+      <webElementGuid>855f1e28-3a78-4866-a480-5d32e7b3e2cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='RM46.50'])[1]/preceding::a[1]</value>
-      <webElementGuid>ae69b421-944a-4f14-b213-692b62c895f1</webElementGuid>
+      <webElementGuid>8f060273-d884-48cc-87b6-4da1af3a5247</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Find out more']/parent::*</value>
-      <webElementGuid>2a1d5bb9-a94c-406f-86b6-4730cd27039f</webElementGuid>
+      <webElementGuid>d3501c8e-e94e-4add-a8ba-ff7973c0376d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#activitiesModal')]</value>
-      <webElementGuid>e0b17d5e-9b0b-44f9-b311-4d98bdc169f7</webElementGuid>
+      <webElementGuid>8f33772b-cfe2-4035-9b04-c9a5c11a58f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p/a</value>
-      <webElementGuid>a9ec3105-a899-4f4d-856d-6f82330e65bf</webElementGuid>
+      <webElementGuid>7854972c-43d9-4eec-ae4b-b7c3b3097332</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +127,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#activitiesModal' and (text() = 'Find out more >' or . = 'Find out more >')]</value>
-      <webElementGuid>a7b1a079-6551-48eb-a45f-2bd59753cac5</webElementGuid>
+      <webElementGuid>3f3ff678-a9c0-40db-b90d-1d9730796284</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

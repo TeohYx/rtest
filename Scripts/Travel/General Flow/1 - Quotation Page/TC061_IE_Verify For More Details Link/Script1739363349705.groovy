@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Open Application'), [:],
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/link_Clickhere'))
 
-WebUI.switchToWindowTitle(GlobalVariable.page_Quotation_ClickHere)
+WebUI.switchToWindowTitle(GlobalVariable.title_quotation_ClickHere)
 
 WebUI.delay(4)
 

@@ -1,0 +1,42 @@
+{
+  "keywordFileContentHash": "1162ED18012E08024582999085BDEA66",
+  "keywordClasses": [
+    {
+      "name": "applicationPage.preprocess",
+      "keywordMethods": [
+        {
+          "name": "verifyNRICwithDOB",
+          "parameters": [
+            {
+              "name": "NRICInput",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "DOB",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

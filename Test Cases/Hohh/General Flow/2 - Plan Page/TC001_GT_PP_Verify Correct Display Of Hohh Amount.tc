@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Building + Contents should be larger than Building only, or Content only</description>
+   <name>TC001_GT_PP_Verify Correct Display Of Hohh Amount</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>db01568a-1a59-4929-8a35-efbb85d6ec53</testCaseGuid>
+</TestCaseEntity>

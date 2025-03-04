@@ -27,7 +27,7 @@ String allRider = WebUI.getText(findTestObject('Motorcar and Motorcycle/Plan Pag
 		]))
 
 WebUI.enhancedClick(findTestObject('Motorcar and Motorcycle/Plan Page/button_Single Rider Or Agreed Value'))
-
+//WebUI.delay(3) //hardcode
 String singleRider = WebUI.getText(findTestObject('Motorcar and Motorcycle/Plan Page/1 - Quotation Details/txt_Total Payable', 
 	[
 		('premium') : 'Motorcycle'

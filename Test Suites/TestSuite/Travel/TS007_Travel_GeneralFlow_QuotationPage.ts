@@ -12,13 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>fd239a4a-eb38-41ed-8e94-cb7a24968ad9</testSuiteGuid>
    <testCaseLink>
-      <guid>02d83f04-8058-4baf-8b44-d43d25a74961</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Travel/General Flow/1 - Quotation Page/TC001_IE_Verify Language EN and MY</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>26a68f71-6c91-44fd-8f19-caac625304e1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

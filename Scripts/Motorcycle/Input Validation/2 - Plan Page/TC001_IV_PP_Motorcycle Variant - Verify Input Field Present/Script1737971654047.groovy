@@ -26,7 +26,7 @@ WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC001_RM_C_Open Appli
 WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC002_RM_PF_Direct to Plan Page'), [('inputButton') : inputButton
         , ('inputScenario') : inputScenario, ('plateNumber') : plateNumber], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.enhancedClick(findTestObject('Motorcar and Motorcycle/Plan Page/button_Motorcycle Details View', [('detail_text') : 'Vehicle Details']))
+WebUI.enhancedClick(findTestObject('Motorcar and Motorcycle/Plan Page/button_Motorcycle Details View', [('detail_text') : GlobalVariable.text_MotorDetails]))
 
 WebUI.verifyElementPresent(findTestObject('Motorcar and Motorcycle/Plan Page/2 - Motorcycle Details/button_Motorcycle Variant'), 0)
 

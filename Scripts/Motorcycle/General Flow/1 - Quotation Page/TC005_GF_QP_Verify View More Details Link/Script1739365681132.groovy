@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC001_RM_C_Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Quotation Page/link_View More Details'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Motorcar and Motorcycle/Quotation Page/link_QuotationClickHere'), 0)
 
 WebUI.delay(1)
 
-WebUI.enhancedClick(findTestObject('Quotation Page/link_View More Details'))
+WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Quotation Page/link_QuotationClickHere'))
 
 WebUI.delay(3)
 

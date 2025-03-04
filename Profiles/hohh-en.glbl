@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>hohh-en</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>https://www-gold.etiqa.com/edp/home/my/hohh/insurance/quotation</description>
+      <initValue>'https://www-gold.etiqa.com/edp/home/my/hohh/insurance/quotation'</initValue>
+      <name>LINK</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Owner</description>
+      <initValue>[('class') : 'Owner', ('text') : 'I\'m a']</initValue>
+      <name>dyobj_GetQuotationOwner_OR001</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tenant</description>
+      <initValue>[('class') : 'Tenant', ('text') : 'I\'m a']</initValue>
+      <name>dyobj_GetQuotationTenant_OR001</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Building FAQ</description>
+      <initValue>[('Can I make a claim for a stolen water pump that was located outside the premises?') : 'This policy provides cover for theft but only if it is accompanied by an actual forcible and violent break', ('Can I claim the cost of having to hack walls to locate and repair damaged pipes due to a burst pipe in the house?') : 'The HouseOwner policy provides cover for loss or damage to the insured property caused by the insured perils, in this instance', ('Can I claim for loss or damage caused by a guest if my homestay was insured by this policy?') : 'The HouseOwner/ HouseHolder policy is for Private Dwellings only.', ('Can I claim on floor tiles that have suddenly cracked or popped up?') : 'The HouseOwner policy provides cover for loss or damage to the insured property caused by the insured perils', ('Can I include renovations costs in the Sum Insured amount?') : 'A building in HouseOwner policy refers to a Private Dwelling at the premises, including', ('Can I claim for alternative accommodation or loss of rental') : 'the insured can claim for alternative accommodation or loss of rental under Rent Insurance', ('how much compensation would I stand') : 'The loss, if caused by any of the insured perils, will be paid based on the loss suffered']</initValue>
+      <name>dyobj_ORQPA_QuotationBuilding</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Contents FAQ</description>
+      <initValue>[('Are go-kart engines covered by the HouseHolder policy?') : 'The HouseHolder policy excludes motor vehicles and accessories; hence this is not covered by the policy.', ('How will the claim be assessed if the policy owner’s liquor collection was damaged in a fire?') : 'The loss payable will be based on receipts or market value, less a percentage of possible consumption before the loss.', ('Does the Householder policy cover the policy owner’s belongings in the event that they are stolen by a runaway maid?') : 'Yes, this can be insured with an additional premium.', ('Can cash and currency notes kept in the house be insured?') : 'Unless specifically declared, cash and currency notes are excluded from coverage in the policy.', ('How can the loss or damage of paintings or antiques be compensated?') : 'Works of art i.e. paintings, antiques, and the like have to be specifically declared,', ('Why did I not receive full compensation for jewellery lost as a result of theft?') : 'The total value of platinum, gold, silver articles, jewellery, and furs shall be deemed not exceeding one–third of the Total Sum Insured on Contents.']</initValue>
+      <name>dyobj_ORQPB_QuotationContents</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Others FAQ</description>
+      <initValue>[('Who should the policy owner refer to if there is a dispute regarding the Insurer’s decision on a claim?') : 'The Policy owner can refer the matter to the Ombudsman for Financial Services within 6 months from the date of the Insurer\'s decision.']</initValue>
+      <name>dyobj_ORQPC_QuotationOthers</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>plan, declare, application, payment</description>
+      <initValue>[('payment') : 'Summary &amp; Payment', ('application') : 'Fill Up Details', ('declare') : 'Declare Valuables', ('plan') : 'Choose Plan']</initValue>
+      <name>dyobj_CurrentPage_ORM001</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>map: back, continue, planContentConfirm</description>
+      <initValue>[('back') : 'Go Back', ('continue') : 'Continue']</initValue>
+      <name>dyobj_CommonButton_ORM002</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>https://bcc.piam.org.my/</description>
+      <initValue>'https://bcc.piam.org.my/'</initValue>
+      <name>link_CostCalculator</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>quotation, plan, declaration, application, review</description>
+      <initValue>[('plan') : 'Proceed', ('quotation') : 'Get a Quote', ('declaration') : 'Proceed', ('application') : 'Proceed', ('review') : 'Proceed to pay']</initValue>
+      <name>dyobj_Submit_ORM003</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>3</description>
+      <initValue>3</initValue>
+      <name>constant_defaultWaitTime</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>livingRoom, bedroom, diningRoom, kitchen, bathRoom, storeRoom, carPark, balcony, garden, miscellaneousItems</description>
+      <initValue>[('livingRoom') : 'livingRoomAmount', ('bedroom') : 'bedRoomAmount', ('diningRoom') : 'diningRoomAmount', ('kitchen') : 'kitchenAmount', ('bathRoom') : 'bathRoomAmount', ('storeRoom') : 'storeRoomAmount', ('carPark') : 'carparkAmount', ('balcony') : 'balconyAmount', ('garden') : 'gardenAmount', ('miscellaneousItems') : 'miscellaneousAmount']</initValue>
+      <name>dyobj_ORPPA_ContentsCalculatorInput</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>owner, tenant, unoccupiedYes, unoccupiedNo, sufferedYes, sufferedNo, faqBuilding, faqContents, faqOthers, viewFullCoverage, propertyType</description>
+      <initValue>[('owner') : 'Owner', ('tenant') : 'Tenant', ('unoccupiedYes') : 'Yes', ('unoccupiedNo') : 'No', ('sufferedYes') : 'Yes', ('sufferedNo') : 'No', ('faqBuilding') : 'Building', ('faqContents') : 'Contents', ('faqOthers') : 'Others', ('viewFullCoverage') : 'View Full Coverage', ('propertyType') : 'Select property type']</initValue>
+      <name>dyobj_ORQP001</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>suffered, unoccupied, quotationClass, quotationAnyYes</description>
+      <initValue>[('suffered') : 'Have you suffered any loss or damage on this property in the past two years?', ('unoccupied') : 'Will this property be unoccupied for 90 days or more?', ('quotationClass') : 'I\'m a', ('quotationAnyYes') : 'Sorry. We are unable to provide you a quotation.']</initValue>
+      <name>dyobj_ORQP003</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>productCoverageComparison</description>
+      <initValue>[('productCoverageComparison') : 'Product &amp; Coverage Comparison']</initValue>
+      <name>dyobj_ORQP002</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>homeContent, homeBuilding, proceedToBuildingCalculator, contentConfirm, productCoverageComparison</description>
+      <initValue>[('homeContent') : 'Home Content', ('homeBuilding') : 'Home Building', ('proceedToBuildingCalculator') : 'Continue', ('contentConfirm') : 'Confirm Amount', ('productCoverageComparison') : 'Product and coverage comparison']</initValue>
+      <name>dyobj_ORPP001</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>building, content, productCoverageComparison, contentBlock, buildingBlock</description>
+      <initValue>[('building') : 'You are about to enter a third party website', ('content') : 'Contents Calculator', ('productCoverageComparison') : 'Product &amp; Coverage Comparison', ('contentBlock') : 'Home Content', ('buildingBlock') : 'Home Building']</initValue>
+      <name>dyobj_ORPP002</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>contentRange</description>
+      <initValue>[('contentRange') : 'The total content amount ranges']</initValue>
+      <name>dyobj_ORPP003</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>yesDeclare, noDeclare</description>
+      <initValue>[('noDeclare') : 'No, I want to skip this', ('yesDeclare') : 'Yes, I want to declare']</initValue>
+      <name>dyobj_ORDP001</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>declarableItems</description>
+      <initValue>[('declarableItems') : 'Fill in the details of your declarable items']</initValue>
+      <name>dyobj_ORDP002</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>[60000]</description>
+      <initValue>['60000']</initValue>
+      <name>dummy_HomeContentCost</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>undeclaredAmount, totalDeclared, maximumDeclarable, gold, platinum, silver, jewellery, animalFur, sports, collectibles</description>
+      <initValue>[('undeclaredAmount') : 'Undeclared Amount', ('totalDeclared') : 'Total Declared Amount', ('maximumDeclarable') : 'Maximum Declarable Amount for', ('collectibles') : 'Collectibles', ('sports') : 'Sports', ('animalFur') : 'Animal Fur Products', ('jewellery') : 'Jewellery', ('silver') : 'Silver', ('platinum') : 'Platinum', ('gold') : 'Gold']</initValue>
+      <name>dyobj_ORDP003</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>name, idType, nric, race, phoneNumber, email, nationality</description>
+      <initValue>[('email') : 'yeexian.teoh@etiqa.com.my', ('phoneNumber') : '1112341234', ('race') : 'CHINESE', ('nric') : '900101070555', ('idType') : 'MYKAD', ('name') : 'Tan Sing Ma', ('nationality') : '']</initValue>
+      <name>dummy_PersonalDetailsMYKAD</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>name, idType, nric, race, phoneNumber, email, nationality</description>
+      <initValue>[('email') : 'yeexian.teoh@etiqa.com.my', ('phoneNumber') : '1112341234', ('race') : 'MALAY', ('nric') : '910101010101', ('idType') : 'MYPR', ('name') : 'Lee Xin Ming', ('nationality') : 'MALAYSIAN']</initValue>
+      <name>dummy_PersonalDetailsMYPRMalaysian</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>name, idType, nric, race, phoneNumber, email, nationality</description>
+      <initValue>[('email') : 'yeexian.teoh@etiqa.com.my', ('phoneNumber') : '1112341234', ('race') : 'MALAY', ('nric') : '950401070111', ('idType') : 'MYPR', ('name') : 'Lee Xin Ming', ('nationality') : 'AMERICAN']</initValue>
+      <name>dummy_PersonalDetailsMYPRNonMalaysian</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>name, idType, nric, race, phoneNumber, email, nationality</description>
+      <initValue>[('email') : 'yeexian.teoh@etiqa.com.my', ('phoneNumber') : '1112341234', ('race') : 'MALAY', ('nric') : '910101010101', ('idType') : 'PASSPORT', ('name') : 'Lee Xin Ming', ('nationality') : 'MALAYSIAN']</initValue>
+      <name>dummy_PersonalDetailsPassportMalaysian</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>name, idType, nric, race, phoneNumber, email, nationality</description>
+      <initValue>[('email') : 'yeexian.teoh@etiqa.com.my', ('phoneNumber') : '1112341234', ('race') : 'MALAY', ('nric') : '910101010101', ('idType') : 'PASSPORT', ('name') : 'Lee Xin Ming', ('nationality') : 'AMERICAN']</initValue>
+      <name>dummy_PersonalDetailsPassportNonMalaysian</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>address1, address2, postcode</description>
+      <initValue>[('postcode') : '47500', ('address2') : '47500, Petaling Jaya, Selangor', ('address1') : 'No. 777/49 Jalan Subang 7']</initValue>
+      <name>dummy_MailingAddress1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>bankName, savingNumber</description>
+      <initValue>[('savingNumber') : '123412341234', ('bankName') : 'Malayan Banking Berhad']</initValue>
+      <name>dummy_BankDetails</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>idType, race, nationality, bankName</description>
+      <initValue>[('idType') : 'SELECT ID TYPE', ('race') : 'SELECT RACE', ('nationality') : 'SELECT NATIONALITY', ('bankName') : 'SELECT BANK']</initValue>
+      <name>dyobj_ORAP001</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>address1, address2, postcode</description>
+      <initValue>[('address1') : '14 Jalan Lapangan Terbang Medan Gopeng', ('address2') : '31350, Ipoh, Perak', ('postcode') : '31350']</initValue>
+      <name>dummy_PropertyDetails1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>paymentIcon, product, policyNumberPrefix</description>
+      <initValue>[('policyNumberPrefix') : 'FJ', ('product') : 'Houseowner and HouseHolder Insurance', ('paymentIcon') : 'Your Payment was Successful']</initValue>
+      <name>dyobj_ORPyP002</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>product, policyNumber</description>
+      <initValue>[('policyNumber') : 'e-Policy Number', ('product') : 'Product']</initValue>
+      <name>dyobj_ORPyP003</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>1466372179463</description>
+      <initValue>'1466372179463'</initValue>
+      <name>link_PolicyContractTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>IMPORTANTNOTICE_EN_INS.pdf</description>
+      <initValue>'IMPORTANTNOTICE_EN_INS.pdf'</initValue>
+      <name>link_ImportantNotice</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>PRI_EGIB_EN.pdf</description>
+      <initValue>'PRI_EGIB_EN.pdf'</initValue>
+      <name>link_PrivacyNotice</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>PDPA_Declaration_EGIB_EN_June2024-7187fca73230f86a504a3ab0e46e6b88.pdf</description>
+      <initValue>'PDPA_Declaration_EGIB_EN_June2024-7187fca73230f86a504a3ab0e46e6b88.pdf'</initValue>
+      <name>link_Declaration</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>https://www.pidm.gov.my/en/how-we-protect-you/tips/information-materials/brochures</description>
+      <initValue>'https://www.pidm.gov.my/en/how-we-protect-you/tips/information-materials/brochures'</initValue>
+      <name>link_PIDMBrochuresLink</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>https://www.pidm.gov.my/en</description>
+      <initValue>'https://www.pidm.gov.my/en'</initValue>
+      <name>link_PIDMgovLink</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>PMG_EGIB_MOTOR_PDS_ENG_ECHANNEL_DIRECT_2408V3.0-bb078ec9cbb1aca4bf853f8d2166d4b2</description>
+      <initValue>'PMG_EGIB_MOTOR_PDS_ENG_ECHANNEL_DIRECT_2408V3.0-bb078ec9cbb1aca4bf853f8d2166d4b2'</initValue>
+      <name>link_ProductDisclosureSheetLink</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>PMG_EGIB_PRIVATECARPLAINLANGUAGE_PW_ENG_2408V3.0-16046a5ad21e374da63ecf77dbadc14b</description>
+      <initValue>'PMG_EGIB_PRIVATECARPLAINLANGUAGE_PW_ENG_2408V3.0-16046a5ad21e374da63ecf77dbadc14b'</initValue>
+      <name>link_PolicyContractLink</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>declarationDescription</description>
+      <initValue>[('declarationDescription') : 'Please insert your item']</initValue>
+      <name>inputValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>accountNumber, bankName, postcode, address2, address1, email, mobileNumber, dob, gender, race, nationality, nric, idType, name, passport</description>
+      <initValue>[('accountNumber') : 'Please enter your account number', ('bankName') : 'Please select your bank', ('postcode') : 'Please enter your postcode', ('address2') : 'Please enter your address (Address Line 2)', ('address1') : 'Please enter your address (Address Line 1)', ('email') : 'Please enter your email address', ('mobileNumber') : 'Please enter your mobile number', ('dob') : 'Please enter your Date of birth', ('gender') : 'Please select your gender', ('race') : 'Please select an ethnicity', ('nationality') : 'Please select your nationality', ('nric') : 'Please enter your 12-digit NRIC number, e.g., 771111101233', ('idType') : 'Please select your ID', ('name') : 'Please enter your name as per NRIC', ('passport') : 'Please enter your passport number, e.g., A12345678']</initValue>
+      <name>inputValidation_Empty</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>accountNumber, postcode, address2, address1, email, mobileNumber, dob, passport, nric, name, city</description>
+      <initValue>[('accountNumber') : '123456789012', ('postcode') : 'E.G. 68100', ('address2') : 'E.G. ADDRESS LINE 2', ('address1') : 'E.G. ADDRESS LINE 1', ('email') : 'E.G. : ADAM@GMAIL.COM', ('mobileNumber') : '123456789', ('dob') : 'E.G. : 21/03/1978', ('passport') : 'E.G. : A12345678', ('nric') : 'E.G. : 900719082777', ('name') : 'E.G. : ADAM BIN BAKRI', ('city') : 'E.G. BANGSAR']</initValue>
+      <name>inputValidation_Placeholder</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>accountNumber, bankName, postcode, address2, address1, email, mobileNumber, dob, gender, race, nationality, nric, passport, name, idType, city</description>
+      <initValue>[('accountNumber') : 'Current / Saving Account no.', ('bankName') : 'Bank name', ('postcode') : 'Postcode', ('address2') : 'Address 2', ('address1') : 'Address 1', ('email') : 'Email', ('mobileNumber') : 'Mobile number', ('city') : 'City (Optional)', ('dob') : 'Date of Birth', ('gender') : 'Gender', ('race') : 'Race', ('nationality') : 'Nationality', ('nric') : 'NRIC no.', ('passport') : 'Passport no.', ('name') : 'Name (as per NRIC)', ('idType') : 'ID Type']</initValue>
+      <name>inputValidation_InputTitle</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004_IV_AP_Verify Edge Case of Nationality</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ffafcd63-f99c-433b-b4c1-c66b388686bb</testCaseGuid>
+</TestCaseEntity>

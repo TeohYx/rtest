@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC014_IV_DP_Input Validation for Collectibles Value Amount</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3d22690a-a993-476a-9963-46b06ac93526</testCaseGuid>
+</TestCaseEntity>

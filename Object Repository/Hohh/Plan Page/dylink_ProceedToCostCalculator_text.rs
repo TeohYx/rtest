@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dylink_ProceedToCostCalculator_text</name>
+   <tag></tag>
+   <elementGuidId>378e63fc-d426-41a4-afba-d48d12b76e59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.modal-content</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='amount-content']//div[contains(text(), '${text}')]//following::div[@class='amount-input'][1]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;You are about to enter a third party websiteDo you wish to proceed to the follow&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f4cc07f9-c0d3-4385-b760-f5d730da513c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal-content</value>
+      <webElementGuid>1fbf315c-7b81-4883-8b56-7d0a5817ae40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> You are about to enter a third party websiteDo you wish to proceed to the following URL?https://bcc.piam.org.my/ContinueGo Back</value>
+      <webElementGuid>5af73ec1-f403-4207-a910-79e69628f90b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;fade ThirdPartyModal__StyledModal-sc-t66r49-0 bwioBU modal show&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]</value>
+      <webElementGuid>6e433280-f720-4667-aab3-4fd8db02f2a1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[4]</value>
+      <webElementGuid>14a57c28-2379-4d7f-9f5d-5b6d4a924420</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div</value>
+      <webElementGuid>b1c0b381-0f7f-4231-a80d-cabe4a598103</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' You are about to enter a third party websiteDo you wish to proceed to the following URL?https://bcc.piam.org.my/ContinueGo Back' or . = ' You are about to enter a third party websiteDo you wish to proceed to the following URL?https://bcc.piam.org.my/ContinueGo Back')]</value>
+      <webElementGuid>7e5a03c8-dd92-439f-bd3c-559e55a50e13</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

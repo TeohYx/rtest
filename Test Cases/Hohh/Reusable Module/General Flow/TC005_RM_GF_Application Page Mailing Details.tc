@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005_RM_GF_Application Page Mailing Details</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b1642ecd-1320-49f4-97b6-2c845385c68c</testCaseGuid>
+</TestCaseEntity>

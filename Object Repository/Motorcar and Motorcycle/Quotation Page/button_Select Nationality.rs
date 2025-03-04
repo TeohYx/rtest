@@ -6,18 +6,18 @@
    <elementGuidId>dc13e9fc-94a8-4c72-a04d-c74ee93dd21f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@type = 'button' and @id = 'react-aria9566879111-:r4:' and @name = 'nationality' and (text() = 'Select Nationality ' or . = 'Select Nationality ')]</value>
       </entry>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//button[@id='react-aria9566879111-:r4:']</value>
+         <value>//button[@type='button' and @name='nationality']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -32,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8189c2d0-e3f4-4863-a76b-1671147cf874</webElementGuid>
+      <webElementGuid>abc47b0e-bbac-4544-b575-014975347824</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,7 +40,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4d26bdd0-7ab2-43e8-bf2a-4acfa9c68fd2</webElementGuid>
+      <webElementGuid>bbc6dcc4-89a7-4f21-b889-89c1f664e30f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,7 +48,7 @@
       <name>id</name>
       <type>Main</type>
       <value>react-aria9566879111-:r4:</value>
-      <webElementGuid>aa03342a-32f1-4018-b2dc-dacaa083fb35</webElementGuid>
+      <webElementGuid>bf74b9c7-590e-4f08-a251-0ed53028724e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +56,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f2d8713f-8f86-453b-afce-6c8b9380ebd1</webElementGuid>
+      <webElementGuid>b24fd58c-ca2c-4143-96ba-5fd21bca35e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
       <name>name</name>
       <type>Main</type>
       <value>nationality</value>
-      <webElementGuid>a3ddbcd1-da67-4e1b-a651-0f9fac648518</webElementGuid>
+      <webElementGuid>c169f3e1-61d7-4f71-8365-94db97704646</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>class</name>
       <type>Main</type>
       <value>NationalityDropdown__NationalityDropdownToggle-sc-1wza65-2 dzmMek w-100 dropdown-toggle btn btn-primary</value>
-      <webElementGuid>8c41b293-c8d2-49d7-ad7b-24f6c1096bd6</webElementGuid>
+      <webElementGuid>9ab9a0db-a7a5-41da-86c1-4f551753ec36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -80,7 +80,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select Nationality </value>
-      <webElementGuid>3a739251-e41e-484a-ab89-0a3548436e84</webElementGuid>
+      <webElementGuid>ab9d43f4-c4ab-48d5-a424-2532956e0fbd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;react-aria9566879111-:r4:&quot;)</value>
-      <webElementGuid>f772f0ac-3446-49d0-9fd0-7b546a001446</webElementGuid>
+      <webElementGuid>2b174bc2-9eb8-493d-9e6d-5d5710c5b63d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='react-aria9566879111-:r4:']</value>
-      <webElementGuid>84ed2689-011e-4683-ba7b-f09eb0eeb2d8</webElementGuid>
+      <webElementGuid>0c7d568f-18a8-4302-ae29-922eaa5f7443</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='gatsby-focus-wrapper']/div/div/div/div/div[2]/div/div/div[2]/div/form/div[5]/div/div/button</value>
-      <webElementGuid>37737ec9-e090-4841-9422-be8f5da42c24</webElementGuid>
+      <webElementGuid>d19d2812-fcf7-4504-b105-7c18c2ea2d0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nationality'])[1]/following::button[1]</value>
-      <webElementGuid>0acaaeb7-b7cc-4b5b-bb9f-68d367daf1ab</webElementGuid>
+      <webElementGuid>2c8611db-6013-4b95-b1c6-bf353daa7a65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,7 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Passport'])[2]/following::button[1]</value>
-      <webElementGuid>16419780-a019-4d01-ae95-f9ec05ba5832</webElementGuid>
+      <webElementGuid>9ac8864a-fd84-40fe-9f90-25f99202d2ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -128,7 +128,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Date Of Birth'])[1]/preceding::button[1]</value>
-      <webElementGuid>fb7f7f29-142b-44f6-a908-755b79920546</webElementGuid>
+      <webElementGuid>45e5d47a-79ed-437b-88f4-be284e41ffbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -136,7 +136,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Quote Now'])[1]/preceding::button[1]</value>
-      <webElementGuid>b85970ec-20f2-4d9b-8e70-e4dde727f12d</webElementGuid>
+      <webElementGuid>5a336721-c30b-45b7-adf9-012a3e2e22b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -144,7 +144,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Select Nationality']/parent::*</value>
-      <webElementGuid>05b30940-4969-4038-b415-a053b90dd631</webElementGuid>
+      <webElementGuid>4c6954b7-87a2-4387-a8e0-e20611b802f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -152,7 +152,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/button</value>
-      <webElementGuid>d4610ccb-04e9-4b39-a9ab-c0514ca87b56</webElementGuid>
+      <webElementGuid>407853a5-7d8e-42c5-b851-7d10c4955d91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -160,6 +160,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'react-aria9566879111-:r4:' and @name = 'nationality' and (text() = 'Select Nationality ' or . = 'Select Nationality ')]</value>
-      <webElementGuid>32a2ddb4-abbf-43fb-b270-c9940aa65556</webElementGuid>
+      <webElementGuid>3de4729f-fa61-4e47-9f2d-0d620ed4476a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

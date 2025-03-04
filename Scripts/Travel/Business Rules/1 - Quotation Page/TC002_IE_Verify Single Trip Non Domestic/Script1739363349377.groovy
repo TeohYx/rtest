@@ -32,7 +32,7 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dr
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/button_NextMonth'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/CALANDER DATES/dybutton_Date_date', [('date') : '1']))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/General/dybutton_Date_date', [('date') : '1']))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/button_NextMonth'))
 
@@ -44,7 +44,7 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/bu
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/button_NextMonth'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/CALANDER DATES/dybutton_Date_date', [('date') : '27']))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/General/dybutton_Date_date', [('date') : '27']))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dropdown_TravellingDate'))
 
@@ -67,18 +67,18 @@ LocalDate endDate = startDate.plusDays(180)
 if (endDate.getDayOfMonth() == endDate.lengthOfMonth()) {
     WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/button_NextMonth'))
 
-    WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/CALANDER DATES/dybutton_Date_date', [('date') : '1']))
+    WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/General/dybutton_Date_date', [('date') : '1']))
 } else {
     int lastDayOfMonth = endDate.lengthOfMonth()
 
     if (lastDayOfMonth == 28) {
-        WebUI.verifyElementNotClickable(findTestObject('Travel/TripCare360/English/CALANDER DATES/dybutton_Date_date', [('date') : '28']))
+        WebUI.verifyElementNotClickable(findTestObject('Travel/TripCare360/English/General/dybutton_Date_date', [('date') : '28']))
     } else if (lastDayOfMonth == 29) {
-        WebUI.verifyElementNotClickable(findTestObject('Travel/TripCare360/English/CALANDER DATES/dybutton_Date_date', [('date') : '29']))
+        WebUI.verifyElementNotClickable(findTestObject('Travel/TripCare360/English/General/dybutton_Date_date', [('date') : '29']))
     } else if (lastDayOfMonth == 30) {
-        WebUI.verifyElementNotClickable(findTestObject('Travel/TripCare360/English/CALANDER DATES/dybutton_Date_date', [('date') : '30']))
+        WebUI.verifyElementNotClickable(findTestObject('Travel/TripCare360/English/General/dybutton_Date_date', [('date') : '30']))
     } else if (lastDayOfMonth == 31) {
-        WebUI.verifyElementNotClickable(findTestObject('Travel/TripCare360/English/CALANDER DATES/dybutton_Date_date', [('date') : '31']))
+        WebUI.verifyElementNotClickable(findTestObject('Travel/TripCare360/English/General/dybutton_Date_date', [('date') : '31']))
     }
 }
 

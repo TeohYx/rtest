@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_RM_PF_Direct to Declaration Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>00a85956-38fa-48f9-a762-f880a3dd2416</testCaseGuid>
+</TestCaseEntity>
