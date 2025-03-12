@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Only available for 0-10 yo vehicle</description>
+   <name>TC006_BR_PP_Verify Car Respray Add On 8</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4b8d6a5e-b194-49ce-8ce4-518e1def34ce</testCaseGuid>
+</TestCaseEntity>

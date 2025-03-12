@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC109_BR_QP_Verify International Plan Not More Than 180 Days (Inclusive)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4798c5ec-a090-4984-b2cf-8638660ee850</testCaseGuid>
+</TestCaseEntity>

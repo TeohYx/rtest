@@ -17,3 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Hohh/Reusable Module/Page Flow/TC004_RM_PF_Direct to Review Page'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.enhancedClick(findTestObject('Object Repository/Hohh/Review Page/link_ProductDisclosureSheet'))
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Motorcar and Motorcycle/Declaration Page/txt_Error404'), 3)
+
+String currentUrl = WebUI.getUrl()
+
+WebUI.takeScreenshot()
+WebUI.closeBrowser()
+
+assert currentUrl.contains(GlobalVariable.link_ProductDisclosureSheetLink)
+

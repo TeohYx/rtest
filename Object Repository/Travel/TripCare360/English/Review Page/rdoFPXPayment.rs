@@ -6,16 +6,16 @@
    <elementGuidId>3a977015-6368-4f5b-b47d-e3cde88a1f11</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'payMode' and @type = 'radio' and @id = 'FPX']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#FPX</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='FPX']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@name = 'payMode' and @type = 'radio' and @id = 'FPX']</value>
+         <value>//input[@value='FPX']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>657f35e3-1656-45d2-a602-9255686e73e8</webElementGuid>
+      <webElementGuid>b03ca11f-035d-4855-b539-4b6e0f1b7bb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +35,7 @@
       <name>name</name>
       <type>Main</type>
       <value>payMode</value>
-      <webElementGuid>ce9091ff-9f8f-4534-b38a-52071ee9882a</webElementGuid>
+      <webElementGuid>ed539cad-6865-417a-a311-267bbc17c01a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +43,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>6bd38caf-0cb6-4fbf-9f0e-dd7e82cc043f</webElementGuid>
+      <webElementGuid>99099184-7e87-43fc-9df7-ef2af74b5912</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +51,7 @@
       <name>id</name>
       <type>Main</type>
       <value>FPX</value>
-      <webElementGuid>17e48c9f-4f97-4963-847a-6d9502ed76ff</webElementGuid>
+      <webElementGuid>a2c987d4-b84f-42ea-8729-4d5ea0c15a00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-check-input</value>
-      <webElementGuid>2137a58a-4bd0-4568-a65c-579a4533086e</webElementGuid>
+      <webElementGuid>4e4acd52-c683-494f-b4d7-dfffc1c076c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>value</name>
       <type>Main</type>
       <value>FPX</value>
-      <webElementGuid>b98701de-4fa8-45fe-a97f-f1f0ca64d4bb</webElementGuid>
+      <webElementGuid>b082229a-80d1-416c-a276-9d056febbefe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;FPX&quot;)</value>
-      <webElementGuid>f47982ee-13a7-4a18-b5ce-0c22ec2aa84d</webElementGuid>
+      <webElementGuid>a2fae929-69f3-43c7-82dc-cd4972ebdc8b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='FPX']</value>
-      <webElementGuid>affa2209-a1e2-48fc-aec4-1f1509d7e257</webElementGuid>
+      <webElementGuid>15cbe2e2-a5e6-462c-9db8-6e13442e444e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div/form/div/div/div[3]/div[2]/div/div/div/div/div[2]/div/div/div/div/input</value>
-      <webElementGuid>f8cf5fb1-e272-4c9e-8536-dfdcf5b28ddf</webElementGuid>
+      <webElementGuid>9208b1f9-e31f-4190-91ea-0f5181e610c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/input</value>
-      <webElementGuid>0d58fe9d-0fd1-4a3a-af9f-ddbe90aecc29</webElementGuid>
+      <webElementGuid>c6a54c50-66de-4bbd-9c43-a63d4665e2e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,6 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'payMode' and @type = 'radio' and @id = 'FPX']</value>
-      <webElementGuid>5e8a8594-84f8-426d-9593-f87b4c452c61</webElementGuid>
+      <webElementGuid>48bb55d2-27e4-4dab-9430-0e95612bce8c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

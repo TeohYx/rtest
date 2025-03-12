@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_BR_PyP_Verify Policy Number Prefix</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>14d5710f-21ae-4aa6-8a08-3b22975a41c7</testCaseGuid>
+</TestCaseEntity>

@@ -45,7 +45,7 @@ TestObject inputButton = findTestObject('Object Repository/Motorcar and Motorcyc
 
 String plateNumber = GlobalVariable.rules_carPlate['default']
 
-Map inputScenario = [('inputField') : [[('inputObject') : findTestObject('Object Repository/Motorcar and Motorcycle/Quotation Page/input_NRIC'), ('inputText') : '900101070110']]]
+Map inputScenario = [('inputField') : [[('inputObject') : findTestObject('Object Repository/Motorcar and Motorcycle/Quotation Page/input_NRIC'), ('inputText') : GlobalVariable.tempIC]]]
 
 WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC001_RM_C_Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 

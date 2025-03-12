@@ -19,8 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 int packages = TCpackage
 
+String departDate = ""
+String arrivalDate = ""
+
+try {
+	departDate = TCdepartDate.toString()
+	arrivalDate = TCarrivalDate.toString()
+} catch (Exception e) {
+	departDate = "1"
+	arrivalDate = "28"
+}
+
+println(departDate)
+println(arrivalDate)
+
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Plan Page'), [('TCarea') : TCarea, ('TCplan') : TCplan
-        , ('TCtrip') : TCtrip], FailureHandling.STOP_ON_FAILURE)
+        , ('TCtrip') : TCtrip, ('TCdepartDate') : departDate, ('TCarrivalDate') : arrivalDate], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Travel/TripCare360/English/Plan Page/button_SilverPlan'), 10)
 WebUI.delay(2)

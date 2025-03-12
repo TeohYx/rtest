@@ -19,7 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.LINK)
+String link = ""
+if (GlobalVariable.environment == 0) {
+	link = "https://www-gold.etiqa.com/edp/tripcare360/my/insurance/quotation"
+} else if (GlobalVariable.environment == 1) {
+	link = "https://www-gold.etiqa.com/edp/tripcare360-sit/my/insurance/quotation"
+} else if (GlobalVariable.environment == 2) {
+	link = "https://www-gold.etiqa.com/edp/tripcare360-uat/my/insurance/quotation"
+}
+
+WebUI.navigateToUrl(link)
 
 WebUI.maximizeWindow()
 

@@ -5,8 +5,13 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
+      <description>0: preprod; 1: sit; 2: uat</description>
+      <initValue>0</initValue>
+      <name>environment</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description>Link: https://www-gold.etiqa.com/edp/tripcare360/my/insurance/quotation</description>
-      <initValue>'https://www-gold.etiqa.com/edp/tripcare360/my/insurance/quotation'</initValue>
+      <initValue>'https://www-gold.etiqa.com/edp/tripcare360-sit/my/insurance/quotation'</initValue>
       <name>LINK</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -278,5 +283,65 @@
       <description>1111</description>
       <initValue>'1111'</initValue>
       <name>dummy_userPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Select Country</description>
+      <initValue>'Select Country'</initValue>
+      <name>dyobj_SelectCountry</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>internationalMaximumFail, internationalMaximumPass, localMaximumFail, localMaximumPass, departMaximumFail, departMaximumPass</description>
+      <initValue>[('internationalMaximumFail') : '181', ('internationalMaximumPass') : '180', ('localMaximumFail') : '31', ('localMaximumPass') : '30', ('departMaximumPass') : '180', ('departMaximumFail') : '181']</initValue>
+      <name>rules_dateSelection</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>individual age: 18years 0 day - 70years 364days (maximum)</description>
+      <initValue>'>=18-&lt;=70'</initValue>
+      <name>rules_Individual</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>senior age: 71-80</description>
+      <initValue>'>=71-&lt;=80'</initValue>
+      <name>rules_Senior</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>spouse age: 18-70</description>
+      <initValue>'>=18-&lt;=70'</initValue>
+      <name>rules_Spouse</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>children age: 45days - 18</description>
+      <initValue>'>=45d-&lt;18'</initValue>
+      <name>rules_Children</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>student age: 18-23</description>
+      <initValue>'>=18-&lt;23'</initValue>
+      <name>rules_Student</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>family owner age: 18-70</description>
+      <initValue>'>=18-&lt;=70'</initValue>
+      <name>rules_FamilyOwner</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>the text on costbreakdown - Discount 25%</description>
+      <initValue>'Discount 25%'</initValue>
+      <name>rules_EDPDiscount</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tripcare 360 Insurance</description>
+      <initValue>['Product', 'Tripcare 360 Insurance']</initValue>
+      <name>rules_ProductName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>USED on Test case: &quot;Retry payment upon failed transaction&quot; for the fixed value and Reusable Module &quot;Fill Form - Myself'</description>
+      <initValue>'980421045116'</initValue>
+      <name>tempIC</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Retrieve</description>
+      <initValue>'Retrieve'</initValue>
+      <name>dyobj_RetrieveButton</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

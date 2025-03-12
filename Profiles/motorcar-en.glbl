@@ -356,7 +356,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>[('year16') : 16, ('year15') : 15, ('year5') : 5, ('year4') : 4, ('year11') : 11, ('year10') : 10, ('year0') : 0]</initValue>
+      <initValue>[('year16') : 16, ('year15') : 15, ('year5') : 5, ('year4') : 4, ('year11') : 11, ('year10') : 10, ('year0') : 0, ('year8') : 8]</initValue>
       <name>rules_carYearMake</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -373,5 +373,80 @@
       <description>https://www-gold.etiqa.com/edp/motor/my/motorcar/insurance/quotation</description>
       <initValue>'https://www-gold.etiqa.com/edp/motor/my/motorcar/insurance/quotation'</initValue>
       <name>LINK</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>overSumInsured, overExpire, almostExpire, electric, y21, y20, y16, y15, y11, y10, y8, y5, y4, default</description>
+      <initValue>[('overSumInsured') : 'VOA6005', ('overExpire') : 'VOA0001', ('almostExpire') : 'VOA2000', ('electric') : 'VOAE008', ('y21') : 'VOA0021', ('y20') : 'VOA0020', ('y16') : 'VOA0016', ('y15') : 'VOA0015', ('y11') : 'VOA0011', ('y10') : 'VOA0010', ('y8') : 'VOAE008', ('y5') : 'VOA0005', ('y4') : 'VOA0004', ('default') : 'AAA3000']</initValue>
+      <name>rules_carStatus</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>>=18-&lt;=80</description>
+      <initValue>'>=18-&lt;=80'</initValue>
+      <name>rules_Holder</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>51200</description>
+      <initValue>'51200'</initValue>
+      <name>dummy_postcode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>You may renew as early as 2 months before the expiry date</description>
+      <initValue>'You may renew as early as 2 months before the expiry date'</initValue>
+      <name>validation_NoExpire</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>blacklistedCustomer, NCD180D</description>
+      <initValue>[('blacklistedCustomer') : 'UW0002', ('NCD180D') : 'UW0030']</initValue>
+      <name>validation_UnderwritingError</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Based on email MDM Blacklist Test Data on 31/01/2025</description>
+      <initValue>[('Satra Husin Aman') : '810405655086', ('TAN HENG CHEW') : '460531105141', ('AFIQ AMANI BIN ANNUAR') : '910604145431', ('ANNUAR BIN MUSA') : '560518035335', ('Aisyah binti Mohamad Seleh') : '870529045284', ('Misnah binti Ajijun') : '801231655486', ('Jamsail bin Haili') : '500908125067']</initValue>
+      <name>rules_blacklistedCustomer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>holder</description>
+      <initValue>[('holder') : '>=18-&lt;=70']</initValue>
+      <name>rules_OTO</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>vehicle: >=5-&lt;15</description>
+      <initValue>[('vehicle') : '>=5-&lt;15', ('') : '']</initValue>
+      <name>rules_NewSprayPart</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>LOU, newSparePart, smartKey, CART, legalLiability, windscreenCoverage, DLSM, extremeWeather, childCar</description>
+      <initValue>[('LOU') : 'LOU', ('newSparePart') : 'New Spare Part Replacement Cover', ('smartKey') : 'Smart Key Replacement', ('CART') : 'CART', ('legalLiability') : 'Legal Liability of Passengers', ('windscreenCoverage') : 'Windscreen Coverage', ('DLSM') : 'Drive Less Save More', ('extremeWeather') : 'Extreme Weather Coverage', ('childCar') : 'Child Car Safety Seat']</initValue>
+      <name>dyvalidation_addOns</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>the text on costbreakdown - Discount 10%</description>
+      <initValue>'Discount (10%)'</initValue>
+      <name>rules_EDPDiscount</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Retrieve Your Proposal</description>
+      <initValue>'Retrieve Your Proposal'</initValue>
+      <name>dyobj_RetrieveYourProposal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Cancel</description>
+      <initValue>'Cancel'</initValue>
+      <name>dyobj_CancelButton</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Try Again</description>
+      <initValue>'Try Again'</initValue>
+      <name>dyobj_TryAgainButton</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>USED on Test case: &quot;Retry payment upon failed transaction&quot; for the fixed value and Reusable Module &quot;Fill Form - Myself'</description>
+      <initValue>'980421045116'</initValue>
+      <name>tempIC</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Retrieve</description>
+      <initValue>'Retrieve'</initValue>
+      <name>dyobj_RetrieveButton</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC059_IE_Verify Transaction Summary page - Success Transaction</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>00fd1df2-918d-4142-81a4-38d22fb3c726</testCaseGuid>
+</TestCaseEntity>

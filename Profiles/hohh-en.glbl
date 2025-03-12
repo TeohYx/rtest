@@ -175,18 +175,18 @@
       <name>link_PolicyContractTitle</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>IMPORTANTNOTICE_EN_INS.pdf</description>
-      <initValue>'IMPORTANTNOTICE_EN_INS.pdf'</initValue>
+      <description>Important-Notice_EGIB_EN</description>
+      <initValue>'Important-Notice_EGIB_EN'</initValue>
       <name>link_ImportantNotice</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>PRI_EGIB_EN.pdf</description>
-      <initValue>'PRI_EGIB_EN.pdf'</initValue>
+      <description>Privacy-Notice_EGIB_EN</description>
+      <initValue>'Privacy-Notice_EGIB_EN'</initValue>
       <name>link_PrivacyNotice</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>PDPA_Declaration_EGIB_EN_June2024-7187fca73230f86a504a3ab0e46e6b88.pdf</description>
-      <initValue>'PDPA_Declaration_EGIB_EN_June2024-7187fca73230f86a504a3ab0e46e6b88.pdf'</initValue>
+      <description>Declaration_EGIB_EN</description>
+      <initValue>'Declaration_EGIB_EN'</initValue>
       <name>link_Declaration</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

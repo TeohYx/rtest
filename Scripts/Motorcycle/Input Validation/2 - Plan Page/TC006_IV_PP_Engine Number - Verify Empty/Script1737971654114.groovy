@@ -19,31 +19,34 @@ import org.openqa.selenium.Keys as Keys
 
 // Quotation page input button
 TestObject inputButton = findTestObject('Object Repository/Motorcar and Motorcycle/Quotation Page/label_ID Type_NRIC')
+
 // Quotation page plate number
 String plateNumber = GlobalVariable.rules_carPlate['default']
+
 // Input fields and text after the input button
-Map inputScenario = [('inputField') : [[('inputObject') : findTestObject('Object Repository/Motorcar and Motorcycle/Quotation Page/input_NRIC'), ('inputText') : '900101070110']]]
+Map inputScenario = [('inputField') : [[('inputObject') : findTestObject('Object Repository/Motorcar and Motorcycle/Quotation Page/input_NRIC')
+            , ('inputText') : '900101070110']]]
+
 TestObject objectLocator = findTestObject('Object Repository/Motorcar and Motorcycle/Plan Page/2 - Motorcycle Details/input_Engine Number')
+
 TestObject warningMessage = findTestObject('Object Repository/Motorcar and Motorcycle/Plan Page/2 - Motorcycle Details/wrnmsg_Engine Number')
+
 TestObject saveItemLocator = findTestObject('Object Repository/Motorcar and Motorcycle/Plan Page/2 - Motorcycle Details/button_Save Motorcycle Details')
 
-// Open Application
 WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC001_RM_C_Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Quotation Page fill information
 WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC002_RM_PF_Direct to Plan Page'), [('inputButton') : inputButton
-		, ('inputScenario') : inputScenario, ('plateNumber') : plateNumber], FailureHandling.STOP_ON_FAILURE)
+        , ('inputScenario') : inputScenario, ('plateNumber') : plateNumber], FailureHandling.STOP_ON_FAILURE)
 
 // Plan Page
 WebUI.enhancedClick(findTestObject('Motorcar and Motorcycle/Plan Page/button_Motorcycle Details View', [('detail_text') : GlobalVariable.text_MotorDetails]))
 
-WebUI.setText(findTestObject('Object Repository/Motorcar and Motorcycle/Plan Page/2 - Motorcycle Details/input_Engine Number'), "")
+WebUI.setText(findTestObject('Object Repository/Motorcar and Motorcycle/Plan Page/2 - Motorcycle Details/input_Engine Number'), 
+    '')
 
-String warningText = WebUI.callTestCase(
-	findTestCase('Reusable Module/Input Validation/TC002_RM_IV_Obtain Empty Warning Message'), 
-	[('objectLocator') : warningMessage, ('saveItemLocator') : saveItemLocator], 
-	FailureHandling.STOP_ON_FAILURE
-	)
+String warningText = WebUI.callTestCase(findTestCase('Reusable Module/Input Validation/TC002_RM_IV_Obtain Empty Warning Message'), 
+    [('objectLocator') : warningMessage, ('saveItemLocator') : saveItemLocator], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyEqual(warningText, GlobalVariable.errorMessage_EngineNumber)
 

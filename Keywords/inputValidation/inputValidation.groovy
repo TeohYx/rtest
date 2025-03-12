@@ -21,7 +21,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import org.openqa.selenium.Keys as Keys
 import internal.GlobalVariable
 
-//TODO - Add minimum and maximum checking -- For declaration value amount  
+//TODO - Add minimum and maximum checking -- For declaration value amount
 
 public class inputValidation {
 	/**
@@ -149,19 +149,19 @@ public class inputValidation {
 	/**
 	 * @param objectLocator For checking the present of placeholder
 	 * @param params [
-			'placeholderText': required 
-		]
+	 'placeholderText': required 
+	 ]
 	 */
 	def placeholderVisible(def objectLocator, Map params = [:]) {
 		def defaults = [
-			'placeholderText': null
+			placeholderText: null
 		]
 
 		def options = defaults + params
 
 		def requiredParameter = [
-				options.placeholderText
-			]
+			options.placeholderText
+		]
 
 		if (requiredParameter.any { it == null }) {
 			return [
@@ -197,16 +197,16 @@ public class inputValidation {
 	/**
 	 * @param objectLocator For checking the max length
 	 * @param params [
-			'loadWhenClick': optional,
-			'allowedType': required
-		]
+	 'loadWhenClick': optional,
+	 'allowedType': required
+	 ]
 	 */
 	def maxLength(def objectLocator, Map params = [:]) {
-		
+
 		println("here")
 		def defaults = [
-			'loadWhenClick': false,
-			'allowedType': null
+			loadWhenClick: false,
+			allowedType: null
 		]
 
 		def options = defaults + params
@@ -293,10 +293,10 @@ public class inputValidation {
 	/**
 	 * @param objectLocator For input
 	 * @param params [
-			warningMessageTrigger: required,
-			warningMessageLocator: required,
-			expectedWarningText: required
-		]
+	 warningMessageTrigger: required,
+	 warningMessageLocator: required,
+	 expectedWarningText: required
+	 ]
 	 */
 	def emptyInput(def objectLocator, Map params = [:]) {
 		def defaults = [
@@ -322,9 +322,9 @@ public class inputValidation {
 
 		WebUI.setText(objectLocator, "")
 		WebUI.enhancedClick(options.warningMessageTrigger)
-		
+
 		String warningText = WebUI.getText(options.warningMessageLocator)
-		
+
 
 		boolean isEqual = WebUI.verifyEqual(warningText, options.expectedWarningText)
 
@@ -375,9 +375,7 @@ public class inputValidation {
 
 		def options = defaults + params
 
-		def requiredParameter = [
-			options.invalidType
-		]
+		def requiredParameter = [options.invalidType]
 
 		if (requiredParameter.any { it == null }) {
 			return [
@@ -393,6 +391,13 @@ public class inputValidation {
 
 		WebUI.setText(objectLocator, testString)
 		String text = WebUI.getAttribute(objectLocator, 'value')
+
+		if (options.invalidType == "") {
+			return [
+				'status': 'pass',
+				'text': 'No invalid type, therefore it is passed.'
+			]
+		}
 
 		String[] scenarios = options.invalidType.split(',')
 
@@ -524,11 +529,11 @@ public class inputValidation {
 	 * Get input string and verify if it meet the correct character length, by testing both correct and wrong scenario
 	 * @param TextObject objectLocator input field locator
 	 * @param params [
-			warningMessageTrigger: required,
-			warningMessageLocator: required,
-			validScenario: required,
-			invalidScenario: required
-		]
+	 warningMessageTrigger: required,
+	 warningMessageLocator: required,
+	 validScenario: required,
+	 invalidScenario: required
+	 ]
 	 */
 	def characterLength(def objectLocator) {
 		def defaults = [
@@ -554,10 +559,10 @@ public class inputValidation {
 		}
 
 		def testScenario = []
-		
+
 		testScenario.addAll(options.validScenario)
 		testScenario.addAll(options.invalidScenario)
-			
+
 
 		def validLog = []
 		def invalidLog = []
@@ -602,76 +607,76 @@ public class inputValidation {
 			]
 		}
 	}
-	
-	def ICFormat(def objectLocator, String NRIC) {
-	//TODO
-		WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Page'), [('TCarea') : 3, ('TCplan') : 1, ('TCtrip') : 1
-			, ('TCpackage') : 1], FailureHandling.STOP_ON_FAILURE)
-		
-		WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
-		
-		//WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), GlobalVariable.alphabet_Smallcase)
-		WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), '000928070605')
-		
-		String nric_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), "value") ?: ""
-		
-		String dob_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoDateOfBirth'), "value") ?: ""
-		
-		/* If the IC year is larger than the current year, the year in DOB will be 19' instead of 20.
-		 * For example, 101010071110 (10) in IC with current year (2024) will result in 2010 as year in DOB.
-		 *
-		 * Returns: Lists of two date: date from NRIC and date from DOB in format of list: [day, month, year]
-		 */
-		String date1 = NRICInput.substring(0, 6)
-
-		String year = date1.substring(0, 2)
-		String originalYear = convertYear(year)
-		String month = date1.substring(2, 4)
-		String day = date1.substring(4, 6)
-
-		String[] splitdate1 = [day, month, originalYear]
-		String[] date2 = DOB.split("/")
-
-		return [splitdate1, date2]
-		
-		
-		System.out.println(date1 + " and " + date2)
-		
-		String[] dateMessage = ['day', 'month', 'year']
-		
-		WebUI.closeBrowser()
-		
-		for (int i=0; i<date1.length; i++) {
-			assert date1[i] == date2[i] : "${dateMessage[i]} does not match"
-		}
-		
-		//adassa
-		
-		WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
-		
-		WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/button_Male'))
-		
-		WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), '000928070605')
-		
-		String NRIC = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), 'value')
-		
-		maleButtonColor = WebUI.getCSSValue(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/button_Male'), 'background-color')
-		
-		femaleButtonColor = WebUI.getCSSValue(findTestObject('Travel/TripCare360/English/AppPage/button_Female'),
-			'background-color')
-		
-		int NRICGender = CustomKeywords.'applicationPage.verification.verifyNRICwithGender'(NRIC)
-		
-		WebUI.closeBrowser()
-		
-		println(maleButtonColor)
-		println(femaleButtonColor)
-		switch(NRICGender) {
-			case 0:
-				assert femaleButtonColor == GlobalVariable.validation_button_color
-			case 1:
-				assert maleButtonColor == GlobalVariable.validation_button_color
-		}
-		
-	}
+	//
+	//	def ICFormat(def objectLocator, String NRIC) {
+	//	//TODO
+	//		WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Page'), [('TCarea') : 3, ('TCplan') : 1, ('TCtrip') : 1
+	//			, ('TCpackage') : 1], FailureHandling.STOP_ON_FAILURE)
+	//
+	//		WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
+	//
+	//		//WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), GlobalVariable.alphabet_Smallcase)
+	//		WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), '000928070605')
+	//
+	//		String nric_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), "value") ?: ""
+	//
+	//		String dob_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoDateOfBirth'), "value") ?: ""
+	//
+	//		/* If the IC year is larger than the current year, the year in DOB will be 19' instead of 20.
+	//		 * For example, 101010071110 (10) in IC with current year (2024) will result in 2010 as year in DOB.
+	//		 *
+	//		 * Returns: Lists of two date: date from NRIC and date from DOB in format of list: [day, month, year]
+	//		 */
+	//		String date1 = NRICInput.substring(0, 6)
+	//
+	//		String year = date1.substring(0, 2)
+	//		String originalYear = convertYear(year)
+	//		String month = date1.substring(2, 4)
+	//		String day = date1.substring(4, 6)
+	//
+	//		String[] splitdate1 = [day, month, originalYear]
+	//		String[] date2 = DOB.split("/")
+	//
+	//		return [splitdate1, date2]
+	//
+	//
+	//		System.out.println(date1 + " and " + date2)
+	//
+	//		String[] dateMessage = ['day', 'month', 'year']
+	//
+	//		WebUI.closeBrowser()
+	//
+	//		for (int i=0; i<date1.length; i++) {
+	//			assert date1[i] == date2[i] : "${dateMessage[i]} does not match"
+	//		}
+	//
+	//		//adassa
+	//
+	//		WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
+	//
+	//		WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/button_Male'))
+	//
+	//		WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), '000928070605')
+	//
+	//		String NRIC = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), 'value')
+	//
+	//		maleButtonColor = WebUI.getCSSValue(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/button_Male'), 'background-color')
+	//
+	//		femaleButtonColor = WebUI.getCSSValue(findTestObject('Travel/TripCare360/English/AppPage/button_Female'),
+	//			'background-color')
+	//
+	//		int NRICGender = CustomKeywords.'applicationPage.verification.verifyNRICwithGender'(NRIC)
+	//
+	//		WebUI.closeBrowser()
+	//
+	//		println(maleButtonColor)
+	//		println(femaleButtonColor)
+	//		switch(NRICGender) {
+	//			case 0:
+	//				assert femaleButtonColor == GlobalVariable.validation_button_color
+	//			case 1:
+	//				assert maleButtonColor == GlobalVariable.validation_button_color
+	//		}
+	//
+	//	}
 }

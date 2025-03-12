@@ -339,4 +339,29 @@
       <initValue>'Motorcycle Details'</initValue>
       <name>text_MotorDetails</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Retrieve</description>
+      <initValue>'Retrieve'</initValue>
+      <name>dyobj_RetrieveButton</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Try Again</description>
+      <initValue>'Try Again'</initValue>
+      <name>dyobj_TryAgainButton</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Cancel</description>
+      <initValue>'Cancel'</initValue>
+      <name>dyobj_CancelButton</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Proceed Payment</description>
+      <initValue>'Proceed Payment'</initValue>
+      <name>dyobj_ProceedPayment</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>USED on Test case: &quot;Retry payment upon failed transaction&quot; for the fixed value and Reusable Module &quot;Fill Form - Myself'</description>
+      <initValue>'980421045116'</initValue>
+      <name>tempIC</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

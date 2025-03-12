@@ -1,9 +1,156 @@
 {
-  "keywordFileContentHash": "579128C1C5156B1C727F910D2EB86B84",
+  "keywordFileContentHash": "87A737FE5C1C791310D881612B1195D5",
   "keywordClasses": [
     {
       "name": "utils.Utility",
       "keywordMethods": [
+        {
+          "name": "getTodayDate",
+          "parameters": [
+            {
+              "name": "returnType",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Return today date information depends on input\r\n\t * @param returnType 1: year; 2: month; 3: day; 0: DOB (DDMMYYYY) (default)\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "getSpecificDate",
+          "parameters": [
+            {
+              "name": "addDay",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "returnType",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Return date from n day\r\n\t * @param addDay day from today, can be negative\r\n\t * @param returnType 1: year; 2: month; 3: day; 0: DOB (DDMMYYYY) (default)\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "obtainAgeEdgeCaseAgeToICRange",
+          "parameters": [
+            {
+              "name": "ageRange",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "params",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.util.Map",
+                "unresolvedClassName": "Map",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get the input of age range, and return edge case for each value range\r\n\t * @param ageRange regex for 2 value (\u003e\u003d18-\u003e\u003d70)\r\n\t \u0027\u003e\u0027 or \u0027\u003c\u0027: Does not include the number. eg: \u003e18 means 19 or above; \u003c18 means below 18 (18year0day does not included)\r\n\t \u0027\u003e\u003d\u0027 or \u0027\u003c\u003d\u0027: Included the number. eg: \u003e\u003d18 means 18 or above; \u003c\u003d18 means below 19 (maximum of 18 - 18years364days or below)\r\n\t \u0027d\u0027: Indicate the number is day instead of year.\r\n\t * @param [\r\n\t returnType: 1,  1: NRIC; 2: DOB\r\n\t ageAfterBirthday: false,   true: Uses current age idea; false: Uses Age after birthday idea.\r\n\t eg: Current age: 18 -\u003e 06/03/2007 (positive)\r\n\t Age after birthday: 18 -\u003e 06/03/2008 (positive)\r\n\t ]\r\n\t * @return [\r\n\t \u0027positive\u0027: String,\r\n\t \u0027negative\u0027: String\r\n\t ]\r\n\t */"
+        },
+        {
+          "name": "obtainAgeEdgeCaseAgeToIC",
+          "parameters": [
+            {
+              "name": "ageRegex",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "params",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.util.Map",
+                "unresolvedClassName": "Map",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get the input of age, and will return 2 data: 1 pass edge case, and 1 negative case\r\n\t * eg: 18 -\u003e Today Date: 2025/03/06 (Pass: 2007/03/06; Fail: 2007/03/07)\r\n\t * @param ageRegex regex for one value (eg: \u003e\u003d18)\r\n\t \u0027\u003e\u0027 or \u0027\u003c\u0027: Does not include the number. eg: \u003e18 means 19 or above; \u003c18 means below 18 (18year0day does not included)\r\n\t \u0027\u003e\u003d\u0027 or \u0027\u003c\u003d\u0027: Included the number. eg: \u003e\u003d18 means 18 or above; \u003c\u003d18 means below 19 (maximum of 18 - 18years364days or below)\r\n\t \u0027d\u0027: Indicate the number is day instead of year.\r\n\t * @param [\r\n\t returnType: 1,  1: NRIC; 2: DOB; 3: Age\r\n\t ageAfterBirthday: false,   true: Uses current age idea; false: Uses Age after birthday idea. \r\n\t eg: Current age: 18 -\u003e 06/03/2007 (positive)\r\n\t Age after birthday: 18 -\u003e 06/03/2008 (positive)\r\n\t ]\r\n\t * @return [\r\n\t \u0027positive\u0027: String,\r\n\t \u0027negative\u0027: String\r\n\t ]\r\n\t */"
+        },
+        {
+          "name": "obtainAgeRange",
+          "parameters": [
+            {
+              "name": "ageRange",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "params",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.util.Map",
+                "unresolvedClassName": "Map",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Process the value to make it inclusive for minimum, exclusive for maximum. Eg (18-81) means equal or more than 18 (inclusive of 18); less than 81 (exclusive of 81).\r\n\t * @param ageRange string regex\r\n\t * @param params\r\n\t * @return [\r\n\t \u0027minimum\u0027: int,\r\n\t \u0027maximum\u0027: int\r\n\t ]\r\n\t * \r\n\t */"
+        },
         {
           "name": "getXPath",
           "parameters": [
@@ -33,7 +180,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "enterText",
@@ -64,7 +212,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\r\n\t * Some input will refresh on input click/ input out\r\n\t * @param to TestObject\r\n\t * @param text text to input\r\n\t */"
         },
         {
           "name": "amountDistribution",
@@ -108,10 +257,92 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\r\n\t * Operation to evenly distribute the amount to every contents.\r\n\t * If isPositiveCase is true, then the sum of list provided are exactly the \u0027amount\u0027.\r\n\t * If isPositiveCase is false, then adjustment is made to make it not met the range requirement. \r\n\t * @param rangeOfAmount List contains min and max of the total content amount ranges. eg: [min, max]\r\n\t * @param numberOfDistribution\r\n\t * @param isPositiveCase boolean true: test for valid case; false: test for invalid case\r\n\t * @return inputAmountList List \u003cList\u003e List of list that contains the distribution of the amount to every contents\r\n\t */"
+        },
+        {
+          "name": "getTodayDate",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "getSpecificDate",
+          "parameters": [
+            {
+              "name": "addDay",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "obtainAgeEdgeCaseAgeToICRange",
+          "parameters": [
+            {
+              "name": "ageRange",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "obtainAgeEdgeCaseAgeToIC",
+          "parameters": [
+            {
+              "name": "ageRegex",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "obtainAgeRange",
+          "parameters": [
+            {
+              "name": "ageRange",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

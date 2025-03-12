@@ -21,7 +21,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class verification {
-	
+
 	/**
 	 * Similar to verifyElementPresent()
 	 * @param obj object to verify
@@ -30,16 +30,16 @@ public class verification {
 	@Keyword
 	def normalVerificationOnElementPresent(TestObject obj) {
 		boolean isPresent = WebUI.verifyElementPresent(obj, GlobalVariable.constant_defaultWaitTime, FailureHandling.OPTIONAL)
-		
+
 		return isPresent
 	}
-	
+
 	@Keyword
 	def verifyCurrentPage(TestObject obj) {
-		
+
 		String elementClass = WebUI.getAttribute(findTestObject('Object Repository/Hohh/ORM001_dyvalidation_CurrentPage_text',
-													[('text') : GlobalVariable.dyobj_CurrentPage_ORM001['plan']]), 'class')
-		
+				[('text') : GlobalVariable.dyobj_CurrentPage_ORM001['plan']]), 'class')
+
 		return elementClass.contains('fw-bold')
 	}
 }

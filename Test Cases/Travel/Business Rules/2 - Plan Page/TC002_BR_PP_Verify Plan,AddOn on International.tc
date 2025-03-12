@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_BR_PP_Verify Plan,AddOn on International</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ac04ecad-e7d5-44a4-8bfe-1aa9668afa66</testCaseGuid>
+</TestCaseEntity>

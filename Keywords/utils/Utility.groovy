@@ -24,12 +24,301 @@ import com.kms.katalon.core.configuration.RunConfiguration
 import groovy.text.SimpleTemplateEngine
 
 import com.kms.katalon.core.testobject.ConditionType
+import java.time.LocalDate
+import java.time.Period
 
 public class Utility {
-	// Process template with variables
-	String process(String template, Map binding) {
-		def engine = new SimpleTemplateEngine()
-		return engine.createTemplate(template).make(binding).toString()
+	// All
+
+	/**
+	 * Return today date information depends on input
+	 * @param returnType 1: year; 2: month; 3: day; 0: DOB (DDMMYYYY) (default)
+	 * @return
+	 */
+	@Keyword
+	def getTodayDate(int returnType = 0) {
+		LocalDate today = LocalDate.now()
+
+		String year = today.year.toString()
+		String month = today.monthValue.toString()
+		String day = today.dayOfMonth.toString()
+
+		if (returnType == 1) {
+			return year
+		} else if (returnType == 2) {
+			return month
+		} else if (returnType == 3) {
+			return day
+		} else {
+			String DOB = "${day}${month}${year}"
+
+			return DOB
+		}
+	}
+
+	/**
+	 * Return date from n day
+	 * @param addDay day from today, can be negative
+	 * @param returnType 1: year; 2: month; 3: day; 0: DOB (DDMMYYYY) (default)
+	 * @return
+	 */
+	@Keyword
+	def getSpecificDate(int addDay, int returnType = 0) {
+		LocalDate specificDay = LocalDate.now().plusDays(addDay)
+
+		String year = specificDay.year.toString()
+		String month = specificDay.monthValue.toString()
+		String day = specificDay.dayOfMonth.toString()
+
+		if (returnType == 1) {
+			return year
+		} else if (returnType == 2) {
+			return month
+		} else if (returnType == 3) {
+			return day
+		} else {
+			month = String.format("%02d", month.toInteger())
+			day = String.format("%02d", day.toInteger())
+
+			String DOB = "${day}${month}${year}"
+
+			return DOB
+		}
+	}
+
+	/**
+	 * Get the input of age range, and return edge case for each value range
+	 * @param ageRange regex for 2 value (>=18->=70)
+	 '>' or '<': Does not include the number. eg: >18 means 19 or above; <18 means below 18 (18year0day does not included)
+	 '>=' or '<=': Included the number. eg: >=18 means 18 or above; <=18 means below 19 (maximum of 18 - 18years364days or below)
+	 'd': Indicate the number is day instead of year.
+	 * @param [
+	 returnType: 1,  1: NRIC; 2: DOB
+	 ageAfterBirthday: false,   true: Uses current age idea; false: Uses Age after birthday idea.
+	 eg: Current age: 18 -> 06/03/2007 (positive)
+	 Age after birthday: 18 -> 06/03/2008 (positive)
+	 ]
+	 * @return [
+	 'positive': String,
+	 'negative': String
+	 ]
+	 */
+	@Keyword
+	def obtainAgeEdgeCaseAgeToICRange(String ageRange, Map params = [:]) {
+		def defaults = [
+			returnType: 1,
+			ageAfterBirthday: false,
+		]
+
+		def options = defaults + params
+
+		def requiredParameter = []
+
+		if (requiredParameter.any { it == null }) {
+			return [
+				'status': 'error',
+				'text': 'Some required parameter does not provided.'
+			]
+		}
+
+
+		def agePeriod = ageRange.split('-')
+
+		def resultCase = [
+			'positive': [],
+			'negative': []
+		]
+		agePeriod.each { ageRegex ->
+			def result = obtainAgeEdgeCaseAgeToIC(ageRegex, params = options)
+
+			resultCase.each { cases, _ ->
+				if (cases == 'positive') {
+					resultCase[cases].addAll(result[cases])
+				} else if (cases == 'negative') {
+					resultCase[cases].addAll(result[cases])
+				}
+			}
+		}
+
+		return resultCase
+	}
+
+	/**
+	 * Get the input of age, and will return 2 data: 1 pass edge case, and 1 negative case
+	 * eg: 18 -> Today Date: 2025/03/06 (Pass: 2007/03/06; Fail: 2007/03/07)
+	 * @param ageRegex regex for one value (eg: >=18)
+	 '>' or '<': Does not include the number. eg: >18 means 19 or above; <18 means below 18 (18year0day does not included)
+	 '>=' or '<=': Included the number. eg: >=18 means 18 or above; <=18 means below 19 (maximum of 18 - 18years364days or below)
+	 'd': Indicate the number is day instead of year.
+	 * @param [
+	 returnType: 1,  1: NRIC; 2: DOB; 3: Age
+	 ageAfterBirthday: false,   true: Uses current age idea; false: Uses Age after birthday idea. 
+	 eg: Current age: 18 -> 06/03/2007 (positive)
+	 Age after birthday: 18 -> 06/03/2008 (positive)
+	 ]
+	 * @return [
+	 'positive': String,
+	 'negative': String
+	 ]
+	 */
+	@Keyword
+	def obtainAgeEdgeCaseAgeToIC(String ageRegex, Map params = [:]) {
+		def defaults = [
+			returnType: 1,
+			ageAfterBirthday: false,
+		]
+
+		def options = defaults + params
+
+		def requiredParameter = []
+
+		if (requiredParameter.any { it == null }) {
+			return [
+				'status': 'error',
+				'text': 'Some required parameter does not provided.'
+			]
+		}
+
+		int age = ageRegex.findAll(/\d+/)[0].toInteger()	// Get the numerical value that representing year/day
+
+		LocalDate today = LocalDate.now()
+
+		LocalDate positiveCase = today
+		LocalDate negativeCase = today
+
+		if (ageRegex =~ /\d(?=d)/) {
+			// Check if the number is day instead of year
+			positiveCase = positiveCase.minusDays(age)
+			negativeCase = positiveCase.plusDays(1)
+		} else {
+			// The number is year
+			positiveCase = today.minusYears(age)
+			negativeCase = positiveCase
+
+			// The inclusive/exclusive need to be considered. If it is about days, then it can be passed.
+			if (ageRegex =~ /<(?=\d)/) {
+				// Number Exclusive for < (maximum)
+				// eg: 18age; Today: 06/03/2025; Positive: 07/03/2007 (17yo364days); Negative: 06/03/2007 (18yo)
+				positiveCase = positiveCase.plusDays(1)
+			} else if (ageRegex =~ />(?=\d)/) {
+				// Number Exclusive for > (minimum)
+				// eg: 18age; Today: 06/03/2025; Positive: 06/03/2006 (19yo); Negative: 07/03/2006 (18yo364days)
+				positiveCase = positiveCase.minusYears(1)
+				negativeCase = negativeCase.minusYears(1).plusDays(1)
+			} else if (ageRegex =~ /<=(?=\d)/) {
+				// Number Inclusive for <= (maximum)
+				// eg: 18age; Today: 06/03/2025; Positive: 07/03/2006 (18yo364days); Negative: 06/03/2006 (19yo)
+				positiveCase = positiveCase.minusYears(1).plusDays(1)
+				negativeCase = negativeCase.minusYears(1)
+			} else if (ageRegex =~ />=(?=\d)/) {
+				// Number Inclusive for >= (minimum)
+				// eg: 18age; Today: 06/03/2025; Positive: 06/03/2007 (18yo); Negative: 07/03/2007 (17yo364days)
+				negativeCase = negativeCase.plusDays(1)
+			} else {
+				return [
+					'status': 'error',
+					'text': '\'<\', \'>\', \'<=\' or \'>-\' are required but is not found.'
+				]
+			}
+		}
+
+		// Different way of considering holder age. (CurrentAge or AgeAfterBirthday)
+		LocalDate positiveCaseFinal = options.ageAfterBirthday ? positiveCase.plusYears(1) : positiveCase
+		LocalDate negativeCaseFinal = options.ageAfterBirthday ? negativeCase.plusYears(1) : negativeCase
+
+		Map type = [
+			'positive': positiveCaseFinal,
+			'negative': negativeCaseFinal
+		]
+
+		Map returnData = [:]
+		type.each { cases, data ->
+			String year = data.year
+			String month = String.format("%02d", data.monthValue)
+			String day = String.format("%02d", data.dayOfMonth)
+
+			String output = ""
+			if (options.returnType == 2) {
+				output = "${day}/${month}/${year}"
+			} else if (options.returnType == 3) {
+				Period period = Period.between(today, data)
+				int ageInYear = Math.abs(period.getYears())
+
+				year = String.format("%02d", (data.year % 100))
+				String ic = "${year}${month}${day}070605"
+
+				output = [
+					ic: ic,
+					age: ageInYear
+				]
+				//				output = [ic, ageInYear]
+			} else {
+				year = String.format("%02d", (data.year % 100))
+
+				output = "${year}${month}${day}070605"
+			}
+
+			returnData[cases] = output
+		}
+
+		returnData['status'] = 'pass'
+		return returnData
+	}
+
+	/**
+	 * Process the value to make it inclusive for minimum, exclusive for maximum. Eg (18-81) means equal or more than 18 (inclusive of 18); less than 81 (exclusive of 81).
+	 * @param ageRange string regex
+	 * @param params
+	 * @return [
+	 'minimum': int,
+	 'maximum': int
+	 ]
+	 * 
+	 */
+	@Keyword
+	def obtainAgeRange(String ageRange, Map params = [:]) {
+		def defaults = [
+			ageAfterBirthday: false,
+		]
+
+		def options = defaults + params
+
+		def requiredParameter = []
+
+		if (requiredParameter.any { it == null }) {
+			return [
+				'status': 'error',
+				'text': 'Some required parameter does not provided.'
+			]
+		}
+
+		def valueList = (ageRange =~ /\d+/).collect { it.toInteger()}
+
+		Map result = [:]
+
+		// Process the value to make it inclusive. Eg (18-80) means equal or more than 18; equal or less than 80.
+		valueList.each { value ->
+			if (ageRange =~ /<(?=\d)/) {
+				result['minimum'] = valueList[0]
+				result['maximum'] = valueList[1]
+			} else if (ageRange =~ />(?=\d)/) {
+				result['minimum'] = valueList[0] + 1
+				result['maximum'] = valueList[1]
+			} else if (ageRange =~ /<=(?=\d)/) {
+				result['minimum'] = valueList[0]
+				result['maximum'] = valueList[1] + 1
+			} else if (ageRange =~ />=(?=\d)/) {
+				result['minimum'] = valueList[0]
+				result['maximum'] = valueList[1]
+			} else {
+				return [
+					'status': 'error',
+					'text': '\'<\', \'>\', \'<=\' or \'>-\' are required but is not found.'
+				]
+			}
+		}
+
+		return result
 	}
 
 	@Keyword

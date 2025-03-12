@@ -29,35 +29,35 @@
       <guid>3d099dfd-1843-4a12-b2c4-f75baf7c8525</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Motorcar/General Flow/3 - Declaration Page/TC003_GT_DP_Verify Product Disclosure Sheet Link</testCaseId>
+      <testCaseId>Test Cases/Motorcar/Business Rules/3 - Review Page/TC003_GT_DP_Verify Product Disclosure Sheet Link</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>cac85393-ff0d-42ba-87d4-826382a4bb56</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Motorcar/General Flow/3 - Declaration Page/TC004_GT_DP_Verify Policy Contract Link</testCaseId>
+      <testCaseId>Test Cases/Motorcar/Business Rules/3 - Review Page/TC004_GT_DP_Verify Policy Contract Link</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>2360b2a8-fbfc-4326-ab6c-45060da83ec9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Motorcar/General Flow/3 - Declaration Page/TC005_GT_DP_Verify Important Notice Link</testCaseId>
+      <testCaseId>Test Cases/Motorcar/Business Rules/3 - Review Page/TC005_GT_DP_Verify Important Notice Link</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>36cef5d1-59d9-4ec9-a350-a9e9cd9b1eb7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Motorcar/General Flow/3 - Declaration Page/TC006_GT_DP_Verify Privacy Notice Link</testCaseId>
+      <testCaseId>Test Cases/Motorcar/Business Rules/3 - Review Page/TC006_GT_DP_Verify Privacy Notice Link</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>d5ed61cf-995e-48bb-bc26-3e5634fb4a81</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Motorcar/General Flow/3 - Declaration Page/TC007_GT_DP_Verify Declaration Link</testCaseId>
+      <testCaseId>Test Cases/Motorcar/Business Rules/3 - Review Page/TC007_GT_DP_Verify Declaration Link</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

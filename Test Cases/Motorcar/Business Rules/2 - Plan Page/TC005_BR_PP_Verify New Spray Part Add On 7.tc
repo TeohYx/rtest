@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Only available for 5-15 yo vehicle</description>
+   <name>TC005_BR_PP_Verify New Spray Part Add On 7</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>846f46c2-9228-421a-bcee-16d0ee6097aa</testCaseGuid>
+</TestCaseEntity>

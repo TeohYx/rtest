@@ -74,6 +74,5 @@ for (info in nameAndIC) {
 	WebUI.closeBrowser()
 }
 
-if (!errorLog.isEmpty()) {
-	KeywordUtil.markFailedAndStop(errorLog.join("\n"))
-}
+String error = errorLog.join("\n")
+assert errorLog.isEmpty() : error

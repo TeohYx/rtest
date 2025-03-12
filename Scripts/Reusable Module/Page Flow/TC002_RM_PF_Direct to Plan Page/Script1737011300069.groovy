@@ -27,18 +27,51 @@ import com.kms.katalon.core.util.KeywordUtil
  * 			['inputField' : [['inputObject': , 'inputText': ]], 'buttonField' : [[ 'buttonClick': , 'buttonSelection': ]]] 
  */
 
-if (inputButton == null || inputScenario == null) {
+String plateNum = ""
+String postc = ""
+TestObject inputB = null
+Map inputS = [:]
+
+try {
+	plateNum = plateNumber
+} catch (Exception e) {
+	plateNum = GlobalVariable.rules_carStatus['default']
+}
+
+try {
+	postc = postcode
+} catch (Exception e) {
+	postc = GlobalVariable.dummy_postcode
+}
+
+try {
+	inputB = inputButton
+} catch (Exception e) {
+	inputB = findTestObject('Object Repository/Motorcar and Motorcycle/Quotation Page/label_ID Type_NRIC')
+}
+
+try {
+	inputS = inputScenario
+} catch (Exception e) {
+	inputS = [
+		('inputField') : [
+				[('inputObject') : findTestObject('Object Repository/Motorcar and Motorcycle/Quotation Page/input_NRIC'), ('inputText') : '900101010101'],
+		]
+	]
+}
+
+if (inputB == null || inputS == null) {
 	KeywordUtil.markFailed("One of the input are missing in 'findTestCase' line")
 	return
 }
+println(plateNum)
+WebUI.setText(findTestObject('Motorcar and Motorcycle/Quotation Page/input_Plate Number'), plateNum)
 
-WebUI.setText(findTestObject('Motorcar and Motorcycle/Quotation Page/input_Plate Number'), plateNumber)
+WebUI.setText(findTestObject('Motorcar and Motorcycle/Quotation Page/input_Postcode'), postc)
 
-WebUI.setText(findTestObject('Motorcar and Motorcycle/Quotation Page/input_Postcode'), '11500')
+WebUI.enhancedClick(inputB)
 
-WebUI.enhancedClick(inputButton)
-
-inputScenario.each { key, value -> 
+inputS.each { key, value -> 
 	switch(key) {
 		case "inputField":
 			println("inputfield")

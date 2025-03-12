@@ -5,7 +5,7 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>2</numberOfRerun>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>10</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
@@ -15,7 +15,56 @@
       <guid>3a0dc214-7203-4f35-8344-f3731106ece0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Motorcycle/Business Rules/3 - Declaration Page/TC001_BR_DP_Verify Error Without Filling Required Part</testCaseId>
+      <testCaseId>Test Cases/Motorcycle/General Flow/3 - Declaration Page/TC001_BR_DP_Verify Error Without Filling Required Part</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cd2930c7-5467-47dc-9e0a-235d566e4676</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Motorcycle/Business Rules/3 - Declaration Page/TC002_GF_DP_Verify Product Disclosure Sheet Link</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fdc49517-5b85-4837-b40d-89f1a66ef386</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Motorcycle/Business Rules/3 - Declaration Page/TC003_GF_DP_Verify Policy Contract Link</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5a8ef479-63c8-4c73-9bc3-0da781870d8c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Motorcycle/Business Rules/3 - Declaration Page/TC004_GF_DP_Verify Important Notice Link</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>286d9625-5142-497c-8ff6-93f6630c4d7d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Motorcycle/Business Rules/3 - Declaration Page/TC005_GF_DP_Verify Privacy Notice Link</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>45fdf561-f984-46d8-adf4-4efd4c8227ba</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Motorcycle/Business Rules/3 - Declaration Page/TC006_GF_DP_Verify Declaration Link</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ce7ef84c-d2ab-4fb6-914a-3edeadb0f17f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Motorcycle/Business Rules/3 - Declaration Page/TC007_GF_DP_Verify PIDM Brochure Link</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4966d8e8-a840-4a44-904b-056df8f47d99</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Motorcycle/Business Rules/3 - Declaration Page/TC008_GF_DP_Verify PIDM Page Link</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
