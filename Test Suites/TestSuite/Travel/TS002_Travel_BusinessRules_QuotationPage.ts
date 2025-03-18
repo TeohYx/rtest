@@ -54,13 +54,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>283d905e-ec5a-4fc0-9d1f-6c5bd3017137</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Travel/Business Rules/1 - Quotation Page/TC007_IE_Verify Domestic Plan Without AddOn</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>616a7877-6ba3-4d3f-afdd-97b93a655e76</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

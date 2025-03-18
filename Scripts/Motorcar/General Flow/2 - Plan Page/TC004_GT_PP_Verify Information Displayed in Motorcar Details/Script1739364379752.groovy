@@ -37,7 +37,7 @@ WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC001_RM_C_Open Appli
 
 // Quotation Page fill information
 WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC002_RM_PF_Direct to Plan Page'), [('inputButton') : inputButton
-		, ('inputScenario') : inputScenario, ('plateNumber') : plateNumber], FailureHandling.STOP_ON_FAILURE)
+		, ('inputScenario') : inputScenario, ('plateNumber') : plateNumber, ('postcode') : inputedPostcode], FailureHandling.STOP_ON_FAILURE)
 
 boolean isPlateNumberTally = plateNumber == WebUI.getText(findTestObject('Motorcar and Motorcycle/Plan Page/txt_Vehicle Details_Plate Number', [('vehicle_detail'): 'Vehicle Details', ('plate_number'): 'Plate Number']))
 

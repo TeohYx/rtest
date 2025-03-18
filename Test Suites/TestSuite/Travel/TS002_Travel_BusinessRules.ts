@@ -12,13 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>3b293683-f0ea-4c9f-978a-e6a4879eeac8</testSuiteGuid>
    <testCaseLink>
-      <guid>8e53faa8-4838-4b7d-a6ad-3c5fa401c93c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Travel/Business Rules/1 - Quotation Page/TC007_IE_Verify Domestic Plan Without AddOn</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>5d1fcf3d-7408-4b4b-a3fb-b87e93e1749f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -99,7 +92,7 @@
       <guid>fb4af2f3-9601-402b-a479-1947cf737c9f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Travel/Business Rules/3 - Application Page/TC001_BR_AP_Verify Discount Applied on EDP (Online)</testCaseId>
+      <testCaseId>Test Cases/Travel/Business Rules/3 - Application Page/TC001_BR_AP_Verify Discount Applied under EDP</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -32,6 +32,11 @@ try {
 	arrivalDate = "28"
 }
 
+println(departDate)
+println(arrivalDate)
+println(TCdepartDate)
+println(TCarrivalDate)
+
 int env = GlobalVariable.environment
 
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Open Application'), [:], FailureHandling.STOP_ON_FAILURE)

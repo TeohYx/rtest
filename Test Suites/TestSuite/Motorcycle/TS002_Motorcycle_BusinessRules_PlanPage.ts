@@ -57,7 +57,7 @@
       <guid>057ffc4e-ecd9-467b-b16c-6c61307942e3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Motorcycle/Business Rules/2 - Plan Page/TC004_BR_PP_Verify Discount Applied on EDP (Online)</testCaseId>
+      <testCaseId>Test Cases/Motorcycle/Business Rules/2 - Plan Page/TC004_BR_PP_Verify Discount Applied under EDP</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

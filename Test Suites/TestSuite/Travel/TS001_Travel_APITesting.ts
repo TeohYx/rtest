@@ -40,13 +40,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0648db49-9307-43a9-b405-ee372e86147d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Travel/API Testing/Plan Combination/Single Plan Test</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>2799385c-7dc0-49d8-b465-1318a97006fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

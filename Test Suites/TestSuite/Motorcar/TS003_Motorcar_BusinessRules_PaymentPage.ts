@@ -78,7 +78,7 @@
       <guid>d0e8d037-080c-45b5-85de-514f7de19921</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Motorcar/Business Rules/3 - Review Page/TC001_BR_AP_Verify Discount Applied on EDP (Online)</testCaseId>
+      <testCaseId>Test Cases/Motorcar/Business Rules/3 - Review Page/TC001_BR_AP_Verify Discount Applied under EDP</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

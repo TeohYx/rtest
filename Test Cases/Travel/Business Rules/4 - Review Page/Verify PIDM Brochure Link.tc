@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC001_BR_AP_Verify Discount Applied on EDP (Online)</name>
+   <name>Verify PIDM Brochure Link</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>fe7ae242-02f7-48b9-a78f-c7efa8b5ef1f</testCaseGuid>
+   <testCaseGuid>edaa8fb0-a043-4aa9-924a-44922afc2a28</testCaseGuid>
 </TestCaseEntity>

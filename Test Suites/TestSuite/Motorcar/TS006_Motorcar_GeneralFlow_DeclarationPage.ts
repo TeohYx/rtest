@@ -64,14 +64,14 @@
       <guid>c39b38e5-9361-4a5f-b97f-31d1f9169c9a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Motorcar/General Flow/3 - Declaration Page/TC008_GT_DP_Verify PIDM Brochure Link</testCaseId>
+      <testCaseId>Test Cases/Motorcar/Business Rules/3 - Review Page/TC008_GT_DP_Verify PIDM Brochure Link</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>24c7318f-f981-4ecd-abf2-e20d985a58d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Motorcar/General Flow/3 - Declaration Page/TC009_GT_DP_Verify PIDM Page Link</testCaseId>
+      <testCaseId>Test Cases/Motorcar/Business Rules/3 - Review Page/TC009_GT_DP_Verify PIDM Page Link</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

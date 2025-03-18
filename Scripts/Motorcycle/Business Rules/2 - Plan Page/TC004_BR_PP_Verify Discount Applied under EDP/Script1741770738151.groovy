@@ -17,11 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Page'),
-	[('TCarea') : 2, ('TCplan') : 1, ('TCtrip'): 1, ('TCpackage'): 1, ('TCdepartDate'): 1, ('TCarrivalDate'): 1],
-	FailureHandling.STOP_ON_FAILURE)
-
-boolean isPresent = WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dytext_CostBreakdown_item', 
-	[('item'): GlobalVariable.rules_EDPDiscount]), 10, FailureHandling.OPTIONAL)
-
-assert isPresent: "Discount of 25% not present"

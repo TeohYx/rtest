@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC004_BR_PP_Verify Discount Applied on EDP (Online)</name>
+   <name>TC001_BR_AP_Verify Discount Applied under EDP</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>5f56a9c6-0912-46bf-af62-de36ad2d370b</testCaseGuid>
+   <testCaseGuid>fe7ae242-02f7-48b9-a78f-c7efa8b5ef1f</testCaseGuid>
 </TestCaseEntity>

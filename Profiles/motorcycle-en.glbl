@@ -364,4 +364,9 @@
       <initValue>'980421045116'</initValue>
       <name>tempIC</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>51200</description>
+      <initValue>'51200'</initValue>
+      <name>dummy_postcode</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

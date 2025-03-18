@@ -25,9 +25,13 @@ String arrivalDate = ""
 try {
 	departDate = TCdepartDate.toString()
 	arrivalDate = TCarrivalDate.toString()
+	
+	println("preset: " + [departDate, arrivalDate])
 } catch (Exception e) {
 	departDate = "1"
 	arrivalDate = "28"
+	
+	println("default: " + [departDate, arrivalDate])
 }
 
 println(departDate)

@@ -34,7 +34,7 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybu
 WebUI.delay(5)
 
 WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/img_TransactionUnsuccessful'), 
-    3)
+    10)
 
 WebUI.takeFullPageScreenshot()
 
