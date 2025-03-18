@@ -259,6 +259,7 @@
             }
           ],
           "javadoc": "/**\r\n\t * Operation to evenly distribute the amount to every contents.\r\n\t * If isPositiveCase is true, then the sum of list provided are exactly the \u0027amount\u0027.\r\n\t * If isPositiveCase is false, then adjustment is made to make it not met the range requirement. \r\n\t * @param rangeOfAmount List contains min and max of the total content amount ranges. eg: [min, max]\r\n\t * @param numberOfDistribution\r\n\t * @param isPositiveCase boolean true: test for valid case; false: test for invalid case\r\n\t * @return inputAmountList List \u003cList\u003e List of list that contains the distribution of the amount to every contents\r\n\t */"
+<<<<<<< HEAD
         },
         {
           "name": "getTodayDate",
@@ -340,6 +341,8 @@
             }
           ],
           "javadoc": ""
+=======
+>>>>>>> 9abf9fe (sasd)
         }
       ]
     }
