@@ -9,10 +9,10 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
     - name: Katalon Studio Github Action
-      uses: katalon-studio/katalon-studio-github-action@v2.1
+      uses: katalon-studio/katalon-studio-github-action@v4.0
       with:
           version: '9.7.3'
           projectPath: '${{ github.workspace }}'
-          args: '-noSplash -retry=0 -browserType=Chrome -statusDelay=15 -testSuitePath="Test Suites/TestSuiteCollection/Travel" -apiKey= 57fe476f-7bac-443d-8506-acacd79229f5 --config -webui.autoUpdateDrivers=true'
+          args: '-noSplash -retry=0 -browserType=Chrome -statusDelay=15 -testSuiteCollectionPath="Test Suites/TestSuiteCollection/Travel" -apiKey= ${{ secrets.KATALON_API_KEY }} --config -webui.autoUpdateDrivers=true'
