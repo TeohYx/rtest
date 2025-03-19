@@ -32,10 +32,8 @@ try {
 	arrivalDate = "28"
 }
 
-println(departDate)
-println(arrivalDate)
-println(TCdepartDate)
-println(TCarrivalDate)
+//println(departDate)
+//println(arrivalDate)
 
 int env = GlobalVariable.environment
 

@@ -117,4 +117,4 @@ plateLists.each { key, plateList ->
 	}
 }
 
-assert errorLog.isEmpty() : KeywordUtil.markError(errorLog.join('\n'))
+assert errorLog.isEmpty() : errorLog.join('\n')

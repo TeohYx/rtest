@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 String inputtedPlateNumber = 'AA1000A'
-String inputtedPostcode = '11500'
+String inputtedPostcode = GlobalVariable.dummy_postcode
 
 WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC005_RM_PF_Direct to Plan Page Specific'), [:], FailureHandling.STOP_ON_FAILURE)
 

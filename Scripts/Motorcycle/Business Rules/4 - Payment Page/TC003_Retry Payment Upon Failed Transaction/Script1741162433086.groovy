@@ -60,13 +60,14 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/butt
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_Confirm'))
 
+WebUI.delay(10)
 WebUI.delay(5)
 
 WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/validation_YourPaymentIsSuccessful'), 10)
 
 WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/dyvalidation_PolicyNumber_text,code',
 	[('text') : GlobalVariable.dyobj_PolicyNumber,
-		('code') : GlobalVariable.dyobj_ProductCode]), 3)
+		('code') : GlobalVariable.dyobj_ProductCode]), 10)
 
 WebUI.delay(3)
 

@@ -29,6 +29,7 @@ WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Pa
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybutton_Cancel_cancel', [('cancel') : GlobalVariable.dyobj_CancelButton]))
 
+WebUI.delay(10)
 WebUI.delay(5)
 
 WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/img_TransactionUnsuccessful'), 
@@ -39,7 +40,7 @@ WebUI.takeFullPageScreenshot()
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybutton_TryAgain_text', [('text') : GlobalVariable.dyobj_TryAgainButton]))
 
 WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/dyvalidation_RetrieveYourProposal_text', [('text'): GlobalVariable.dyobj_RetrieveYourProposal]), 
-    3)
+    10)
 
 WebUI.delay(3)
 

@@ -127,7 +127,7 @@
       <guid>2a3eac8d-f823-43aa-b8c6-1ded2e0711ae</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Motorcar/Business Rules/2 - Plan Page/TC014_BR_PP_Verify Car Repairs Add On (All) 5</testCaseId>
+      <testCaseId>Test Cases/Motorcar/Business Rules/2 - Plan Page/TC017_BR_PP_Verify Damage and Injuries Coverage Add On (All) 4</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -141,7 +141,7 @@
       <guid>6dfe3530-866e-48ba-9907-45075bd44746</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Motorcar/Business Rules/2 - Plan Page/TC017_BR_PP_Verify Damage and Injuries Coverage Add On (All) 4</testCaseId>
+      <testCaseId>Test Cases/Motorcar/Business Rules/2 - Plan Page/TC014_BR_PP_Verify Car Repairs Add On (All) 5</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

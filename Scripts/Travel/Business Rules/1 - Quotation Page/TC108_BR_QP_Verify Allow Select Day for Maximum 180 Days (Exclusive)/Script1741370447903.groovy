@@ -29,9 +29,10 @@ today = LocalDate.now()
 departDatePass = today.plusDays(maximumDayPass)
 departDateFail = today.plusDays(maximumDayFail)
 nextMonth = 0
+tripTypeIndex = 0
 def cases = [true, false]
 
-def tripType = [
+tripType = [
 		findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/button_SingleTrip'),
 		findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/button_AnnualTrip')
 	]
@@ -62,6 +63,8 @@ def checkCase(boolean isPass) {
 		
 		WebUI.verifyElementNotClickable(findTestObject('Travel/TripCare360/English/General/dybutton_Date_date', [('date') : departDateFail.dayOfMonth]))
 	}
+	
+	WebUI.enhancedClick(tripType[tripTypeIndex])
 }
 
 println(departDatePass)
@@ -69,16 +72,16 @@ println(departDateFail)
 
 cases.each { testCase ->
 	def random = new Random()
-	int randomValue = random.nextInt(tripType.size())
+	tripTypeIndex = random.nextInt(tripType.size())
 	
 	int areaValue = 0
-	if (randomValue == 1) {
+	if (tripTypeIndex == 1) {
 		areaValue = random.nextInt(4) + 1
 	} else {
 		areaValue = random.nextInt(3) + 1
 	}
 	
-	WebUI.enhancedClick(tripType[randomValue])
+	WebUI.enhancedClick(tripType[tripTypeIndex])
 	
 	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dropdown_TravellingCountry'))
 	
