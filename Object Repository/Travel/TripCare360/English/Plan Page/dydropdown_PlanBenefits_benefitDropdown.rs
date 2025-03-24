@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dytext_CostBreakdown_item</name>
+   <name>dydropdown_PlanBenefits_benefitDropdown</name>
    <tag></tag>
-   <elementGuidId>31bdfa94-0915-409d-b5bb-892686457b8e</elementGuidId>
+   <elementGuidId>8d09d902-ea43-4d2f-9abb-aedb841e799c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='col-sm-5 col-12']//descendant::div[contains(text(), '${item}')]//following-sibling::*[1]</value>
+         <value>//*[contains(text(), '${benefitDropdown}')]//ancestor::button[contains(@class,'accordion-button')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

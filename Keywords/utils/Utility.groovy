@@ -31,6 +31,46 @@ public class Utility {
 	// All
 
 	/**
+	 * 
+	 * @param productRow The name of the product
+	 * @param productName The specific name in the product
+	 * @param version The specific version of the result
+	 * @return String The specific version of the result
+	 */
+	@Keyword
+	def getDynamicRepoInfo(String productRow, String productName, String version) {
+		TestData data = findTestData("ObjectRepository")
+		data.changeSheet("Dynamic")
+
+		def header = data.getColumnNames()
+
+		if (!header.contains(version)) {
+			return [
+				'status': 'error',
+				'text': "The given version do not match the header of the file."
+			]
+		}
+
+		for (int i = 1; i <= data.getRowNumbers(); i++) {
+			String product = data.getValue("Product", i)
+			String name = data.getValue("Name", i)
+
+			if (product == productRow && name == productName) {
+				String versionValue = data.getValue(version, i)
+
+				return versionValue
+			}
+		}
+
+		// If the version cannot be found, means the given data cannot be found in the file.
+		String errorText = "The version of ${version} on Product: ${productRow} and Name: ${productName} cannot be located."
+		return [
+			'status': 'error',
+			'text': errorText
+		]
+	}
+
+	/**
 	 * Return today date information depends on input
 	 * @param returnType 1: year; 2: month; 3: day; 0: DOB (DDMMYYYY) (default)
 	 * @return

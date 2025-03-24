@@ -21,6 +21,8 @@ import java.time.LocalDate
 int maximumDayPass = GlobalVariable.rules_dateSelection['departMaximumPass'].toInteger()
 int maximumDayFail = GlobalVariable.rules_dateSelection['departMaximumFail'].toInteger()
 
+String area = ""
+
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Get today's date
@@ -81,11 +83,14 @@ cases.each { testCase ->
 		areaValue = random.nextInt(3) + 1
 	}
 	
+	area = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "area.${areaValue}", "EN")
+	
+	
 	WebUI.enhancedClick(tripType[tripTypeIndex])
 	
 	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dropdown_TravellingCountry'))
 	
-	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dybutton_SelectCountryArea_area', [('area') : GlobalVariable.dyobj_area[areaValue]]))
+	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dybutton_SelectCountryArea_area', [('area') : area]))
 	
 	checkCase(testCase)
 }

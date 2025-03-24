@@ -22,7 +22,8 @@ import org.openqa.selenium.Keys as Keys
  * 
  */
 
-area = GlobalVariable.dyobj_area[1]
+String area = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "area.1", "EN")
+
 TestObject testObject = findTestObject('Travel/TripCare360/English/Quotation Page/dybutton_SelectCountryArea_area', [('area') : area])
 
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Open Application'), [:], FailureHandling.STOP_ON_FAILURE)

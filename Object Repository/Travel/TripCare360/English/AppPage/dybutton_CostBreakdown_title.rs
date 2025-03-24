@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dybutton_CostBreakdown_text</name>
+   <name>dybutton_CostBreakdown_title</name>
    <tag></tag>
    <elementGuidId>8c22647b-7808-42e1-934d-77d1f502c3d0</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[3]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>button.accordion-button.collapsed</value>
@@ -17,8 +13,12 @@
          <key>BASIC</key>
          <value>//*[@type = 'button' and (text() = 'Cost Breakdown' or . = 'Cost Breakdown')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@type = 'button' and . = '${title}']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>7da3f674-f23f-4fcb-8ccc-036040d0a14b</webElementGuid>
+      <webElementGuid>248c34ce-83e8-40ff-b2d1-919f15c4bce2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +35,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>417a43b4-af96-40c9-9d42-832694f4b206</webElementGuid>
+      <webElementGuid>638193d8-eb79-4a94-8253-f2c7cd5d08e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>baa41999-b9b1-4643-9726-d0b4521caaa7</webElementGuid>
+      <webElementGuid>9c90e779-cbf5-4760-98ed-ff515de9dbc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>class</name>
       <type>Main</type>
       <value>accordion-button collapsed</value>
-      <webElementGuid>bd6ce8eb-a3c0-4ce9-8315-b1cb4dab77f3</webElementGuid>
+      <webElementGuid>b117dc25-3353-4ba6-b895-5ec5f973ec8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -59,7 +59,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cost Breakdown</value>
-      <webElementGuid>986119eb-45e8-4aaa-bebb-7a8ab25155a5</webElementGuid>
+      <webElementGuid>c5a7d275-fdc3-4d3d-baca-ede4b39c065b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;mt-3 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-5 col-12&quot;]/div[@class=&quot;PlanSummary__Wrapper-sc-shogl8-0 iYtQIk&quot;]/div[@class=&quot;PlanSummary__Styles-sc-shogl8-2 jdqkeg&quot;]/div[@class=&quot;rounded accordion&quot;]/div[@class=&quot;accordion-item&quot;]/h2[@class=&quot;accordion-header&quot;]/button[@class=&quot;accordion-button collapsed&quot;]</value>
-      <webElementGuid>74ffcb25-a889-4bc3-9a05-e29990730b73</webElementGuid>
+      <webElementGuid>5ca6ad71-d2df-4d72-ae05-aa6ec9f6a582</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[3]</value>
-      <webElementGuid>02c3e8ac-89a3-4daf-af1a-89a0231a9d78</webElementGuid>
+      <webElementGuid>91bd5169-ad48-463c-9165-892933ea520a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='gatsby-focus-wrapper']/div[3]/div/div[2]/div[2]/div/div/div/div[2]/h2/button</value>
-      <webElementGuid>5062f045-9d63-4197-981c-2073b5d4b6cc</webElementGuid>
+      <webElementGuid>bb4b3535-eaaa-49c8-bb53-b3ba9d2175d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No of Travellers'])[1]/following::button[1]</value>
-      <webElementGuid>a7defcba-ac7a-492c-b9cd-4495b8e2626b</webElementGuid>
+      <webElementGuid>00c02de7-2959-4bf3-872b-94c47467f9da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Gross Premium'])[1]/preceding::button[1]</value>
-      <webElementGuid>d812b713-5c99-48d1-b879-07dd877dcf77</webElementGuid>
+      <webElementGuid>e7c2e5ec-527d-4d81-915e-81f76e6b54b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/h2/button</value>
-      <webElementGuid>7744baea-a6f9-486c-bde0-6b3804f3e896</webElementGuid>
+      <webElementGuid>43d84bb3-4c9b-4e02-9b72-87e9c5ad3aa6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Cost Breakdown' or . = 'Cost Breakdown')]</value>
-      <webElementGuid>07b5d20e-0b7e-40a2-9123-2155380c326b</webElementGuid>
+      <webElementGuid>4df44c42-d5bb-4fcc-826c-e20b08dd9999</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

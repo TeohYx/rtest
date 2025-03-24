@@ -20,12 +20,12 @@ import org.openqa.selenium.Keys as Keys
 int individualPlan = 4
 String ageRange = GlobalVariable.rules_Children
 
-String dobText = GlobalVariable.dyobj_travellerInfo['dateOfBirth']
+String dobText = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "travellerInfo.dob", "EN")
 String todayDay = CustomKeywords.'utils.Utility.getTodayDate'(3) //Get today's day value
 String arrivalDay = CustomKeywords.'utils.Utility.getSpecificDate'(1, 3) //Get arrival day value, which is plue 1 day
 
-def warningMessageDOBObj = findTestObject('Object Repository/Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_text',
-			[('text') : dobText])
+def warningMessageDOBObj = findTestObject('Object Repository/Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_travellerInfo',
+			[('travellerInfo') : dobText])
 
 def agePeriod = ageRange.split('-')
 

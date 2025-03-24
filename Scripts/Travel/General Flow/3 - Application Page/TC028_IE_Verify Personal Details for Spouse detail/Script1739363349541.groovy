@@ -52,9 +52,9 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Fill Personal Details In
 	('TCPostcode') : postcode
 	], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dytext_TravellerInfo_name', [('name') : fullName.toUpperCase()]), 3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dyytext_TravellerInfo_name', [('name') : fullName.toUpperCase()]), 3)
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dytext_TravellerInfo_name', [('name') : ic]), 3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dyytext_TravellerInfo_name', [('name') : ic]), 3)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_SecondEdit'))
 
@@ -69,9 +69,9 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Fill Personal Details In
 	('TCPostcode') : postcode2
 	], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dytext_TravellerInfo_name', [('name') : fullName2.toUpperCase()]), 3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dyytext_TravellerInfo_name', [('name') : fullName2.toUpperCase()]), 3)
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dytext_TravellerInfo_name', [('name') : ic2]), 3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dyytext_TravellerInfo_name', [('name') : ic2]), 3)
 
 WebUI.takeFullPageScreenshot()
 

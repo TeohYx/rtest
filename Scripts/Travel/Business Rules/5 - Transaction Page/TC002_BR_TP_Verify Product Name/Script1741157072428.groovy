@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String productNameTitle = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "summary.productNametitle", "EN")
+String productName = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "summary.productName", "EN")
+String buttonPayment = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.proceedPayment", "EN")
+
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Filled Form - Myself'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('Travel/TripCare360/English/AppPage/button_ConfirmDetails'), 0)
@@ -27,7 +31,7 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/rdoFP
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/button_Declaration'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_name', [('name') : GlobalVariable.dyobj_ProceedPayment]))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_button', [('button') : buttonPayment]))
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_PayNetOption'))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_ContinueMPay'))
@@ -44,9 +48,9 @@ WebUI.delay(5)
 
 WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/validation_YourPaymentIsSuccessful'), 10)
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/dyvalidation_PolicyNumber_text,code', 
-	[('text') : GlobalVariable.rules_ProductName[0], 
-		('code') : GlobalVariable.rules_ProductName[1]]), 3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/dyvalidation_TransactionSummary_title,code', 
+	[('title') : productNameTitle, 
+		('code') : productName]), 3)
 
 WebUI.delay(3)
 

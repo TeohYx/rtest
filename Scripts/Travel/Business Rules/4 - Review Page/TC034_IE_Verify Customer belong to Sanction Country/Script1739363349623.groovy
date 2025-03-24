@@ -28,6 +28,7 @@ String areaName = 'qweqeqw'
 String postcode = '81800'
 
 def nation = GlobalVariable.rules_blacklistedCountry
+String buttonPayment = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.proceedPayment", "EN")
 
 def errorLog = []
 
@@ -58,7 +59,7 @@ for (String n in nation) {
 	
 	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/button_Declaration'))
 	
-	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_name', [('name') : GlobalVariable.dyobj_ProceedPayment]))
+	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_button', [('button') : buttonPayment]))
 	
 	TestObject objVerification = findTestObject('Object Repository/Travel/TripCare360/English/Review Page/validation_BlacklistSite')
 	

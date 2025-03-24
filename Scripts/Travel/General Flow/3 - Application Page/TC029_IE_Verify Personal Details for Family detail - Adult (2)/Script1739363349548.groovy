@@ -35,6 +35,13 @@ String buildingName2 = 'qweqww'
 String areaName2 = 'qweqeqw'
 String postcode2 = '81800'
 
+//Dynamic Repo
+String adult = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "familyCategory.adults", "EN")
+String add = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "familyCategoryButton.add", "EN")
+String planType = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "planType.4", "EN")
+String buttonPlan = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.toPlanPage", "EN")
+String buttonBuy = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.buy", "EN")
+
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/button_SingleTrip'))
@@ -53,14 +60,15 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/General/dybutton_
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dropdown_TravellingPerson'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dybutton_SelectPlanType_plan', [('plan') : 'family']))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dybutton_SelectPlanType_planType', [('planType') : planType]))
 
-WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/dybutton_FamilyButton_category,button', 
-	[('category'): 'Adults', ('button'): '+']))
+WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/dybutton_FamilyButton_familyCategory,familyCategoryButton', 
+	[('familyCategory'): adult, ('familyCategoryButton'): add]))
 
-WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/submit_GetQuoteNow'))
+WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/dysubmit_GetQuoteNow_button',
+	[('button'): buttonPlan]))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/dysubmit_Buy_title', [('title') : GlobalVariable.dyobj_Buy]))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/dysubmit_Buy_button', [('button') : buttonBuy]))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
 
@@ -68,9 +76,9 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Fill Personal Details In
         , ('TCEthnicity') : ethnicity, ('TCEmail') : email, ('TCMobileNumber') : mobile, ('TCBuildingName') : buildingName
         , ('TCAreaName') : areaName, ('TCPostcode') : postcode], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dytext_TravellerInfo_name', [('name') : fullName.toUpperCase()]), 3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dyytext_TravellerInfo_name', [('name') : fullName.toUpperCase()]), 3)
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dytext_TravellerInfo_name', [('name') : ic]), 3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dyytext_TravellerInfo_name', [('name') : ic]), 3)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_SecondEdit'))
 
@@ -78,9 +86,9 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Fill Personal Details In
         , ('TCEthnicity') : ethnicity2, ('TCEmail') : email2, ('TCMobileNumber') : mobile2, ('TCBuildingName') : buildingName2
         , ('TCAreaName') : areaName2, ('TCPostcode') : postcode2], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dytext_TravellerInfo_name', [('name') : fullName2.toUpperCase()]), 3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dyytext_TravellerInfo_name', [('name') : fullName2.toUpperCase()]), 3)
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dytext_TravellerInfo_name', [('name') : ic2]), 3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dyytext_TravellerInfo_name', [('name') : ic2]), 3)
 
 WebUI.takeFullPageScreenshot()
 

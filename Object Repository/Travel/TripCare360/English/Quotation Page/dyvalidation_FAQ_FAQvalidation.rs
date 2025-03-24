@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dydropdown_FAQ_faq</name>
+   <name>dyvalidation_FAQ_FAQvalidation</name>
    <tag></tag>
-   <elementGuidId>340643e2-2a86-4b68-8057-cc435747a4d9</elementGuidId>
+   <elementGuidId>5935cf9f-726d-4fc1-bfa1-c1f0c8b9b4ea</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(text(), '${faq}')]//ancestor::button[contains(@class, 'accordion-button')]</value>
+         <value>//div[@class='accordion-item']//descendant::*[contains(text(), '${FAQvalidation}')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>9abb7e5b-caf5-4941-af2a-d1f51cf6eb03</webElementGuid>
+      <webElementGuid>423a8b32-fc41-43be-b977-1ffe53fc128a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>accordion-body</value>
-      <webElementGuid>ebe25961-d746-4f6c-91b1-e774927d8c7b</webElementGuid>
+      <webElementGuid>08f1f3db-6f95-497c-92b0-a6cb06720a9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Your travel claim must be submitted as soon as possible. It is recommended to submit it within 24 hours but no later than 30 days from the date of loss or damage. You can submit your claims online or via WhatsApp or email us at travelclaimscare@etiqa.com.my.For more information on Claims, Procedures and Settlements, please refer to your Insurance Policy Contract.</value>
-      <webElementGuid>f8519c32-8f9c-4620-a448-e0e6a8278c88</webElementGuid>
+      <webElementGuid>ec08136e-845a-48d1-9fe0-996cdd985d5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;ml-0 p-0 m-0 container-fluid&quot;]/div[@class=&quot;quotation__Styles-sc-1lv5yzf-1 SsZUK&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;FAQ__OverrideAccordion-sc-coilo0-0 dwySfr mb-3 accordion&quot;]/div[@class=&quot;accordion-item&quot;]/div[@class=&quot;accordion-collapse collapse show&quot;]/div[@class=&quot;accordion-body&quot;]</value>
-      <webElementGuid>e8e0f26d-19b6-4adf-a4e8-e2f816bbb353</webElementGuid>
+      <webElementGuid>3edaba92-ff56-4fa7-933b-9f693da8898d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div/div[2]/div[2]/div/div/div/div/div</value>
-      <webElementGuid>a3414000-b3d7-449b-844b-57d8f554d22a</webElementGuid>
+      <webElementGuid>6c007531-d724-4afa-bd08-ea462df81a5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='How do I make a travel claim?'])[1]/following::div[2]</value>
-      <webElementGuid>fb7ab803-e241-4af1-b277-e3ca97c0e980</webElementGuid>
+      <webElementGuid>de3e10cd-f3e6-4b0f-a65f-6e74f2d3a611</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Frequently Asked Questions'])[1]/following::div[6]</value>
-      <webElementGuid>e6775f16-f15e-4c89-b1f5-a7f92b5e275b</webElementGuid>
+      <webElementGuid>ee060bf0-1ac1-417e-84ff-39c0c1b90381</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/div/div/div</value>
-      <webElementGuid>6ba23008-cb0c-496e-9599-7071aebe3f72</webElementGuid>
+      <webElementGuid>deca75a2-3bd5-4fe2-8a88-7fee7004c65d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Your travel claim must be submitted as soon as possible. It is recommended to submit it within 24 hours but no later than 30 days from the date of loss or damage. You can submit your claims online or via WhatsApp or email us at travelclaimscare@etiqa.com.my.For more information on Claims, Procedures and Settlements, please refer to your Insurance Policy Contract.' or . = 'Your travel claim must be submitted as soon as possible. It is recommended to submit it within 24 hours but no later than 30 days from the date of loss or damage. You can submit your claims online or via WhatsApp or email us at travelclaimscare@etiqa.com.my.For more information on Claims, Procedures and Settlements, please refer to your Insurance Policy Contract.')]</value>
-      <webElementGuid>4f2aa67a-6f59-4e4d-a610-a488f87fa1cd</webElementGuid>
+      <webElementGuid>1b404c7e-6faa-4600-9f70-6434d64bd2f0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

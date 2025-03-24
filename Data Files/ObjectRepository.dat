@@ -7,11 +7,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>18e23029-1e9f-41ea-873c-6e184d95d391</dataFileGUID>
-   <dataSourceUrl>C:\Users\80012455\Documents\ObjectRepository.xlsx</dataSourceUrl>
+   <dataSourceUrl>Object Repository.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Object Repository</sheetName>
+   <sheetName>Dynamic</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

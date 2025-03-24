@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String ic = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "travellerInfo.ic", "EN")
+
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Page'), [('TCarea') : 3, ('TCplan') : 1, ('TCtrip') : 1
 	, ('TCpackage') : 1], FailureHandling.STOP_ON_FAILURE)
 
@@ -26,7 +28,8 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_Ed
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))
 
-warning_message = WebUI.getText(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_text', [('text') : GlobalVariable.dyobj_travellerInfo['newNRIC']]))
+warning_message = WebUI.getText(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_travellerInfo', [
+	('travellerInfo') : ic]))
 
 WebUI.closeBrowser()
 

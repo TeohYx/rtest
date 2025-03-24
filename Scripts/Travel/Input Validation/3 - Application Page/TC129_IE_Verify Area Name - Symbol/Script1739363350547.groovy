@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 String invalid_character = GlobalVariable.validation_symbol.replaceAll("[@&.,/\\\\'-]", "")
+String buildingName = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "travellerInfo.buildingName", "EN")
 
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Page'), [('TCarea') : 3, ('TCplan') : 1, ('TCtrip') : 1
 	, ('TCpackage') : 1], FailureHandling.STOP_ON_FAILURE)
@@ -28,7 +29,8 @@ WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_Traveller
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))
 
-String area_name_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_text', [('text') : GlobalVariable.dyobj_travellerInfo['buildingName']]), "value") ?: ""
+String area_name_text = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_travellerInfo', [
+	('travellerInfo') : buildingName]), "value") ?: ""
 
 WebUI.closeBrowser()
 

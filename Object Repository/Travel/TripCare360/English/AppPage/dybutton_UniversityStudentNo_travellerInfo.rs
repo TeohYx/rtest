@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dybutton_UniversityStudentYes_text</name>
+   <name>dybutton_UniversityStudentNo_travellerInfo</name>
    <tag></tag>
-   <elementGuidId>82eb4ce0-0ddd-4252-9af7-32a51bfe7490</elementGuidId>
+   <elementGuidId>31f971f8-8f26-4fac-9e2c-e092ac4d14d2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='${travellerInfo}'])[1]/following::label[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='${text}'])[1]/following::label[1]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>233cfc49-efad-47a8-8ad6-fc46e50b51ad</webElementGuid>
+      <webElementGuid>550a8328-3f59-4217-bb00-d0518f6fb2e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,23 +30,23 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-outline-dark w-100</value>
-      <webElementGuid>c4844c72-9a66-4e13-ac3d-feee589c1043</webElementGuid>
+      <webElementGuid>c73902a3-d35e-4dcb-be67-48ab2d26f0e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>
-      <value>personal-detail-form-input-is-student</value>
-      <webElementGuid>1cec12c1-f117-4ebe-b6b2-ddf6c69e0714</webElementGuid>
+      <value>personal-detail-form-input-is-not-student</value>
+      <webElementGuid>eacf83cd-4eb0-42d4-8b32-e819bfd669f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Yes</value>
-      <webElementGuid>a96e6a2c-8b7f-4c29-b325-cd454bee6259</webElementGuid>
+      <value>No</value>
+      <webElementGuid>f7fa30d6-15c6-4e48-8231-a09db9a99f58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,62 +54,62 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;fade modal show&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;PersonalDetailForm__Styles-sc-1tye5zo-0 iJgkOQ&quot;]/div[@class=&quot;modal-body&quot;]/form[@class=&quot;personal-detail-form&quot;]/div[@class=&quot;mb-3&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/label[@class=&quot;btn btn-outline-dark w-100&quot;]</value>
-      <webElementGuid>e5e12027-fa09-4527-b169-c9f7da5f03dd</webElementGuid>
+      <webElementGuid>15213e51-7142-4233-af41-a3ed08cdbc80</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Is University/College Student'])[1]/following::label[1]</value>
-      <webElementGuid>06cbb3e2-b2d2-4110-a595-1304ea3ac393</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/following::label[1]</value>
+      <webElementGuid>88ddb028-89f1-446b-8c7c-70bd7e2f19bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date of Birth'])[1]/following::label[2]</value>
-      <webElementGuid>3a0f431f-6b02-4f94-af93-35542850faa7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Is University/College Student'])[1]/following::label[2]</value>
+      <webElementGuid>06fbd38c-2143-4d42-ae48-f5f88794934b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::label[1]</value>
-      <webElementGuid>575ea0e3-c2dd-423a-bb45-6c0deb08baf2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gender'])[1]/preceding::label[1]</value>
+      <webElementGuid>fae12c02-2ee6-4588-93d8-711d0c0ae829</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gender'])[1]/preceding::label[2]</value>
-      <webElementGuid>eda6dfa9-38d9-4e83-adaf-f7145eab2eca</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Male'])[1]/preceding::label[2]</value>
+      <webElementGuid>e619bc0a-0fba-4ab2-b0cd-a515c9666c92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Yes']/parent::*</value>
-      <webElementGuid>e7956f17-3a60-4c7b-abd2-276f9b6c3006</webElementGuid>
+      <value>//*/text()[normalize-space(.)='No']/parent::*</value>
+      <webElementGuid>57fecd5c-be13-4798-a931-10aa01b18cb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[6]/div/div/label</value>
-      <webElementGuid>f56f6ed6-c0c2-410a-937c-0bfb8565fe64</webElementGuid>
+      <value>//div[6]/div/div[2]/label</value>
+      <webElementGuid>67ec389b-c26e-43cb-ab1d-b32039e3e979</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//label[(text() = 'Yes' or . = 'Yes')]</value>
-      <webElementGuid>21424e2a-d886-44b5-9ac4-ea87832d312b</webElementGuid>
+      <value>//label[(text() = 'No' or . = 'No')]</value>
+      <webElementGuid>043e9705-23b4-4b8f-8138-cbd8712c1bbf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

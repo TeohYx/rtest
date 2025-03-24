@@ -17,8 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String area = GlobalVariable.dyobj_area[TCarea]
-String plan = GlobalVariable.dyobj_plan[TCplan]
+String area = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "area.${TCarea}", "EN")
+String planType = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "planType.${TCplan}", "EN")
+String buttonPlan = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.toPlanPage", "EN")
+
 int trip = TCtrip
 
 String departDate = ""
@@ -72,7 +74,7 @@ if (env == 0) {
 	
 	String countryName = data.getValue(columnName, randomRow)
 
-	def countryObj = findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/dybutton_SelectCountry_SIT_text')
+	def countryObj = findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/button_SelectCountry_SIT')
 
 	def countryNameObj = findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/dybutton_SelectCountryName_SIT_text',
 		[('text') : countryName])
@@ -113,11 +115,12 @@ if(arrivalDate.toInteger() < departDate.toInteger()) {
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dropdown_TravellingPerson'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dybutton_SelectPlanType_plan', [('plan') : plan]))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dybutton_SelectPlanType_planType', [('planType') : planType]))
 
 //WebUI.delay(1)
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/submit_GetQuoteNow'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dysubmit_GetQuoteNow_button',
+	[('button'): buttonPlan]))
 
 WebUI.delay(1)
 

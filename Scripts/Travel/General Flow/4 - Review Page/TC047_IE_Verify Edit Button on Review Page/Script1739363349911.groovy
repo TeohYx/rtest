@@ -17,13 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String detailTitle = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "title.planDetailEdit", "EN")
+
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Filled Form - Myself'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_ConfirmDetails'))
 
 WebUI.delay(2)
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dybutton_PlanEdit_title', [('title') : GlobalVariable.dyobj_PlanEdit]))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dybutton_PlanEdit_title', [('title') : detailTitle]))
 
 WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
 WebUI.closeBrowser()

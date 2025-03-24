@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dybutton_SelectPlanType_plan</name>
+   <name>dybutton_SelectPlanType_planType</name>
    <tag></tag>
    <elementGuidId>4a831efc-359e-4a04-842f-9cddf6a99dce</elementGuidId>
    <selectorCollection>
@@ -10,12 +10,12 @@
          <value>a.dropdown-item</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@class=&quot;dropdown-item&quot; and contains(text(), '${plan}')] | //span[contains(text(), '${plan}')]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@href = '#' and (text() = 'Just myself' or . = 'Just myself')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@name='planType']//following-sibling::div//a[contains(text(), '${planType}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a7347622-940c-40d0-9f02-858dbe1f477a</webElementGuid>
+      <webElementGuid>2a1fdb3e-cc41-4629-9a7f-f53541491cde</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d072e562-e103-48ab-9b7e-1d3698d14851</webElementGuid>
+      <webElementGuid>b0155396-994d-442d-85d3-99321c56f9b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dropdown-item</value>
-      <webElementGuid>f6587a94-b0f9-4459-b5bf-d341450a3d5a</webElementGuid>
+      <webElementGuid>12fccea1-fd11-4916-8677-94afa71ddb35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8cce5eb4-8528-4036-b1bc-dcb6a57a5967</webElementGuid>
+      <webElementGuid>b8d81b58-94e7-4dff-9d64-faab050294e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>3ed9db8a-f5b0-4419-ab23-c1501b9c973e</webElementGuid>
+      <webElementGuid>cb28241f-7941-43cc-942e-15aea48c6683</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -67,7 +67,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>fc691f16-0978-4268-a22e-34d02230225d</webElementGuid>
+      <webElementGuid>6e0c5eb0-a87b-41a6-9385-6d38d739b188</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -75,7 +75,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Just myself</value>
-      <webElementGuid>840945bc-2c59-481f-8e40-a447adc345ab</webElementGuid>
+      <webElementGuid>a067e11a-a9c5-4603-a2b3-f6d8e3be01d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;quotation__Styles-sc-1ea5jab-0 pofmb&quot;]/div[@class=&quot;main-page&quot;]/div[@class=&quot;quote-form-component&quot;]/div[@class=&quot;QuoteForm__Styles-sc-8eq6jo-6 cuPXsd&quot;]/div[@class=&quot;quote-form&quot;]/form[1]/div[@class=&quot;QuoteForm__FormGroupWrapper-sc-8eq6jo-1 klvkIb&quot;]/div[@class=&quot;QuoteForm__FormGroup-sc-8eq6jo-2 kEyEqe mb-0 border-bottom-0&quot;]/div[@class=&quot;show dropdown&quot;]/div[@class=&quot;dropdown-menu-travelling-with dropdown-menu show&quot;]/div[@class=&quot;dropdown-item-div-travelling-with&quot;]/a[@class=&quot;dropdown-item&quot;]</value>
-      <webElementGuid>336b27be-2ff2-43e9-b2c1-10733b2f65e5</webElementGuid>
+      <webElementGuid>a08f7f38-7c4b-4bf1-8f0f-0085e1978c18</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div/div/div[2]/div[3]/div/form/div[3]/div[3]/div/div/div/div/a</value>
-      <webElementGuid>d5c34028-bfd4-47be-a347-4fc0cc8bc98c</webElementGuid>
+      <webElementGuid>f3ef9be7-3ff0-432d-806d-a630e8a34bf3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Just myself')]</value>
-      <webElementGuid>d9c0910a-8076-4ae3-a327-819a8bc502da</webElementGuid>
+      <webElementGuid>012e04b9-6668-4522-ba65-65373a125c89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select...'])[1]/following::a[1]</value>
-      <webElementGuid>a6a9ec8d-ab58-426b-8ab8-fe7843075129</webElementGuid>
+      <webElementGuid>19b53384-924c-48bf-aa0c-33bba8e5e0a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Who are you travelling with?'])[1]/following::a[1]</value>
-      <webElementGuid>5b966cbe-c877-4dd7-94be-eb1485807c63</webElementGuid>
+      <webElementGuid>dc8c1671-a293-4368-9c29-dadc8b119d5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(Age above 70)'])[1]/preceding::a[1]</value>
-      <webElementGuid>65257fa1-1997-4a2a-8b8e-30b54ca218ce</webElementGuid>
+      <webElementGuid>5f61df0d-aaf7-4082-b541-2a27d2ab3a36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,7 +131,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Quote Now'])[1]/preceding::a[4]</value>
-      <webElementGuid>5b85425d-8e87-4849-9041-fb8371bf76a1</webElementGuid>
+      <webElementGuid>60636209-ccdd-4797-a1ed-03711b304c25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -139,7 +139,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Just myself']/parent::*</value>
-      <webElementGuid>85893163-0efb-4714-a28a-5ccc838d2914</webElementGuid>
+      <webElementGuid>e9487be6-4281-4b20-8ceb-d5f45a912e3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,7 +147,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[5]</value>
-      <webElementGuid>be8b014d-7b4d-42cd-93d5-e2c0f3e5b01b</webElementGuid>
+      <webElementGuid>beef29a3-9e76-4f7e-95b4-1c04cbc774d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -155,7 +155,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div/a</value>
-      <webElementGuid>4d57b4d7-4c0b-48c0-8f3b-936835a06cf7</webElementGuid>
+      <webElementGuid>1299f5ce-9492-4856-b5bc-23652d741f2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -163,6 +163,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Just myself(18 - 70 years old)' or . = 'Just myself(18 - 70 years old)')]</value>
-      <webElementGuid>a52b396e-5c51-47ac-978c-6a7badfb6b56</webElementGuid>
+      <webElementGuid>7225dbb2-7aa9-4574-ae8f-5df51051a46c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

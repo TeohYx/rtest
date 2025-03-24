@@ -17,16 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String buttonBuy = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.buy", "EN")
+String costBreakdown = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "title.costBreakdown", "EN")
+String covidBreakdown = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "priceBreakdown.covid", "EN")
+
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Plan Page'), [('TCarea') : 2, ('TCplan') : 1, ('TCtrip') : 1], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/button_CovidAddOn'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/dysubmit_Buy_title', [('title') : GlobalVariable.dyobj_Buy]))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/dysubmit_Buy_button', [('button') : buttonBuy]))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/dybutton_CostBreakdown_text'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/dybutton_CostBreakdown_title',
+	[('title'): costBreakdown]))
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dytext_CostBreakdown_item', [('item') : 'COVID-19']), 
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dygtext_CostBreakdown_priceBreakdown', [('priceBreakdown') : covidBreakdown]), 
     3)
 
 WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)

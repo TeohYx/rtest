@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String site = GlobalVariable.dyobj_currentSite['plan']
+String site = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "currentSite.plan", "EN")
 
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Plan Page'), [('TCarea') : 1, ('TCplan') : 1, ('TCtrip'): 1], FailureHandling.STOP_ON_FAILURE)
 

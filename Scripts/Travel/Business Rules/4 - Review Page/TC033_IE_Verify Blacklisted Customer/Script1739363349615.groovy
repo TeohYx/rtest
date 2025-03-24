@@ -26,6 +26,8 @@ String buildingName = 'qweqww'
 String areaName = 'qweqeqw'
 String postcode = '81800'
 
+String buttonPayment = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.proceedPayment", "EN")
+
 def errorLog = []
 
 for (info in nameAndIC) {
@@ -56,7 +58,7 @@ for (info in nameAndIC) {
 	
 	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/button_Declaration'))
 	
-	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_name', [('name') : GlobalVariable.dyobj_ProceedPayment]))
+	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_button', [('button') : buttonPayment]))
 	TestObject objVerification = findTestObject('Object Repository/Travel/TripCare360/English/Review Page/validation_BlacklistSite')
 	
 	//v

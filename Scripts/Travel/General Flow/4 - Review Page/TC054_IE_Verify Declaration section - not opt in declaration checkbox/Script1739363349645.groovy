@@ -17,12 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String buttonPayment = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.proceedPayment", "EN")
+String warning = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "wrnmsg.declaration", "EN")
+
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Filled Form - Myself'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_ConfirmDetails'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_name', [('name') : GlobalVariable.dyobj_ProceedPayment]))	
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Review Page/dywarning_Declaration_warning', [('warning') : GlobalVariable.dyobj_Declaration]), 3)
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_button', [('button') : buttonPayment]))	
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Review Page/dywarning_Declaration_wrnmsg', [('warning') : warning]), 3)
 
 WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
 

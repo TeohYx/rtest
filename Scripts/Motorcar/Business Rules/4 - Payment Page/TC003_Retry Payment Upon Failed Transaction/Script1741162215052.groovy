@@ -17,6 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String policyNumber = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "summary.policyNumberTitle", "EN")
+String policyNumberPrefix = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "summary.policyNumberPrefix", "EN")
+
 WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC001_RM_C_Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC006_RM_PF_Direct to Declaration Page Specific'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -29,7 +32,7 @@ WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/De
 WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Payment Page/button_PayNet'))
 WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Payment Page/button_Continue'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybutton_Cancel_cancel', [('cancel') : GlobalVariable.dyobj_CancelButton]))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybutton_Button_button', [('cancel') : GlobalVariable.dyobj_CancelButton]))
 
 WebUI.delay(5)
 
@@ -42,12 +45,12 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybu
 
 WebUI.setText(findTestObject('Object Repository/Travel/TripCare360/English/Payment Page/input_RetrieveYourProposal'), GlobalVariable.tempIC)
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybutton_Cancel_cancel', [('cancel') : GlobalVariable.dyobj_RetrieveButton]))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybutton_Button_button', [('cancel') : GlobalVariable.dyobj_RetrieveButton]))
 
 //retry
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/rdoFPXPayment'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_name', [('name') : GlobalVariable.dyobj_ProceedPayment]))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_button', [('name') : GlobalVariable.dyobj_ProceedPayment]))
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_PayNetOption'))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_ContinueMPay'))
@@ -66,9 +69,9 @@ WebUI.delay(5)
 
 WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/validation_YourPaymentIsSuccessful'), 10)
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/dyvalidation_PolicyNumber_text,code',
-	[('text') : GlobalVariable.dyobj_PolicyNumber,
-		('code') : GlobalVariable.dyobj_ProductCode]), 10)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/dyvalidation_TransactionSummary_title,code',
+	[('text') : policyNumber,
+		('code') : policyNumberPrefix]), 10)
 
 WebUI.delay(3)
 

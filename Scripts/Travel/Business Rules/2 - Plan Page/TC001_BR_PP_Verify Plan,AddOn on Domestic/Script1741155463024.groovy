@@ -31,12 +31,15 @@ int tripValue = 1
 int areaValue = 1
 int planValue = random.nextInt(5) + 1
 
-String site = GlobalVariable.dyobj_currentSite['plan']
+String planSite = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "currentSite.plan", "EN")
+String applicationSite = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "currentSite.application", "EN")
+String buttonBuy = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.buy", "EN")
+
 def errorMessage = []
 
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Plan Page'), [('TCarea') : areaValue, ('TCplan') : planValue, ('TCtrip'): tripValue], FailureHandling.STOP_ON_FAILURE)
 
-String planClass = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/General/dytext_ProveOfCurrentPage_currentSite', [('currentSite') : site]), 
+String planClass = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/General/dytext_ProveOfCurrentPage_currentSite', [('currentSite') : planSite]), 
     'class')
 
 assert planClass.contains('fw-bold') : KeywordUtil.markFailed('The page has crushed or facing issues')
@@ -53,11 +56,11 @@ if (!(WebUI.verifyElementNotPresent(findTestObject('Travel/TripCare360/English/P
     errorMessage.add('Platinum plan does not exists')
 }
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/dysubmit_Buy_title', [('title') : GlobalVariable.dyobj_Buy]))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/dysubmit_Buy_button', [('button') : buttonBuy]))
 
 WebUI.delay(2)
 
-String applicationClass = WebUI.getAttribute(findTestObject('Object Repository/Travel/TripCare360/English/General/dytext_ProveOfCurrentPage_currentSite', [('currentSite') : GlobalVariable.dyobj_currentSite['application']]), 
+String applicationClass = WebUI.getAttribute(findTestObject('Object Repository/Travel/TripCare360/English/General/dytext_ProveOfCurrentPage_currentSite', [('currentSite') : applicationSite]), 
     'class')
 
 assert applicationClass.contains('fw-bold') : 'The page has crushed or facing issues'

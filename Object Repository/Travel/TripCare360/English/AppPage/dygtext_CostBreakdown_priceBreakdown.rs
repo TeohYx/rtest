@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dyvalidation_PlanBenefits_name</name>
+   <name>dygtext_CostBreakdown_priceBreakdown</name>
    <tag></tag>
-   <elementGuidId>3741e21a-4e7d-46b5-a22a-7bb44a339bf8</elementGuidId>
+   <elementGuidId>31bdfa94-0915-409d-b5bb-892686457b8e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(@class,'accordion-collapse')]//descendant::*[contains(text(), '${name}')]</value>
+         <value>//div[@class='col-sm-5 col-12']//descendant::div[contains(text(), '${priceBreakdown}')]//following-sibling::*[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

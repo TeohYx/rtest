@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dylabel_TravellerInformation_text</name>
+   <name>button_SelectCountry_SIT</name>
    <tag></tag>
-   <elementGuidId>87295967-271a-4d45-8a22-e74bc6af57bb</elementGuidId>
+   <elementGuidId>bcf9b345-707b-4376-9122-b0c602a425c9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//label[contains(text(), '${text}')]</value>
+         <value>//div[@data-value]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

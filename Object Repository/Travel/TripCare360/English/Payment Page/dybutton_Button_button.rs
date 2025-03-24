@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dybutton_Cancel_cancel</name>
+   <name>dybutton_Button_button</name>
    <tag></tag>
    <elementGuidId>764087dc-380a-4a4b-88ff-cb986049df4f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-primary.btn-sm.pull-right</value>
+         <key>XPATH</key>
+         <value>//button[@type='button' and contains(text(), '${button}')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type='button' and contains(text(), '${cancel}')]</value>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.btn-sm.pull-right</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6e21d8d7-8447-4d6c-aba8-37d141db2d23</webElementGuid>
+      <webElementGuid>d713ecf0-11c4-4a27-81f5-38cd90a886c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-sm pull-right</value>
-      <webElementGuid>f3ec84cd-7afc-4433-90c6-71984f5fdd2b</webElementGuid>
+      <webElementGuid>f197f216-0c2a-4ff8-b484-df7f74104cd8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>abd88cd8-991d-4c97-b314-627ca3954cf7</webElementGuid>
+      <webElementGuid>82e1ba96-6663-4c52-8629-6246224f4d40</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>cancel();</value>
-      <webElementGuid>0d3d9163-34a9-4804-b4ed-d3956d79875c</webElementGuid>
+      <webElementGuid>14664a73-2692-40f1-90e5-27ce754d90c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cancel</value>
-      <webElementGuid>ef8a2738-7d90-45c5-ae0a-33eb93d48349</webElementGuid>
+      <webElementGuid>36e66fea-0941-4fd4-aea7-c3120757de9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;container&quot;]/div[@class=&quot;jumbotron&quot;]/form[@class=&quot;form-signin&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/button[@class=&quot;btn btn-primary btn-sm pull-right&quot;]</value>
-      <webElementGuid>c53328a1-bb6a-4e13-8ee8-80966d0d6db1</webElementGuid>
+      <webElementGuid>f869b0d7-2125-4849-9c20-eb311e2667df</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='button']</value>
-      <webElementGuid>d4ec9c11-07ae-45aa-8f42-b027fa2ac452</webElementGuid>
+      <webElementGuid>7901362b-6222-4585-9be8-72efb212766e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::button[1]</value>
-      <webElementGuid>d909d991-309c-4b58-b348-8023b29ebe0d</webElementGuid>
+      <webElementGuid>f1e147f7-c53e-4bfa-8784-8c72f46de7b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='http://www.paynet.my'])[1]/preceding::button[1]</value>
-      <webElementGuid>4a81d069-fae5-4130-9656-7c54263d6a5a</webElementGuid>
+      <webElementGuid>5e4d947d-45a1-4ef6-8072-bd21e130b5f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-      <webElementGuid>da9f5b84-811c-4ed4-b0b4-758c41714685</webElementGuid>
+      <webElementGuid>d001325a-36ff-4d72-8014-d66aa0f0f56a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cancel']/parent::*</value>
-      <webElementGuid>bfe3a782-2dd7-4200-9419-2294344d3193</webElementGuid>
+      <webElementGuid>543e29c9-2e19-4edc-8778-18e40510f8de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
-      <webElementGuid>451742d0-96b7-427a-af4a-9c8627a3a8ee</webElementGuid>
+      <webElementGuid>92c4afb3-6f74-4c83-be30-0e30ad57fc2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +119,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Cancel' or . = 'Cancel')]</value>
-      <webElementGuid>814b04cb-6fb6-4688-b971-91785b90ccc3</webElementGuid>
+      <webElementGuid>6dc5d333-a3d2-4274-9295-32a351020e01</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

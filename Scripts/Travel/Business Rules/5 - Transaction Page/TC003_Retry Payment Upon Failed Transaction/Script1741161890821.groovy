@@ -17,6 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String buttonCancel = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.cancel", "EN")
+String buttonRetrieve = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.retrieveProposal", "EN")
+String buttonTryAgain = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.tryAgain", "EN")
+String policyNumber = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "summary.policyNumberTitle", "EN")
+String policyNumberPrefix = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "summary.policyNumberPrefix", "EN")
+String buttonPayment = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.proceedPayment", "EN")
+
 //** very hard code, should improve
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Filled Form - Myself'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -28,12 +35,12 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/rdoFP
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/button_Declaration'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_name', [('name') : GlobalVariable.dyobj_ProceedPayment]))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_button', [('button') : buttonPayment]))
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_PayNetOption'))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_ContinueMPay'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybutton_Cancel_cancel', [('cancel') : GlobalVariable.dyobj_CancelButton]))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybutton_Button_button', [('button') : buttonCancel]))
 
 WebUI.delay(5)
 
@@ -42,16 +49,16 @@ WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Pa
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybutton_TryAgain_text', [('text') : GlobalVariable.dyobj_TryAgainButton]))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybutton_Button_button', [('button') : buttonTryAgain]))
 
 WebUI.setText(findTestObject('Object Repository/Travel/TripCare360/English/Payment Page/input_RetrieveYourProposal'), GlobalVariable.tempIC)
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybutton_Cancel_cancel', [('cancel') : GlobalVariable.dyobj_RetrieveButton]))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybutton_Button_button', [('button') : buttonRetrieve]))
 
 //retry
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/rdoFPXPayment'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_name', [('name') : GlobalVariable.dyobj_ProceedPayment]))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_button', [('button') : buttonPayment]))
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_PayNetOption'))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_ContinueMPay'))
@@ -68,9 +75,9 @@ WebUI.delay(5)
 
 WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/validation_YourPaymentIsSuccessful'), 10)
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/dyvalidation_PolicyNumber_text,code', 
-	[('text') : GlobalVariable.dyobj_PolicyNumber, 
-		('code') : GlobalVariable.dyobj_ProductCode]), 3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/dyvalidation_TransactionSummary_title,code', 
+	[('text') : policyNumber, 
+		('code') : policyNumberPrefix]), 3)
 
 WebUI.delay(3)
 

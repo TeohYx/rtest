@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String warningMessage = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "wrnmsg.empty", "EN")
+
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Page'), [('TCarea') : 3, ('TCplan') : 1, ('TCtrip') : 1
 	, ('TCpackage') : 1], FailureHandling.STOP_ON_FAILURE)
 
@@ -40,8 +42,8 @@ WebUI.scrollToElement(findTestObject('Travel/TripCare360/English/AppPage/button_
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_ConfirmDetails'))
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dywrnmsg_BankAccountNo_wrnmsg', [('wrnmsg') : GlobalVariable.errorMessage_empty]), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/dywrnmsg_BankAccountNo_wrnmsg', [('wrnmsg') : warningMessage]), 
+    5)
 
 WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
 

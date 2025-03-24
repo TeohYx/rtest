@@ -56,7 +56,7 @@ WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_Postcode'
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))
 
-textVerify2 = WebUI.getText(findTestObject('Travel/TripCare360/English/AppPage/dytext_TravellerInfo_name', [('name') : passport]))
+textVerify2 = WebUI.getText(findTestObject('Travel/TripCare360/English/AppPage/dyytext_TravellerInfo_name', [('name') : passport]))
 
 WebUI.takeScreenshot()
 WebUI.closeBrowser()

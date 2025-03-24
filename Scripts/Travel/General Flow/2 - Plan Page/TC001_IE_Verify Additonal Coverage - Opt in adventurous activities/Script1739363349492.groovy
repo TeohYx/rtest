@@ -18,8 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil
 
-String item = GlobalVariable.dyobj_item[1]
-TestObject itemObject = findTestObject('Travel/TripCare360/English/AppPage/dytext_CostBreakdown_item', [('item'): item])
+String item = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "priceBreakdown.covid", "EN")
+String policyNumberPrefix = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "summary.policyNumberPrefix", "EN")
+
+TestObject itemObject = findTestObject('Travel/TripCare360/English/AppPage/dygtext_CostBreakdown_priceBreakdown', [('priceBreakdown'): item])
+String costBreakdown = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "title.costBreakdown", "EN")
 
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Page'), 
 	[('TCarea') : 2, ('TCplan') : 1, ('TCtrip'): 1, ('TCpackage'): 1], 
@@ -31,7 +34,7 @@ WebUI.delay(2)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_AddonAdventurousActivities'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/dybutton_CostBreakdown_text', [('text') : GlobalVariable.dyobj_CostBreakdown]))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/dybutton_CostBreakdown_title', [('title') : costBreakdown]))
 
 Boolean isItemPresent = WebUI.verifyElementPresent(itemObject, 3, FailureHandling.OPTIONAL)
 

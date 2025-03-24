@@ -17,12 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String dropdown = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "benefitDropdown.expenses", "EN")
+String validation = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "benefitValidation.expenses", "EN")
+
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Plan Page'), [('TCarea') : 2, ('TCplan') : 1, ('TCtrip') : 1],
 	FailureHandling.STOP_ON_FAILURE)
 
-WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Plan Page/dydropdown_PlanBenefits_name', [('name') : GlobalVariable.dyobj_Plan_BenefitsDropdown['medicalExpenses']]))
+WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Plan Page/dydropdown_PlanBenefits_benefitDropdown', [('benefitDropdown') : dropdown]))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Travel/TripCare360/English/Plan Page/dyvalidation_PlanBenefits_name', [('name') : GlobalVariable.dyobj_Plan_BenefitsValidation['medicalExpenses']]), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Travel/TripCare360/English/Plan Page/dyvalidation_PlanBenefits_benefitValidation', [('benefitValidation') : validation]), 
     3)
 
 WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)

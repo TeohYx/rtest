@@ -20,6 +20,7 @@ import org.openqa.selenium.Keys as Keys
 // When verify, check if the inputed text are exactly same, and pass if all of them are false, as well as warning message occurred. 
 
 String[] sample_email = ['yeexian__tyx@hotmail.com', 'yeexian_tyx@@hotmail.com', 'yeexian--tyx@hotmail.com', 'yeexian..tyx@hotmail.com']
+String email = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "travellerInfo.email", "EN")
 
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Page'), [('TCarea') : 3, ('TCplan') : 1, ('TCtrip') : 1
 	, ('TCpackage') : 1], FailureHandling.STOP_ON_FAILURE)
@@ -33,11 +34,13 @@ for (int i=0; i<sample_email.length; i++) {
 	
 	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))
 
-	if (email_text != sample_email[i] && WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_text', [('text') : GlobalVariable.dyobj_travellerInfo['email']]), 3)) {
+	if (email_text != sample_email[i] && WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_travellerInfo', 
+		[('travellerInfo') : email]), 3)) {
 		WebUI.closeBrowser()
 	}
 	
-	assert email_text == sample_email[i] && WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_text', [('text') : GlobalVariable.dyobj_travellerInfo['email']]), 3)
+	assert email_text == sample_email[i] && WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_travellerInfo', 
+		[('travellerInfo') : email]), 3)
 }
 
 

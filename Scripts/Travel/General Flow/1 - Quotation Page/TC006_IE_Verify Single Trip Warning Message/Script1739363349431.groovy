@@ -24,11 +24,14 @@ Boolean isPassed = true
 
 def failedSelection = []
 
+String buttonPlan = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.toPlanPage", "EN")
+
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/button_SingleTrip'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/submit_GetQuoteNow'))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dysubmit_GetQuoteNow_button',
+	[('button'): buttonPlan]))
 
 errorMessage.each({ def selection, def message ->
         KeywordUtil.logInfo("Error message for selection $selection: $message")

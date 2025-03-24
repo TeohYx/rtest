@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String mobileNumber = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "travellerInfo.mobileNumber", "EN")
+
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Page'), [('TCarea') : 3, ('TCplan') : 1, ('TCtrip') : 1
 	, ('TCpackage') : 1], FailureHandling.STOP_ON_FAILURE)
 
@@ -26,7 +28,8 @@ WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_MobileNum
 
 WebUI.click(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))
 
-String mobile_text = WebUI.getText(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_text', [('text') : GlobalVariable.dyobj_travellerInfo['mobileNumber']]))
+String mobile_text = WebUI.getText(findTestObject('Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_travellerInfo', [
+	('travellerInfo') : mobileNumber]))
 
 WebUI.closeBrowser()
 

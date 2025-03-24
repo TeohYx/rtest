@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dytext_CostBreakdownTitle_item</name>
+   <name>dyvalidation_PlanBenefits_benefitValidation</name>
    <tag></tag>
-   <elementGuidId>5fe0733c-9512-42d5-97ee-33311fc90c65</elementGuidId>
+   <elementGuidId>3741e21a-4e7d-46b5-a22a-7bb44a339bf8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class='col-sm-5 col-12']//descendant::div[contains(text(), '${item}')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[contains(@class,'accordion-collapse')]//descendant::*[contains(text(), '${benefitValidation}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

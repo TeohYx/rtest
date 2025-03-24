@@ -17,11 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String area = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "area.1", "EN")
+
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
 def annualTripObj = findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/button_AnnualTrip')
 def selectCountryObj = findTestObject('Travel/TripCare360/English/Quotation Page/dropdown_TravellingCountry')
-def domesticAreaObj = findTestObject('Travel/TripCare360/English/Quotation Page/dybutton_SelectCountryArea_area', [('area') : GlobalVariable.dyobj_area[1]])
+def domesticAreaObj = findTestObject('Travel/TripCare360/English/Quotation Page/dybutton_SelectCountryArea_area', [('area') : area])
 
 WebUI.enhancedClick(annualTripObj)
 WebUI.enhancedClick(selectCountryObj)

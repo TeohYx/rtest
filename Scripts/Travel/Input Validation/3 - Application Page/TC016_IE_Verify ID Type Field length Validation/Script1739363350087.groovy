@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String passport = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "travellerInfo.passport", "EN")
+
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Application Page'), [('TCarea') : 3, ('TCplan') : 1, ('TCtrip') : 1
 	, ('TCpackage') : 1], FailureHandling.STOP_ON_FAILURE)
 
@@ -30,7 +32,7 @@ WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportO
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_text', [('text') : GlobalVariable.dyobj_travellerInfo['passport']]), 3)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/Warning Message Text/dywrnmsg_TravellerInfo_travellerInfo', [('travellerInfo') : passport]), 3)
 
 WebUI.takeFullPageScreenshot()
 

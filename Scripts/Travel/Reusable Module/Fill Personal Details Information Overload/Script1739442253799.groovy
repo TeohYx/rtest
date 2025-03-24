@@ -36,17 +36,18 @@ Map defaultValues = [
 
 // Merge with provided parameters
 def finalParams = defaultValues + params
+String travellerInfo = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "travellerInfo.passport", "EN")
 
 println(finalParams)
 KeywordUtil.logInfo("Mapped data: ${finalParams}")
 
 WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/button_Select Nationality'))
-WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/dybutton_ChooseNationality_nation', [('nation') : finalParams.TCNation]))
+WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/dyybutton_ChooseNationality_nation', [('nation') : finalParams.TCNation]))
 println(finalParams.TCIC)
 
 WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), finalParams.TCIC)
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/dylabel_TravellerInformation_text', [('text') : 'Passport']), 3, FailureHandling.OPTIONAL)) {
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/dylabel_TravellerInformation_travellerInfo', [('travellerInfo') : travellerInfo]), 3, FailureHandling.OPTIONAL)) {
 	WebUI.setText(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/input_TravellerInfoDateOfBirth'), '28092000') //HARDCODE	
 	WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/AppPage/button_Male'))
 }

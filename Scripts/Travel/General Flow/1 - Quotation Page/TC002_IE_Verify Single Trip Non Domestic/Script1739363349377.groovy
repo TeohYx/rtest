@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.time.LocalDate as LocalDate
 
-String area = GlobalVariable.dyobj_area[2]
+String area = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "area.2", "EN")
 
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -35,7 +35,7 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Fill Personal Details In
 	, ('TCEthnicity') : ethnicity, ('TCEmail') : email, ('TCMobileNumber') : mobile, ('TCBuildingName') : buildingName
 	, ('TCAreaName') : areaName, ('TCPostcode') : postcode], FailureHandling.STOP_ON_FAILURE)
 
-textVerify2 = WebUI.getText(findTestObject('Travel/TripCare360/English/AppPage/dytext_TravellerInfo_name', [('name') : fullName.toUpperCase()]))
+textVerify2 = WebUI.getText(findTestObject('Travel/TripCare360/English/AppPage/dyytext_TravellerInfo_name', [('name') : fullName.toUpperCase()]))
 
 WebUI.closeBrowser()
 

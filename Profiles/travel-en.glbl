@@ -55,126 +55,6 @@
       <name>validation_button_color</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>[(4) : 'Worldwide 2', (3) : 'Worldwide 1', (2) : 'Asia', (1) : 'Domestic']</initValue>
-      <name>dyobj_area</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>[(5) : 'Group', (4) : 'family', (3) : 'spouse', (2) : 'Senior Citizen', (1) : 'Just myself']</initValue>
-      <name>dyobj_plan</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Map: payment, application, plan</description>
-      <initValue>[('payment') : 'Payment', ('application') : 'Personal Details', ('plan') : 'Choose Plan']</initValue>
-      <name>dyobj_currentSite</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>1: Adventurous Activities; 2: COVID-19 Cover</description>
-      <initValue>[(1) : 'Adventurous Activities', (2) : 'COVID-19 Cover']</initValue>
-      <name>dyobj_item</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Please read and tick</description>
-      <initValue>'Please read and tick'</initValue>
-      <name>dyobj_Declaration</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Please select your mode of payment</description>
-      <initValue>'Please select your mode of payment'</initValue>
-      <name>dyobj_ModeOfPayment</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Proceed Payment</description>
-      <initValue>'Proceed Payment'</initValue>
-      <name>dyobj_ProceedPayment</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Please check through before you proceed</description>
-      <initValue>'Please check through before you proceed'</initValue>
-      <name>dyobj_PlanEdit</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>map: makeTravelClaim, coverCommence, cancelPolicy, emergencyContact, nomination</description>
-      <initValue>[('nomination') : 'Yes. You may nominate an individual to receive benefits payable upon the death of the Insured Person purchase the Policy.', ('emergencyContact') : 'Please call our 24-Hour, 7 days Travel Assistance Helpline at ', ('cancelPolicy') : 'No refund of premium will be allowed once the TripCare 360 Insurance Policy Contract is issued.', ('coverCommence') : 'Coverage shall be extended at our sole discretion for up to 30 days from the expiry of the period of insurance', ('makeTravelClaim') : 'Your travel claim must be submitted as soon as possible.']</initValue>
-      <name>dyobj_Quotation_FAQValidation</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>map: makeTravelClaim, coverCommence, cancelPolicy, emergencyContact, nomination</description>
-      <initValue>[('nomination') : 'nomination for TripCare 360 plan?', ('emergencyContact') : 'contact for an emergency assistance', ('cancelPolicy') : 'cancel my Policy and get a refund', ('coverCommence') : 'cover commence and end for each trip?', ('makeTravelClaim') : 'make a travel claim?']</initValue>
-      <name>dyobj_Quotation_FAQDropdown</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>map: emergencyServices, liabilityBenefit, travelInconveniences, medicalExpenses, deathOrPermanentDisability, loss</description>
-      <initValue>[('loss') : 'Losses or Damages to Baggage and/or Personal Effects (combined limit, up to)', ('emergencyServices') : 'Emergency medical evacuation and repatriation', ('liabilityBenefit') : 'Personal liability (Up to)', ('travelInconveniences') : 'Trip cancellation or curtailment (Up to)', ('medicalExpenses') : 'Medical related expenses (Up to)', ('deathOrPermanentDisability') : 'Accidental death or permanent disability']</initValue>
-      <name>dyobj_Plan_BenefitsValidation</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>map: emergencyServices, liabilityBenefit, travelInconveniences, medicalExpenses, deathOrPermanentDisability, loss</description>
-      <initValue>[('emergencyServices') : 'Emergency services (Due to accident or Illness)', ('liabilityBenefit') : 'Liability Benefit', ('loss') : 'Loss or damage to baggage, personal belongings, personal money and/or travel documents', ('travelInconveniences') : 'Travel Inconveniences', ('medicalExpenses') : 'Medical expenses (Due to accident or illness)', ('deathOrPermanentDisability') : 'Death or permanent disability']</initValue>
-      <name>dyobj_Plan_BenefitsDropdown</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>General Exclusions</description>
-      <initValue>'General Exclusions'</initValue>
-      <name>dyobj_GeneralExclusions</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Note: The COVID-19</description>
-      <initValue>'Note: The COVID-19'</initValue>
-      <name>dyobj_CovidTab</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Buy</description>
-      <initValue>'Buy'</initValue>
-      <name>dyobj_Buy</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Retrieve Your Proposal</description>
-      <initValue>'Retrieve Your Proposal'</initValue>
-      <name>dyobj_RetrieveYourProposal</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Policy Number</description>
-      <initValue>'Policy Number'</initValue>
-      <name>dyobj_PolicyNumber</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>PU</description>
-      <initValue>'PU'</initValue>
-      <name>dyobj_ProductCode</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Map: nationality, newNRIC, fullName, dateOfBirth, gender, ethnicity, email, mobileNumber, buildingName, areaName, cityName, postcode, state, passport</description>
-      <initValue>[('state') : 'State', ('postcode') : 'Postcode', ('cityName') : 'City Name', ('areaName') : 'Area', ('buildingName') : 'Building Name', ('mobileNumber') : 'Mobile Number', ('email') : 'Email', ('ethnicity') : 'Ethnicity', ('gender') : 'Gender', ('dateOfBirth') : 'Date of Birth', ('fullName') : 'Full Name', ('newNRIC') : 'New NRIC', ('nationality') : 'Nationality', ('passport') : 'Passport']</initValue>
-      <name>dyobj_travellerInfo</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Cancel</description>
-      <initValue>'Cancel'</initValue>
-      <name>dyobj_CancelButton</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Cost Breakdown</description>
-      <initValue>'Cost Breakdown'</initValue>
-      <name>dyobj_CostBreakdown</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Back to Homepage</description>
-      <initValue>'Back to Homepage'</initValue>
-      <name>dyobj_BackToHomepageButton</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Try Again</description>
-      <initValue>'Try Again'</initValue>
-      <name>dyobj_TryAgainButton</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Is University/College Student</description>
-      <initValue>'Is University/College Student'</initValue>
-      <name>dyobj_UniversityStudent</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
       <description>https://www-gold.etiqa.com/edp/unity-product-svc/api/v1/my/ProductPremiumRate/GetTravelPlanPriceBreakdown</description>
       <initValue>'https://www-gold.etiqa.com/edp/unity-product-svc/api/v1/my/ProductPremiumRate/GetTravelPlanPriceBreakdown'</initValue>
       <name>api_GetTravelPlanPriceBreakdown</name>
@@ -285,11 +165,6 @@
       <name>dummy_userPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Select Country</description>
-      <initValue>'Select Country'</initValue>
-      <name>dyobj_SelectCountry</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
       <description>internationalMaximumFail, internationalMaximumPass, localMaximumFail, localMaximumPass, departMaximumFail, departMaximumPass</description>
       <initValue>[('internationalMaximumFail') : '181', ('internationalMaximumPass') : '180', ('localMaximumFail') : '31', ('localMaximumPass') : '30', ('departMaximumPass') : '180', ('departMaximumFail') : '181']</initValue>
       <name>rules_dateSelection</name>
@@ -325,23 +200,8 @@
       <name>rules_FamilyOwner</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>the text on costbreakdown - Discount 25%</description>
-      <initValue>'Discount 25%'</initValue>
-      <name>rules_EDPDiscount</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Tripcare 360 Insurance</description>
-      <initValue>['Product', 'Tripcare 360 Insurance']</initValue>
-      <name>rules_ProductName</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
       <description>USED on Test case: &quot;Retry payment upon failed transaction&quot; for the fixed value and Reusable Module &quot;Fill Form - Myself'</description>
       <initValue>'980421045116'</initValue>
       <name>tempIC</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Retrieve</description>
-      <initValue>'Retrieve'</initValue>
-      <name>dyobj_RetrieveButton</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

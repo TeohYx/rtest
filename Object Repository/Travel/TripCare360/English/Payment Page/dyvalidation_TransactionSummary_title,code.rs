@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dyvalidation_PolicyNumber_text,code</name>
+   <name>dyvalidation_TransactionSummary_title,code</name>
    <tag></tag>
    <elementGuidId>8a02d100-6b90-4139-89d9-1570b22a575f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[text()='${text}']//following-sibling::div[contains(text(), '${code}')]</value>
+         <value>//div[text()='${title}']//following-sibling::div[contains(text(), '${code}')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e009a124-d2fb-4f56-b3d5-d118daa85e3c</webElementGuid>
+      <webElementGuid>a259a3db-e23c-40f3-aa0f-3fbb16e027db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>status__DotBox-sc-17j7umb-2 vBkoF</value>
-      <webElementGuid>fb56ea4f-ec86-4702-9a95-e7444748a7d0</webElementGuid>
+      <webElementGuid>ae5a07d1-a193-4c15-9f59-efd9dcba5e0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Policy NumberPU002476</value>
-      <webElementGuid>c281c846-3d6c-4b9c-84a4-1d6640e69207</webElementGuid>
+      <webElementGuid>2f9c97f7-9aa4-4d84-bd5b-59f50d140bfb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;justify-content-center row&quot;]/div[@class=&quot;col-md-3 col-6&quot;]/div[@class=&quot;status__DotBox-sc-17j7umb-2 vBkoF&quot;]</value>
-      <webElementGuid>9e2f050f-fff7-4371-ba59-62408fd61266</webElementGuid>
+      <webElementGuid>c67d5819-1bcf-4a45-8e96-6295e397a7a9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='gatsby-focus-wrapper']/div[2]/div[2]/div/div/div</value>
-      <webElementGuid>b56f474e-2517-4624-981c-317a6656db7a</webElementGuid>
+      <webElementGuid>ab1c5a67-5662-48ea-8aa5-a92f82a67006</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[1]/following::div[10]</value>
-      <webElementGuid>8de76102-34d0-4fb3-92d2-564285041e4d</webElementGuid>
+      <webElementGuid>6c7a6db7-3c1f-45bd-b3a3-b0cbcf4f9d43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/div</value>
-      <webElementGuid>b3188f62-0e66-4413-a2e5-0542f1603788</webElementGuid>
+      <webElementGuid>47b97502-03a5-47fc-ab5a-3879c68d664b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +79,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Policy NumberPU002476' or . = 'Policy NumberPU002476')]</value>
-      <webElementGuid>722db943-6134-4503-86a9-00c2178cb30a</webElementGuid>
+      <webElementGuid>5f06bec6-30a8-48bb-a301-3c137714d27c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

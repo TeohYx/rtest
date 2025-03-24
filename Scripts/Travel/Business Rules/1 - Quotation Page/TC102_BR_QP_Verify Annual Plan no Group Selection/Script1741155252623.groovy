@@ -21,7 +21,10 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Open Application'), [:],
 
 def annualTripObj = findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/button_AnnualTrip')
 def selectTypeObj = findTestObject('Travel/TripCare360/English/Quotation Page/dropdown_TravellingPerson')
-def groupObj = findTestObject('Travel/TripCare360/English/Quotation Page/dybutton_SelectPlanType_plan', [('plan') : GlobalVariable.dyobj_plan[5]])
+
+String planType = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "planType.5", "EN")
+
+def groupObj = findTestObject('Travel/TripCare360/English/Quotation Page/dybutton_SelectPlanType_planType', [('planType') : planType])
 
 WebUI.enhancedClick(annualTripObj)
 WebUI.enhancedClick(selectTypeObj)

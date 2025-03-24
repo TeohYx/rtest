@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dytext_TravellerInfo_name</name>
+   <name>dyytext_TravellerInfo_name</name>
    <tag></tag>
    <elementGuidId>93a4e39b-c218-4f1d-a58d-672c7080b82f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class='PersonalDetailCard__Styles-sc-mpxnje-2 vjxiN']//descendant::div[contains(text(), '${name}')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'testing' or . = 'testing')]</value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//div[@class='PersonalDetailCard__Styles-sc-mpxnje-2 vjxiN']//descendant::div[contains(text(), '${name}')][1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>8546d44d-ecc8-4209-84cf-3b78cbf1aa81</webElementGuid>
+      <webElementGuid>113b63ca-c4cd-4c91-ab2f-43433711ad36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>col</value>
-      <webElementGuid>43f25cf9-9d1d-4db7-acb7-7bcb21408da0</webElementGuid>
+      <webElementGuid>360b2b3c-1d3b-4927-becc-8878f935c4f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>testing</value>
-      <webElementGuid>b2481034-3bb4-4b1b-affd-306584bad70c</webElementGuid>
+      <webElementGuid>ea533012-aa5b-4c84-b0fd-29ced85171fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;mt-3 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-7 col-12&quot;]/div[@class=&quot;mb-3 shadow  card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;PersonalDetailCard__Styles-sc-mpxnje-2 vjxiN&quot;]/div[@class=&quot;mt-4&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]</value>
-      <webElementGuid>b3421e5d-b829-4d7b-a599-8938ea3a471d</webElementGuid>
+      <webElementGuid>ebe65e7f-e442-499b-9cb1-aaef53adef71</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div</value>
-      <webElementGuid>b3d3f98e-8725-4f81-83f5-a14460d09198</webElementGuid>
+      <webElementGuid>b2d7efb1-1d18-448b-ae8b-838c07b7215d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NRIC'])[1]/following::div[2]</value>
-      <webElementGuid>6db5446b-ac29-47a6-9124-073fe01451ca</webElementGuid>
+      <webElementGuid>9d9e4507-99a7-4c50-96b9-a66404b483ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::div[3]</value>
-      <webElementGuid>cccad2bb-41b2-473f-b500-df2e6753eb24</webElementGuid>
+      <webElementGuid>aa36fdba-71b0-43f3-bffb-f188cc946a7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Departure Flight'])[1]/preceding::div[3]</value>
-      <webElementGuid>65551c9b-3129-4da6-bacc-b58fa8edbc3f</webElementGuid>
+      <webElementGuid>f50f2a16-3d62-4066-b02a-6957a9eb598b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Flight Number'])[1]/preceding::div[5]</value>
-      <webElementGuid>92385f00-c1ef-42f5-acc0-c7c47add42f2</webElementGuid>
+      <webElementGuid>91e02c8a-8b9d-42dd-abb0-2d67af6b0478</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='testing']/parent::*</value>
-      <webElementGuid>81992078-5241-42ec-805c-3398ceb7ae78</webElementGuid>
+      <webElementGuid>4106c476-f8a2-4b7d-9a74-62cc940a9d99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]/div[2]/div</value>
-      <webElementGuid>97e25467-805f-47e5-ab73-c69a14303990</webElementGuid>
+      <webElementGuid>382aff84-2889-4aed-a05b-7500787e660d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'testing' or . = 'testing')]</value>
-      <webElementGuid>4d5a55d8-b27a-452f-9d9d-17ac2b5053c9</webElementGuid>
+      <webElementGuid>6df746d4-c8c4-48f7-948a-74262526320d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

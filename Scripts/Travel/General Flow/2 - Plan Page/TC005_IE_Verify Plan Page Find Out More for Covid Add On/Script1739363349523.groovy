@@ -18,11 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil
 
+String covid = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "covidValidation.covid", "EN")
+
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Plan Page'), [('TCarea') : 2, ('TCplan') : 1, ('TCtrip'): 1], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/link_FindOutMore'))
 
-element = findTestObject('Travel/TripCare360/English/Plan Page/dyvalidation_CovidTab_covid', [('covid') : GlobalVariable.dyobj_CovidTab])
+element = findTestObject('Travel/TripCare360/English/Plan Page/dyvalidation_CovidTab_covidValidation', [('covidValidation') : covid])
 boolean isPresent = WebUI.verifyElementVisible(element, FailureHandling.OPTIONAL)
 
 WebUI.takeFullPageScreenshot()
