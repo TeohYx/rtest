@@ -43,7 +43,7 @@ for (info in nameAndIC) {
 	
 	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
 	
-	WebUI.callTestCase(findTestCase('Travel/Reusable Module/Fill Personal Details Information Overload'), [('TCparams') : params], FailureHandling.STOP_ON_FAILURE)
+	WebUI.callTestCase(findTestCase('Travel/Reusable Module/Traveller Info - Adult, Main'), [('TCparams') : params], FailureHandling.STOP_ON_FAILURE)
 	
 	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_BankName'))
 	

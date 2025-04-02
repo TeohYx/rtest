@@ -17,10 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String buttonCancel = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.cancel", "EN")
-String buttonTryAgain = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.tryAgain", "EN")
-String retrieveProposal = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "title.retrieveProposal", "EN")
-String buttonPayment = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.proceedPayment", "EN")
+String buttonCancel = CustomKeywords.'utils.Utility.getDynamicRepoInfo'('Travel', 'button.cancel', 'EN')
+
+String buttonTryAgain = CustomKeywords.'utils.Utility.getDynamicRepoInfo'('Travel', 'button.tryAgain', 'EN')
+
+String retrieveProposal = CustomKeywords.'utils.Utility.getDynamicRepoInfo'('Travel', 'title.retrieveProposal', 'EN')
+
+String buttonPayment = CustomKeywords.'utils.Utility.getDynamicRepoInfo'('Travel', 'button.proceedPayment', 'EN')
 
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Filled Form - Myself'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -33,6 +36,7 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/rdoFP
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/button_Declaration'))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_button', [('button') : buttonPayment]))
+
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_PayNetOption'))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_ContinueMPay'))
@@ -41,15 +45,14 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybu
 
 WebUI.delay(5)
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/img_TransactionUnsuccessful'), 
-    3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/img_TransactionUnsuccessful'), 3)
 
 WebUI.takeFullPageScreenshot()
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybutton_Button_button', [('button') : buttonTryAgain]))
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/dyvalidation_RetrieveYourProposal_title', [('title'): retrieveProposal]), 
-    3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/dyvalidation_RetrieveYourProposal_title', 
+        [('title') : retrieveProposal]), 3)
 
 WebUI.delay(3)
 

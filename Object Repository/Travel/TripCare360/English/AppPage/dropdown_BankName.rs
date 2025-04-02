@@ -6,15 +6,15 @@
    <elementGuidId>ca093826-9824-4d14-8b35-ba7c5219f213</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div[2]/div/form/div[2]/div/div/div/div[2]/div[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@class = 'BankAccountDetail__BankDropdownToggle-sc-14z4pi0-2 hhBERE w-100 dropdown-toggle btn btn-primary']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div[2]/div/form/div[2]/div/div/div/div[2]/div[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>aa42395b-a356-4933-98a1-4b6ee183ca75</webElementGuid>
+      <webElementGuid>86a4d17e-615d-4b08-8a9d-ae3ec951d9a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>BankAccountDetail__BankDropdownToggle-sc-14z4pi0-2 hhBERE w-100 dropdown-toggle btn btn-primary</value>
-      <webElementGuid>66952213-25c8-4819-9da9-d022deb7edef</webElementGuid>
+      <webElementGuid>3e27e471-f1b2-4976-b044-4390402223fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Bank NameSelect Bank Malayan Banking BerhadAffin Bank BerhadAffin Islamic Bank BerhadAl Rajhi Banking &amp; InvestmentAlliance Bank BerhadAlliance Islamic Bank BerhadAmbank BerhadAmIslamic Bank BerhadBank Islam MalaysiaBank Muamalat (Malaysia)Bank Of AmericaBank Of Tokyo Mitsubishi (M) BBank Pertanian MalaysiaBank Pertanian Malaysia BerhadBank Rakyat MalaysiaBank Simpanan NasionalBNP Paribas MalaysiaCIMB Bank BerhadCIMB Islamic Bank BerhadCitibank BerhadDeutsche Bank (M) BhdHong Leong BankHong Leong Islamic Bank BerhadHSBC (M) BerhadHSBC Amanah Malaysia BerhadIND &amp; COM Bank of ChinaJ.P. Morgan ChaseKuwait Finance HouseMizuho Corporate Bank (MalaysiOCBC Al-Amin Bank BerhadOCBC Bank (M'sia) BHDPublic BankPublic Islamic Bank BerhadRHB BankRHB Islamic Bank BerhadRoyal Bank Of ScotlandStandard CharteredSumitomo Mitsui BankUnited Overseas Bank</value>
-      <webElementGuid>4a342d42-dd6c-431a-bd96-f4ca323d6df8</webElementGuid>
+      <webElementGuid>f04a85cc-3fc6-4f85-85d9-35870438d0c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;mt-3 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-7 col-12&quot;]/form[1]/div[2]/div[@class=&quot;mt-5&quot;]/div[@class=&quot;shadow mb-3 card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;BankAccountDetail__Styles-sc-14z4pi0-3 NFtGR&quot;]/div[@class=&quot;mb-3&quot;]</value>
-      <webElementGuid>b1a942d2-7e78-4d12-8ef7-5ec940e888b6</webElementGuid>
+      <webElementGuid>8cc5bd3a-cd52-44f2-a1b9-4021a02a7e56</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div[2]/div/form/div[2]/div/div/div/div[2]/div[2]</value>
-      <webElementGuid>688fd194-e432-44c7-9a97-976237586670</webElementGuid>
+      <webElementGuid>c11c3eb0-8eff-43f8-ad98-4d0ab426c9d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Policy Holder Name'])[1]/following::div[1]</value>
-      <webElementGuid>2ca68837-eb52-471f-8809-fa1c489d1f8c</webElementGuid>
+      <webElementGuid>584929e2-755c-4425-a035-623e0c01ff34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Flight Date'])[2]/following::div[8]</value>
-      <webElementGuid>789cd31f-5b56-4730-9ee7-ab856697962e</webElementGuid>
+      <webElementGuid>daa64944-b23c-42a6-b486-92ea6e4c7aad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div[2]/div/div/div/div[2]/div[2]</value>
-      <webElementGuid>b32a5787-a728-48d6-99ae-acfa2c7c53f5</webElementGuid>
+      <webElementGuid>200abe10-b012-4b58-8746-58add488173a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = concat(&quot;Bank NameSelect Bank Malayan Banking BerhadAffin Bank BerhadAffin Islamic Bank BerhadAl Rajhi Banking &amp; InvestmentAlliance Bank BerhadAlliance Islamic Bank BerhadAmbank BerhadAmIslamic Bank BerhadBank Islam MalaysiaBank Muamalat (Malaysia)Bank Of AmericaBank Of Tokyo Mitsubishi (M) BBank Pertanian MalaysiaBank Pertanian Malaysia BerhadBank Rakyat MalaysiaBank Simpanan NasionalBNP Paribas MalaysiaCIMB Bank BerhadCIMB Islamic Bank BerhadCitibank BerhadDeutsche Bank (M) BhdHong Leong BankHong Leong Islamic Bank BerhadHSBC (M) BerhadHSBC Amanah Malaysia BerhadIND &amp; COM Bank of ChinaJ.P. Morgan ChaseKuwait Finance HouseMizuho Corporate Bank (MalaysiOCBC Al-Amin Bank BerhadOCBC Bank (M&quot; , &quot;'&quot; , &quot;sia) BHDPublic BankPublic Islamic Bank BerhadRHB BankRHB Islamic Bank BerhadRoyal Bank Of ScotlandStandard CharteredSumitomo Mitsui BankUnited Overseas Bank&quot;) or . = concat(&quot;Bank NameSelect Bank Malayan Banking BerhadAffin Bank BerhadAffin Islamic Bank BerhadAl Rajhi Banking &amp; InvestmentAlliance Bank BerhadAlliance Islamic Bank BerhadAmbank BerhadAmIslamic Bank BerhadBank Islam MalaysiaBank Muamalat (Malaysia)Bank Of AmericaBank Of Tokyo Mitsubishi (M) BBank Pertanian MalaysiaBank Pertanian Malaysia BerhadBank Rakyat MalaysiaBank Simpanan NasionalBNP Paribas MalaysiaCIMB Bank BerhadCIMB Islamic Bank BerhadCitibank BerhadDeutsche Bank (M) BhdHong Leong BankHong Leong Islamic Bank BerhadHSBC (M) BerhadHSBC Amanah Malaysia BerhadIND &amp; COM Bank of ChinaJ.P. Morgan ChaseKuwait Finance HouseMizuho Corporate Bank (MalaysiOCBC Al-Amin Bank BerhadOCBC Bank (M&quot; , &quot;'&quot; , &quot;sia) BHDPublic BankPublic Islamic Bank BerhadRHB BankRHB Islamic Bank BerhadRoyal Bank Of ScotlandStandard CharteredSumitomo Mitsui BankUnited Overseas Bank&quot;))]</value>
-      <webElementGuid>8552ef05-a8ef-440e-bd89-000878947e31</webElementGuid>
+      <webElementGuid>d56b0d20-d812-4033-950c-5263a47ef35e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

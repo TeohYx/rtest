@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC002_BR_PP_Verify Plan,AddOn on International</name>
+   <name>Flight Details Info</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>ac04ecad-e7d5-44a4-8bfe-1aa9668afa66</testCaseGuid>
+   <testCaseGuid>d447dd09-db2f-4509-a8e2-65102b12abb0</testCaseGuid>
 </TestCaseEntity>

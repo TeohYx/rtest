@@ -19,12 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 String title = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "title.generalExclusions", "EN")
 
-WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Plan Page'), [('TCarea') : 2, ('TCplan') : 1, ('TCtrip') : 1],
+WebUI.callTestCase(findTestCase('Travel/Reusable Module/Quotation Form'), [('TCarea') : 2, ('TCplan') : 1, ('TCtrip') : 1],
 	FailureHandling.STOP_ON_FAILURE)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/link_General Exclusions'))
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Plan Page/dyvalidation_General Exclusions_title', [('title') : title), 3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Plan Page/dyvalidation_General Exclusions_title', [('title') : title]), 3)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/button_CloseGeneralExclusions'))
 

@@ -17,11 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String area = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "area.${TCarea}", "EN")
-String planType = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "planType.${TCplan}", "EN")
-String buttonPlan = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.toPlanPage", "EN")
+try {
+	area = TCarea
+} catch (Exception e) {
+	area = 1
+}
 
-int trip = TCtrip
+try {
+	plan = TCplan
+} catch (Exception e) {
+	plan = 1
+}
+
+try {
+	trip = TCtrip
+} catch (Exception e) {
+	trip = 1
+}
+
+String area = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "area.${area}", "EN")
+String planType = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "planType.${plan}", "EN")
+String buttonPlan = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.toPlanPage", "EN")
 
 String departDate = ""
 String arrivalDate = ""
@@ -102,13 +118,13 @@ if(arrivalDate.toInteger() < departDate.toInteger()) {
 	
 	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/button_NextMonth'))
 	
-	if(TCtrip == 1) {
+	if(trip == 1) {
 		WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/General/dybutton_Date_date', [('date') : arrivalDate]))
 	}
 } else {
 	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/General/dybutton_Date_date', [('date') : departDate]))
 	
-	if(TCtrip == 1) {
+	if(trip == 1) {
 		WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/General/dybutton_Date_date', [('date') : arrivalDate]))
 	}
 }

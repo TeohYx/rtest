@@ -204,4 +204,9 @@
       <initValue>'980421045116'</initValue>
       <name>tempIC</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>https://www.etiqa.com.my/travel/tripcare-360-insurance</description>
+      <initValue>'https://www.etiqa.com.my/travel/tripcare-360-insurance'</initValue>
+      <name>link_GetMore</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

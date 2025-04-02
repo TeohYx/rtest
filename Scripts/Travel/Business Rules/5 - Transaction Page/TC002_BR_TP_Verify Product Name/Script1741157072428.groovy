@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String productNameTitle = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "summary.productNametitle", "EN")
+String productNameTitle = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "summary.productNameTitle", "EN")
 String productName = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "summary.productName", "EN")
 String buttonPayment = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.proceedPayment", "EN")
 

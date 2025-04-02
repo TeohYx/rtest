@@ -13,6 +13,10 @@
          <key>CSS</key>
          <value>button.float-end.mb-3.btn.btn-warning</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = 'Save Changes' or . = 'Save Changes')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c7638965-a1c5-4645-8957-284d98f3e2d8</webElementGuid>
+      <webElementGuid>34f76b42-538d-4896-b183-03d6bf945eea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +35,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>79014023-518a-4710-a80f-7b861e618116</webElementGuid>
+      <webElementGuid>bbb9d4c3-c5c7-49ac-a885-054c1fd23409</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>float-end mb-3 btn btn-warning</value>
-      <webElementGuid>a09e761f-ca28-4367-a71c-d76286012715</webElementGuid>
+      <webElementGuid>d10b2a0c-e638-4871-ab1d-c557084c11de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save Changes</value>
-      <webElementGuid>973977ed-ba8e-46e1-ba83-15e0708e7bd0</webElementGuid>
+      <webElementGuid>8cfafbee-3fbe-4837-b8ef-91314b1afa2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;fade modal show&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;PersonalDetailForm__Styles-sc-1tye5zo-0 iJgkOQ&quot;]/div[@class=&quot;modal-body&quot;]/form[@class=&quot;personal-detail-form&quot;]/button[@class=&quot;float-end mb-3 btn btn-warning&quot;]</value>
-      <webElementGuid>f4ce1930-4a14-4fc9-bdbc-107d4edc9feb</webElementGuid>
+      <webElementGuid>6c204bf5-14a4-4c26-84fc-be5403ad6929</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>fb84f908-26c9-464e-9504-78fc2e392ec6</webElementGuid>
+      <webElementGuid>459a9326-70e7-4c2a-aba3-95d120165fd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='State'])[1]/following::button[1]</value>
-      <webElementGuid>3b90f6c7-5440-412b-9829-235ecb22b1ff</webElementGuid>
+      <webElementGuid>a406fbbe-38cb-484e-9391-72e6c9e70504</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Postcode'])[1]/following::button[1]</value>
-      <webElementGuid>9de32c36-16ff-4821-8f03-6cb24182701e</webElementGuid>
+      <webElementGuid>df83fa46-1e90-44f0-a47b-6b2ff9aba643</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Save Changes']/parent::*</value>
-      <webElementGuid>c5023163-5d83-43b0-a6e5-9ce63cd9e1cc</webElementGuid>
+      <webElementGuid>2b5b555f-3dcb-47ab-8176-3f301e846e7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/button</value>
-      <webElementGuid>2e463468-1f0c-45d9-8ac5-c80bf6ceefc7</webElementGuid>
+      <webElementGuid>2d6e3dd2-bd46-4abc-b765-6f7694c39297</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Save Changes' or . = 'Save Changes')]</value>
-      <webElementGuid>ca8e3b5f-9b27-4be9-b555-6ab51c5373ae</webElementGuid>
+      <webElementGuid>82ef72a1-a2eb-45a9-b508-ff5d170e265a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

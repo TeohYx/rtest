@@ -29,7 +29,7 @@ import com.kms.katalon.core.util.KeywordUtil
 def random = new Random()
 int tripValue = 1
 int areaValue = 1
-int planValue = random.nextInt(5) + 1
+int planValue = random.nextInt(4) + 1 // Group not exists
 
 String planSite = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "currentSite.plan", "EN")
 String applicationSite = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "currentSite.application", "EN")
@@ -37,7 +37,7 @@ String buttonBuy = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "
 
 def errorMessage = []
 
-WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Plan Page'), [('TCarea') : areaValue, ('TCplan') : planValue, ('TCtrip'): tripValue], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Travel/Reusable Module/Quotation Form'), [('TCarea') : areaValue, ('TCplan') : planValue, ('TCtrip'): tripValue], FailureHandling.STOP_ON_FAILURE)
 
 String planClass = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/General/dytext_ProveOfCurrentPage_currentSite', [('currentSite') : planSite]), 
     'class')

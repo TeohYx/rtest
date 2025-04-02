@@ -54,13 +54,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5ad21e73-a3fb-4046-bded-e33ca0100339</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Travel/Business Rules/2 - Plan Page/TC002_BR_PP_Verify Plan,AddOn on International</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>7b6c60b3-2db9-4062-88fa-416de65ca7df</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

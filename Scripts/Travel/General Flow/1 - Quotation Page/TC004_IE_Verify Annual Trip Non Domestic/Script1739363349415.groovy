@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 String site = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "currentSite.plan", "EN")
 
-WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Plan Page'), [('TCarea') : 2, ('TCplan') : 1, ('TCtrip'): 1], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Travel/Reusable Module/Quotation Form'), [('TCarea') : 2, ('TCplan') : 1, ('TCtrip'): 1], FailureHandling.STOP_ON_FAILURE)
 
 String classValue = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/General/dytext_ProveOfCurrentPage_currentSite', [('currentSite') : site]), 'class')
 

@@ -44,7 +44,7 @@ for (String n in nation) {
 		]
 	
 	
-	WebUI.callTestCase(findTestCase('Travel/Reusable Module/Fill Personal Details Information Overload'), [('TCparams') : TCparams], FailureHandling.STOP_ON_FAILURE)
+	WebUI.callTestCase(findTestCase('Travel/Reusable Module/Traveller Info - Adult, Main'), [('TCparams') : TCparams], FailureHandling.STOP_ON_FAILURE)
 	
 	WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_BankName'))
 	

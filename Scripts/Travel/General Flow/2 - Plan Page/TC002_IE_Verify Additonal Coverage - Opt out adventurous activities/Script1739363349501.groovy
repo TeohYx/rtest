@@ -18,8 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil
 
-String covidBreakdown = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "priceBreakdown.covid", "EN")
-TestObject itemObject = findTestObject('Travel/TripCare360/English/AppPage/dygtext_CostBreakdown_priceBreakdown', [('priceBreakdown'): covidBreakdown])
+String adventurous = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "priceBreakdown.adventurousActivities", "EN")
+TestObject itemObject = findTestObject('Travel/TripCare360/English/AppPage/dygtext_CostBreakdown_priceBreakdown', [('priceBreakdown'): adventurous])
 
 String costBreakdown = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "title.costBreakdown", "EN")
 
@@ -46,4 +46,4 @@ Boolean isItemNotPresent = WebUI.verifyElementNotPresent(itemObject, 3, FailureH
 WebUI.takeFullPageScreenshot()
 WebUI.closeBrowser()
 
-assert isItemPresent && isItemNotPresent : KeywordUtil.markFailed("${covidBreakdown} have some issue")
+assert isItemPresent && isItemNotPresent : KeywordUtil.markFailed("${adventurous} have some issue")

@@ -20,7 +20,6 @@ import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-
 /*
  * Number of test cases scenario
  * = Number of plans (rows) under PlanType 4 in 'Plan' sheet of 'PlanCombination'
@@ -35,22 +34,23 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
  *
  */
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.LINK)
+WebUI.callTestCase(findTestCase('Travel/Reusable Module/Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
 int planType = 4
 
 def cPObj = CustomKeywords.'applicationPage.CombinationPrice.initiateCombinationPrice'(planType)
+
 CustomKeywords.'applicationPage.CombinationPrice.countTestCase'(cPObj)
+
 CustomKeywords.'applicationPage.CombinationPrice.planPriceChecker'(cPObj)
 
-KeywordUtil.logInfo("Total test case: ${cPObj.totalCaseCount}")
-KeywordUtil.logInfo("Test case succeed: ${cPObj.successCount}")
-KeywordUtil.logInfo("Test case failed: ${cPObj.failedCount}")
-KeywordUtil.logInfo("Error Log: ${cPObj.errorLog}")
-KeywordUtil.logInfo("Fail Log: ${cPObj.failedLog}")
+KeywordUtil.logInfo("Total test case: $cPObj.totalCaseCount")
+KeywordUtil.logInfo("Test case succeed: $cPObj.successCount")
+KeywordUtil.logInfo("Test case failed: $cPObj.failedCount")
+KeywordUtil.logInfo("Error Log: $cPObj.errorLog")
+KeywordUtil.logInfo("Fail Log: $cPObj.failedLog")
 
 WebUI.closeBrowser()
 
 assert cPObj.totalCaseCount == cPObj.successCount : "There are ${cPObj.failedCount} failed cases. \nError Log: ${cPObj.errorLog} \nFailed Log: ${cPObj.failedLog}"
+

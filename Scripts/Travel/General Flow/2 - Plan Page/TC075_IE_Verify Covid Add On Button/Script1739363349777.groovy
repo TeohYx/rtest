@@ -21,7 +21,7 @@ String buttonBuy = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "
 String costBreakdown = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "title.costBreakdown", "EN")
 String covidBreakdown = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "priceBreakdown.covid", "EN")
 
-WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Plan Page'), [('TCarea') : 2, ('TCplan') : 1, ('TCtrip') : 1], 
+WebUI.callTestCase(findTestCase('Travel/Reusable Module/Quotation Form'), [('TCarea') : 2, ('TCplan') : 1, ('TCtrip') : 1], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/button_CovidAddOn'))

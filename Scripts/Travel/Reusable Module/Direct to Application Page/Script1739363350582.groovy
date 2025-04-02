@@ -19,7 +19,34 @@ import org.openqa.selenium.Keys as Keys
 
 String buttonBuy = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.buy", "EN")
 
-int packages = TCpackage
+// Area
+try {
+	area = TCarea
+} catch (Exception e) {
+	area = 1
+}
+
+// Plan type
+try {
+	plan = TCplan
+} catch (Exception e)
+{
+	plan = 1
+}
+
+try {
+	trip = TCtrip	
+} catch (Exception e) {
+	trip = 1
+}
+
+//plan class
+try {
+	packages = TCpackage
+} catch (Exception e) {
+	packages = 1
+}
+
 
 String departDate = ""
 String arrivalDate = ""
@@ -39,8 +66,8 @@ try {
 println(departDate)
 println(arrivalDate)
 
-WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Plan Page'), [('TCarea') : TCarea, ('TCplan') : TCplan
-        , ('TCtrip') : TCtrip, ('TCdepartDate') : departDate, ('TCarrivalDate') : arrivalDate], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Travel/Reusable Module/Quotation Form'), [('TCarea') : area, ('TCplan') : plan
+        , ('TCtrip') : trip, ('TCdepartDate') : departDate, ('TCarrivalDate') : arrivalDate], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Travel/TripCare360/English/Plan Page/button_SilverPlan'), 10)
 WebUI.delay(2)

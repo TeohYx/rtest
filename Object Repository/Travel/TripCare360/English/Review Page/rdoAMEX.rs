@@ -6,16 +6,16 @@
    <elementGuidId>7d430821-873d-467b-8be1-be15d771d322</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#CARD</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//input[@id='AMEX']</value>
+         <value>//input[@value='AMEX']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@name = 'payMode' and @type = 'radio' and @id = 'CARD']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#CARD</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>6ba9390a-c14d-475a-acba-a0175fda7363</webElementGuid>
+      <webElementGuid>74f10577-af52-41b2-9b42-9ed0081df1ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +35,7 @@
       <name>name</name>
       <type>Main</type>
       <value>payMode</value>
-      <webElementGuid>f5045763-773e-4fc1-a647-667167f9ffb7</webElementGuid>
+      <webElementGuid>9937663f-32b8-4230-a95f-8b73b6dfa437</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +43,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>5852c54b-781c-4370-a1ba-60ed67a354fd</webElementGuid>
+      <webElementGuid>2f5a554d-837f-4d28-af0b-d361c6e537dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +51,7 @@
       <name>id</name>
       <type>Main</type>
       <value>CARD</value>
-      <webElementGuid>df4a9ba7-34d9-41aa-992e-cf59c070c848</webElementGuid>
+      <webElementGuid>0494f71b-b36f-462b-a60b-049e3218aad3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-check-input</value>
-      <webElementGuid>360f8e2d-2b05-463d-895c-e128c1a4b2a3</webElementGuid>
+      <webElementGuid>462e0725-0c31-46c7-90f0-5ff1071e0567</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>value</name>
       <type>Main</type>
       <value>CARD</value>
-      <webElementGuid>c466fd1a-c171-4226-8e40-9883b317e0c5</webElementGuid>
+      <webElementGuid>32e144ee-87a2-45a9-88d6-b459437e4855</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;CARD&quot;)</value>
-      <webElementGuid>53b62a57-f506-4997-b08f-a037cf74de9b</webElementGuid>
+      <webElementGuid>11160d16-13f1-4def-b1b5-1707a6211b47</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='CARD']</value>
-      <webElementGuid>784f76d1-c036-4ce8-a35b-586148cc23b9</webElementGuid>
+      <webElementGuid>90e72f42-2db9-4197-b5e9-0398a769a913</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div/form/div/div/div[3]/div[2]/div/div/div/div/div/div/div/div/div/input</value>
-      <webElementGuid>22cab0f7-6b53-47fa-8f4e-dba4ec9295a6</webElementGuid>
+      <webElementGuid>c63c65d2-26b1-4153-b059-86dfa434f4f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>4ce96af4-b103-4407-8894-39b76220bd26</webElementGuid>
+      <webElementGuid>fed63078-74bd-4c1a-95e1-8f69d891a2cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,6 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'payMode' and @type = 'radio' and @id = 'CARD']</value>
-      <webElementGuid>b659df69-03a7-49d5-bb28-b5bf6901e34b</webElementGuid>
+      <webElementGuid>0a19c7d5-27e1-4e10-905e-ff3e5b138881</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

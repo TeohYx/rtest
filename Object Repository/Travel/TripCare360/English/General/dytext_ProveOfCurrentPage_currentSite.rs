@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//label[text() ='${currentSite}']</value>
+         <value>//label[text() ='${currentSite}' and contains(@class, 'fw-bold')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>ae8ef7d4-c7c5-4f9c-817a-05356dc0a5a2</webElementGuid>
+      <webElementGuid>50ea5a2f-0deb-45bb-a7d5-735247a0c8ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4b527107-2386-4b45-940e-7443b7f9d69b</webElementGuid>
+      <webElementGuid>26fd8c8d-4842-4664-8482-00d6e3d28bcf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dropdown-item</value>
-      <webElementGuid>e76c696e-d3e2-4f3e-b13d-f94360939f3e</webElementGuid>
+      <webElementGuid>1a3a3b08-5ab6-4170-85cf-0bbc5fcbb7c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8619f4bb-d663-465b-8054-f3082612e152</webElementGuid>
+      <webElementGuid>de4dd20b-e066-43f9-99e3-2699872610f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +60,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>fa2e99d1-4e4f-4e19-9d1b-058a09f5e005</webElementGuid>
+      <webElementGuid>4b39f2e5-cd12-4bd8-af9d-687948b155da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -68,7 +68,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>082ed9ca-e6e3-4c5c-889d-e60d88a6a267</webElementGuid>
+      <webElementGuid>90bdd9a7-a733-4c85-abc3-1aa3edcead1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -76,7 +76,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Asia (excluding Oceania &amp; Middle-East Countries)</value>
-      <webElementGuid>cde89afe-976d-4ff6-90c5-2de413a533fb</webElementGuid>
+      <webElementGuid>2bfd2aa2-c4e3-49e0-93d2-f3da8af5145e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;ml-0 p-0 m-0 container-fluid&quot;]/div[@class=&quot;quotation__Styles-sc-1lv5yzf-1 SsZUK&quot;]/div[@class=&quot;main-page&quot;]/div[@class=&quot;quote-form-component&quot;]/div[@class=&quot;my__Styles-sc-19kkwpv-4 znbYv&quot;]/div[@class=&quot;quote-form&quot;]/form[1]/div[@class=&quot;my__FormGroupWrapper-sc-19kkwpv-1 hmvtah&quot;]/div[@class=&quot;my__FormGroup-sc-19kkwpv-2 bOHvqQ&quot;]/div[@class=&quot;TravellingToDropDown__Styles-sc-199yico-1 fUqdKK&quot;]/div[@class=&quot;show dropdown&quot;]/div[@class=&quot;dropdown-menu-travelling-with dropdown-menu show&quot;]/div[@class=&quot;dropdown-item-div-travelling-with&quot;]/a[@class=&quot;dropdown-item&quot;]</value>
-      <webElementGuid>6cf86689-aac8-4164-a498-9656d5b633c3</webElementGuid>
+      <webElementGuid>8262c955-cd6d-4c5a-811a-a3005ded7e36</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -92,7 +92,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div/div/div[2]/div[3]/div/form/div[3]/div/div/div/div/div/a[2]</value>
-      <webElementGuid>4cc77534-6f87-45a1-8c02-af76661cd8c8</webElementGuid>
+      <webElementGuid>59e0c9aa-e9e2-43e9-b99e-5ca3aab27d46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Asia (excluding Oceania &amp; Middle-East Countries)')]</value>
-      <webElementGuid>3de8d305-32d4-4c29-92eb-e11d961e2c41</webElementGuid>
+      <webElementGuid>a43fddf5-5fa6-4f50-b15d-ed5a3b6d55e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Country'])[1]/following::a[2]</value>
-      <webElementGuid>c856d55b-edad-42c6-9006-24a90342d361</webElementGuid>
+      <webElementGuid>4ce2047b-1652-427e-86d0-d56e7659452f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Where are you travelling to?'])[1]/following::a[2]</value>
-      <webElementGuid>8b5f257e-b99c-45bb-a712-43050f0db101</webElementGuid>
+      <webElementGuid>151905ed-f2fa-468c-993a-4ddb3c02eb80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,7 +124,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='When are you travelling?'])[1]/preceding::a[3]</value>
-      <webElementGuid>248d1ad6-0f83-4466-adac-a9586470bc33</webElementGuid>
+      <webElementGuid>8db33ad5-abad-4c9f-a0c7-7fe6f693d467</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -132,7 +132,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='to'])[1]/preceding::a[3]</value>
-      <webElementGuid>94f60946-9e3b-468d-897b-735de582c7ab</webElementGuid>
+      <webElementGuid>f18670a5-5ba3-4436-801e-8fef59dd9d58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,7 +140,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Asia (excluding Oceania &amp; Middle-East Countries)']/parent::*</value>
-      <webElementGuid>880b3cf3-2587-4e53-9b12-01300f3dd22a</webElementGuid>
+      <webElementGuid>3e84105e-9204-44fc-b511-d7540a480478</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -148,7 +148,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[2]</value>
-      <webElementGuid>64f77779-f61d-44a2-8a79-83b90fc16d4c</webElementGuid>
+      <webElementGuid>f4e37970-1bdb-42f8-97a5-b091666b7740</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -156,7 +156,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]</value>
-      <webElementGuid>fd35bd83-b9b5-4033-9237-8d27fb10e33d</webElementGuid>
+      <webElementGuid>80b75c6c-0029-476c-bb48-6ba33b0b7fd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -164,6 +164,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Asia (excluding Oceania &amp; Middle-East Countries)' or . = 'Asia (excluding Oceania &amp; Middle-East Countries)')]</value>
-      <webElementGuid>0ad9dcc6-9f95-486e-914d-d8749ecc655e</webElementGuid>
+      <webElementGuid>7e571ebb-adec-4e95-b262-56c515a9b45b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

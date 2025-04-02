@@ -28,7 +28,7 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/butto
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_button', [('button') : buttonPayment]))
 	
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Review Page/dywarning_ModeOfPayment_wrnmsg', [('warning') : warning]), 0)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Review Page/dywarning_ModeOfPayment_wrnmsg', [('wrnmsg') : warning]), 0)
 
 WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
 

@@ -34,9 +34,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
  *
  */
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.LINK)
+WebUI.callTestCase(findTestCase('Travel/Reusable Module/Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
 int planType = 3
 

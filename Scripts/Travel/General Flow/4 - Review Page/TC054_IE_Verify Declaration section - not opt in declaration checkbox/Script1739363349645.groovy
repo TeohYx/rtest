@@ -25,7 +25,7 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Filled Form - Myself'), 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_ConfirmDetails'))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_button', [('button') : buttonPayment]))	
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Review Page/dywarning_Declaration_wrnmsg', [('warning') : warning]), 3)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Review Page/dywarning_Declaration_wrnmsg', [('wrnmsg') : warning]), 3)
 
 WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
 

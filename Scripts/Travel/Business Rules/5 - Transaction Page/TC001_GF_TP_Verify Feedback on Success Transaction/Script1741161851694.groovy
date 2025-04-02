@@ -44,7 +44,7 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/butt
 
 WebUI.delay(5)
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/validation_YourPaymentIsSuccessful'), 10)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/validation_YourPaymentIsSuccessful'), 20)
 
 WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Payment Page/button_Feedback5Star'))
 

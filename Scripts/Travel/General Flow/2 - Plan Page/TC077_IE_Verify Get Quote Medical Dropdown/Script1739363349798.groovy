@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 String dropdown = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "benefitDropdown.expenses", "EN")
 String validation = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "benefitValidation.expenses", "EN")
 
-WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Plan Page'), [('TCarea') : 2, ('TCplan') : 1, ('TCtrip') : 1],
+WebUI.callTestCase(findTestCase('Travel/Reusable Module/Quotation Form'), [('TCarea') : 2, ('TCplan') : 1, ('TCtrip') : 1],
 	FailureHandling.STOP_ON_FAILURE)
 
 WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Plan Page/dydropdown_PlanBenefits_benefitDropdown', [('benefitDropdown') : dropdown]))

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Direct to Plan Page</name>
+   <name>Traveller Info - Child</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>dcf2d3b2-7fff-465c-b048-67ec1d723714</testCaseGuid>
+   <testCaseGuid>59355f1c-50b7-47ce-8d58-06844097f623</testCaseGuid>
 </TestCaseEntity>

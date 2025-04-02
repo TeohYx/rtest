@@ -76,7 +76,7 @@ WebUI.delay(5)
 WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/validation_YourPaymentIsSuccessful'), 10)
 
 WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/dyvalidation_TransactionSummary_title,code', 
-	[('text') : policyNumber, 
+	[('title') : policyNumber, 
 		('code') : policyNumberPrefix]), 3)
 
 WebUI.delay(3)

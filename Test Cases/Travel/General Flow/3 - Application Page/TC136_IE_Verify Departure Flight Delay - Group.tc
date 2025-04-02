@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC136_IE_Verify Departure Flight Delay - Group</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a6c77cbb-7785-464a-96a2-4e0e43d928c2</testCaseGuid>
+</TestCaseEntity>

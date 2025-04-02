@@ -26,10 +26,47 @@ import groovy.text.SimpleTemplateEngine
 import com.kms.katalon.core.testobject.ConditionType
 import java.time.LocalDate
 import java.time.Period
+import java.time.*
 
 public class Utility {
 	// All
 
+	/**
+	 * Take IC and return its DOB (DDMMYYYY)
+	 * @param NRIC
+	 * @return (DDMMYYYY)
+	 */
+	@Keyword
+	def icToDOB(String NRIC) {
+		String year = NRIC.substring(0, 2)
+		String originalYear = convertYear(year)
+		String month = NRIC.substring(2, 4)
+		String day = NRIC.substring(4, 6)
+
+		String dob = day + month + originalYear		
+		return dob
+	}
+	
+	def convertYear(String year) {
+		/* If the IC year is larger than the current year, the year in DOB will be 19' instead of 20.
+		 * For example, 101010071110 (10) in IC with current year (2024) will result in 2010 as year in DOB.
+		 */
+		String thisYear = Year.now()
+
+		int shortFormLength = 2
+
+		int beginIndex = thisYear.length() - shortFormLength
+
+		String thisYearShort = thisYear.substring(beginIndex, thisYear.length())
+		int thisYearShortInt = Integer.parseInt(thisYearShort)
+
+		int givenYearInt = Integer.parseInt(year)
+
+		String originalYear = givenYearInt > thisYearShortInt ? '19' + year : '20' + year
+
+		return originalYear
+	}
+	
 	/**
 	 * 
 	 * @param productRow The name of the product
@@ -64,6 +101,44 @@ public class Utility {
 
 		// If the version cannot be found, means the given data cannot be found in the file.
 		String errorText = "The version of ${version} on Product: ${productRow} and Name: ${productName} cannot be located."
+		return [
+			'status': 'error',
+			'text': errorText
+		]
+	}
+
+	/**
+	 * Get the column and row and return the value from 'TravellerInfo' sheet in 'Object Repository.xlsx'
+	 * @param row The name of the product
+	 * @param column The specific name in the product
+	 * @return String The specific version of the result
+	 */
+	@Keyword
+	def getTravellerInfo(String row, String column) {
+		TestData data = findTestData("ObjectRepository")
+		data.changeSheet("TravellerInfo")
+
+		def header = data.getColumnNames()
+
+		if (!header.contains(column)) {
+			return [
+				'status': 'error',
+				'text': "The given column do not match the header of the file."
+			]
+		}
+
+		for (int i = 1; i <= data.getRowNumbers(); i++) {
+			String dataRow = data.getValue("Input", i)
+
+			if (dataRow == row) {
+				String versionValue = data.getValue(column, i)
+
+				return versionValue
+			}
+		}
+
+		// If the version cannot be found, means the given data cannot be found in the file.
+		String errorText = "The column of ${column} on row: ${row} cannot be located."
 		return [
 			'status': 'error',
 			'text': errorText

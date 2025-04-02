@@ -6,16 +6,16 @@
    <elementGuidId>4a831efc-359e-4a04-842f-9cddf6a99dce</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.dropdown-item</value>
+         <key>XPATH</key>
+         <value>//button[@name='planType']//following-sibling::div//*[contains(text(), '${planType}')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@href = '#' and (text() = 'Just myself' or . = 'Just myself')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@name='planType']//following-sibling::div//a[contains(text(), '${planType}')]</value>
+         <key>CSS</key>
+         <value>a.dropdown-item</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>2a1fdb3e-cc41-4629-9a7f-f53541491cde</webElementGuid>
+      <webElementGuid>179b1991-e0d3-414a-9c54-be48b8bbcd30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b0155396-994d-442d-85d3-99321c56f9b4</webElementGuid>
+      <webElementGuid>517a6bdd-fa2e-4251-8eb0-15461ebebb9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dropdown-item</value>
-      <webElementGuid>12fccea1-fd11-4916-8677-94afa71ddb35</webElementGuid>
+      <webElementGuid>5789cfec-512d-4abf-a0b1-597d56c00db8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b8d81b58-94e7-4dff-9d64-faab050294e2</webElementGuid>
+      <webElementGuid>a4b33750-195d-43e4-8b7a-7d89ef8c8970</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>cb28241f-7941-43cc-942e-15aea48c6683</webElementGuid>
+      <webElementGuid>8d5e0c80-67e9-4c94-b3bc-32247aa861b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -67,7 +67,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>6e0c5eb0-a87b-41a6-9385-6d38d739b188</webElementGuid>
+      <webElementGuid>4edd3a9a-9e34-4a42-9e3d-ff9586d0874c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -75,7 +75,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Just myself</value>
-      <webElementGuid>a067e11a-a9c5-4603-a2b3-f6d8e3be01d8</webElementGuid>
+      <webElementGuid>6647c485-5918-4688-b991-9b2832c972d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;quotation__Styles-sc-1ea5jab-0 pofmb&quot;]/div[@class=&quot;main-page&quot;]/div[@class=&quot;quote-form-component&quot;]/div[@class=&quot;QuoteForm__Styles-sc-8eq6jo-6 cuPXsd&quot;]/div[@class=&quot;quote-form&quot;]/form[1]/div[@class=&quot;QuoteForm__FormGroupWrapper-sc-8eq6jo-1 klvkIb&quot;]/div[@class=&quot;QuoteForm__FormGroup-sc-8eq6jo-2 kEyEqe mb-0 border-bottom-0&quot;]/div[@class=&quot;show dropdown&quot;]/div[@class=&quot;dropdown-menu-travelling-with dropdown-menu show&quot;]/div[@class=&quot;dropdown-item-div-travelling-with&quot;]/a[@class=&quot;dropdown-item&quot;]</value>
-      <webElementGuid>a08f7f38-7c4b-4bf1-8f0f-0085e1978c18</webElementGuid>
+      <webElementGuid>f3d1f76b-757f-4c0a-ba1f-60372d1222ea</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div/div/div[2]/div[3]/div/form/div[3]/div[3]/div/div/div/div/a</value>
-      <webElementGuid>f3ef9be7-3ff0-432d-806d-a630e8a34bf3</webElementGuid>
+      <webElementGuid>a19afe3a-0c77-4d77-b14d-d0dc47283360</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Just myself')]</value>
-      <webElementGuid>012e04b9-6668-4522-ba65-65373a125c89</webElementGuid>
+      <webElementGuid>5539f72b-5600-4fcd-8567-d34976b6862c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select...'])[1]/following::a[1]</value>
-      <webElementGuid>19b53384-924c-48bf-aa0c-33bba8e5e0a7</webElementGuid>
+      <webElementGuid>96fb4adb-783a-47a6-b7b4-d3bdab9fbc79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Who are you travelling with?'])[1]/following::a[1]</value>
-      <webElementGuid>dc8c1671-a293-4368-9c29-dadc8b119d5e</webElementGuid>
+      <webElementGuid>bafa376b-d9a6-4565-8fdd-ab927064a694</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(Age above 70)'])[1]/preceding::a[1]</value>
-      <webElementGuid>5f61df0d-aaf7-4082-b541-2a27d2ab3a36</webElementGuid>
+      <webElementGuid>845c128a-6e2f-4f1b-a58d-d5504aefdf28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,7 +131,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Quote Now'])[1]/preceding::a[4]</value>
-      <webElementGuid>60636209-ccdd-4797-a1ed-03711b304c25</webElementGuid>
+      <webElementGuid>262691e7-8429-4269-9646-711d58425fb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -139,7 +139,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Just myself']/parent::*</value>
-      <webElementGuid>e9487be6-4281-4b20-8ceb-d5f45a912e3f</webElementGuid>
+      <webElementGuid>52c091fb-8481-4343-9669-5cade8a75702</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,7 +147,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[5]</value>
-      <webElementGuid>beef29a3-9e76-4f7e-95b4-1c04cbc774d4</webElementGuid>
+      <webElementGuid>a13e75bc-31cc-47e0-b80a-25f1c7faaf7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -155,7 +155,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div/a</value>
-      <webElementGuid>1299f5ce-9492-4856-b5bc-23652d741f2d</webElementGuid>
+      <webElementGuid>802bb8d7-36c2-4fb6-bbf9-e299c54c857b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -163,6 +163,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Just myself(18 - 70 years old)' or . = 'Just myself(18 - 70 years old)')]</value>
-      <webElementGuid>7225dbb2-7aa9-4574-ae8f-5df51051a46c</webElementGuid>
+      <webElementGuid>9a3655a0-c747-4f77-af8b-2b5ed374248d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

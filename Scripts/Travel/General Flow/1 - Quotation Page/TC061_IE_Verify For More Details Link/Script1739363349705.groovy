@@ -21,7 +21,13 @@ WebUI.callTestCase(findTestCase('Travel/Reusable Module/Open Application'), [:],
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/link_Clickhere'))
 
-WebUI.switchToWindowTitle(GlobalVariable.title_quotation_ClickHere)
+//WebUI.switchToWindowTitle(GlobalVariable.title_quotation_ClickHere)
+
+WebUI.switchToWindowIndex(1)
+String link = WebUI.getUrl()
+
+assert link.contains(GlobalVariable.link_GetMore) : "Wrong link: ${link}"
+//WebUI.switchToWindowUrl(GlobalVariable.link_GetMore)
 
 WebUI.delay(4)
 

@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String area = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "area.1", "EN")
-String planType = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "planType.5", "EN")
-String buttonPlan = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.toPlanPage", "EN")
-String buttonBuy = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.buy", "EN")
-String buttonPayment = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.proceedPayment", "EN")
-String policyNumber = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "summary.policyNumberTitle", "EN")
-String policyNumberPrefix = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "summary.policyNumberPrefix", "EN")
+String area = CustomKeywords.'utils.Utility.getDynamicRepoInfo'('Travel', 'area.1', 'EN')
+String planType = CustomKeywords.'utils.Utility.getDynamicRepoInfo'('Travel', 'planType.5', 'EN')
+String buttonPlan = CustomKeywords.'utils.Utility.getDynamicRepoInfo'('Travel', 'button.toPlanPage', 'EN')
+String buttonBuy = CustomKeywords.'utils.Utility.getDynamicRepoInfo'('Travel', 'button.buy', 'EN')
+String buttonPayment = CustomKeywords.'utils.Utility.getDynamicRepoInfo'('Travel', 'button.proceedPayment', 'EN')
+String policyNumber = CustomKeywords.'utils.Utility.getDynamicRepoInfo'('Travel', 'summary.policyNumberTitle', 'EN')
+String policyNumberPrefix = CustomKeywords.'utils.Utility.getDynamicRepoInfo'('Travel', 'summary.policyNumberPrefix', 'EN')
 
 // Quotation
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -46,69 +46,84 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dr
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dybutton_SelectPlanType_planType', [('planType') : planType]))
 
-WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/dysubmit_GetQuoteNow_button',
-	[('button'): buttonPlan]))
+WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/dysubmit_GetQuoteNow_button', 
+        [('button') : buttonPlan]))
 
 WebUI.delay(1)
+
 //Plan
 WebUI.scrollToElement(findTestObject('Travel/TripCare360/English/Plan Page/button_SilverPlan'), 0)
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/button_SilverPlan'))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/dysubmit_Buy_button', [('button') : buttonBuy]))
+
 WebUI.delay(1)
+
+def travellerSecondary = [
+	'departureFlightDate': '2025-04-10'
+]
+WebUI.callTestCase(findTestCase('Travel/Reusable Module/Flight delay claim - Group'), [('params'): travellerSecondary], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Travel/Reusable Module/Traveller Info - Adult, Main, Group'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Travel/Reusable Module/Traveller Info - Adult, Secondary, Group'), [:], FailureHandling.STOP_ON_FAILURE)
+
 //Application
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
-
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), '980421045116')
-
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoFullName'), 'TestingName')
-
-WebUI.selectOptionByLabel(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEthnicity'), 'Indian', false)
-
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEmail'), 'yeexian_tyx@hotmail.com')
-
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_MobileNumber'), '137447138')
-
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoBuildingName'), 'Testing')
-
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoAreaName'), 'Testing')
-
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_Postcode'), '81300')
-
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))
-
-WebUI.scrollToElement(findTestObject('Travel/TripCare360/English/AppPage/button_ConfirmDetails'), 0)
-
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_SecondEdit'))
-
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), '981224016421')
-
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoFullName'), 'testAdult')
-
-WebUI.selectOptionByLabel(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEthnicity'), 'Indian', false)
-
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEmail'), 'krisnavenii.rrajan@etiqa.com.my')
-
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_MobileNumber'), '0137447138')
-
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))
-
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/dropdown_BankName'))
-
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_CIMB'))
-
-WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoBankAccountNumber'), '1234567890')
+//WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_EditPolicyOwner'))
+//
+//WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), '980421045116')
+//
+//WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoFullName'), 'TestingName')
+//
+//WebUI.selectOptionByLabel(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEthnicity'), 'Indian', false)
+//
+//WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEmail'), 'yeexian_tyx@hotmail.com')
+//
+//WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_MobileNumber'), '137447138')
+//
+//WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoBuildingName'), 'Testing')
+//
+//WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoAreaName'), 'Testing')
+//
+//WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_Postcode'), '81300')
+//
+//WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))
+//WebUI.scrollToElement(findTestObject('Travel/TripCare360/English/AppPage/button_ConfirmDetails'), 0)
+//
+//WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_SecondEdit'))
+//
+//WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_PassportOrIdentityNumber'), '981224016421')
+//
+//WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoFullName'), 'testAdult')
+//
+//WebUI.selectOptionByLabel(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEthnicity'), 'Indian', false)
+//
+//WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoEmail'), 'krisnavenii.rrajan@etiqa.com.my')
+//
+//WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_MobileNumber'), '0137447138')
+//
+//WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_PersonalDetailsSaveChanges'))
+//
+//WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/dropdown_BankName'))
+//
+//WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_CIMB'))
+//
+//WebUI.setText(findTestObject('Travel/TripCare360/English/AppPage/input_TravellerInfoBankAccountNumber'), '1234567890')
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/AppPage/button_ConfirmDetails'))
+
 WebUI.delay(1)
+
 // Review
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/rdoFPXPayment'))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/button_Declaration'))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_button', [('button') : buttonPayment]))
+
 WebUI.delay(1)
+
 // Payment
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_PayNetOption'))
 
@@ -125,14 +140,15 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/butt
 WebUI.delay(10)
 
 // Transaction
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/validation_YourPaymentIsSuccessful'), 10)
+WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/validation_YourPaymentIsSuccessful'), 
+    10)
 
 WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/dyvalidation_TransactionSummary_title,code', 
-	[('title') : policyNumber, 
-		('code') : policyNumberPrefix]), 3)
+        [('title') : policyNumber, ('code') : policyNumberPrefix]), 3)
 
 WebUI.delay(3)
 
 WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
+

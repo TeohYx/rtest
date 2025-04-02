@@ -31,7 +31,7 @@ String buttonBuy = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "
 
 def errorMessage = []
 
-WebUI.callTestCase(findTestCase('Travel/Reusable Module/Direct to Plan Page'), [('TCarea') : 2, ('TCplan') : 1, ('TCtrip'): 2], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Travel/Reusable Module/Quotation Form'), [('TCarea') : 2, ('TCplan') : 1, ('TCtrip'): 2], FailureHandling.STOP_ON_FAILURE)
 
 String planClass = WebUI.getAttribute(findTestObject('Travel/TripCare360/English/General/dytext_ProveOfCurrentPage_currentSite', [('currentSite') : planSite]), 
     'class')
