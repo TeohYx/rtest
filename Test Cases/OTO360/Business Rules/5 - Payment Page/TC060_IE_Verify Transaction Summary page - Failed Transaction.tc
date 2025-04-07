@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC060_IE_Verify Transaction Summary page - Failed Transaction</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f39677d6-8f6a-47c9-a452-cce947ad1df6</testCaseGuid>
+</TestCaseEntity>

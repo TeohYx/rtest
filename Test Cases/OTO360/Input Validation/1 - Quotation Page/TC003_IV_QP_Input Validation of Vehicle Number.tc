@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_IV_QP_Input Validation of Vehicle Number</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bdfb4d1e-6bfd-4527-a286-edca7acf37d9</testCaseGuid>
+</TestCaseEntity>

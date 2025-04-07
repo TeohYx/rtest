@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dyinput_genderFemale_detail</name>
+   <tag></tag>
+   <elementGuidId>c33357fd-38f8-4e47-b106-d8ccc00ff459</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[contains(@class, 'form-label') and contains(text(), '${detail}')]//following-sibling::*//descendant::button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>9b56692f-e3ad-446a-83c8-fbc939bb6eb2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1743656028190</value>
+      <webElementGuid>a9743ce6-7581-4c6f-9bcb-5a52ea64ac8f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

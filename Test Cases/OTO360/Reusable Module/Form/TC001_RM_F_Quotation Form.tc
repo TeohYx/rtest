@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_RM_F_Quotation Form</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>04de4568-20c6-456d-9b8f-669ed6507365</testCaseGuid>
+</TestCaseEntity>

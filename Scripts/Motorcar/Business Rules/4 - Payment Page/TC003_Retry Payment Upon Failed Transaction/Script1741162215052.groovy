@@ -32,7 +32,7 @@ WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/De
 WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Payment Page/button_PayNet'))
 WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Payment Page/button_Continue'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybutton_Button_button', [('cancel') : GlobalVariable.dyobj_CancelButton]))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybutton_Button_button', [('button') : GlobalVariable.dyobj_CancelButton]))
 
 WebUI.delay(5)
 
@@ -45,12 +45,12 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybu
 
 WebUI.setText(findTestObject('Object Repository/Travel/TripCare360/English/Payment Page/input_RetrieveYourProposal'), GlobalVariable.tempIC)
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybutton_Button_button', [('cancel') : GlobalVariable.dyobj_RetrieveButton]))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybutton_Button_button', [('button') : GlobalVariable.dyobj_RetrieveButton]))
 
 //retry
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/rdoFPXPayment'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_button', [('name') : GlobalVariable.dyobj_ProceedPayment]))
+WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_button', [('button') : GlobalVariable.dyobj_ProceedPayment]))
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_PayNetOption'))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_ContinueMPay'))

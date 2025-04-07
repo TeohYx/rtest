@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Verify Prefix Policy Number</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>03fde2f2-1b13-4c56-bb6b-e5cda3684a69</testCaseGuid>
-</TestCaseEntity>

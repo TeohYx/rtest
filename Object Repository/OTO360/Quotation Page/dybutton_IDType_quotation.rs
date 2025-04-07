@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dybutton_IDType_quotation</name>
+   <tag></tag>
+   <elementGuidId>d3af7823-916e-4313-9b8c-7abc96166b89</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[contains(@class, 'form-label') and contains(text(), &quot;${quotation}&quot;)]//following-sibling::div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>51a5caed-76ad-42fe-9ef6-d037b25968fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1743645685279</value>
+      <webElementGuid>bcc8a309-27a4-4cc3-b690-301b8bbc3e72</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

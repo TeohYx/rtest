@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005_RM_F_Bank Details Form</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6fb08861-5c54-4746-8ec4-fc6b7858ed9a</testCaseGuid>
+</TestCaseEntity>

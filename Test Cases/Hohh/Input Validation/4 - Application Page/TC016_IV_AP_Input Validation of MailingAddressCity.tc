@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC016_IV_AP_Input Validation of MailingAddressCity</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>81dec85b-5508-4da0-a4d6-d6f7715f1b95</testCaseGuid>
+</TestCaseEntity>

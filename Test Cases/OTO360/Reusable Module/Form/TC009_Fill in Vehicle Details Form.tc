@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC009_Fill in Vehicle Details Form</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>29520131-f510-4ea3-916f-7431f82c7c1e</testCaseGuid>
+</TestCaseEntity>

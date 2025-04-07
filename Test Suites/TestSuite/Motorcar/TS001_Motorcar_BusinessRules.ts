@@ -249,11 +249,4 @@
       <testCaseId>Test Cases/Motorcar/Business Rules/4 - Payment Page/TC060_IE_Verify Transaction Summary page - Failed Transaction</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
-   <testCaseLink>
-      <guid>5d656aaf-8be6-43ad-8e74-e171df6106f5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Motorcar/Business Rules/4 - Payment Page/Verify Prefix Policy Number</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>

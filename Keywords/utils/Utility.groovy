@@ -43,10 +43,10 @@ public class Utility {
 		String month = NRIC.substring(2, 4)
 		String day = NRIC.substring(4, 6)
 
-		String dob = day + month + originalYear		
+		String dob = day + month + originalYear
 		return dob
 	}
-	
+
 	def convertYear(String year) {
 		/* If the IC year is larger than the current year, the year in DOB will be 19' instead of 20.
 		 * For example, 101010071110 (10) in IC with current year (2024) will result in 2010 as year in DOB.
@@ -66,7 +66,7 @@ public class Utility {
 
 		return originalYear
 	}
-	
+
 	/**
 	 * 
 	 * @param productRow The name of the product
@@ -117,6 +117,44 @@ public class Utility {
 	def getTravellerInfo(String row, String column) {
 		TestData data = findTestData("ObjectRepository")
 		data.changeSheet("TravellerInfo")
+
+		def header = data.getColumnNames()
+
+		if (!header.contains(column)) {
+			return [
+				'status': 'error',
+				'text': "The given column do not match the header of the file."
+			]
+		}
+
+		for (int i = 1; i <= data.getRowNumbers(); i++) {
+			String dataRow = data.getValue("Input", i)
+
+			if (dataRow == row) {
+				String versionValue = data.getValue(column, i)
+
+				return versionValue
+			}
+		}
+
+		// If the version cannot be found, means the given data cannot be found in the file.
+		String errorText = "The column of ${column} on row: ${row} cannot be located."
+		return [
+			'status': 'error',
+			'text': errorText
+		]
+	}
+	
+	/**
+	 * Get 1 column and 1 row, and return the value from any sheet in 'Object Repository.xlsx'.
+	 * @param row The name of the product
+	 * @param column The specific name in the product
+	 * @return String The specific version of the result
+	 */
+	@Keyword
+	def getCustomInfoRowFromColumn(String sheet, String row, String column) {
+		TestData data = findTestData("ObjectRepository")
+		data.changeSheet(sheet)
 
 		def header = data.getColumnNames()
 
@@ -479,6 +517,45 @@ public class Utility {
 
 
 	// Hohh
+
+	// OTO360
+	/**
+	 * Get the column and row and return the value from 'TravellerInfo' sheet in 'Object Repository.xlsx'
+	 * @param row The name of the product
+	 * @param column The specific name in the product
+	 * @return String The specific version of the result
+	 */
+	@Keyword
+	def getOTOInfo(String row, String column) {
+		TestData data = findTestData("ObjectRepository")
+		data.changeSheet("OTO360")
+
+		def header = data.getColumnNames()
+
+		if (!header.contains(column)) {
+			return [
+				'status': 'error',
+				'text': "The given column do not match the header of the file."
+			]
+		}
+
+		for (int i = 1; i <= data.getRowNumbers(); i++) {
+			String dataRow = data.getValue("Input", i)
+
+			if (dataRow == row) {
+				String versionValue = data.getValue(column, i)
+
+				return versionValue
+			}
+		}
+
+		// If the version cannot be found, means the given data cannot be found in the file.
+		String errorText = "The column of ${column} on row: ${row} cannot be located."
+		return [
+			'status': 'error',
+			'text': errorText
+		]
+	}
 
 	/**
 	 * Operation to evenly distribute the amount to every contents.

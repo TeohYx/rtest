@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC008_IV_AP_Input Validation of ID Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bbd6d66a-b38b-48a1-9a2c-fb01199082c5</testCaseGuid>
+</TestCaseEntity>

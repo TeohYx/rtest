@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004_RM_F_Personal Details Form</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>65b2aba2-917a-4645-9c74-7ad964cedeef</testCaseGuid>
+</TestCaseEntity>

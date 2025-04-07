@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC053_IE_Verify Declaration section - Declaration e-document</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a4500408-085b-489d-8ae7-c7dadb9d7ffd</testCaseGuid>
+</TestCaseEntity>

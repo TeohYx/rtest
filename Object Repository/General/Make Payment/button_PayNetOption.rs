@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_PayNetOption</name>
+   <tag></tag>
+   <elementGuidId>60c707f9-a7e4-4b1b-bb15-2b8cb5d910b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='B2C']/label[19]/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label:nth-of-type(19) > img.h-15.w-auto.object-contain.bg-white2.rounded-btn</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>db8e9f4d-cb13-4132-9ec5-67d61882e974</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://pcimdex.mpay.my/mdex2/images/IPGbank_logo/SBI Bank A.png</value>
+      <webElementGuid>70a8d2cc-7fd7-4128-bcf5-0bb61cacb83f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>h-15 w-auto object-contain bg-white2 rounded-btn</value>
+      <webElementGuid>5ea4e755-3dde-46bd-b588-9b8b03e21e80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>SBI Bank A</value>
+      <webElementGuid>c1eea292-ae48-463f-b7aa-624b522cf0ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>SBI Bank A</value>
+      <webElementGuid>3ee528fe-8e5d-48f5-ba9c-f05ff7f7c97d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;B2C&quot;)/label[19]/img[@class=&quot;h-15 w-auto object-contain bg-white2 rounded-btn&quot;]</value>
+      <webElementGuid>36933196-3fa4-4e4d-8d7e-0331d7207dbc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='B2C']/label[19]/img</value>
+      <webElementGuid>ce737c29-8d06-4eb9-9904-2163ee02be9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='SBI Bank A']</value>
+      <webElementGuid>bfc40969-b103-4d8c-ab76-7033ee4017ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label[19]/img</value>
+      <webElementGuid>d33739fe-7a12-4ee5-88b7-c6f8a26ceff6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://pcimdex.mpay.my/mdex2/images/IPGbank_logo/SBI Bank A.png' and @alt = 'SBI Bank A' and @title = 'SBI Bank A']</value>
+      <webElementGuid>d3f31444-b261-4409-85be-915d216e4995</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

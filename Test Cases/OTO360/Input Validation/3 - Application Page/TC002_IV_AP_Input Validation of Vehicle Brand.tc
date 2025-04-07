@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_IV_AP_Input Validation of Vehicle Brand</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>355f906d-a33f-47e2-9d10-ccfd6f1324ab</testCaseGuid>
+</TestCaseEntity>

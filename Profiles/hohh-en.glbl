@@ -65,13 +65,13 @@
       <name>dyobj_ORPPA_ContentsCalculatorInput</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>owner, tenant, unoccupiedYes, unoccupiedNo, sufferedYes, sufferedNo, faqBuilding, faqContents, faqOthers, viewFullCoverage, propertyType</description>
-      <initValue>[('owner') : 'Owner', ('tenant') : 'Tenant', ('unoccupiedYes') : 'Yes', ('unoccupiedNo') : 'No', ('sufferedYes') : 'Yes', ('sufferedNo') : 'No', ('faqBuilding') : 'Building', ('faqContents') : 'Contents', ('faqOthers') : 'Others', ('viewFullCoverage') : 'View Full Coverage', ('propertyType') : 'Select property type']</initValue>
+      <description>owner, tenant, unoccupiedYes, unoccupiedNo, sufferedYes, sufferedNo, faqBuilding, faqContents, faqOthers, viewFullCoverage, propertyType, experienceFloodYes, experienceFloodNo, checkFlood</description>
+      <initValue>[('owner') : 'Owner', ('tenant') : 'Tenant', ('unoccupiedYes') : 'Yes', ('unoccupiedNo') : 'No', ('sufferedYes') : 'Yes', ('sufferedNo') : 'No', ('faqBuilding') : 'Building', ('faqContents') : 'Contents', ('faqOthers') : 'Others', ('viewFullCoverage') : 'View Full Coverage', ('experienceFloodYes') : 'Yes', ('experienceFloodNo') : 'No', ('checkFlood') : 'Check now', ('propertyType') : 'Select property type']</initValue>
       <name>dyobj_ORQP001</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>suffered, unoccupied, quotationClass, quotationAnyYes</description>
-      <initValue>[('suffered') : 'Have you suffered any loss or damage on this property in the past two years?', ('unoccupied') : 'Will this property be unoccupied for 90 days or more?', ('quotationClass') : 'I\'m a', ('quotationAnyYes') : 'Sorry. We are unable to provide you a quotation.']</initValue>
+      <description>suffered, unoccupied, quotationClass, quotationAnyYes, experienceFlood, postcode</description>
+      <initValue>[('suffered') : 'Have you suffered any loss or damage on this property in the past two years?', ('unoccupied') : 'Will this property be unoccupied for 90 days or more?', ('quotationClass') : 'I\'m a', ('quotationAnyYes') : 'We apologise, but we are unable to proceed with your application.', ('experienceFlood') : 'Is your property currently experiencing flooding?', ('postcode') : 'Key in your postcode to check for flood risk']</initValue>
       <name>dyobj_ORQP003</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -228,5 +228,10 @@
       <description>accountNumber, bankName, postcode, address2, address1, email, mobileNumber, dob, gender, race, nationality, nric, passport, name, idType, city</description>
       <initValue>[('accountNumber') : 'Current / Saving Account no.', ('bankName') : 'Bank name', ('postcode') : 'Postcode', ('address2') : 'Address 2', ('address1') : 'Address 1', ('email') : 'Email', ('mobileNumber') : 'Mobile number', ('city') : 'City (Optional)', ('dob') : 'Date of Birth', ('gender') : 'Gender', ('race') : 'Race', ('nationality') : 'Nationality', ('nric') : 'NRIC no.', ('passport') : 'Passport no.', ('name') : 'Name (as per NRIC)', ('idType') : 'ID Type']</initValue>
       <name>inputValidation_InputTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>51200</description>
+      <initValue>'51200'</initValue>
+      <name>dummy_postcode</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

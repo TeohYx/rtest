@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC019_IV_AP_Input Validation of Account Number</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>273d5a41-155e-4620-9050-b6aaa189e62b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC051_IE_Verify Declaration section - Policy Contract e-document</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e16dfc87-bdfa-4eec-b4dd-c45ade7ce2d9</testCaseGuid>
+</TestCaseEntity>

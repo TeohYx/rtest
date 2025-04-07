@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dybutton_checkFlood_text,button</name>
+   <tag></tag>
+   <elementGuidId>ade354ad-b28f-4412-b159-d7454f65ff63</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.text-nowrap.w-100.btn.btn-outline-dark</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[contains(text(), &quot;${text}&quot;)]//following-sibling::*//descendant::button[contains(text(), &quot;${button}&quot;)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Check now&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6ff89a05-17ff-453e-87b4-685a4e8f48c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4cc7a58b-2009-445f-9e2a-5522afc97b27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-nowrap w-100 btn btn-outline-dark</value>
+      <webElementGuid>9c4533d0-9ac7-4582-83ed-53687a2d4c9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Check now</value>
+      <webElementGuid>4ba19a79-dd1c-47c8-94dc-83803d9359a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;layout__Styles-sc-wetbic-0 ehlvJr&quot;]/div[@class=&quot;quotation__Styles-sc-ucwthg-0 joHbWJ bg-white&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;first-form row&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;QuotationForm__Styles-sc-1hggy6g-0 ekdXkh shadow p-3 mb-5 bg-body-tertiary rounded&quot;]/form[1]/div[@class=&quot;justify-content-center gap-3 mb-4 row&quot;]/div[@class=&quot;col-md-4&quot;]/div[1]/div[@class=&quot;d-flex gap-1&quot;]/button[@class=&quot;text-nowrap w-100 btn btn-outline-dark&quot;]</value>
+      <webElementGuid>a5a362f2-97b5-4c99-890b-958375e61c54</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>9f973da4-f441-4671-8166-37cca1344c26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div/div/div[2]/div/div/div/form/div[2]/div/div/div/button</value>
+      <webElementGuid>bb70628a-8350-4989-b77f-42953b19bb6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Key in your postcode to check for flood risk.'])[1]/following::button[1]</value>
+      <webElementGuid>46c70a3c-6cf8-4c72-9986-981249178613</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get a free quotation in minutes'])[1]/following::button[1]</value>
+      <webElementGuid>5ba445ce-7514-44e4-aa1a-1fb29ad01e0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Owner'])[1]/preceding::button[1]</value>
+      <webElementGuid>bb2e35ff-158a-4f30-a209-db9d0f1fd0b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Check now']/parent::*</value>
+      <webElementGuid>b1a65750-fa04-4565-9ee0-588fb94de154</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/button</value>
+      <webElementGuid>5a013fa6-f10e-40bb-b170-e95337440255</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Check now' or . = 'Check now')]</value>
+      <webElementGuid>80adb07b-b037-406a-8a19-5e41dc83f567</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

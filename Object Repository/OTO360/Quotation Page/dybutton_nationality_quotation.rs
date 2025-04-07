@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dybutton_nationality_quotation</name>
+   <tag></tag>
+   <elementGuidId>d1167f1e-754e-430e-9824-88cfb0f72e89</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[contains(@class, 'form-label') and contains(text(), &quot;${quotation}&quot;)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>0cbd8812-b813-4e15-97e8-c2c3e4548871</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1743645722059</value>
+      <webElementGuid>2183580b-8655-47f3-b997-1abf3d19b783</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

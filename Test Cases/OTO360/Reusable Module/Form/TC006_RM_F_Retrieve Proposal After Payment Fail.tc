@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC006_RM_F_Retrieve Proposal After Payment Fail</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6aebefc6-d873-4638-82d9-0a1d3fce82de</testCaseGuid>
+</TestCaseEntity>

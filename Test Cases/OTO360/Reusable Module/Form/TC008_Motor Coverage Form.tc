@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC008_Motor Coverage Form</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>16f54b1e-094f-4986-a0d5-db83296bf46e</testCaseGuid>
+</TestCaseEntity>

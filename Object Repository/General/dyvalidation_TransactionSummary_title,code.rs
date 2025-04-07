@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dyvalidation_TransactionSummary_title,code</name>
+   <tag></tag>
+   <elementGuidId>cf0a0dff-67e1-44a0-a6ad-ee5e786c73cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[text()='${title}']//following-sibling::div[contains(text(), '${code}')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.status__DotBox-sc-17j7umb-2.vBkoF</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c626c831-1bbb-4071-9820-177abab999af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>status__DotBox-sc-17j7umb-2 vBkoF</value>
+      <webElementGuid>c00109b3-7eaf-4275-ac68-b227a0fc2093</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Policy NumberPU002476</value>
+      <webElementGuid>a894cf7d-88db-40de-86a0-1280eb3ef9a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;justify-content-center row&quot;]/div[@class=&quot;col-md-3 col-6&quot;]/div[@class=&quot;status__DotBox-sc-17j7umb-2 vBkoF&quot;]</value>
+      <webElementGuid>c6a75feb-6998-490b-822e-3d68ce407cf2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/div[2]/div[2]/div/div/div</value>
+      <webElementGuid>cd68448d-6121-4f40-8eb4-35f6369b3cdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[1]/following::div[10]</value>
+      <webElementGuid>185e3f9a-5331-4855-9d2c-6b247658f0f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div</value>
+      <webElementGuid>b01ff7e5-42ea-4825-bdfa-75a5517d0ec0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Policy NumberPU002476' or . = 'Policy NumberPU002476')]</value>
+      <webElementGuid>024e25fc-7f98-43dc-88ac-f80ee637b49b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

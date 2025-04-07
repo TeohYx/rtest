@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC001_IV_AP_Verify Edge Case of Name</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>553f08e1-9d61-446c-a6b2-b7126b2db552</testCaseGuid>
-</TestCaseEntity>

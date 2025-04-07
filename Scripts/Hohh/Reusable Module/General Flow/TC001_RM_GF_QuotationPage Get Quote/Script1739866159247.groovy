@@ -20,14 +20,17 @@ import org.openqa.selenium.Keys as Keys
 /**
  * Fill in information in Hohh quotation with different scenario.
  *
- * 1. Owner/Tenant
- * 2. Date (leave it by default)
- * 3. Click PropertyType
- * 4. Select Landed/Non-landed
+ * 1. Fill in postcode
+ * 2. Check on the postcode
+ * 3. Select Yes/No for flooding experience
+ * 4. Owner/Tenant
+ * 5. Date (leave it by default)
+ * 6. Click PropertyType
+ * 7. Select Landed/Non-landed
  * 		- If landed, can choose no. of storey
- * 5. Select FullBrick/PartialBrick
- * 6. Select Yes/No for unoccupied
- * 7. Select Yes/No for suffered
+ * 8. Select FullBrick/PartialBrick
+ * 9. Select Yes/No for unoccupied
+ * 10. Select Yes/No for suffered
  *
  */
 def defaultParams = [('ownerClass') : findTestObject('Object Repository/Hohh/Quotation Page/dyselection_getQuotation_text,class', 
@@ -38,13 +41,25 @@ def defaultParams = [('ownerClass') : findTestObject('Object Repository/Hohh/Quo
 					('unoccupied') : findTestObject('Object Repository/Hohh/Quotation Page/dyselection_getQuotation_text,class', 
 						[('text') : GlobalVariable.dyobj_ORQP003['unoccupied'], ('class') : GlobalVariable.dyobj_ORQP001['unoccupiedNo']]), 
 					('suffered') : findTestObject('Object Repository/Hohh/Quotation Page/dyselection_getQuotation_text,class', 
-						[('text') : GlobalVariable.dyobj_ORQP003['suffered'], ('class') : GlobalVariable.dyobj_ORQP001['sufferedNo']])
+						[('text') : GlobalVariable.dyobj_ORQP003['suffered'], ('class') : GlobalVariable.dyobj_ORQP001['sufferedNo']]),
+					('postcode'): GlobalVariable.dummy_postcode,
+					('experienceFlood'): GlobalVariable.dyobj_ORQP001['experienceFloodNo']
 				]
 
 params = defaultParams + params
 
 WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC001_RM_C_Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 println(params['ownerClass'])
+
+String postcode = params['postcode']
+WebUI.setText(findTestObject('Object Repository/Hohh/Quotation Page/dyinput_postcode_text',
+	[('text'): GlobalVariable.dyobj_ORQP003['postcode']]), postcode)
+WebUI.enhancedClick(findTestObject('Object Repository/Hohh/Quotation Page/dybutton_checkFlood_text,button',
+	[('text'): GlobalVariable.dyobj_ORQP003['postcode'], ('button'): GlobalVariable.dyobj_ORQP001['checkFlood']]))
+
+WebUI.enhancedClick(findTestObject('Object Repository/Hohh/Quotation Page/dybutton_experienceFlood_text,class',
+	[('text'): GlobalVariable.dyobj_ORQP003['experienceFlood'], ('class'): params['experienceFlood']]))
+
 WebUI.enhancedClick(params['ownerClass'])
 WebUI.enhancedClick(findTestObject('Object Repository/Hohh/Quotation Page/dybutton_getQuotation_text', [('text') : GlobalVariable.dyobj_ORQP001['propertyType']]))
 WebUI.enhancedClick(params['propertyType'])

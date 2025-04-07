@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC013_IV_AP_Input Validation of Date of Birth</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d44da373-be9c-49aa-954d-8950cde32a81</testCaseGuid>
+</TestCaseEntity>

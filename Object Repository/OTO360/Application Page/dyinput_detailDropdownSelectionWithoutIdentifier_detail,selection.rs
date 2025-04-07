@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dyinput_detailDropdownSelectionWithoutIdentifier_detail,selection</name>
+   <tag></tag>
+   <elementGuidId>37513a69-a74d-4efb-b248-c74d26c8d638</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[contains(@class, 'form-label') and contains(text(), '${detail}')]//following-sibling::*//descendant::a[contains(text(), &quot;${selection}&quot;)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>533f4727-66df-4b55-ae48-75c7e085edff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1743656757073</value>
+      <webElementGuid>5430f232-c8f3-4ab6-beb1-22449c7e0fc0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

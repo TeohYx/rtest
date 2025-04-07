@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_BR_PP_Verify Discount Applied under EDP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d818f259-5731-40ce-94ac-e67e763c2ccb</testCaseGuid>
+</TestCaseEntity>

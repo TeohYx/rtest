@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_RM_F_Vehicle Details Form</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5ef3cd9c-d8b0-4928-9060-2ead181f7d44</testCaseGuid>
+</TestCaseEntity>

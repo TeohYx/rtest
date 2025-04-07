@@ -6,11 +6,11 @@
    <elementGuidId>6dd3dcfa-f880-4fe8-8b78-4af56295e8d8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//label[contains(text(), '${text}')]//following-sibling::p</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

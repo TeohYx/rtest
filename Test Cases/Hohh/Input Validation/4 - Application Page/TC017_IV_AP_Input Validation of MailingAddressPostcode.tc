@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC017_IV_AP_Input Validation of MailingAddressPostcode</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>15cca6c0-841b-4048-8d23-5f8c69a3f703</testCaseGuid>
+</TestCaseEntity>

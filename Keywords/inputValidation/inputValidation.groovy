@@ -79,6 +79,9 @@ public class inputValidation {
 			 * 	]
 			 * 
 			 */
+			println(method)
+			println(objectLocator)
+			println(params)
 			Map result = this."$methodName"(objectLocator, params)
 
 			String responseText = result['text']
@@ -293,7 +296,7 @@ public class inputValidation {
 	/**
 	 * @param objectLocator For input
 	 * @param params [
-	 warningMessageTrigger: required,
+	 warningMessageTrigger: list, required,
 	 warningMessageLocator: required,
 	 expectedWarningText: required
 	 ]
@@ -321,7 +324,15 @@ public class inputValidation {
 		}
 
 		WebUI.setText(objectLocator, "")
-		WebUI.enhancedClick(options.warningMessageTrigger)
+		
+		def triggers = options.warningMessageTrigger
+		if (triggers instanceof String) {
+			triggers = [triggers]  // Convert to a List containing the String
+		}
+		
+		triggers.each { trigger ->
+			WebUI.enhancedClick(trigger)
+		}
 
 		String warningText = WebUI.getText(options.warningMessageLocator)
 
@@ -535,7 +546,7 @@ public class inputValidation {
 	 invalidScenario: required
 	 ]
 	 */
-	def characterLength(def objectLocator) {
+	def characterLength(def objectLocator, Map params = [:]) {
 		def defaults = [
 			warningMessageTrigger: null,
 			warningMessageLocator: null,
@@ -567,13 +578,23 @@ public class inputValidation {
 		def validLog = []
 		def invalidLog = []
 
-
-		for (int i=0; i<testScenario.length; i++) {
+		println(testScenario)
+		for (int i=0; i<testScenario.size(); i++) {
+			println(objectLocator)
+			
+			println(testScenario[i])
 			WebUI.setText(objectLocator, testScenario[i])
 			String text = WebUI.getAttribute(objectLocator, 'value')
 
-			WebUI.enhancedClick(options.warningMessageTrigger)
-
+			def triggers = options.warningMessageTrigger
+			if (triggers instanceof String) {
+				triggers = [triggers]  // Convert to a List containing the String
+			}
+			
+			triggers.each { trigger ->
+				WebUI.enhancedClick(trigger)
+			}
+			WebUI.delay(1)
 			if (i==0) {
 				boolean isNotPresent = WebUI.verifyElementNotPresent(options.warningMessageLocator, 3, FailureHandling.OPTIONAL)
 

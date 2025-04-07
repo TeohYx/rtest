@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC023_IV_AP_Input Validation of Current Saving Account</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>39623191-c352-45dd-af4f-cd1a5deaf3fb</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_Retry Payment Upon Failed Transaction</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d82a20b2-838d-431d-99c9-731bd641ba7d</testCaseGuid>
+</TestCaseEntity>

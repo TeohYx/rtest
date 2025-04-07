@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC015_IV_AP_Verify Edge Case of MailingAddressAddress2</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>cafb196f-2723-43b1-85b1-7b7b3911230e</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>oto360-en</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>0: preprod; 1: sit; 2: uat</description>
+      <initValue>0</initValue>
+      <name>environment</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>VOA0005</description>
+      <initValue>['VOA0005']</initValue>
+      <name>rules_eligiblePlateNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>QQQ1111, VOA0010</description>
+      <initValue>['QQQ1111', 'VOA0010']</initValue>
+      <name>rules_purchasedPlateNumber</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

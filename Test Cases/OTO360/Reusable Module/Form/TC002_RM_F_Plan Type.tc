@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_RM_F_Plan Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>02e2291a-309c-4092-9ba3-5d273e9ea074</testCaseGuid>
+</TestCaseEntity>

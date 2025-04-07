@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004_RM_PF_Direct to Review Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a40a3e83-7f03-4844-8391-57b110ef534b</testCaseGuid>
+</TestCaseEntity>

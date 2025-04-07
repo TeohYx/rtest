@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC018_IV_AP_Verify Edge Case of BankName</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>3867fa06-e344-471e-8b9c-6d9ea6faf485</testCaseGuid>
-</TestCaseEntity>

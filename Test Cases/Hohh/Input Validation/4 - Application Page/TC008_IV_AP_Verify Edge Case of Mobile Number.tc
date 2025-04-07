@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC008_IV_AP_Verify Edge Case of Mobile Number</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>9be95cc7-6d15-4561-aaac-0e015a56f30c</testCaseGuid>
-</TestCaseEntity>

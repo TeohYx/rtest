@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC006_RM_PF_Make Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>890e580f-ced6-45dc-9c8f-cd54ae87d3d3</testCaseGuid>
+</TestCaseEntity>
