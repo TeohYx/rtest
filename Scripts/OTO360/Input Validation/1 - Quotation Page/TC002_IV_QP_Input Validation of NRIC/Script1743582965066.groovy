@@ -32,14 +32,12 @@ def warningMessageTrigger = [
 	]
 
 String warningText = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "wrnmsg.ic", "EN")
-String warningInputTitle = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "detail.ic", "EN")
 def warningMessageLocator = findTestObject('Object Repository/General/dywrnmsg_WarningMessage_wrnmsg',
 	[('wrnmsg'): warningText])
+
+String warningInputTitle = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "detail.ic", "EN")
 def warningMessageByInputLocator = findTestObject('Object Repository/General/dywrnmsg_WarningMessageByInputName_detail',
 	[('detail'): warningInputTitle])
-
-def element = findTestObject('Object Repository/OTO360/Quotation Page/dybutton_IDType_quotation',
-		[('quotation'): idTypeButton])
 
 def validScenario = ['000928070605'] // 1normal, 1minimum edge, 1maximum edge
 def invalidScenario = ['00092807060'] // 1 failed minimum, 1 failed maximum

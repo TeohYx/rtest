@@ -26,7 +26,7 @@ import com.kms.katalon.core.util.KeywordUtil
  *
  */
 
-TestObject addOnObj = findTestObject('Object Repository/Motorcar and Motorcycle/Plan Page/button_CoverageForDamagesAndInjuries')
+TestObject addOnObj = findTestObject('Object Repository/Motorcar and Motorcycle/Plan Page/button_GetCompensatedForCarRepairs')
 
 TestObject CARTbutton = findTestObject('Object Repository/Motorcar and Motorcycle/Plan Page/button_CART')
 TestObject LOUbutton = findTestObject('Object Repository/Motorcar and Motorcycle/Plan Page/button_LOU')

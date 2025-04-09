@@ -78,3 +78,4 @@ WebUI.enhancedClick(params['unoccupied'])
 WebUI.enhancedClick(params['suffered'])
 
 WebUI.enhancedClick(findTestObject('Object Repository/Hohh/ORM003_dysubmit_Submit_text', [('text') : GlobalVariable.dyobj_Submit_ORM003['quotation']]))
+WebUI.delay(3)

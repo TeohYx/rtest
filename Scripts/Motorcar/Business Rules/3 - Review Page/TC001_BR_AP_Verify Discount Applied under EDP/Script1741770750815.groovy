@@ -28,5 +28,8 @@ WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC002_RM_PF_Direct to
 
 boolean isPresent = WebUI.verifyElementPresent(discountObj, 10, FailureHandling.OPTIONAL)
 
+WebUI.takeFullPageScreenshot()
+WebUI.closeBrowser()
+
 assert isPresent
 

@@ -24,15 +24,18 @@ import com.kms.katalon.core.util.KeywordUtil
 
 // Quotation page plate number
 String plateNumberNormal = GlobalVariable.rules_carStatus['overSumInsured']
-def errorPage = null
+def errorPage = GlobalVariable.validation_UnderwritingError['sumInsuredExceed']
+
+def reminderObj = findTestObject('Object Repository/Motorcar and Motorcycle/Reminder Page/dyvalidation_Error_text', [
+	('text') : errorPage])
 
 // Open Application
 WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC001_RM_C_Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Quotation Page fill information
-WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC002_RM_PF_Direct to Plan Page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC002_RM_PF_Direct to Plan Page'), [('plateNumber'):plateNumberNormal], FailureHandling.STOP_ON_FAILURE)
 
-boolean isPresent = WebUI.verifyElementPresent(errorPage, 10, FailureHandling.OPTIONAL)
+boolean isPresent = WebUI.verifyElementPresent(reminderObj, 10, FailureHandling.OPTIONAL)
 
 WebUI.takeFullPageScreenshot()
 WebUI.closeBrowser()

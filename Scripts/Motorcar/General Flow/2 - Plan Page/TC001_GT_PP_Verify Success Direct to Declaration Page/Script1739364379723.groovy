@@ -40,8 +40,8 @@ WebUI.callTestCase(findTestCase('Reusable Module/General Flow/TC002_RM_GF_Plan P
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.enhancedClick(findTestObject('Motorcar and Motorcycle/Plan Page/button_To Declaration Page'))
-WebUI.waitForPageLoad(5)
 
+WebUI.verifyElementPresent(findTestObject('Motorcar and Motorcycle/General/text_PageTitle', [('section') : 'Declaration & Payment']), 10)
 String classAttribute = WebUI.getAttribute(findTestObject('Motorcar and Motorcycle/General/text_PageTitle', [('section') : 'Declaration & Payment']), 'class')
 
 def hasClass = ['fw-bold'].any({ def className ->

@@ -19,7 +19,11 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil
 
 try {
-	infoColumn = TCparams['column_set']
+	if (params.containsKey('column_set')) {
+		infoColumn = params['column_set']
+	} else {
+		infoColumn = "default"
+	}
 } catch (Exception e) {
 	infoColumn = "default"
 }

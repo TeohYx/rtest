@@ -43,7 +43,7 @@ import org.openqa.selenium.Keys as Keys
   		idType: MYKAD (String),
   		ic: 000928070605 (String),
   		vehicleNumber: VOA0005 (String),
-  		passport: (Optional) (String),
+  		passportNo: (Optional) (String),
   		nationality: (Optional) (String),
   		dateOfBirth: (Optional) (String),
   		armyIdNo: (Optional) (String),
@@ -80,7 +80,7 @@ String idTypeButton = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360"
 String idTypeSelection = null
 String applyQuotation = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "submit.quotationCheck", "EN")
 String nationalityButton = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "quotation.nationality", "EN")
-String nationalitySelection = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "quotationType.local", "EN")
+String nationalitySelection = params['nationality']
 
 //WebUI.callTestCase(findTestCase('OTO360/Reusable Module/Page Flow/TC001_RM_C_Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -107,11 +107,11 @@ if (params['idType'] == "MYKAD") {
 		[('quotation'): idTypeButton, ('quotationType'): idTypeSelection]))
 	
 	
-	WebUI.setText(findTestObject('Object Repository/OTO360/Quotation Page/input_passportNumber'), params['passportNo'])
+	WebUI.setText(findTestObject('Object Repository/OTO360/Quotation Page/input_passportNumber'), params['passport'])
 	WebUI.enhancedClick(findTestObject('Object Repository/OTO360/Quotation Page/dybutton_nationality_quotation', 
 		[('quotation'): nationalityButton]))
 	WebUI.enhancedClick(findTestObject('Object Repository/OTO360/Quotation Page/dybutton_nationalitySelection_quotation,quotationType',
-		[('quotation'): nationalitySelection]))
+		[('quotation'): nationalityButton, ('quotationType'): nationalitySelection]))
 	WebUI.setText(findTestObject('Object Repository/OTO360/Quotation Page/input_dateOfBirth'), params['dateOfBirth'])
 } else if (params['idType'] == "ARMY") {
 	idTypeSelection = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "quotationType.army", "EN")

@@ -23,6 +23,7 @@ String buttonBuy = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "
 String buttonPayment = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "button.proceedPayment", "EN")
 String policyNumber = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "summary.policyNumberTitle", "EN")
 String policyNumberPrefix = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "summary.policyNumberPrefix", "EN")
+String buttonPlan = CustomKeywords.'utils.Utility.getDynamicRepoInfo'('Travel', 'button.toPlanPage', 'EN')
 
 // Quotation
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -45,7 +46,8 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dr
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Quotation Page/dybutton_SelectPlanType_planType', [('planType') : planType]))
 
-WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/dysubmit_GetQuoteNow_button'))
+WebUI.enhancedClick(findTestObject('Object Repository/Travel/TripCare360/English/Quotation Page/dysubmit_GetQuoteNow_button', 
+        [('button') : buttonPlan]))
 
 WebUI.delay(1)
 

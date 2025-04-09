@@ -42,7 +42,6 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/dybu
 WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/dyvalidation_RetrieveYourProposal_title', [('title'): GlobalVariable.dyobj_RetrieveYourProposal]), 
     10)
 
-WebUI.delay(3)
 
 WebUI.takeFullPageScreenshot()
 

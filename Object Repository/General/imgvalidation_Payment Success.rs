@@ -4,18 +4,18 @@
    <name>imgvalidation_Payment Success</name>
    <tag></tag>
    <elementGuidId>9ef55d65-56d3-4a26-beaa-9f1aa30cf979</elementGuidId>
-   <imagePath>img/FailedTransaction.png</imagePath>
+   <imagePath>img/paymentSuccess.png</imagePath>
    <selectorCollection>
-      <entry>
-         <key>IMAGE</key>
-         <value>img/FailedTransaction.png</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[contains(text(),&quot;${text}&quot;)]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value>img/paymentSuccess.png</value>
       </entry>
    </selectorCollection>
    <selectorMethod>IMAGE</selectorMethod>

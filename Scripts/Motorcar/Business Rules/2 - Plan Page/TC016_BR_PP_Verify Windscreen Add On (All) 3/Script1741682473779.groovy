@@ -74,6 +74,7 @@ plateLists.each { key, plateList ->
 			if (yearDiff != expectedYearDiff) {
 				KeywordUtil.markFailed("The car make year difference (${yearDiff}) does not same with desired year difference (${expectedYearDiff})")
 				errorLog.add("${plate} year make is not same as expected. Plate year make: ${year}; Expected plate year make: ${expectedYearMake}")
+				WebUI.takeFullPageScreenshot()
 				return
 			} else {
 				KeywordUtil.logInfo("Year Make: ${year}\nPeriod: ${expectedYearDiff} years")
@@ -92,6 +93,7 @@ plateLists.each { key, plateList ->
 				
 				if (!isWindscreenNotPresent) {
 					errorLog.add("${plate} is not in legal holder but the addon still absent.")
+					WebUI.takeFullPageScreenshot()
 				}
 				
 			} else if (key == 'positive') {
@@ -99,13 +101,14 @@ plateLists.each { key, plateList ->
 				
 				if (!isWindscreenPresent) {
 					errorLog.add("${plate} is in legal holder but the Coverage for Harsh Weather Damage addon still absent.")
+					WebUI.takeFullPageScreenshot()
 				}
 			}
 		} catch (Exception e) {
 			errorLog.add("${plate}: Unexpected error occured")
+			WebUI.takeFullPageScreenshot()
 		}
 		
-		WebUI.takeScreenshot()
 		WebUI.closeBrowser()
 	}
 }

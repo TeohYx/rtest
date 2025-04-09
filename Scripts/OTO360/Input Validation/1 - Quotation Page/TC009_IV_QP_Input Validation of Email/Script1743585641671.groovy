@@ -17,3 +17,56 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String idTypeButton = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "quotation.IDType", "EN")
+String idTypeSelection = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "quotationType.mykad", "EN")
+
+// Placeholder
+String placeholderText = "E.G. : ADAM@GMAIL.COM"
+
+// Input Field (the field to test)
+def inputObj = findTestObject('Object Repository/OTO360/Quotation Page/input_email')
+
+// Sequences of click that triggers the warning message
+String quotationForm = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "text.vehicleNotEligible", "EN")
+def warningMessageTrigger = [
+		inputObj,
+		findTestObject('Object Repository/OTO360/Quotation Page/dyvalidate_quotationForm_text',
+			[('text'): quotationForm])
+	]
+
+int plateSize = GlobalVariable.rules_purchasedPlateNumber.size() - 1
+int randomNum = new Random().nextInt(plateSize + 1)
+String purchasedPlateNumber = GlobalVariable.rules_purchasedPlateNumber[randomNum]
+	
+def quotationParam = [
+		('vehicleNumber') : purchasedPlateNumber
+	]	
+	
+
+
+// Warning message locator (based on the input title)
+String warningInputTitle = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "detail.quotationEmail", "EN")
+def warningMessageByInputLocator = findTestObject('Object Repository/General/dywrnmsg_WarningMessageByInputName_detail',
+	[('detail'): warningInputTitle])
+
+def validScenario = ['yeexian.teoh@etiqa.com.my'] // 1normal, 1minimum edge, 1maximum edge
+def invalidScenario = ['..yeexian.teoh@etiqa.com.my', 'yee@@csdc.com'] // 1 failed minimum, 1 failed maximum
+
+WebUI.callTestCase(findTestCase('OTO360/Reusable Module/Page Flow/TC001_RM_C_Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('OTO360/Reusable Module/Form/TC008_Motor Coverage Form'), [('params') : quotationParam], FailureHandling.STOP_ON_FAILURE)
+
+(isPassed, log) = CustomKeywords.'inputValidation.inputValidation.performValidation'(
+	inputObj,
+	[1, 2, 4, 5, 6, 7],
+	[
+		2: ['placeholderText': placeholderText],
+		4: ['warningMessageTrigger': warningMessageTrigger, 'warningMessageLocator': warningMessageByInputLocator],
+		5: ['invalidType': "S", 'allowedSymbol': "!#\$%&'*+/=?^_{|}~-"],
+		6: ['haveSpace': true],
+		7: ['warningMessageLocator': warningMessageByInputLocator, 'warningMessageTrigger': warningMessageTrigger, 'validScenario': validScenario, 'invalidScenario': invalidScenario]
+	])
+
+assert isPassed : log
+
+WebUI.takeFullPageScreenshot()
+WebUI.closeBrowser()

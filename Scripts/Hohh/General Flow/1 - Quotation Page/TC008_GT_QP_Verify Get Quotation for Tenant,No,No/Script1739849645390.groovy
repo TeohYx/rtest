@@ -48,6 +48,7 @@ def validationObj = findTestObject('Object Repository/Hohh/ORM001_dyvalidation_C
 //Start
 WebUI.callTestCase(findTestCase('Hohh/Reusable Module/Page Flow/TC002_RM_PF_Direct to Plan Page'), [('params') : params], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.verifyElementPresent(validationObj, 10)
 String elementClass = WebUI.getAttribute(validationObj, 'class')
 
 WebUI.takeScreenshot()

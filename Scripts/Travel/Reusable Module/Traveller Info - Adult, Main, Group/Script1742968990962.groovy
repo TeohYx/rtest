@@ -20,7 +20,11 @@ import com.kms.katalon.core.util.KeywordUtil
 
 // Define default values map with ALL possible variable names
 try {
-	infoColumn = params['column_set']
+	if (params.containsKey('column_set')) {
+		infoColumn = params['column_set']
+	} else {
+		infoColumn = "default"
+	}
 } catch (Exception e) {
 	infoColumn = "default"
 }

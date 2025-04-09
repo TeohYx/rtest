@@ -17,3 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// Input Field (the field to test)
+String inputTitle = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "detail.race", "EN")
+def inputObj = findTestObject('Object Repository/OTO360/Application Page/dyinput_detailWithoutIdentifier_detail',
+	[('detail'): inputTitle])
+
+String toReview = CustomKeywords.'utils.Utility.getDynamicRepoInfo'('OTO360', 'submit.toReview', 'EN')
+def warningMessageTrigger = findTestObject('Object Repository/OTO360/General/dybutton_submit_submit', [('submit') : toReview])
+
+String warningInputTitle = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "detail.race", "EN")
+def warningMessageByInputLocator = findTestObject('Object Repository/General/dywrnmsg_WarningMessageByInputName_detail',
+	[('detail'): warningInputTitle])
+
+WebUI.callTestCase(findTestCase('OTO360/Reusable Module/Page Flow/TC003_RM_PF_Direct to Application Page'), [:], FailureHandling.STOP_ON_FAILURE)
+
+(isPassed, log) = CustomKeywords.'inputValidation.inputValidation.performValidation'(
+	inputObj,
+	[1, 4],
+	[
+		4: ['warningMessageTrigger': warningMessageTrigger, 'warningMessageLocator': warningMessageByInputLocator, 'notInput': true]
+	])
+
+assert isPassed : log
+
+WebUI.takeFullPageScreenshot()
+WebUI.closeBrowser()

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC009_IV_AP_Input Validation of NRIC No</name>
+   <name>TC024_IV_AP_Input Validation of Gender Female</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>0c39079e-23ba-45f8-bfa2-925ac32be421</testCaseGuid>
+   <testCaseGuid>c1aa7c4b-3293-487a-bf46-733af007bd45</testCaseGuid>
 </TestCaseEntity>

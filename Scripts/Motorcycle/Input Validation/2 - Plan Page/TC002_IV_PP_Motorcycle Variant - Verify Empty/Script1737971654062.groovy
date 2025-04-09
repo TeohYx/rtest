@@ -35,11 +35,16 @@ WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC002_RM_PF_Direct to
 		, ('inputScenario') : inputScenario, ('plateNumber') : plateNumber], FailureHandling.STOP_ON_FAILURE)
 
 // Plan Page
+WebUI.verifyElementPresent(findTestObject('Motorcar and Motorcycle/General/text_PageTitle', [('section') : 'Details & Add Ons']), 10)
+classAttribute = WebUI.getAttribute(findTestObject('Motorcar and Motorcycle/General/text_PageTitle', [('section') : 'Details & Add Ons']), 'class')
+
+assert classAttribute.contains('fw-bold')
+
 WebUI.enhancedClick(findTestObject('Motorcar and Motorcycle/Plan Page/button_Motorcycle Details View', [('detail_text') : GlobalVariable.text_MotorDetails]))
 
 WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Plan Page/2 - Motorcycle Details/button_Motorcycle Variant Close'))
 
-WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Plan Page/2 - Motorcycle Details/button_Save Motorcycle Details'))
+//WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Plan Page/2 - Motorcycle Details/button_Save Motorcycle Details'))
 
 String warningText = WebUI.callTestCase(
 	findTestCase('Reusable Module/Input Validation/TC002_RM_IV_Obtain Empty Warning Message'), 

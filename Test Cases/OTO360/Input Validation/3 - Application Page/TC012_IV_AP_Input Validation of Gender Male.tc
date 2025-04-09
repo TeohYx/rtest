@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC012_IV_AP_Input Validation of Gender</name>
+   <name>TC012_IV_AP_Input Validation of Gender Male</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

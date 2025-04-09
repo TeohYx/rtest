@@ -50,5 +50,5 @@ def postcodeInput = findTestObject('Object Repository/Hohh/Application Page/inpu
 WebUI.setText(address1Input, params['propertyAddress1'])
 WebUI.setText(address2Input, params['propertyAddress2'])
 WebUI.setText(cityInput, params['propertyCity'])
-WebUI.setText(postcodeInput, params['propertyPostcode'])
+//WebUI.setText(postcodeInput, params['propertyPostcode'])
 

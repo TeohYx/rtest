@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "FA310B19A799ED2825AB52A04FB7C334",
+  "keywordFileContentHash": "7A236410C2515308DE75833C500801F8",
   "keywordClasses": [
     {
       "name": "inputValidation.inputValidation",
@@ -46,8 +46,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": "/**\r\n\t * \r\n\t * @param testingMethod [\r\n\t 1: \u0027inputFieldPresent\u0027, (objectLocator) \r\n\t 2: \u0027placeholderVisible\u0027, (objectLocator, [placeholderText (r)]) \r\n\t 3: \u0027maxLength\u0027, (objectLocator, [loadWhenClick, allowedType (r)]) \r\n\t 4: \u0027emptyInput\u0027, (objectLocator, [warningMessageTrigger (r), warningMessageLocator (r), expectedWarningText (r)])\r\n\t 5: \u0027allowedDataType\u0027, (objectLocator, [invalidType (r), testString, allowedSymbol])\r\n\t 6: \u0027spacing\u0027, (objectLocator, [haveSpace (r)])\r\n\t 7: \u0027characterLength\u0027, (objectLocator, [warningMessageLocator (r), warningMessageTrigger (r), validScenario (r), invalidScenario (r)])\r\n\t 8: \u0027ICFormat\u0027, (objectLocator, [NRIC (r)])\r\n\t ]\r\n\t * @param methodParams [\r\n\t func1 : [:],\r\n\t func2 : [:]\r\n\t ]\r\n\t * @return [\r\n\t isPassed,\r\n\t log\r\n\t ]\r\n\t */"
+          ]
         },
         {
           "name": "performValidation",
@@ -78,8 +77,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "performValidation",
@@ -97,11 +95,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

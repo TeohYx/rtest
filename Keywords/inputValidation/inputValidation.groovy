@@ -30,7 +30,7 @@ public class inputValidation {
 	 1: 'inputFieldPresent', (objectLocator) 
 	 2: 'placeholderVisible', (objectLocator, [placeholderText (r)]) 
 	 3: 'maxLength', (objectLocator, [loadWhenClick, allowedType (r)]) 
-	 4: 'emptyInput', (objectLocator, [warningMessageTrigger (r), warningMessageLocator (r), expectedWarningText (r)])
+	 4: 'emptyInput', (objectLocator, [warningMessageTrigger (r), warningMessageLocator (r), expectedWarningText])
 	 5: 'allowedDataType', (objectLocator, [invalidType (r), testString, allowedSymbol])
 	 6: 'spacing', (objectLocator, [haveSpace (r)])
 	 7: 'characterLength', (objectLocator, [warningMessageLocator (r), warningMessageTrigger (r), validScenario (r), invalidScenario (r)])
@@ -298,22 +298,22 @@ public class inputValidation {
 	 * @param params [
 	 warningMessageTrigger: list, required,
 	 warningMessageLocator: required,
-	 expectedWarningText: required
+	 expectedWarningText: 
 	 ]
 	 */
 	def emptyInput(def objectLocator, Map params = [:]) {
 		def defaults = [
 			warningMessageTrigger: null,
 			warningMessageLocator: null,
-			expectedWarningText: null
+			expectedWarningText: null,
+			notInput: null
 		]
 
 		def options = defaults + params
 
 		def requiredParameter = [
 			options.warningMessageTrigger,
-			options.warningMessageLocator,
-			options.expectedWarningText
+			options.warningMessageLocator
 		]
 
 		if (requiredParameter.any { it == null }) {
@@ -323,21 +323,50 @@ public class inputValidation {
 			]
 		}
 
-		WebUI.setText(objectLocator, "")
-		
+		//		WebUI.clearText(objectLocator)
+
+		// Case where it is input. If it is other than input field (dropdown), it will not execute tis if statement
+		if (! (options.notInput != null && options.notInput)) {
+			WebUI.enhancedClick(objectLocator)
+
+			// Send a combination of "CTRL + A" to select all text, and then press "DELETE" to clear it
+			WebUI.sendKeys(objectLocator, Keys.chord(Keys.CONTROL, 'a'))  // Select all text
+			WebUI.sendKeys(objectLocator, Keys.DELETE.toString())
+		}
+
+
 		def triggers = options.warningMessageTrigger
 		if (triggers instanceof String) {
-			triggers = [triggers]  // Convert to a List containing the String
+			triggers = [
+				triggers]  // Convert to a List containing the String
 		}
-		
+
 		triggers.each { trigger ->
 			WebUI.enhancedClick(trigger)
 		}
 
-		String warningText = WebUI.getText(options.warningMessageLocator)
+		boolean isPresent = WebUI.verifyElementPresent(options.warningMessageLocator, 5, FailureHandling.OPTIONAL)
 
+		boolean isEqual = null
+		String warningText = null
+		if (isPresent) {
+			if (options.expectedWarningText == null) {
+				// Means the warning message locator is by the input title, not the warning message. Therefore it considered pass when it is present.
+				return [
+					'status': 'pass'
+				]
+			}
 
-		boolean isEqual = WebUI.verifyEqual(warningText, options.expectedWarningText)
+			warningText = WebUI.getText(options.warningMessageLocator)
+
+			isEqual = WebUI.verifyEqual(warningText, options.expectedWarningText)
+		} else {
+			return [
+				'status': 'fail',
+				'text': "Warning message does not appear"
+			]
+		}
+
 
 		if (isEqual) {
 			return [
@@ -581,16 +610,28 @@ public class inputValidation {
 		println(testScenario)
 		for (int i=0; i<testScenario.size(); i++) {
 			println(objectLocator)
-			
+
 			println(testScenario[i])
-			WebUI.setText(objectLocator, testScenario[i])
+
+			// if the given input is empty: perform special case
+			if (testScenario[i] == "") {
+				WebUI.enhancedClick(objectLocator)
+
+				// Send a combination of "CTRL + A" to select all text, and then press "DELETE" to clear it
+				WebUI.sendKeys(objectLocator, Keys.chord(Keys.CONTROL, 'a'))  // Select all text
+				WebUI.sendKeys(objectLocator, Keys.DELETE.toString())
+			} else {
+				WebUI.setText(objectLocator, testScenario[i])
+			}
+
 			String text = WebUI.getAttribute(objectLocator, 'value')
 
 			def triggers = options.warningMessageTrigger
 			if (triggers instanceof String) {
-				triggers = [triggers]  // Convert to a List containing the String
+				triggers = [
+					triggers]  // Convert to a List containing the String
 			}
-			
+
 			triggers.each { trigger ->
 				WebUI.enhancedClick(trigger)
 			}

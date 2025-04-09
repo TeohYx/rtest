@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil
 
-String item = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "priceBreakdown.covid", "EN")
+String item = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "priceBreakdown.adventurousActivities", "EN")
 String policyNumberPrefix = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("Travel", "summary.policyNumberPrefix", "EN")
 
 TestObject itemObject = findTestObject('Travel/TripCare360/English/AppPage/dygtext_CostBreakdown_priceBreakdown', [('priceBreakdown'): item])

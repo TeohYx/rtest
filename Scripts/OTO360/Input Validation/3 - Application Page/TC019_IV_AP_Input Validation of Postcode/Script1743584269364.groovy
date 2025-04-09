@@ -17,3 +17,36 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String placeholderText = "E.G. 68100"
+
+def inputObj = findTestObject('Object Repository/OTO360/Application Page/input_postcode')
+
+String toReview = CustomKeywords.'utils.Utility.getDynamicRepoInfo'('OTO360', 'submit.toReview', 'EN')
+def warningMessageTrigger = findTestObject('Object Repository/OTO360/General/dybutton_submit_submit', [('submit') : toReview])
+
+String warningInputTitle = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "detail.postcode", "EN")
+def warningMessageByInputLocator = findTestObject('Object Repository/General/dywrnmsg_WarningMessageByInputName_detail',
+	[('detail'): warningInputTitle])
+
+def validScenario = ['51200'] // 1normal, 1minimum edge, 1maximum edge
+def invalidScenario = ['111'] // 1 failed minimum, 1 failed maximum
+
+WebUI.callTestCase(findTestCase('OTO360/Reusable Module/Page Flow/TC003_RM_PF_Direct to Application Page'), [:], FailureHandling.STOP_ON_FAILURE)
+
+// Input Validation
+(isPassed, log) = CustomKeywords.'inputValidation.inputValidation.performValidation'(
+	inputObj,
+	[1, 2, 3, 4, 5, 6, 7],
+	[
+		2: ['placeholderText': placeholderText],
+		3: ['allowedType': "N"],
+		4: ['warningMessageTrigger': warningMessageTrigger, 'warningMessageLocator': warningMessageByInputLocator],
+		5: ['invalidType': "S, UL, LL"],
+		6: ['haveSpace': false],
+		7: ['warningMessageLocator': warningMessageByInputLocator, 'warningMessageTrigger': warningMessageTrigger, 'validScenario': validScenario, 'invalidScenario': invalidScenario]
+	])
+
+assert isPassed : log
+
+WebUI.takeFullPageScreenshot()
+WebUI.closeBrowser()

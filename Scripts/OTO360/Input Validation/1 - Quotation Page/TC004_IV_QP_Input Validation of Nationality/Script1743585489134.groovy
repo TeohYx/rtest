@@ -17,3 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String idTypeButton = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "quotation.IDType", "EN")
+String idTypeSelection = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "quotationType.passport", "EN")
+String nationObj = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "detail.nationality", "EN")
+String proceedPlan = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "submit.toPlan", "EN")
+
+def inputObj = findTestObject('Object Repository/OTO360/Quotation Page/dybutton_nationality_quotation',
+		[('quotation'): nationObj])
+
+WebUI.callTestCase(findTestCase('OTO360/Reusable Module/Page Flow/TC001_RM_C_Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.enhancedClick(findTestObject('Object Repository/OTO360/Quotation Page/dybutton_IDType_quotation',
+	[('quotation'): idTypeButton]))
+WebUI.enhancedClick(findTestObject('Object Repository/OTO360/Quotation Page/dybutton_IDTypeSelection_quotation,quotationType',
+	[('quotation'): idTypeButton, ('quotationType'): idTypeSelection]))
+
+(isPassed, log) = CustomKeywords.'inputValidation.inputValidation.performValidation'(
+	inputObj,
+	[1],
+	[
+		:
+	])
+
+assert isPassed : log
+
+WebUI.takeFullPageScreenshot()
+WebUI.closeBrowser()

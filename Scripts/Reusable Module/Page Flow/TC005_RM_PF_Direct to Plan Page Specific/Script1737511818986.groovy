@@ -38,4 +38,11 @@ WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC001_RM_C_Open Appli
 WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC002_RM_PF_Direct to Plan Page'), [('inputButton') : inputButton
 	, ('inputScenario') : inputScenario, ('plateNumber') : plateNumber], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.verifyElementPresent(findTestObject('Motorcar and Motorcycle/General/text_PageTitle', [('section') : 'Details & Add Ons']), 10)
+String classAttribute = WebUI.getAttribute(findTestObject('Motorcar and Motorcycle/General/text_PageTitle', [('section') : 'Details & Add Ons']), 'class')
+
+def hasClass = ['fw-bold'].any({ def className ->
+		classAttribute.contains(className)
+	})
+
+assert hasClass : "Page does not directed to plan page"

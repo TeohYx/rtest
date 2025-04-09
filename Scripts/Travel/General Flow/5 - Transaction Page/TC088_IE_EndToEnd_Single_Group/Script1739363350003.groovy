@@ -61,8 +61,8 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Plan Page/dysubmi
 WebUI.delay(1)
 
 def travellerSecondary = [
-	'departureFlightDate': '2025-04-10'
 ]
+
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Flight delay claim - Group'), [('params'): travellerSecondary], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Travel/Reusable Module/Traveller Info - Adult, Main, Group'), [:], FailureHandling.STOP_ON_FAILURE)

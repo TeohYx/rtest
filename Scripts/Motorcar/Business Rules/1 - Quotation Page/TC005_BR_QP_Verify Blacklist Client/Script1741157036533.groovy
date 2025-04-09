@@ -39,9 +39,9 @@ blacklistIC.each { _, ic ->
 	
 	if (!isPresent){
 		errorLog.add(ic)
+		WebUI.takeFullPageScreenshot()
 	}
 	
-	WebUI.takeFullPageScreenshot()
 	WebUI.closeBrowser()
 }
 

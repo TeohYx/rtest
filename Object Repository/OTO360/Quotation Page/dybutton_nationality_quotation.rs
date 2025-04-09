@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[contains(@class, 'form-label') and contains(text(), &quot;${quotation}&quot;)]</value>
+         <value>//label[contains(@class, 'form-label') and contains(text(), &quot;${quotation}&quot;)]//following-sibling::div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -19,7 +19,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>0cbd8812-b813-4e15-97e8-c2c3e4548871</webElementGuid>
+      <webElementGuid>e8dcc17e-90f0-420a-8d6b-0a16267b0da2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,6 +27,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1743645722059</value>
-      <webElementGuid>2183580b-8655-47f3-b997-1abf3d19b783</webElementGuid>
+      <webElementGuid>79bcc4cf-94f5-4401-b7cb-b41b75c22fd8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

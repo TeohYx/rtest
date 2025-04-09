@@ -369,4 +369,9 @@
       <initValue>'51200'</initValue>
       <name>dummy_postcode</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Retrieve Your Proposal</description>
+      <initValue>'Retrieve Your Proposal'</initValue>
+      <name>dyobj_RetrieveYourProposal</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

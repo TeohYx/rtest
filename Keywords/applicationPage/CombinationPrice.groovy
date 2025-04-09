@@ -40,7 +40,7 @@ public class CombinationPrice {
 	public def errorLog = []
 	public def failedLog = []
 
-	public int stopperPeriod = 6
+	public int stopperPeriod = 3
 
 	public def sdf = new SimpleDateFormat('dd/MM/yyyy')
 	public def startDate = new Date()

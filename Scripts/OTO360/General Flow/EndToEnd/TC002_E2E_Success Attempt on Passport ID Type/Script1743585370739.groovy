@@ -28,3 +28,5 @@ params = [
 WebUI.callTestCase(findTestCase('OTO360/Reusable Module/Page Flow/TC005_RM_PF_Direct to Payment Page'), [('params') : params], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/General/imgvalidation_Payment Fail'), 10)
+
+WebUI.closeBrowser()

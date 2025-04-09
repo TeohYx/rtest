@@ -395,8 +395,8 @@
       <name>validation_NoExpire</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>blacklistedCustomer, NCD180D</description>
-      <initValue>[('blacklistedCustomer') : 'UW0002', ('NCD180D') : 'UW0030']</initValue>
+      <description>blacklistedCustomer, NCD180D, sumInsuredExceed</description>
+      <initValue>[('blacklistedCustomer') : 'UW0002', ('NCD180D') : 'UW0030', ('sumInsuredExceed') : 'UW0055']</initValue>
       <name>validation_UnderwritingError</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
