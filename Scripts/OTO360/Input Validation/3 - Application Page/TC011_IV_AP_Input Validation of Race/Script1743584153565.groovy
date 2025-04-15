@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 // Input Field (the field to test)
 String inputTitle = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "detail.race", "EN")
-def inputObj = findTestObject('Object Repository/OTO360/Application Page/dyinput_detailWithoutIdentifier_detail',
+def inputObj = findTestObject('Object Repository/OTO360/Application Page/dyinput_detailDropdownWithoutIdentifier_detail',
 	[('detail'): inputTitle])
 
 String toReview = CustomKeywords.'utils.Utility.getDynamicRepoInfo'('OTO360', 'submit.toReview', 'EN')

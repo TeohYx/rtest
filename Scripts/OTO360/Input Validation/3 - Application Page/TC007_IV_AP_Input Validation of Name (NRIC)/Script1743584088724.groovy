@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 String placeholderText = "E.G. : ADAM BIN BAKRI"
 
-def inputObj = findTestObject('Object Repository/OTO360/Quotation Page/input_NRIC')
+def inputObj = findTestObject('Object Repository/OTO360/Application Page/input_name')
 
 String toReview = CustomKeywords.'utils.Utility.getDynamicRepoInfo'('OTO360', 'submit.toReview', 'EN')
 def warningMessageTrigger = findTestObject('Object Repository/OTO360/General/dybutton_submit_submit', [('submit') : toReview])
@@ -36,10 +36,9 @@ WebUI.callTestCase(findTestCase('OTO360/Reusable Module/Page Flow/TC003_RM_PF_Di
 // Input Validation
 (isPassed, log) = CustomKeywords.'inputValidation.inputValidation.performValidation'(
 	inputObj,
-	[1, 2, 3, 4, 5, 6, 7],
+	[1, 2, 4, 5, 6, 7],
 	[
 		2: ['placeholderText': placeholderText],
-		3: ['allowedType': "LL, UL"],
 		4: ['warningMessageTrigger': warningMessageTrigger, 'warningMessageLocator': warningMessageByInputLocator],
 		5: ['invalidType': "S, N", 'allowedSymbol': "@-'/.,"],
 		6: ['haveSpace': true],

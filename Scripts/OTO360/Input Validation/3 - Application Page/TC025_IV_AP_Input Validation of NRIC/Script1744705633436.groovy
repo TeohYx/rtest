@@ -18,9 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 // Input Field (the field to test)
-String inputTitle = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "detail.bankName", "EN")
-def inputObj = findTestObject('Object Repository/OTO360/Application Page/dyinput_detailDropdownWithoutIdentifier_detail',
-	[('detail'): inputTitle])
+String inputTitle = CustomKeywords.'utils.Utility.getDynamicRepoInfo'("OTO360", "detail.ic", "EN")
+def inputObj = findTestObject('Object Repository/OTO360/Application Page/input_NRIC')
 
 WebUI.callTestCase(findTestCase('OTO360/Reusable Module/Page Flow/TC003_RM_PF_Direct to Application Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
