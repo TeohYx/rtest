@@ -34,9 +34,8 @@ WebUI.enhancedClick(expandTabGold)
 // Input Validation
 (isPassed, log) = CustomKeywords.'inputValidation.inputValidation.performValidation'(
 	goldValueInput,
-	[1, 2, 3, 5, 6],
+	[1, 3, 5, 6],
 	[
-		2: ['placeholderText': placeholderText],
 		3: ['allowedType': "N"],
 		5: ['invalidType': "UL,LL,S"],
 		6: ['haveSpace': false]

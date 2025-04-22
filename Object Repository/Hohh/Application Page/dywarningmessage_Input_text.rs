@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='propertyDetails.address.addressLine1']/parent::div//following-sibling::*[contains(@class,&quot;text-danger&quot;)]</value>
+         <value>//label[text()='${text}']//following-sibling::*[contains(@class,&quot;text-danger&quot;)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='construction-type-partialBrick']</value>
+         <value>//input[@id='construction-type-nonLanded']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -28,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>a5678405-4f82-4868-89a3-8b0104b7636e</webElementGuid>
+      <webElementGuid>26e596d7-5003-4f8b-936a-b9541b56d073</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>card-body</value>
-      <webElementGuid>4d090504-7724-469c-ab79-086f197e5a71</webElementGuid>
+      <webElementGuid>de8d30e4-75ef-4ddb-bbbe-57de4ab66866</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Partial BrickMy house has walls made of brick, concrete, and some non-flammable materials, and possibly all-glass walls. The roof is made of non-flammable materials</value>
-      <webElementGuid>1099d150-71b3-45f2-a415-ea1374bb0dd7</webElementGuid>
+      <webElementGuid>fde74592-64dd-4bee-91e2-2e590e222194</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;layout__Styles-sc-wetbic-0 ehlvJr&quot;]/div[@class=&quot;quotation__Styles-sc-ucwthg-0 joHbWJ bg-white&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;first-form row&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;QuotationForm__Styles-sc-1hggy6g-0 ekdXkh shadow p-3 mb-5 bg-body-tertiary rounded&quot;]/form[1]/div[@class=&quot;justify-content-md-center gap-3 mb-4 row&quot;]/div[@class=&quot;col-md-8 col-12&quot;]/div[@class=&quot;p-4 card&quot;]/div[@class=&quot;d-grid gap-3&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;ConstructionTypeButton__Style-sc-5bp3n3-0 iraGvx&quot;]/div[@class=&quot;gap row&quot;]/div[@class=&quot;col-md-6 col-12&quot;]/div[@class=&quot;LeftIconCard__Styles-sc-afaz75-0 hVmBSj&quot;]/label[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]</value>
-      <webElementGuid>2e786df9-9dca-4fcb-9ff5-595aabe9ceb4</webElementGuid>
+      <webElementGuid>24c73766-329c-4609-b128-8f3b1861f45a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -60,7 +60,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='gatsby-focus-wrapper']/div/div/div[2]/div/div/div/form/div[3]/div[2]/div/div/div[2]/div/div/div[2]/div/label/div</value>
-      <webElementGuid>2bdff95b-719e-4263-944c-0eb41f58f45a</webElementGuid>
+      <webElementGuid>07d60b0a-1ccc-486b-8034-bc24db420164</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Full Brick'])[1]/following::div[5]</value>
-      <webElementGuid>a130d4fe-fbaa-40c8-931d-697d8b5e3795</webElementGuid>
+      <webElementGuid>8a1b05da-f602-4f96-978e-b5845cb5d945</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Construction type'])[1]/following::div[14]</value>
-      <webElementGuid>cead1c7c-346a-44d1-a04c-5d930a111d13</webElementGuid>
+      <webElementGuid>c3ed2740-5584-43d1-8a9c-4828a221ca7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Will this property be unoccupied for 90 days or more?'])[1]/preceding::div[7]</value>
-      <webElementGuid>bb5a8cea-695e-45fc-a49c-73501c933ba4</webElementGuid>
+      <webElementGuid>847c5754-b9cc-490b-98a6-32357e3d6899</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]/div/label/div</value>
-      <webElementGuid>0bbbda21-1b1b-4558-8cfd-bc0d80ee6f72</webElementGuid>
+      <webElementGuid>d99d2d3b-4ce8-40e5-9bd5-29367bcf79a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,6 +100,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Partial BrickMy house has walls made of brick, concrete, and some non-flammable materials, and possibly all-glass walls. The roof is made of non-flammable materials' or . = 'Partial BrickMy house has walls made of brick, concrete, and some non-flammable materials, and possibly all-glass walls. The roof is made of non-flammable materials')]</value>
-      <webElementGuid>20bf11d2-e48d-4484-878b-94a4f296f07a</webElementGuid>
+      <webElementGuid>52d14fac-7afb-44aa-94f3-55d5e4beda90</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

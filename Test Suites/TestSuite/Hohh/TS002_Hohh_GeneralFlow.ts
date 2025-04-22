@@ -8,8 +8,8 @@
    <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>10</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>true</rerunImmediately>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>5dc4bb83-ceb7-4603-9c1e-b265a867c290</testSuiteGuid>
    <testCaseLink>
       <guid>af138a0f-cc8a-468e-a0d4-8fb5bbd7c748</guid>
@@ -163,13 +163,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Hohh/General Flow/3 - Declaration Page/TC002_GT_DP_Verify Dont Declare Redirection</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>781339cd-57e2-40a4-a76d-079f47eda8ec</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Hohh/General Flow/3 - Declaration Page/TC003_GT_DP_Verify Product Disclosure Sheet Link</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

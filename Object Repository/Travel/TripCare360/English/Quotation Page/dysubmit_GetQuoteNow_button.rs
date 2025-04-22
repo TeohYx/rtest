@@ -6,12 +6,12 @@
    <elementGuidId>c1bf093b-e5aa-4c9a-a680-5e8a7a38a7a5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button' and text()='${button}'])</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.get-quote-button.btn.btn-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[text()='${button}'])</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>65611ee5-a1b7-4946-b072-92efc56d104e</webElementGuid>
+      <webElementGuid>db22f6a9-59c0-4f60-8dca-5e74c0885934</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>54fc0555-0d38-4138-8c1d-223af3bf198c</webElementGuid>
+      <webElementGuid>c8c6bc34-c4dc-475f-a6e5-9b160c80a511</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>get-quote-button btn btn-primary</value>
-      <webElementGuid>02cecd26-a7b8-49ac-990d-1678f7b020d2</webElementGuid>
+      <webElementGuid>407bc776-2550-47e9-89ad-6f8ed24c2439</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Get Quote Now</value>
-      <webElementGuid>aee5a681-ab1b-4b8c-a1d8-017bbf0920c7</webElementGuid>
+      <webElementGuid>0ef54bd8-8054-475f-92f7-ad2199720c55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;Layout__Styles-sc-d7vu2k-0 fGSPvF&quot;]/div[@class=&quot;ml-0 p-0 m-0 container-fluid&quot;]/div[@class=&quot;quotation__Styles-sc-1lv5yzf-1 SsZUK&quot;]/div[@class=&quot;main-page&quot;]/div[@class=&quot;quote-form-component&quot;]/div[@class=&quot;my__Styles-sc-19kkwpv-4 znbYv&quot;]/div[@class=&quot;quote-form&quot;]/form[1]/div[4]/button[@class=&quot;get-quote-button btn btn-primary&quot;]</value>
-      <webElementGuid>2e23ac43-18a8-47d9-91c1-021348def95a</webElementGuid>
+      <webElementGuid>de979521-be18-429d-81cf-0bb4219e3311</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[3]</value>
-      <webElementGuid>7551be90-f4a2-4205-8f27-1dba1e7054da</webElementGuid>
+      <webElementGuid>583f8fa9-4142-4c21-9617-fd805a012065</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='gatsby-focus-wrapper']/div[2]/div/div/div/div[2]/div[3]/div/form/div[4]/button</value>
-      <webElementGuid>17c59b13-ce89-44fb-98c6-bb053a0c432e</webElementGuid>
+      <webElementGuid>0e6557a0-0a96-4c9d-b439-07f7894ccdc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(18 - 70 years old)'])[3]/following::button[1]</value>
-      <webElementGuid>2fa4108e-c42e-4da8-bb1e-9d7ce88fe6ec</webElementGuid>
+      <webElementGuid>ee79aca4-c42a-42e4-82a6-14e41a3f2313</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New'])[1]/following::button[1]</value>
-      <webElementGuid>139a917d-a302-4dce-8f0e-ec8879e94121</webElementGuid>
+      <webElementGuid>19a29b0f-2e31-44a2-bc30-827c61e2d6da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Frequently Asked Questions'])[1]/preceding::button[1]</value>
-      <webElementGuid>4a2aaef6-1b7b-4259-8e24-87f15a71284b</webElementGuid>
+      <webElementGuid>f835949b-e843-4b4f-a633-1600c4283729</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='How do I make a travel claim?'])[1]/preceding::button[1]</value>
-      <webElementGuid>156436c9-56f6-4ff2-aca3-641f40a122e7</webElementGuid>
+      <webElementGuid>b5c53643-09f1-4cc6-8683-3957e540b47b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Get Quote Now']/parent::*</value>
-      <webElementGuid>1081a957-ba32-4504-bee8-5c51359cb187</webElementGuid>
+      <webElementGuid>4699f71b-3218-4e17-abbc-b5733df24ff8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/button</value>
-      <webElementGuid>16df705a-cd09-4666-8ccc-ea46335580bd</webElementGuid>
+      <webElementGuid>e6e1f462-f261-46ca-bdb7-722ba785e9a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Get Quote Now' or . = 'Get Quote Now')]</value>
-      <webElementGuid>529e2331-b39f-49be-abd8-7f35151fd901</webElementGuid>
+      <webElementGuid>ba7006ff-ed66-46ed-a013-7bb069ea118c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select...'])[1]/following::button[1]</value>
-      <webElementGuid>ca4cd772-b9b6-4518-a97d-34616b9db8a1</webElementGuid>
+      <webElementGuid>6d848da2-d7bc-42d8-a7a6-f63a05fe11f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +149,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Who are you travelling with?'])[1]/following::button[2]</value>
-      <webElementGuid>3c35b7f6-948c-4b45-96c0-10782134c964</webElementGuid>
+      <webElementGuid>e035cb9e-689a-4674-9dd8-2d17efc43ded</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

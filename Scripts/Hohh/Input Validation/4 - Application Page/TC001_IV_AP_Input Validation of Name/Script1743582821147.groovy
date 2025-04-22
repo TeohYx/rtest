@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 def noDeclare = findTestObject('Object Repository/Hohh/Declaration Page/dybutton_Declaration_text',
-	[('text') : GlobalVariable.dyobj_ORDP001['yesDeclare']])
+	[('text') : GlobalVariable.dyobj_ORDP001['noDeclare']])
 
 def nameInput = findTestObject('Object Repository/Hohh/Application Page/input_Name')
 def warningMessageTrigger = findTestObject('Object Repository/Hohh/ORM003_dysubmit_Submit_text',
@@ -28,7 +28,7 @@ def warningMessageLocator = findTestObject('Object Repository/Hohh/Application P
 
 String emptyWarningMessage = GlobalVariable.inputValidation_Empty['name']
 String placeholderText = GlobalVariable.inputValidation_Placeholder['name']
-
+println(emptyWarningMessage)
 def validScenario = ['Teoh Yee Xian', 'Ahmad', 'Zyltherion Drakenshade Stormveil Arcanix'] // 1normal, 1minimum edge, 1maximum edge
 def invalidScenario = ['Ali', 'XYRAVARIS NIGHTSHADE EMBERTHORN SYLVARISS'] // 1 failed minimum, 1 failed maximum
 

@@ -52,8 +52,8 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/Hohh/Payment Pa
 	isCorrectProduct = product == GlobalVariable.dyobj_ORPyP002['product']
 }
 
-WebUI.takeScreenshot()
-WebUI.closeBrowser()
+//WebUI.takeScreenshot()
+//WebUI.closeBrowser()
 
 assert isPaymentSuccess && havePolicyNumber && isCorrectProduct : 
 	KeywordUtil.markError("""One of the criteria have error:

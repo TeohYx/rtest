@@ -17,20 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-/**
- * Verify if the page direct to ProductDisclosureSheetLink
- * @pass The info get from the page link is same as the one stored in GlobalVariable.link_ProductDisclosureSheetLink
- * @fail The info get from the page link is different with the one stored in GlobalVariable.link_ProductDisclosureSheetLink
- */
+def params = [
+		ic: "990101020101",
+		policyNumber: "PU028655",
+		reserveField: 
+		[
+			"""{
+	            "subType": null,
+	            "premiumClass": "TS2",
+	            "reserveCode": "TD",
+	            "destination": null,
+	            "reserveAmount": 0
+            }"""
+		],
+		eventType: "Travel Delay",
+		paymentCode: "FD",
+		causeTypeCode: "FLD",
+		lossTypeCode: "FLD",
+		document: 
+		[
+			"""
+	        {
+	            "documentType": "Flight Itinerary",
+	            "fileName": "0120.jpg"
+	        },
+	        {
+	            "documentType": "Flight Itinerary",
+	            "fileName": "0121.jpg"
+	        }
+			"""
+	    ]
+	]
 
-
-WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC006_RM_PF_Direct to Declaration Page Specific'), [:], FailureHandling.STOP_ON_FAILURE)
-
-String itemLink = WebUI.getAttribute(findTestObject('Object Repository/Hohh/Review Page/link_ProductDisclosureSheet'), 
-    'href')
-
-WebUI.takeScreenshot()
-WebUI.closeBrowser()
-
-assert itemLink.contains(GlobalVariable.link_ProductDisclosureSheetLink)
+WebUI.callTestCase(findTestCase('API/Reusable/SubmitClaim'), [('params'):params], FailureHandling.STOP_ON_FAILURE)
 

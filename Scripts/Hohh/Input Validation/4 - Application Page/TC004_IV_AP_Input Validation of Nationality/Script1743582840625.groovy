@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 def noDeclare = findTestObject('Object Repository/Hohh/Declaration Page/dybutton_Declaration_text',
-	[('text') : GlobalVariable.dyobj_ORDP001['yesDeclare']])
+	[('text') : GlobalVariable.dyobj_ORDP001['noDeclare']])
 
 def nationalityInput = findTestObject('Object Repository/Hohh/Application Page/dydropdown_Details_text',
 	[('text') : GlobalVariable.dyobj_ORAP001['nationality']])

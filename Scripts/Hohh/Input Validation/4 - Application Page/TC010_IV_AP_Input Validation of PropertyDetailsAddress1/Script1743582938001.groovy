@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 def noDeclare = findTestObject('Object Repository/Hohh/Declaration Page/dybutton_Declaration_text',
-	[('text') : GlobalVariable.dyobj_ORDP001['yesDeclare']])
+	[('text') : GlobalVariable.dyobj_ORDP001['noDeclare']])
 
 def address1Input = findTestObject('Object Repository/Hohh/Application Page/input_PropertyDetailsAddress1')
 def warningMessageTrigger = findTestObject('Object Repository/Hohh/ORM003_dysubmit_Submit_text',

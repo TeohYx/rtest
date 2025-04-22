@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Hohh/Reusable Module/Page Flow/TC002_RM_PF_Direct to Plan Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-def homeContentInput = findTestObject('Object Repository/Hohh/Plan Page/dyvalidation_HomeContentEstimateCost_text')
+def homeContentInput = findTestObject('Object Repository/Hohh/Plan Page/input_HomeContentEstimateCost')
 
 (isPassed, log) = CustomKeywords.'inputValidation.inputValidation.performValidation'(
 	homeContentInput, 

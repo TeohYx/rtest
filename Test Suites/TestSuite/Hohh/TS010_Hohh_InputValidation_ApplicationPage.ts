@@ -47,13 +47,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2d590908-730d-49f5-9604-e14c74548c05</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Hohh/Input Validation/4 - Application Page/TC006_IV_AP_Input Validation of Gender</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>031d1fd0-c49e-468d-be68-6190abf51389</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

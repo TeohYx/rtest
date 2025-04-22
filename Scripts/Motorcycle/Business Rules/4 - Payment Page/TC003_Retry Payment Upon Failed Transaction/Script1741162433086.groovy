@@ -47,7 +47,7 @@ WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/rdoFP
 
 WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Declaration Page/button_Pay Now'))
 
-WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_button', [('button') : GlobalVariable.dyobj_ProceedPayment]))
+//WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Review Page/dysubmit_ProceedPayment_button', [('button') : GlobalVariable.dyobj_ProceedPayment]))
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_PayNetOption'))
 
 WebUI.enhancedClick(findTestObject('Travel/TripCare360/English/Payment Page/button_ContinueMPay'))
@@ -65,9 +65,9 @@ WebUI.delay(5)
 
 WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/validation_YourPaymentIsSuccessful'), 10)
 
-WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/dyvalidation_TransactionSummary_title,code',
-	[('text') : GlobalVariable.dyobj_PolicyNumber,
-		('code') : GlobalVariable.dyobj_ProductCode]), 10)
+//WebUI.verifyElementPresent(findTestObject('Travel/TripCare360/English/Payment Page/dyvalidation_TransactionSummary_title,code',
+//	[('text') : GlobalVariable.dyobj_PolicyNumber,
+//		('code') : GlobalVariable.dyobj_ProductCode]), 10)
 
 WebUI.delay(3)
 

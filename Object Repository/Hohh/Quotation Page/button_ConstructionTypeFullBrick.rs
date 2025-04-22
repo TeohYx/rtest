@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='construction-type-fullBrick']</value>
+         <value>//input[@id='construction-type-landed']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1ab917c7-ab0c-4728-81c6-109af83c146f</webElementGuid>
+      <webElementGuid>97be7bca-7400-4936-a7aa-904dc3aeb8bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>card-body</value>
-      <webElementGuid>db4f517e-7bf0-435a-ae87-2cb9822ffb99</webElementGuid>
+      <webElementGuid>d4a5c651-6ea8-4988-b178-7a4edf1a6e17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Full BrickMy house is built with sturdy brick walls and concrete floors</value>
-      <webElementGuid>327b73fc-ed5d-4050-93de-75ee04ee2f7b</webElementGuid>
+      <webElementGuid>c048bc16-5298-4a7f-bab4-ff25953ec543</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gatsby-focus-wrapper&quot;)/div[@class=&quot;layout__Styles-sc-wetbic-0 ehlvJr&quot;]/div[@class=&quot;quotation__Styles-sc-ucwthg-0 joHbWJ bg-white&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;first-form row&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;QuotationForm__Styles-sc-1hggy6g-0 ekdXkh shadow p-3 mb-5 bg-body-tertiary rounded&quot;]/form[1]/div[@class=&quot;justify-content-md-center gap-3 mb-4 row&quot;]/div[@class=&quot;col-md-8 col-12&quot;]/div[@class=&quot;p-4 card&quot;]/div[@class=&quot;d-grid gap-3&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;ConstructionTypeButton__Style-sc-5bp3n3-0 iraGvx&quot;]/div[@class=&quot;gap row&quot;]/div[@class=&quot;col-md-6 col-12&quot;]/div[@class=&quot;LeftIconCard__Styles-sc-afaz75-0 hVmBSj&quot;]/label[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]</value>
-      <webElementGuid>51b84cbd-da72-4a9c-b930-793ccc7999fd</webElementGuid>
+      <webElementGuid>8805eac4-bc02-4886-8faf-7193cf585e4a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='gatsby-focus-wrapper']/div/div/div[2]/div/div/div/form/div[3]/div[2]/div/div/div[2]/div/div/div/div/label/div</value>
-      <webElementGuid>c88918fe-3384-45c7-88ab-cec6a87eaec0</webElementGuid>
+      <webElementGuid>c9c4e718-f724-4617-964f-8ace18ba396a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Construction type'])[1]/following::div[5]</value>
-      <webElementGuid>1b767672-db14-4adc-a7ee-a0b5c039c5cd</webElementGuid>
+      <webElementGuid>eb7242aa-5f00-4b31-a479-f82e1cda34ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Non-Landed'])[1]/following::div[8]</value>
-      <webElementGuid>520bbffe-3e33-4c8b-b397-b8b3b77a689b</webElementGuid>
+      <webElementGuid>a1a13ce0-dfa3-4424-adc4-11dafe72301e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Partial Brick'])[1]/preceding::div[8]</value>
-      <webElementGuid>3cbecd2d-5b65-46d3-945a-cbc8bfec33ba</webElementGuid>
+      <webElementGuid>2a74a63e-5a7f-41c9-89d4-afe7b4358166</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/label/div</value>
-      <webElementGuid>4321eeeb-4c37-4661-9cae-3aa382111142</webElementGuid>
+      <webElementGuid>31b0eec8-f326-4c68-b1a0-7998c4b41127</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Full BrickMy house is built with sturdy brick walls and concrete floors' or . = 'Full BrickMy house is built with sturdy brick walls and concrete floors')]</value>
-      <webElementGuid>c1ea81d3-dcd1-4487-b8f4-22febd68067f</webElementGuid>
+      <webElementGuid>9400a784-81e4-4125-9e01-0cb4e5a76cb9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

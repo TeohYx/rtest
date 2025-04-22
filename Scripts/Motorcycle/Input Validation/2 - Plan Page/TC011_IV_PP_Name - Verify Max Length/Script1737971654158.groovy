@@ -19,27 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 // Quotation page input button
 TestObject inputButton = findTestObject('Object Repository/Motorcar and Motorcycle/Quotation Page/label_ID Type_NRIC')
+
 // Quotation page plate number
 String plateNumber = GlobalVariable.rules_carPlate['default']
+
 // Input fields and text after the input button
-Map inputScenario = [('inputField') : [[('inputObject') : findTestObject('Object Repository/Motorcar and Motorcycle/Quotation Page/input_NRIC'), ('inputText') : '900101070110']]]
+Map inputScenario = [('inputField') : [[('inputObject') : findTestObject('Object Repository/Motorcar and Motorcycle/Quotation Page/input_NRIC')
+            , ('inputText') : '900101070110']]]
+
 // Object for plan page
 TestObject objectLocator = findTestObject('Object Repository/Motorcar and Motorcycle/Plan Page/3 - Personal Details/input_Name')
-
 
 // Open Application
 WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC001_RM_C_Open Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Quotation Page fill information
 WebUI.callTestCase(findTestCase('Reusable Module/Page Flow/TC002_RM_PF_Direct to Plan Page'), [('inputButton') : inputButton
-		, ('inputScenario') : inputScenario, ('plateNumber') : plateNumber], FailureHandling.STOP_ON_FAILURE)
+        , ('inputScenario') : inputScenario, ('plateNumber') : plateNumber], FailureHandling.STOP_ON_FAILURE)
 
 // Plan Page
 WebUI.enhancedClick(findTestObject('Object Repository/Motorcar and Motorcycle/Plan Page/button_Personal Details'))
 
-(maxLength, inputTextLength) = WebUI.callTestCase(findTestCase('Reusable Module/Input Validation/TC001_RM_IV_Obtain Max Length'), [('objectLocator') : objectLocator],
-	FailureHandling.STOP_ON_FAILURE)
+(maxLength, inputTextLength) = WebUI.callTestCase(findTestCase('Reusable Module/Input Validation/TC001_RM_IV_Obtain Max Length'), 
+    [('objectLocator') : objectLocator], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyEqual(maxLength, inputTextLength)
 
 WebUI.closeBrowser()
+
