@@ -10,13 +10,13 @@
       <name>environment</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>VOA0005</description>
-      <initValue>['VOA0005']</initValue>
+      <description>VOA0015</description>
+      <initValue>['VOA0015']</initValue>
       <name>rules_eligiblePlateNumber</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>QQQ1111, VOA0010</description>
-      <initValue>['QQQ1111', 'VOA0010']</initValue>
+      <description>QQQ1111, VOA0010, VOA0005</description>
+      <initValue>['QQQ1111', 'VOA0010', 'VOA0005']</initValue>
       <name>rules_purchasedPlateNumber</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

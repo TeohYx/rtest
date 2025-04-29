@@ -140,8 +140,8 @@
       <name>dummy_PersonalDetailsPassportNonMalaysian</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>address1, address2, postcode</description>
-      <initValue>[('postcode') : '47500', ('address2') : '47500, Petaling Jaya, Selangor', ('address1') : 'No. 777/49 Jalan Subang 7']</initValue>
+      <description>address1, address2, postcode, city</description>
+      <initValue>[('postcode') : '47500', ('address2') : '47500, Petaling Jaya, Selangor', ('address1') : 'No. 777/49 Jalan Subang 7', ('city') : 'Petaling Jaya']</initValue>
       <name>dummy_MailingAddress1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -155,8 +155,8 @@
       <name>dyobj_ORAP001</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>address1, address2, postcode</description>
-      <initValue>[('address1') : '14 Jalan Lapangan Terbang Medan Gopeng', ('address2') : '31350, Ipoh, Perak', ('postcode') : '31350']</initValue>
+      <description>address1, address2, postcode, city</description>
+      <initValue>[('address1') : '14 Jalan Lapangan Terbang Medan Gopeng', ('address2') : '31350, Ipoh, Perak', ('postcode') : '31350', ('city') : 'Perak']</initValue>
       <name>dummy_PropertyDetails1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
