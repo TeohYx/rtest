@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC054_GF_AP28_Verify on Payment option - FPX</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>df2e8f14-3269-4184-9606-4217150ae096</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC030_BR_TP5_Verify Transaction Summary page - Failed Transaction</name>
+   <tag>e2e, rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fe8f01ce-f233-48d4-bb1e-cc0572bbfc47</testCaseGuid>
+</TestCaseEntity>

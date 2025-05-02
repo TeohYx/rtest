@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC010_GF_QP10_Verify FAQ Building</name>
+   <tag>info</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>40ffa005-9918-47af-a4b4-d9fc5203deca</testCaseGuid>
+</TestCaseEntity>

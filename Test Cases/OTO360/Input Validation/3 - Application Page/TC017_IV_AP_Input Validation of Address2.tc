@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC017_IV_AP_Input Validation of Address2</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>3b5c5e56-4f8d-4281-85ac-00194f4dcc5c</testCaseGuid>
-</TestCaseEntity>

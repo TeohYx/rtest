@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC030_IV_AP21_Input Validation of Bank Name</name>
+   <tag>inputvalidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d6175422-ce25-4451-9b3a-4633bd49acc2</testCaseGuid>
+</TestCaseEntity>

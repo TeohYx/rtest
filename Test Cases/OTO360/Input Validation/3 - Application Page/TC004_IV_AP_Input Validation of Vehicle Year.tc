@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC004_IV_AP_Input Validation of Vehicle Year</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>080583b1-01ad-45fa-8281-f576d2030ab9</testCaseGuid>
-</TestCaseEntity>

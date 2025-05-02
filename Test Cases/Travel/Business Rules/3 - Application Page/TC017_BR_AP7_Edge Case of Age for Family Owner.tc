@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC017_BR_AP7_Edge Case of Age for Family Owner</name>
+   <tag>rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bddbee7b-2f2d-40ce-81fe-42dce79f2274</testCaseGuid>
+</TestCaseEntity>

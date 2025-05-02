@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC049_GF_AP23_Verify Payment mode section - proceed without selecting anything</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f10e2a18-1fa3-4ee5-a5b7-300bc99b4792</testCaseGuid>
+</TestCaseEntity>

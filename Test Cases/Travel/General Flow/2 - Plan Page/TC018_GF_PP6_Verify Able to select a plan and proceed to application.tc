@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC018_GF_PP6_Verify Able to select a plan and proceed to application</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>09959b7f-b8ea-4ae3-bbfc-c0d2dfc3f670</testCaseGuid>
+</TestCaseEntity>

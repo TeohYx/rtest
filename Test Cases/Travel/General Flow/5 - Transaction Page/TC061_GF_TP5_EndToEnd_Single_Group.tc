@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC061_GF_TP5_EndToEnd_Single_Group</name>
+   <tag>e2e</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5a82bf5b-21a8-456f-ba61-cb9ccc2773d6</testCaseGuid>
+</TestCaseEntity>

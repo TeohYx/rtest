@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>The amount of Gross Premium should equals n % discount of Basic Premium, where n is NCD amount</description>
-   <name>TC005_GT_PP_Verify NCD is Properly Discounted</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>01ff19e2-104a-4d80-b686-24fa245d6b4a</testCaseGuid>
-</TestCaseEntity>

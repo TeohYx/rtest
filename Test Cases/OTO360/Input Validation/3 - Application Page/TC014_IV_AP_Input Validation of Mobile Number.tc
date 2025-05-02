@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC014_IV_AP_Input Validation of Mobile Number</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>1d285dcd-0a65-45c7-8540-877a0a3ca7e1</testCaseGuid>
-</TestCaseEntity>

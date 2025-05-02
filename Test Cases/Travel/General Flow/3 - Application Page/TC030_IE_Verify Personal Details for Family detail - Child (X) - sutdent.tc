@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC030_IE_Verify Personal Details for Family detail - Child (X) - sutdent</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>77113bdf-df23-4612-8a13-cd2960a17f5c</testCaseGuid>
-</TestCaseEntity>

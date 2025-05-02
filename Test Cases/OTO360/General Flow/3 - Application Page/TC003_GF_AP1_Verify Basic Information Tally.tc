@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_GF_AP1_Verify Basic Information Tally</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>66d6a06a-35c1-43f6-a5f9-d5b481224dec</testCaseGuid>
+</TestCaseEntity>

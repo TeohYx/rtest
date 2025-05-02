@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_BR_QP3_Verify Annual Plan no Group Selection</name>
+   <tag>rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6e5a4415-5de6-4dd2-89c9-56b397dbe5df</testCaseGuid>
+</TestCaseEntity>

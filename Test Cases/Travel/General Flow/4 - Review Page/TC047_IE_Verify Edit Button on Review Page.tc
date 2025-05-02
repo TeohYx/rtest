@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC047_IE_Verify Edit Button on Review Page</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>03af8181-0e50-4a8f-a7e3-cd8d2bba50f8</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_GF_QP1_Verify Get Quotation for Owner,Yes,Yes</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9d04baf1-88f2-4642-9359-ea975ce4a20b</testCaseGuid>
+</TestCaseEntity>

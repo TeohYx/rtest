@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC028_IV_AP19_Input Validation of State</name>
+   <tag>inputvalidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7067b74d-293d-4462-baf0-92259b0afde4</testCaseGuid>
+</TestCaseEntity>

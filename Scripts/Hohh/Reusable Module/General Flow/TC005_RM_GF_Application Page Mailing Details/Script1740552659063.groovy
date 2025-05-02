@@ -38,7 +38,7 @@ def defaultParams = [
 	('isTick') : false,
 	('mailingAddress1') : GlobalVariable.dummy_MailingAddress1['address1'],
 	('mailingAddress2') : GlobalVariable.dummy_MailingAddress1['address2'],
-	('mailingCity') : "",
+	('mailingCity') : GlobalVariable.dummy_MailingAddress1['city'],
 	('mailingPostcode') : GlobalVariable.dummy_MailingAddress1['postcode'],
 ]
 

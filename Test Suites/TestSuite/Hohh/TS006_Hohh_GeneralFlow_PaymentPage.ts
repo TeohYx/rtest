@@ -15,14 +15,14 @@
       <guid>b64106ab-13dc-4016-b1d0-54a22f2dd11a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Hohh/General Flow/6 - Payment Page/TC001_BR_PyP_Verify Flow Owner EndToEnd</testCaseId>
+      <testCaseId>Test Cases/Hohh/General Flow/6 - Payment Page/TC037_GF_TP1_Verify Flow Owner EndToEnd</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>db272aad-16d2-4513-a4a6-3fc21fe05c5a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Hohh/General Flow/6 - Payment Page/TC002_BR_PyP_Verify Flow Tenant EndToEnd</testCaseId>
+      <testCaseId>Test Cases/Hohh/General Flow/6 - Payment Page/TC038_GF_TP2_Verify Flow Tenant EndToEnd</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC006_GF_QP6_Verify Single Trip Warning Message</name>
+   <tag>warning</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>edb92fe9-df43-479b-8b41-e8736537b369</testCaseGuid>
+</TestCaseEntity>

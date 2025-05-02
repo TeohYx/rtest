@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC077_IE_Verify Get Quote Medical Dropdown</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>c66f40e7-8ff6-4665-890a-c1823b571849</testCaseGuid>
-</TestCaseEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC004_GF_PyP_Verify Flow Police EndToEnd</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>e182417d-823b-4cb1-abba-9403903f1a1b</testCaseGuid>
-</TestCaseEntity>

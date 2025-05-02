@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC001_GF_PP_Verify Silver,Gold,Platinum Plan Present</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>3b2abaf0-92db-4d28-be4a-b7083158f451</testCaseGuid>
-</TestCaseEntity>

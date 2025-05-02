@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_BR_QP2_Verify Annual Plan no Domestic Selection</name>
+   <tag>rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fb21cda5-247d-4239-aa96-64f1dd98c3dc</testCaseGuid>
+</TestCaseEntity>

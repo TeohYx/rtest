@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Fill all correct and required information and check if it direct to payment page</description>
+   <name>TC008_GF_PP1_Verify Success Direct to Declaration Page</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1bfb6013-5d17-4228-8127-45be089da873</testCaseGuid>
+</TestCaseEntity>

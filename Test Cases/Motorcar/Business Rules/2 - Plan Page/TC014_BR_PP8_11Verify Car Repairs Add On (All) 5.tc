@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC014_BR_PP8_11Verify Car Repairs Add On (All) 5</name>
+   <tag>addon, rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>933575b8-b768-4241-b570-d72693e3d989</testCaseGuid>
+</TestCaseEntity>

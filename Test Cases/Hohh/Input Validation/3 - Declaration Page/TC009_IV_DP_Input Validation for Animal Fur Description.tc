@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC009_IV_DP_Input Validation for Animal Fur Description</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>65098b38-a8e1-4ac5-9a4d-eb6192476e69</testCaseGuid>
-</TestCaseEntity>

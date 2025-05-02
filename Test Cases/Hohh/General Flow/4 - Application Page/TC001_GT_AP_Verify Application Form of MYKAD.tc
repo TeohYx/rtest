@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC001_GT_AP_Verify Application Form of MYKAD</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>311b776c-835f-4dd6-82a7-73e33dd5b8c7</testCaseGuid>
-</TestCaseEntity>

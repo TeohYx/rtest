@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC105_BR_QP_Edge Case of Age for Spouse</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>a6735e69-030b-401b-adcb-725393288647</testCaseGuid>
-</TestCaseEntity>

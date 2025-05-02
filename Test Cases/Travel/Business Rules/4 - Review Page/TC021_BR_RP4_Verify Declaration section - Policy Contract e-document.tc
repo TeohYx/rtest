@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC021_BR_RP4_Verify Declaration section - Policy Contract e-document</name>
+   <tag>link, rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4d8703bd-5eda-417d-8d18-4dd6ed14fca4</testCaseGuid>
+</TestCaseEntity>

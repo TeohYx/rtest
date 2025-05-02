@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC010_GF_TP4_Success Attempt on Police ID Type</name>
+   <tag>e2e</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>04637143-d161-4391-962a-6357d99f6dc9</testCaseGuid>
+</TestCaseEntity>

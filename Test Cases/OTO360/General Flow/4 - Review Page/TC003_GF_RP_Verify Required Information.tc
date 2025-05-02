@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC003_GF_RP_Verify Required Information</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>5400cadb-2823-4df5-b843-ee11c2bb910e</testCaseGuid>
-</TestCaseEntity>

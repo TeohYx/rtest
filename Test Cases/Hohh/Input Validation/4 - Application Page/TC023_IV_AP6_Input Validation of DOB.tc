@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC023_IV_AP6_Input Validation of DOB</name>
+   <tag>inputvalidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d866ffd1-4995-4bad-a5ad-26b547e23d58</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC042_GF_AP16_Leave return flight details empty but filled departure flight details</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b3e0eaef-81d8-44dd-a8c5-6d57085ce078</testCaseGuid>
+</TestCaseEntity>

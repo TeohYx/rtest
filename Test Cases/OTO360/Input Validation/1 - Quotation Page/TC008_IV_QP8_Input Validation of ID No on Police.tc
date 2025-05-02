@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC008_IV_QP8_Input Validation of ID No on Police</name>
+   <tag>inputvalidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5abe235f-7f99-480b-ae20-4e4a9ecf3213</testCaseGuid>
+</TestCaseEntity>

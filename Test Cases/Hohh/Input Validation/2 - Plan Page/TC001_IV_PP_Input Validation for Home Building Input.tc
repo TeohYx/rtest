@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC001_IV_PP_Input Validation for Home Building Input</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>84d694bb-1a8c-4cc2-9426-622ab0beedd8</testCaseGuid>
-</TestCaseEntity>

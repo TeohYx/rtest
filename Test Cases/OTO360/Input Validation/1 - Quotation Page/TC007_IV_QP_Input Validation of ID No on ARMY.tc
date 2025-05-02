@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC007_IV_QP_Input Validation of ID No on ARMY</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>4a40c23c-a165-4d7c-9a25-802fdc0ace32</testCaseGuid>
-</TestCaseEntity>

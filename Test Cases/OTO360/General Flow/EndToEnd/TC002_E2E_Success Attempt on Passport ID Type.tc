@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC002_E2E_Success Attempt on Passport ID Type</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>225132c2-dc15-4065-b727-029a7eb2aeb7</testCaseGuid>
-</TestCaseEntity>

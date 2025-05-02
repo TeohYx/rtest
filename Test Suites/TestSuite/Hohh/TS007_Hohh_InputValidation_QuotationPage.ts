@@ -15,7 +15,7 @@
       <guid>c50a5906-7e41-4a1b-af84-46e513adb6fd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Hohh/Input Validation/1 - Quotation Page/TC001_IV_QP_Verify Edge Case of Number of Storey</testCaseId>
+      <testCaseId>Test Cases/Hohh/Input Validation/1 - Quotation Page/TC001_IV_QP1_Verify Edge Case of Number of Storey</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC006_BR_PP1_Verify Plan,AddOn on Domestic</name>
+   <tag>rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>75700422-f389-481d-b6e4-a136f9760db2</testCaseGuid>
+</TestCaseEntity>

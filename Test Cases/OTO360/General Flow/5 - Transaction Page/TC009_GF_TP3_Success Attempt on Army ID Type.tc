@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC009_GF_TP3_Success Attempt on Army ID Type</name>
+   <tag>e2e</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>07faba72-e68c-4cd8-93ee-dce36b1cf00c</testCaseGuid>
+</TestCaseEntity>

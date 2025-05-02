@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC020_BR_RP3_Verify Declaration section - Product Disclosure Sheet e-document</name>
+   <tag>link, rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>65c168fe-2034-4b6f-8b5f-92abbd8752ea</testCaseGuid>
+</TestCaseEntity>

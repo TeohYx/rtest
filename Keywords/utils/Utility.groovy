@@ -27,6 +27,8 @@ import com.kms.katalon.core.testobject.ConditionType
 import java.time.LocalDate
 import java.time.Period
 import java.time.*
+import java.time.format.DateTimeFormatter
+
 
 public class Utility {
 	// All
@@ -37,14 +39,19 @@ public class Utility {
 	 * @return (DDMMYYYY)
 	 */
 	@Keyword
-	def icToDOB(String NRIC) {
+	def icToDOB(String NRIC, String format = "ddMMyyyy") {
 		String year = NRIC.substring(0, 2)
-		String originalYear = convertYear(year)
-		String month = NRIC.substring(2, 4)
-		String day = NRIC.substring(4, 6)
+		int originalYear = convertYear(year)
+		int month = NRIC.substring(2, 4).toInteger()
+		int day = NRIC.substring(4, 6).toInteger()
 
-		String dob = day + month + originalYear
-		return dob
+		//		String dob = day + month + originalYear
+
+		LocalDate date = LocalDate.of(originalYear, month, day)
+
+		String dateFormat = date.format(DateTimeFormatter.ofPattern(format))
+
+		return dateFormat
 	}
 
 	def convertYear(String year) {
@@ -63,8 +70,8 @@ public class Utility {
 		int givenYearInt = Integer.parseInt(year)
 
 		String originalYear = givenYearInt > thisYearShortInt ? '19' + year : '20' + year
-
-		return originalYear
+		int oriYear = originalYear.toInteger()
+		return oriYear
 	}
 
 	/**
@@ -144,7 +151,7 @@ public class Utility {
 			'text': errorText
 		]
 	}
-	
+
 	/**
 	 * Get 1 column and 1 row, and return the value from any sheet in 'Object Repository.xlsx'.
 	 * @param row The name of the product

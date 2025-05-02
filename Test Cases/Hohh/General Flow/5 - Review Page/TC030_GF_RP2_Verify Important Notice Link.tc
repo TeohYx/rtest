@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC030_GF_RP2_Verify Important Notice Link</name>
+   <tag>link</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>479e0765-1979-4284-b872-98a0de214940</testCaseGuid>
+</TestCaseEntity>

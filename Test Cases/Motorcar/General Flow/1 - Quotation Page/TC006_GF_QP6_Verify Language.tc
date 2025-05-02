@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC006_GF_QP6_Verify Language</name>
+   <tag>basic</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d652552a-6c12-4016-8e47-92e6634f5d1a</testCaseGuid>
+</TestCaseEntity>

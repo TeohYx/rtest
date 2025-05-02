@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC032_BR_TP4_Retry Payment Upon Failed Transaction</name>
+   <tag>e2e, rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2e803436-6707-4750-99f6-6ae2326d5592</testCaseGuid>
+</TestCaseEntity>

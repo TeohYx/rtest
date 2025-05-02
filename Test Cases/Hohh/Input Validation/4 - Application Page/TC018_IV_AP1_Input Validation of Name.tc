@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC018_IV_AP1_Input Validation of Name</name>
+   <tag>inputvalidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>553f08e1-9d61-446c-a6b2-b7126b2db552</testCaseGuid>
+</TestCaseEntity>

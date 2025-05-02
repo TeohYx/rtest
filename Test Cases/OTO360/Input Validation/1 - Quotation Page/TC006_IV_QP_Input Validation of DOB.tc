@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC006_IV_QP_Input Validation of DOB</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>792c1b7e-66a3-4f22-bf48-f4ba7a14bc37</testCaseGuid>
-</TestCaseEntity>

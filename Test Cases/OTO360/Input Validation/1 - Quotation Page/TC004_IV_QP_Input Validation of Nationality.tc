@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC004_IV_QP_Input Validation of Nationality</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>0d07dfb6-b764-4489-a7c1-f6ef8b809512</testCaseGuid>
-</TestCaseEntity>

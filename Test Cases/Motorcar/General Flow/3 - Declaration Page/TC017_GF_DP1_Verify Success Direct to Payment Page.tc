@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC017_GF_DP1_Verify Success Direct to Payment Page</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eafe3286-24d3-4948-8ed2-0d00bd67824b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC043_GF_AP17_Verify Bank Account Details - policy holder same as name in policy owner</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d5124e07-13c2-417a-9ca1-d625d5b7cfd9</testCaseGuid>
+</TestCaseEntity>

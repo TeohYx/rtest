@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Only apply for 18-70 yo holder</description>
+   <name>TC011_BR_PP5_Verify OTO360 AddOn 2</name>
+   <tag>addon, rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>166214a1-9476-4f92-b5fc-8fb308b5bf00</testCaseGuid>
+</TestCaseEntity>

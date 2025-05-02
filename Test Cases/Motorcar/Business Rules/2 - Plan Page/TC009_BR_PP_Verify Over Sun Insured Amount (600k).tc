@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC009_BR_PP_Verify Over Sun Insured Amount (600k)</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>719ffb8d-ae3c-475d-8330-febe96a9db59</testCaseGuid>
-</TestCaseEntity>

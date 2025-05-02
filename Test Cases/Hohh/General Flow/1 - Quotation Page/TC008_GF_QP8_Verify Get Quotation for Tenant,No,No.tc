@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC008_GF_QP8_Verify Get Quotation for Tenant,No,No</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>45a8d7b3-31dc-43ce-a3dd-597c2035d57e</testCaseGuid>
+</TestCaseEntity>

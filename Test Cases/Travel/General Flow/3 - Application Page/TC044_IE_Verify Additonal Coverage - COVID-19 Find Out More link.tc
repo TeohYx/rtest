@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC044_IE_Verify Additonal Coverage - COVID-19 Find Out More link</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>0680027a-8dc8-4058-add8-56c1a503fb86</testCaseGuid>
-</TestCaseEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>The bank account details information must be filled before proceed to payment page</description>
-   <name>TC016_GF_PP_Verify Bank Account Details to be Filled</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>45efeb6b-34d8-4df8-a59e-c5b8df2db22c</testCaseGuid>
-</TestCaseEntity>

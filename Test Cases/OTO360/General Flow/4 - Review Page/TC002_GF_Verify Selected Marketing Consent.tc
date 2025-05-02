@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC002_GF_Verify Selected Marketing Consent</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>704d4022-32d6-461a-8a43-f0d85a7a7cf8</testCaseGuid>
-</TestCaseEntity>

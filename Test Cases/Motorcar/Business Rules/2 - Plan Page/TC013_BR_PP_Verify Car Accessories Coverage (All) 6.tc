@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC013_BR_PP_Verify Car Accessories Coverage (All) 6</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>b69e9486-f999-473b-b39d-8bd462c58b5e</testCaseGuid>
-</TestCaseEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC009_GT_RP_Verify Product Disclosure Sheet Link</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>8604e032-cb3d-4191-a4b4-4d40efdd0666</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004_GF_QP4_Verify Annual Trip Non Domestic</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3e06e528-34e5-4eb1-8bc0-2a27f4ad576a</testCaseGuid>
+</TestCaseEntity>

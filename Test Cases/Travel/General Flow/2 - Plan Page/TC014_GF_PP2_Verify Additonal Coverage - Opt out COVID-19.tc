@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC014_GF_PP2_Verify Additonal Coverage - Opt out COVID-19</name>
+   <tag>addon</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1ccdd094-a34c-4900-81b6-1c223f6be06b</testCaseGuid>
+</TestCaseEntity>

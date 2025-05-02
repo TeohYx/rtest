@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC002_IV_DP_Input Validation for Gold Value Amount</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>54d60469-011f-43e2-a0f1-05a2b50322a8</testCaseGuid>
-</TestCaseEntity>

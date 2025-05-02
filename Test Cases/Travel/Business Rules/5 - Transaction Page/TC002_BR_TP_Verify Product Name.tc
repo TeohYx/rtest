@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC002_BR_TP_Verify Product Name</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>8aa8e013-3d55-4796-9e46-215b1e01850c</testCaseGuid>
-</TestCaseEntity>

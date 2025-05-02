@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC003_BR_QP_Holder NCD Expire Before More than 60 Days</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>8ae09d08-f91b-4099-90d2-3c0221c4b243</testCaseGuid>
-</TestCaseEntity>

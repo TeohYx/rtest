@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC029_IV_AP12_Input Validation of PropertyDetailsPostcode</name>
+   <tag>inputvalidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f17c064b-97b8-4e15-8a34-28e3e1f48e17</testCaseGuid>
+</TestCaseEntity>

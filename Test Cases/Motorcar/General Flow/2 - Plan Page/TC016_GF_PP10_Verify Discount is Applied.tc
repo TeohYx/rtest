@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Discount (10%) always applied under echannel</description>
+   <name>TC016_GF_PP10_Verify Discount is Applied</name>
+   <tag>basic</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>217e05c0-0e53-40c3-8a19-49a5b225671f</testCaseGuid>
+</TestCaseEntity>

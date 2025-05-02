@@ -15,14 +15,14 @@
       <guid>6bc9deac-98a3-480f-b761-3b7cb24abb29</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Hohh/Input Validation/2 - Plan Page/TC001_IV_PP_Input Validation for Home Building Input</testCaseId>
+      <testCaseId>Test Cases/Hohh/Input Validation/2 - Plan Page/TC002_IV_PP1_Input Validation for Home Building Input</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0881fcbc-c104-46ad-9454-7b0c76c57f2f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Hohh/Input Validation/2 - Plan Page/TC002_IV_PP_Input Validation for Home Content Input</testCaseId>
+      <testCaseId>Test Cases/Hohh/Input Validation/2 - Plan Page/TC003_IV_PP2_Input Validation for Home Content Input</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

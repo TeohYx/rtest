@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>The Total Motorcycle Premium should be correctly calculated from Gross Premium (Discount d%, service tax s%, stamp duty amount, a), where the variable is its amount respectively</description>
+   <name>TC012_GF_PP5_Verify Total Motorcycle Premium</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>722d76a1-3f09-49a0-a7a2-670a1e4602e6</testCaseGuid>
+</TestCaseEntity>

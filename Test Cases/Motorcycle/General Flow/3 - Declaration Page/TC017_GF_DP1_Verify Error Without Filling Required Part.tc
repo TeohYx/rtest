@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC017_GF_DP1_Verify Error Without Filling Required Part</name>
+   <tag>warning</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>50422ad8-0054-4666-9549-67c117db292e</testCaseGuid>
+</TestCaseEntity>

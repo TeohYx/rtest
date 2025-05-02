@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>The “Plate number” and “Postcode” should be same with the information displayed in quotation page.</description>
-   <name>TC004_GT_PP_Verify Information Displayed in Motorcar Details</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>f30583ba-6da0-4b5b-8fa8-93f7525a8724</testCaseGuid>
-</TestCaseEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC003_IV_DP_Input Validation for Platinum Description</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>c725ba02-df51-4b21-919b-b810813345b6</testCaseGuid>
-</TestCaseEntity>

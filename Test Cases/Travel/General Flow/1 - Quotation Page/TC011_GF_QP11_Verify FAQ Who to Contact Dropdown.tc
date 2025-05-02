@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC011_GF_QP11_Verify FAQ Who to Contact Dropdown</name>
+   <tag>info</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7eddb932-5f7d-4f44-8aa9-9a7f3496c45b</testCaseGuid>
+</TestCaseEntity>

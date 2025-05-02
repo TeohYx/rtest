@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC076_IE_Verify Get Quote Death Dropdown</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>38a05963-f0b0-44f9-8e10-53e07e80d43c</testCaseGuid>
-</TestCaseEntity>

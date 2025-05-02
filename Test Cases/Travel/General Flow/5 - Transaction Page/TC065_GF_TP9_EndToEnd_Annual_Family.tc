@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC065_GF_TP9_EndToEnd_Annual_Family</name>
+   <tag>e2e</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42604f8e-83a5-4bb4-b9aa-555ee2cdeaf1</testCaseGuid>
+</TestCaseEntity>

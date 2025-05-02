@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>P</description>
-   <name>TC100_IE_Verify All Filling on Policy Owner on Malaysian</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>2f4b983d-a6b3-43dc-9a06-1ee87b3da1ce</testCaseGuid>
-</TestCaseEntity>

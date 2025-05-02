@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC003_IE_Verify Annual Trip Domestic</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>d57d7853-bc3a-46c8-84df-4f7a2c81062d</testCaseGuid>
-</TestCaseEntity>

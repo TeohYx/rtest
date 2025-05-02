@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC009_IV_DP6_Input Validation for Silver Value Amount</name>
+   <tag>inputvalidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ea446f45-4469-4f59-8761-5264b02823e4</testCaseGuid>
+</TestCaseEntity>

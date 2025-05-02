@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC005_IV_QP_Input Validation of Passport Number</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>e13a5fc9-e31d-4bc9-b4f8-51f4859c4d5c</testCaseGuid>
-</TestCaseEntity>

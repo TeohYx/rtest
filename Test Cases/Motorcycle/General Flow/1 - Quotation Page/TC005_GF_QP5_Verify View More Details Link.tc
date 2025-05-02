@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005_GF_QP5_Verify View More Details Link</name>
+   <tag>link</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dd3b094c-fb3e-4bcc-8c55-3a17a4d4c9f7</testCaseGuid>
+</TestCaseEntity>

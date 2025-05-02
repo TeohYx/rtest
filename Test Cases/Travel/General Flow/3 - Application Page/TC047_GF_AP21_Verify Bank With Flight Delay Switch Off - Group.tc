@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC047_GF_AP21_Verify Bank With Flight Delay Switch Off - Group</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>003ddaca-c663-422c-8ca1-ff4521d92c70</testCaseGuid>
+</TestCaseEntity>

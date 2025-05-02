@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC013_BR_AP3_Edge Case of Age for Senior</name>
+   <tag>rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e5772844-daed-46e0-8d6b-a3a187320f3b</testCaseGuid>
+</TestCaseEntity>

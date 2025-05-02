@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC007_BR_PP1_Verify Select Add On and Edit</name>
+   <tag>flow, rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>adfa6d75-6309-4345-a007-68d0b7180af7</testCaseGuid>
+</TestCaseEntity>

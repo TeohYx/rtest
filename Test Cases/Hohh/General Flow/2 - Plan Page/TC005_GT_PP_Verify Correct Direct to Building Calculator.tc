@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC005_GT_PP_Verify Correct Direct to Building Calculator</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>9aa40cc9-d762-4421-815e-05d7ce5c6f73</testCaseGuid>
-</TestCaseEntity>

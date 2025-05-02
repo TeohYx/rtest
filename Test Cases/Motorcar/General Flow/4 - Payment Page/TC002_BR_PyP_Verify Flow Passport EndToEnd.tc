@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC002_BR_PyP_Verify Flow Passport EndToEnd</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>b42ca9d9-482c-4eb6-942b-0877e1f020ca</testCaseGuid>
-</TestCaseEntity>

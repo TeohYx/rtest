@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC008_BR_DP2_Verify Policy Contract Link</name>
+   <tag>link, rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>36a1535e-8416-4750-9319-1cd23a9eed5a</testCaseGuid>
+</TestCaseEntity>

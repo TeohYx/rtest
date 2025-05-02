@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC027_IV_AP10_Input Validation of PropertyDetailsAddress2</name>
+   <tag>inputvalidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0449a68b-ddaf-4264-8d83-e0ca424f8ecb</testCaseGuid>
+</TestCaseEntity>

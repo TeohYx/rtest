@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC016_GF_PP4_Verify Correct Direct to Contents Calculator</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8626dd3b-1c47-4377-be8a-dc7deaca343d</testCaseGuid>
+</TestCaseEntity>

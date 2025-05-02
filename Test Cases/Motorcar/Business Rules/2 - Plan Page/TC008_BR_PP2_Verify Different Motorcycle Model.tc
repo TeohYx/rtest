@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC008_BR_PP2_Verify Different Motorcycle Model</name>
+   <tag>flow, rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>98492e2a-24c5-4b71-9172-8258efc2fe25</testCaseGuid>
+</TestCaseEntity>

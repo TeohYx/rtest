@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_BR_QP1_Verify Domestic Plan Not More Than 30 Days (Inclusive)</name>
+   <tag>rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6bcb2e88-ac2f-4c31-b755-376e9e59bc31</testCaseGuid>
+</TestCaseEntity>

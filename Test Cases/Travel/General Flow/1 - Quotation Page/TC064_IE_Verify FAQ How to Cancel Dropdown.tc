@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC064_IE_Verify FAQ How to Cancel Dropdown</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>b1530b5d-3b13-430a-b0b2-8d3cf65ea7a2</testCaseGuid>
-</TestCaseEntity>

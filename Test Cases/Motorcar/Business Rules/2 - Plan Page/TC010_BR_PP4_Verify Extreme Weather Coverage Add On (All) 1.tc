@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC010_BR_PP4_Verify Extreme Weather Coverage Add On (All) 1</name>
+   <tag>addon, rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>de6c6a70-3407-46c6-b6e5-c08647d82e8c</testCaseGuid>
+</TestCaseEntity>

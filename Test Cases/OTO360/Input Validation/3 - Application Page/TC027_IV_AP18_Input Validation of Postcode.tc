@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC027_IV_AP18_Input Validation of Postcode</name>
+   <tag>inputvalidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f40c853e-ff8e-4e89-bc66-ac19acacc14c</testCaseGuid>
+</TestCaseEntity>

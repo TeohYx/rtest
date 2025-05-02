@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC025_GF_AP2_Verify Application Form of MYPR,Malaysian</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1074ad37-d58f-4025-81e2-4eac78038acc</testCaseGuid>
+</TestCaseEntity>

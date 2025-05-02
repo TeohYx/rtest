@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC021_GF_DP1_Verify Want Declare Redirection</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>30f251c9-8f45-4aa2-bebb-8f5506ac7caf</testCaseGuid>
+</TestCaseEntity>

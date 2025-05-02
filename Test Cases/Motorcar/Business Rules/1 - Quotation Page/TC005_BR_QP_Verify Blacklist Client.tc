@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC005_BR_QP_Verify Blacklist Client</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>06e0f0b6-0d2e-4828-8ed4-9c671cb27210</testCaseGuid>
-</TestCaseEntity>

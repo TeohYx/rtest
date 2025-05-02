@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This included all the value amount input of Contents</description>
+   <name>TC004_IV_DP1_Input Validation for Gold Description</name>
+   <tag>inputvalidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e62281bd-4f42-464a-8547-4ad61c0b99dd</testCaseGuid>
+</TestCaseEntity>

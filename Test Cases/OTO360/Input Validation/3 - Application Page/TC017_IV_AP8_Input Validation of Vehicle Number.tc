@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC017_IV_AP8_Input Validation of Vehicle Number</name>
+   <tag>inputvalidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7242798d-d40e-4162-a219-c06c96161bd6</testCaseGuid>
+</TestCaseEntity>

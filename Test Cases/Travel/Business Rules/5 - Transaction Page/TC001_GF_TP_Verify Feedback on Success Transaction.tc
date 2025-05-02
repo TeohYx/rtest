@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC001_GF_TP_Verify Feedback on Success Transaction</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>4994331c-7827-45ee-9586-e1dd38eb8509</testCaseGuid>
-</TestCaseEntity>

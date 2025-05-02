@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC008_BR_PP3_Verify Plan,AddOn on Annual Trip, Non Domestic, Non Senior Citizen</name>
+   <tag>rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>04dc7df5-4e6b-417c-9784-42c2a56540ad</testCaseGuid>
+</TestCaseEntity>

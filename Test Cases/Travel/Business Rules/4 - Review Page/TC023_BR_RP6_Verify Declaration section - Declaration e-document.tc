@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC023_BR_RP6_Verify Declaration section - Declaration e-document</name>
+   <tag>link, rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ce1c87ed-1fd6-40c6-a48f-569579648833</testCaseGuid>
+</TestCaseEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC083_IE_Verify on Payment option - Amex</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>6e952a4e-a920-470b-9ce2-083e493ee1a5</testCaseGuid>
-</TestCaseEntity>

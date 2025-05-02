@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC102_BR_QP_Verify Annual Plan no Group Selection</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>6e5a4415-5de6-4dd2-89c9-56b397dbe5df</testCaseGuid>
-</TestCaseEntity>

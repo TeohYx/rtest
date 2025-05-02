@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC007_GF_TP1_Success Attempt on MYKAD ID Type</name>
+   <tag>e2e</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2abaae94-9a22-4c1b-87ca-1af8222baf83</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC011_BR_AP1_Verify Discount Applied under EDP</name>
+   <tag>rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fe7ae242-02f7-48b9-a78f-c7efa8b5ef1f</testCaseGuid>
+</TestCaseEntity>

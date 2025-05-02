@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC009_BR_DP3_Verify Important Notice Link</name>
+   <tag>link, rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>64014c41-608f-4181-a31d-7ebeedd5ae1d</testCaseGuid>
+</TestCaseEntity>

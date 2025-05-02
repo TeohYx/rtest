@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC036_GF_RP8_Verify PIDM Page Link</name>
+   <tag>link</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>da3d1611-05a0-430d-9f3c-41c40d65181f</testCaseGuid>
+</TestCaseEntity>

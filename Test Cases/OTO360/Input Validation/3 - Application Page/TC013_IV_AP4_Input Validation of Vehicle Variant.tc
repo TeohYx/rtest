@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC013_IV_AP4_Input Validation of Vehicle Variant</name>
+   <tag>inputvalidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>421743eb-fe7b-4f9c-a835-3c4fdd9bc14d</testCaseGuid>
+</TestCaseEntity>

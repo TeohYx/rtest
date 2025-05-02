@@ -15,14 +15,14 @@
       <guid>b6a5cb06-775d-42ba-baff-a290f90d4f98</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Motorcycle/Business Rules/1 - Quotation Page/TC004_BR_QP_Verify Blacklist Vehicle</testCaseId>
+      <testCaseId>Test Cases/Motorcycle/Business Rules/1 - Quotation Page/TC001_BR_QP1_Verify Blacklist Vehicle</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c5b3ba65-151e-448d-8d01-bd9c6a7a3168</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Motorcycle/Business Rules/1 - Quotation Page/TC005_BR_QP_Verify Blacklist Client</testCaseId>
+      <testCaseId>Test Cases/Motorcycle/Business Rules/1 - Quotation Page/TC002_BR_QP2_Verify Blacklist Client</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

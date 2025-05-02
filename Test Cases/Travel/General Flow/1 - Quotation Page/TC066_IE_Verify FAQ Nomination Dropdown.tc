@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC066_IE_Verify FAQ Nomination Dropdown</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>9861a53d-ab06-406d-a442-3ec1966689ae</testCaseGuid>
-</TestCaseEntity>

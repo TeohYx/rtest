@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC017_BR_TP4_Verify Feedback on Success Transaction</name>
+   <tag>flow, rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7274fe5a-0b1f-4f38-ba36-f0ba9cc0e3a0</testCaseGuid>
+</TestCaseEntity>

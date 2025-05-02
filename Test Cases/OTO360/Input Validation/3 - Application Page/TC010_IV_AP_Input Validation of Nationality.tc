@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC010_IV_AP_Input Validation of Nationality</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>d94f3950-b099-4772-bd0a-888989ab41b1</testCaseGuid>
-</TestCaseEntity>

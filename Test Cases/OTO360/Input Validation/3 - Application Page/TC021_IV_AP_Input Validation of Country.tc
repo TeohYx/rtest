@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC021_IV_AP_Input Validation of Country</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>ea8ab42b-a486-4be1-9613-df3cab1ebd24</testCaseGuid>
-</TestCaseEntity>

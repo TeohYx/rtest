@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC012_BR_DP6_Verify PIDM Brochure Link</name>
+   <tag>link, rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d65ed8f7-5103-4750-b498-c17719ad5da9</testCaseGuid>
+</TestCaseEntity>

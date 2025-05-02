@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC031_IE_Verify Personal Details Section - New Customer</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>1d707ef5-dee2-420d-8f51-d3e70466d05c</testCaseGuid>
-</TestCaseEntity>

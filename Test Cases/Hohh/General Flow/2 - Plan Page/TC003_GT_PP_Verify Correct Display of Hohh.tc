@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>The Total Payable should be sum of Total Motorcycle Premium + all the additional coverage cost</description>
-   <name>TC003_GT_PP_Verify Correct Display of Hohh</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>89c1e210-959c-4955-bd47-b5a0933e2d8b</testCaseGuid>
-</TestCaseEntity>

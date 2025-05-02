@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC006_BR_QP6_Holder NCD Expire More than 180 Days</name>
+   <tag>rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>97ff6ea8-1cb3-469f-8644-eef5bfc81b36</testCaseGuid>
+</TestCaseEntity>

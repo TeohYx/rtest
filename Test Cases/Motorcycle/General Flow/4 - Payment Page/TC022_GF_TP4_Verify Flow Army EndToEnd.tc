@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC022_GF_TP4_Verify Flow Army EndToEnd</name>
+   <tag>e2e</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cde9e46d-9dcb-480b-9b9d-bafe4b9168cf</testCaseGuid>
+</TestCaseEntity>

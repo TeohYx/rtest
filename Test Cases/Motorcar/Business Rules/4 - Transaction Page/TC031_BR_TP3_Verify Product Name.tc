@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC031_BR_TP3_Verify Product Name</name>
+   <tag>rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>87ad95d1-4c2c-4fd1-9a7a-86af22e22683</testCaseGuid>
+</TestCaseEntity>

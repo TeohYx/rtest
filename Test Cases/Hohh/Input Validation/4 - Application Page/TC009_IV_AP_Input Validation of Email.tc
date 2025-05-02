@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC009_IV_AP_Input Validation of Email</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>b72287d7-d5a9-4184-9684-27c1d453a13c</testCaseGuid>
-</TestCaseEntity>

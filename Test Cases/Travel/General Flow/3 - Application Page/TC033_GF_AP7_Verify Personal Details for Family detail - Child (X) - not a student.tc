@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC033_GF_AP7_Verify Personal Details for Family detail - Child (X) - not a student</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c573a80e-73e8-4cb3-98ff-9d4146381900</testCaseGuid>
+</TestCaseEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC008_GF_DP_Verify PIDM Page Link</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>4b6e1498-5979-4962-9238-0780243cf90d</testCaseGuid>
-</TestCaseEntity>

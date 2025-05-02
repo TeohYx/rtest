@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC002_IV_AP_Input Validation of ID Type</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>d84120df-9b75-437a-97be-45591b343b64</testCaseGuid>
-</TestCaseEntity>

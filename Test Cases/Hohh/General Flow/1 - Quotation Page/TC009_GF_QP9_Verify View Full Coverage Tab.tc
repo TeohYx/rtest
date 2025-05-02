@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC009_GF_QP9_Verify View Full Coverage Tab</name>
+   <tag>basic</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dbd91508-6c84-4faf-9696-09cc9a89500f</testCaseGuid>
+</TestCaseEntity>

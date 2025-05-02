@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC011_IV_DP_Input Validation for Sports Description</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>6e984577-9285-4341-b3a8-10760b93a866</testCaseGuid>
-</TestCaseEntity>

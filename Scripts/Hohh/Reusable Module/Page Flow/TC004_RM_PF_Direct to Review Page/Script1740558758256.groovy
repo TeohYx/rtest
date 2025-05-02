@@ -68,13 +68,13 @@ def defaultParams = [
 	// Property Address
 	('propertyAddress1') : GlobalVariable.dummy_PropertyDetails1['address1'], 
 	('propertyAddress2') : GlobalVariable.dummy_PropertyDetails1['address2'], 
-	('propertyCity') : '', 
+	('propertyCity') : GlobalVariable.dummy_PropertyDetails1['city'], 
 	('propertyPostcode') : GlobalVariable.dummy_PropertyDetails1['postcode'], 
 	// Mailing Address
 	('isTick') : false, 
 	('mailingAddress1') : GlobalVariable.dummy_MailingAddress1['address1'], 
 	('mailingAddress2') : GlobalVariable.dummy_MailingAddress1['address2'], 
-	('mailingCity') : '', 
+	('mailingCity') : GlobalVariable.dummy_MailingAddress1['city'],
 	('mailingPostcode') : GlobalVariable.dummy_MailingAddress1['postcode'],
 	// Bank Account
 	('bankName') : bankName,

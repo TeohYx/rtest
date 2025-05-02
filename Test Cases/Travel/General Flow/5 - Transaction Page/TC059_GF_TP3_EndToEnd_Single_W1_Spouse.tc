@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC059_GF_TP3_EndToEnd_Single_W1_Spouse</name>
+   <tag>e2e</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7ea1900b-3284-4e6d-b84d-d3bbe9082c49</testCaseGuid>
+</TestCaseEntity>

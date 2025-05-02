@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC001_BR_QP_Verify Sanction Validation</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>538f2cc5-1513-48b3-a1e7-5cfc497f8790</testCaseGuid>
-</TestCaseEntity>

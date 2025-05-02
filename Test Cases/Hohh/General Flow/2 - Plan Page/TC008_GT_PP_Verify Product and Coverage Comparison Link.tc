@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>The “Plate number” and “Postcode” should be same with the information displayed in quotation page.</description>
-   <name>TC008_GT_PP_Verify Product and Coverage Comparison Link</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>a7d36a8f-bca3-40d0-a9fe-ee3774cd1958</testCaseGuid>
-</TestCaseEntity>

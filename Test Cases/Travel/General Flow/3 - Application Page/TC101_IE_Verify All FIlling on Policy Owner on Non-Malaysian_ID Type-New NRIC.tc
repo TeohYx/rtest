@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC101_IE_Verify All FIlling on Policy Owner on Non-Malaysian_ID Type-New NRIC</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>0f919bc3-3bf9-46b7-87d5-36ab915ee877</testCaseGuid>
-</TestCaseEntity>

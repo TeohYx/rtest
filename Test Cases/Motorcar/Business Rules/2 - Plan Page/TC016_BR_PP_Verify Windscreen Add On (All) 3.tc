@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC016_BR_PP_Verify Windscreen Add On (All) 3</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>4f3c1316-4da5-496b-8c8b-d00f162f45b7</testCaseGuid>
-</TestCaseEntity>

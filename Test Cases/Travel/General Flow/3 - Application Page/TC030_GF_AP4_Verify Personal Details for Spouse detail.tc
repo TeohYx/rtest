@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC030_GF_AP4_Verify Personal Details for Spouse detail</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>04e81afc-6b91-4f92-8350-391a54e84ec7</testCaseGuid>
+</TestCaseEntity>

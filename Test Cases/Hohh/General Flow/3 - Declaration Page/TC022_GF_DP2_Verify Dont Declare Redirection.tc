@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC022_GF_DP2_Verify Dont Declare Redirection</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9d94c71c-7c86-429e-b241-c1ca395bf6af</testCaseGuid>
+</TestCaseEntity>

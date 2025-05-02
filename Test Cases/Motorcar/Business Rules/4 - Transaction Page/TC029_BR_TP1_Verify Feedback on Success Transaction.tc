@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC029_BR_TP1_Verify Feedback on Success Transaction</name>
+   <tag>e2e, rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>57b56a53-1088-40c2-9d61-130e54deb5b7</testCaseGuid>
+</TestCaseEntity>

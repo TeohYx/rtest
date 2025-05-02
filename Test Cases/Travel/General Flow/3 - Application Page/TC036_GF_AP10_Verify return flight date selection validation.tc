@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC036_GF_AP10_Verify return flight date selection validation</name>
+   <tag>basic</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2f823ad5-7579-46a8-af2f-2cc48bb5b026</testCaseGuid>
+</TestCaseEntity>

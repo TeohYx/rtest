@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC004_GF_QP_Verify Get Quotation for Police</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>204453b7-c091-4b82-b99e-275f2df0f452</testCaseGuid>
-</TestCaseEntity>

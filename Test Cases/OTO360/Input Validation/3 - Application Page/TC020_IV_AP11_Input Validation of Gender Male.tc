@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC020_IV_AP11_Input Validation of Gender Male</name>
+   <tag>inputvalidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ea8bf1ec-ea51-4e36-912f-d4ea9b584635</testCaseGuid>
+</TestCaseEntity>

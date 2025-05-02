@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004_BR_QP4_Verify Allow Select Day for Maximum 180 Days (Exclusive)</name>
+   <tag>rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aa9e5cff-e256-4f48-abec-0dbcfa377cab</testCaseGuid>
+</TestCaseEntity>

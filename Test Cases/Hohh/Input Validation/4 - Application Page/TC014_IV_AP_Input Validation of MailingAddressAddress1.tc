@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC014_IV_AP_Input Validation of MailingAddressAddress1</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>10f913ab-58b1-4b10-a5f7-f2bc6bbbcc4b</testCaseGuid>
-</TestCaseEntity>

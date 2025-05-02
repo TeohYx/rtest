@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC019_BR_TP6_Verify Transaction Summary page - Failed Transaction</name>
+   <tag>flow, rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fc16ccf6-df1a-41b5-a54f-a79567938be6</testCaseGuid>
+</TestCaseEntity>

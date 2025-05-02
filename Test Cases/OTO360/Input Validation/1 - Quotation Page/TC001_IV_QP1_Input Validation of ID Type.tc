@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_IV_QP1_Input Validation of ID Type</name>
+   <tag>inputvalidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8c9286d5-ae87-464f-bbfe-d406e88f2371</testCaseGuid>
+</TestCaseEntity>

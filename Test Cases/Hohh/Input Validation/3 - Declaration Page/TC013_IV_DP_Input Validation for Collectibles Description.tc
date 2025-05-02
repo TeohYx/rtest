@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC013_IV_DP_Input Validation for Collectibles Description</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>72e4166c-50bd-49bc-869a-4ee5afa1ebc1</testCaseGuid>
-</TestCaseEntity>

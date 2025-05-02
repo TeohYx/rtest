@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC005_GT_DP_Verify Important Notice Link</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>64014c41-608f-4181-a31d-7ebeedd5ae1d</testCaseGuid>
-</TestCaseEntity>

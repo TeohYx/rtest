@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC050_GF_AP24_Verify Payment mode section - select a payment method</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8d6f5c6c-ae16-4837-9397-58746f93aeb0</testCaseGuid>
+</TestCaseEntity>

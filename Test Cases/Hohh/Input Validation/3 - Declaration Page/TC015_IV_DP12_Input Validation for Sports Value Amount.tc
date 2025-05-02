@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC015_IV_DP12_Input Validation for Sports Value Amount</name>
+   <tag>inputvalidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c29d267d-8194-4304-8b4d-83689b188f56</testCaseGuid>
+</TestCaseEntity>

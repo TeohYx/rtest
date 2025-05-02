@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC020_GF_TP2_Verify Flow NRIC EndToEnd</name>
+   <tag>e2e</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>674a97a1-960f-4a72-a662-0d6f4b0358de</testCaseGuid>
+</TestCaseEntity>

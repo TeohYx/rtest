@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC019_GF_PP7_Verify Failed Flow of the Sum of Contents Calculator</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a363d521-c4fc-4f0c-bf46-2304e17bf65a</testCaseGuid>
+</TestCaseEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC090_IE_EndToEnd_Annual_W1_Senior</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>625663d1-2c9a-4f4b-8087-163f6561d964</testCaseGuid>
-</TestCaseEntity>

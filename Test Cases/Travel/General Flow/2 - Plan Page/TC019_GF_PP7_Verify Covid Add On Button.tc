@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC019_GF_PP7_Verify Covid Add On Button</name>
+   <tag>addon</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d188ba92-6ab8-498a-a51e-44c5896ff30f</testCaseGuid>
+</TestCaseEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC006_GF_DP_Verify Declaration Link</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>c62b4fb3-8b4e-4939-b868-5f661f181685</testCaseGuid>
-</TestCaseEntity>

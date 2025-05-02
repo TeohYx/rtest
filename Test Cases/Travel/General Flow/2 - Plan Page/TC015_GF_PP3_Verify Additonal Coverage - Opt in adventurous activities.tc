@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC015_GF_PP3_Verify Additonal Coverage - Opt in adventurous activities</name>
+   <tag>addon</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5af2eeff-ddf1-40c9-8392-79376c1836a8</testCaseGuid>
+</TestCaseEntity>

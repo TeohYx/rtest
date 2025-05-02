@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_BR_QP1_Verify Blacklist Vehicle</name>
+   <tag>rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e2d071ca-40b6-4cb1-88d5-6840a8a3c18e</testCaseGuid>
+</TestCaseEntity>

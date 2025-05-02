@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC016_BR_AP6_Edge Case of Age for Group</name>
+   <tag>rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9eef41ca-ff40-479c-904d-6281a7dbb832</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC018_IV_AP9_Input Validation of Nationality</name>
+   <tag>inputvalidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d94f3950-b099-4772-bd0a-888989ab41b1</testCaseGuid>
+</TestCaseEntity>

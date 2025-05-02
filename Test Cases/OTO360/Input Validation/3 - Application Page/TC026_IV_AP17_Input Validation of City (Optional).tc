@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC026_IV_AP17_Input Validation of City (Optional)</name>
+   <tag>inputvalidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f59a1ba3-0413-4a34-b3de-b51d104ced53</testCaseGuid>
+</TestCaseEntity>

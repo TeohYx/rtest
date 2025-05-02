@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Must be 18-80 year old</description>
-   <name>TC002_BR_QP_Verify Edge Case of Holder Age</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>0151f005-417b-4141-86ff-09569600c635</testCaseGuid>
-</TestCaseEntity>

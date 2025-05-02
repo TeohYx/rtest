@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC034_IV_AP17_Input Validation of BankName</name>
+   <tag>inputvalidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3867fa06-e344-471e-8b9c-6d9ea6faf485</testCaseGuid>
+</TestCaseEntity>

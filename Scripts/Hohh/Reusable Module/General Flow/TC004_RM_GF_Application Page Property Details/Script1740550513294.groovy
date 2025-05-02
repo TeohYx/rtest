@@ -36,7 +36,7 @@ import org.openqa.selenium.Keys as Keys
 def defaultParams = [
 	('propertyAddress1') : GlobalVariable.dummy_PropertyDetails1['address1'],
 	('propertyAddress2') : GlobalVariable.dummy_PropertyDetails1['address2'],
-	('propertyCity') : "",
+	('propertyCity') : GlobalVariable.dummy_PropertyDetails1['city'],
 	('propertyPostcode') : GlobalVariable.dummy_PropertyDetails1['postcode']
 ]
 

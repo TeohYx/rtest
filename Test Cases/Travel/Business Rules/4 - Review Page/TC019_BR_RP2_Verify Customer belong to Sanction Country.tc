@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC019_BR_RP2_Verify Customer belong to Sanction Country</name>
+   <tag>rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aeeecfc0-a810-473c-aea8-9fab8be1e4b9</testCaseGuid>
+</TestCaseEntity>

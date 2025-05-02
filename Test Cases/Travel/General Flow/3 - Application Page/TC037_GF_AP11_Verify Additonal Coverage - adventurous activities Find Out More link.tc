@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC037_GF_AP11_Verify Additonal Coverage - adventurous activities Find Out More link</name>
+   <tag>link</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b1a2495c-070a-4ae6-8170-614c6165e202</testCaseGuid>
+</TestCaseEntity>

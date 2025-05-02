@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC013_BR_PP7_Verify Damage and Injuries Coverage Add On (All) 4</name>
+   <tag>addon, rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a650252b-9068-4486-9fcb-c080bb70cf28</testCaseGuid>
+</TestCaseEntity>

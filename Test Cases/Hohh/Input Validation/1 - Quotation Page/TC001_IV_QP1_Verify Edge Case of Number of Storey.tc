@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Minimum of 1; Maximum of 5</description>
+   <name>TC001_IV_QP1_Verify Edge Case of Number of Storey</name>
+   <tag>inputvalidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ddabdb37-c8b4-47bc-a0a3-a321cc05f259</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC028_IV_AP11_Input Validation of PropertyDetailsCity</name>
+   <tag>inputvalidation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a491fb67-2d5f-4949-833b-70bc484ae56e</testCaseGuid>
+</TestCaseEntity>

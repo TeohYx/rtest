@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC003_IV_AP_Input Validation of Vehicle Model</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>b84fba74-d4eb-4d15-8411-38951f146dde</testCaseGuid>
-</TestCaseEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC020_IV_AP_Input Validation of State</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>7067b74d-293d-4462-baf0-92259b0afde4</testCaseGuid>
-</TestCaseEntity>

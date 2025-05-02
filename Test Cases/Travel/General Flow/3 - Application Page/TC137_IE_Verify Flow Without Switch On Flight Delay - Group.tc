@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC137_IE_Verify Flow Without Switch On Flight Delay - Group</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>ef4bcf76-45dd-4dce-93e9-71c93d163e2c</testCaseGuid>
-</TestCaseEntity>

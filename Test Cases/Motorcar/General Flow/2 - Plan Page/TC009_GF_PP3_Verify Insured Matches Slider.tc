@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sum Insured Amount is correctly displayed based on the slider</description>
+   <name>TC009_GF_PP3_Verify Insured Matches Slider</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>27aeacd1-e34f-4674-8d69-61e6452b1fa7</testCaseGuid>
+</TestCaseEntity>

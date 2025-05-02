@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1/3 of the Content amount</description>
+   <name>TC023_GF_DP3_Verify Maximum Declarable Amount</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>863f204c-f10c-49a6-a632-c1569960d80f</testCaseGuid>
+</TestCaseEntity>

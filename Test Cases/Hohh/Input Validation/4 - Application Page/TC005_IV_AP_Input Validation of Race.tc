@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC005_IV_AP_Input Validation of Race</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>07ad314c-6bb9-4657-bc91-028156b7e15a</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC007_GF_QP7_Verify For More Details Link</name>
+   <tag>link</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5e46ae57-f8bc-4d12-b6b3-51960fbede39</testCaseGuid>
+</TestCaseEntity>

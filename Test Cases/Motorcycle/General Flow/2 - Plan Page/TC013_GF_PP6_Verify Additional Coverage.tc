@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>The Total Payable should be sum of Total Motorcycle Premium + all the additional coverage cost</description>
+   <name>TC013_GF_PP6_Verify Additional Coverage</name>
+   <tag>addon</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>30d67577-6cd5-4dc6-9a9d-fb7a32156804</testCaseGuid>
+</TestCaseEntity>

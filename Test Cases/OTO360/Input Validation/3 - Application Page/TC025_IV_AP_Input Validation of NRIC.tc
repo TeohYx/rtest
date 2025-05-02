@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC025_IV_AP_Input Validation of NRIC</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>aa2d5b75-4c51-445f-b7f9-d6440c81ff5e</testCaseGuid>
-</TestCaseEntity>

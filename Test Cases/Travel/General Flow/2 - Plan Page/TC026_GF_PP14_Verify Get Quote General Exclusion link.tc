@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC026_GF_PP14_Verify Get Quote General Exclusion link</name>
+   <tag>link</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ce7b7571-b044-4d10-a987-9c164057fa9b</testCaseGuid>
+</TestCaseEntity>

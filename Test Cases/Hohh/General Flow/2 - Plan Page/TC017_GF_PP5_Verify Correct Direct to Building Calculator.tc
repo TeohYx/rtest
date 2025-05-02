@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC017_GF_PP5_Verify Correct Direct to Building Calculator</name>
+   <tag>flow</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9aa40cc9-d762-4421-815e-05d7ce5c6f73</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC009_BR_PP4_Verify Plan,AddOn on Single Trip, Non Domestic, Senior Citizen</name>
+   <tag>rule</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e751a467-3c32-4e6a-ae83-f146b16952e3</testCaseGuid>
+</TestCaseEntity>
