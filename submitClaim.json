@@ -1,0 +1,83 @@
+{
+   "smileAppPhone":"+60122372273",
+   "smileAppEmail":"xianchitan@gmail.com",
+   "claimSubmittedDate":"2025-04-15",
+   "claimer":{
+      "Nric":980829206319,
+      "FullName":"TAN CHI XIAN",
+      "idType":"New IC",
+      "dateOfBirth":"1998-08-29T00:00:00.000Z",
+      "maritalStatus":"Single",
+      "noOfChildren":"0",
+      "monthlyIncome":"UP TO RM999",
+      "educationLevel":"",
+      "race":"MALAY",
+      "insuredSinceDate":"2021-09-16T00:00:00.000Z",
+      "religion":"Islam",
+      "nationality":"MALAYSIAN",
+      "staffFlag":"Y",
+      "title":null,
+      "addressLine1":"No 10 Jln 13\nTmn Dato Harun\nJln Klang Lama Petaling Jaya\n46000 Selangor",
+      "city":"",
+      "stateOrProvince":"",
+      "addressPostcode":"46000",
+      "country":"MALAYSIA",
+      "phone":"0122372273"
+   },
+   "submitStp":false,
+   "policies":[
+      {
+         "IsManual":true,
+         "PolicyNumber":"PU021514",
+         "PolicyName":"",
+         "CoverageNo":"",
+         "CoverageType":"",
+         "InsuredName":"",
+         "contractType":"",
+         "riskNumber":1,
+         "NumOfDependant":0
+      }
+   ],
+   "reserveFields":[
+      {
+         "subType":null,
+         "premiumClass":"TS3",
+         "reserveCode":"BD",
+         "destination":null,
+         "reserveAmount":0
+      }
+   ],
+   "haveClaimAgainstOtherParty":false,
+   "claimAgainstOtherPartyRemarks":"",
+   "incidentDate":"2025-04-15",
+   "eventType":"Baggage Delay",
+   "damageLostItemName":null,
+   "flightNo":"MHF0001",
+   "newFlightNo":"",
+   "flightDestination":"-",
+   "departureDate":"2025-04-15",
+   "departureTime":"00:20:00",
+   "arrivalDate":"2025-04-15",
+   "arrivalTime":"02:30:00",
+   "baggageArrivalDate":"2025-04-15",
+   "baggageArrivalTime":"08:40:00",
+   "newDepartureDate":"",
+   "newDepartureTime":"",
+   "returnDate":"",
+   "originalReturnDate":"",
+   "baggageNum":1,
+   "flightdirection":1,
+   "bankKey":"PBBEMYKL",
+   "bankName":"TAN CHI XIAN",
+   "bankNumber":"6403261727",
+   "bankHolderName":"TAN CHI XIAN",
+   "paymentCode":"BD",
+   "causeTypeCode":"BAD",
+   "lossTypeCode":"BAD",
+   "documents":[
+      {
+         "documentType":"Flight Itinerary",
+         "fileName":"Flight11.PNG"
+      }
+   ]
+}
